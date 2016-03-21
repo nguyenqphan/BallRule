@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e66587b981165409aa0efa5036551651
+timeCreated: 1456952265
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - cubeClick: {fileID: 8300000, guid: acb449fba0d640c408faaf2ab9a5da27, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
