@@ -3399,16 +3399,12 @@ extern "C"  void CubeMaterials_Awake_m4129983831 (CubeMaterials_t4044142423 * __
 	}
 	{
 		Renderer_t1092684080 * L_0 = Component_GetComponent_TisRenderer_t1092684080_m2901511552(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t1092684080_m2901511552_MethodInfo_var);
-		__this->___renderMaterial_4 = L_0;
+		__this->___renderMaterial_3 = L_0;
 		return;
 	}
 }
 // System.Void CubeMaterials::Start()
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral1782571260;
-extern Il2CppCodeGenString* _stringLiteral3793139034;
-extern Il2CppCodeGenString* _stringLiteral434351185;
-extern Il2CppCodeGenString* _stringLiteral1628854057;
 extern const uint32_t CubeMaterials_Start_m2839516404_MetadataUsageId;
 extern "C"  void CubeMaterials_Start_m2839516404 (CubeMaterials_t4044142423 * __this, const MethodInfo* method)
 {
@@ -3419,77 +3415,17 @@ extern "C"  void CubeMaterials_Start_m2839516404 (CubeMaterials_t4044142423 * __
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		bool L_1 = GameObject_CompareTag_m3153977471(L_0, _stringLiteral1782571260, /*hidden argument*/NULL);
-		if (L_1)
-		{
-			goto IL_002a;
-		}
-	}
-	{
-		GameObject_t4012695102 * L_2 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Renderer_t1092684080 * L_0 = (__this->___renderMaterial_3);
+		MaterialU5BU5D_t3353847197* L_1 = (__this->___cubeMats_2);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_2 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_2);
-		bool L_3 = GameObject_CompareTag_m3153977471(L_2, _stringLiteral3793139034, /*hidden argument*/NULL);
-		if (!L_3)
-		{
-			goto IL_004b;
-		}
-	}
-
-IL_002a:
-	{
-		Renderer_t1092684080 * L_4 = (__this->___renderMaterial_4);
-		MaterialU5BU5D_t3353847197* L_5 = (__this->___materialLeft_2);
-		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_6 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_6);
-		int32_t L_7 = GameStateManager_get_TestIndex_m1084442132(L_6, /*hidden argument*/NULL);
-		NullCheck(L_5);
-		IL2CPP_ARRAY_BOUNDS_CHECK(L_5, L_7);
-		int32_t L_8 = L_7;
-		NullCheck(L_4);
-		Renderer_set_material_m1012580896(L_4, (*(Material_t1886596500 **)(Material_t1886596500 **)SZArrayLdElema(L_5, L_8, sizeof(Material_t1886596500 *))), /*hidden argument*/NULL);
-		goto IL_0091;
-	}
-
-IL_004b:
-	{
-		GameObject_t4012695102 * L_9 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
-		NullCheck(L_9);
-		bool L_10 = GameObject_CompareTag_m3153977471(L_9, _stringLiteral434351185, /*hidden argument*/NULL);
-		if (L_10)
-		{
-			goto IL_0075;
-		}
-	}
-	{
-		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
-		NullCheck(L_11);
-		bool L_12 = GameObject_CompareTag_m3153977471(L_11, _stringLiteral1628854057, /*hidden argument*/NULL);
-		if (!L_12)
-		{
-			goto IL_0091;
-		}
-	}
-
-IL_0075:
-	{
-		Renderer_t1092684080 * L_13 = (__this->___renderMaterial_4);
-		MaterialU5BU5D_t3353847197* L_14 = (__this->___materialRight_3);
-		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_15 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_15);
-		int32_t L_16 = GameStateManager_get_TestIndex_m1084442132(L_15, /*hidden argument*/NULL);
-		NullCheck(L_14);
-		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, L_16);
-		int32_t L_17 = L_16;
-		NullCheck(L_13);
-		Renderer_set_material_m1012580896(L_13, (*(Material_t1886596500 **)(Material_t1886596500 **)SZArrayLdElema(L_14, L_17, sizeof(Material_t1886596500 *))), /*hidden argument*/NULL);
-	}
-
-IL_0091:
-	{
+		int32_t L_3 = GameStateManager_get_TestIndex_m1084442132(L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, L_3);
+		int32_t L_4 = L_3;
+		NullCheck(L_0);
+		Renderer_set_material_m1012580896(L_0, (*(Material_t1886596500 **)(Material_t1886596500 **)SZArrayLdElema(L_1, L_4, sizeof(Material_t1886596500 *))), /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -7681,15 +7617,41 @@ extern "C"  void MainCube__ctor_m4247397549 (MainCube_t55713198 * __this, const 
 		return;
 	}
 }
+// System.Void MainCube::LeftWallOn()
+extern "C"  void MainCube_LeftWallOn_m664739495 (MainCube_t55713198 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = (__this->___leftWall_2);
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)1, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_1 = (__this->___rightWall_3);
+		NullCheck(L_1);
+		GameObject_SetActive_m3538205401(L_1, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MainCube::RightWallOn()
+extern "C"  void MainCube_RightWallOn_m472692624 (MainCube_t55713198 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = (__this->___leftWall_2);
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_1 = (__this->___rightWall_3);
+		NullCheck(L_1);
+		GameObject_SetActive_m3538205401(L_1, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void MainCube::Start()
 extern "C"  void MainCube_Start_m3194535341 (MainCube_t55713198 * __this, const MethodInfo* method)
 {
 	{
-		MainCubeP_t1727109218 * L_0 = &(__this->___cubeP_2);
+		MainCubeP_t1727109218 * L_0 = &(__this->___cubeP_4);
 		L_0->___rotateSpeed_0 = (30.0f);
-		MainCubeP_t1727109218 * L_1 = &(__this->___cubeP_2);
+		MainCubeP_t1727109218 * L_1 = &(__this->___cubeP_4);
 		L_1->___isRotating_1 = (bool)1;
-		MainCubeP_t1727109218 * L_2 = &(__this->___cubeP_2);
+		MainCubeP_t1727109218 * L_2 = &(__this->___cubeP_4);
 		L_2->___movingSpeed_3 = (20.0f);
 		return;
 	}
@@ -7699,7 +7661,7 @@ extern "C"  void MainCube_RotateCube_m2728080996 (MainCube_t55713198 * __this, f
 {
 	{
 		MonoBehaviour_StopAllCoroutines_m1437893335(__this, /*hidden argument*/NULL);
-		MainCubeP_t1727109218 * L_0 = &(__this->___cubeP_2);
+		MainCubeP_t1727109218 * L_0 = &(__this->___cubeP_4);
 		L_0->___startTime_2 = (0.0f);
 		float L_1 = ___dirToRotate;
 		Object_t * L_2 = MainCube_StartToRotate_m271908560(__this, L_1, /*hidden argument*/NULL);
@@ -7815,7 +7777,9 @@ extern "C"  bool U3CStartToMoveU3Ec__IteratorA_MoveNext_m3750738044 (U3CStartToM
 		s_Il2CppMethodIntialized = true;
 	}
 	uint32_t V_0 = 0;
-	bool V_1 = false;
+	Vector3_t3525329789  V_1 = {0};
+	Vector3_t3525329789  V_2 = {0};
+	bool V_3 = false;
 	{
 		int32_t L_0 = (__this->___U24PC_1);
 		V_0 = L_0;
@@ -7831,7 +7795,7 @@ extern "C"  bool U3CStartToMoveU3Ec__IteratorA_MoveNext_m3750738044 (U3CStartToM
 		}
 	}
 	{
-		goto IL_00a6;
+		goto IL_010a;
 	}
 
 IL_0021:
@@ -7852,7 +7816,7 @@ IL_0026:
 		Vector3_t3525329789  L_7 = (__this->___targetPos_0);
 		MainCube_t55713198 * L_8 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_8);
-		MainCubeP_t1727109218 * L_9 = &(L_8->___cubeP_2);
+		MainCubeP_t1727109218 * L_9 = &(L_8->___cubeP_4);
 		float L_10 = (L_9->___movingSpeed_3);
 		float L_11 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
 		Vector3_t3525329789  L_12 = Vector3_MoveTowards_m2405650085(NULL /*static, unused*/, L_6, L_7, ((float)((float)L_10*(float)L_11)), /*hidden argument*/NULL);
@@ -7862,7 +7826,7 @@ IL_0026:
 		Object_t * L_14 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_13);
 		__this->___U24current_2 = L_14;
 		__this->___U24PC_1 = 1;
-		goto IL_00a8;
+		goto IL_010c;
 	}
 
 IL_007f:
@@ -7880,19 +7844,63 @@ IL_007f:
 		}
 	}
 	{
+		MainCube_t55713198 * L_20 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_20);
+		GameObject_t4012695102 * L_21 = Component_get_gameObject_m1170635899(L_20, /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Transform_t284553113 * L_22 = GameObject_get_transform_m1278640159(L_21, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		Vector3_t3525329789  L_23 = Transform_get_position_m2211398607(L_22, /*hidden argument*/NULL);
+		V_1 = L_23;
+		float L_24 = ((&V_1)->___x_1);
+		if ((!(((float)L_24) > ((float)(0.0f)))))
+		{
+			goto IL_00d1;
+		}
+	}
+	{
+		MainCube_t55713198 * L_25 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_25);
+		MainCube_RightWallOn_m472692624(L_25, /*hidden argument*/NULL);
+	}
+
+IL_00d1:
+	{
+		MainCube_t55713198 * L_26 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_26);
+		GameObject_t4012695102 * L_27 = Component_get_gameObject_m1170635899(L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Transform_t284553113 * L_28 = GameObject_get_transform_m1278640159(L_27, /*hidden argument*/NULL);
+		NullCheck(L_28);
+		Vector3_t3525329789  L_29 = Transform_get_position_m2211398607(L_28, /*hidden argument*/NULL);
+		V_2 = L_29;
+		float L_30 = ((&V_2)->___x_1);
+		if ((!(((float)L_30) < ((float)(0.0f)))))
+		{
+			goto IL_0103;
+		}
+	}
+	{
+		MainCube_t55713198 * L_31 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_31);
+		MainCube_LeftWallOn_m664739495(L_31, /*hidden argument*/NULL);
+	}
+
+IL_0103:
+	{
 		__this->___U24PC_1 = (-1);
 	}
 
-IL_00a6:
+IL_010a:
 	{
 		return (bool)0;
 	}
 
-IL_00a8:
+IL_010c:
 	{
 		return (bool)1;
 	}
-	// Dead block : IL_00aa: ldloc.1
+	// Dead block : IL_010e: ldloc.3
 }
 // System.Void MainCube/<StartToMove>c__IteratorA::Dispose()
 extern "C"  void U3CStartToMoveU3Ec__IteratorA_Dispose_m718325917 (U3CStartToMoveU3Ec__IteratorA_t3465779132 * __this, const MethodInfo* method)
@@ -7994,24 +8002,24 @@ IL_0026:
 		float L_9 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
 		MainCube_t55713198 * L_10 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_10);
-		MainCubeP_t1727109218 * L_11 = &(L_10->___cubeP_2);
+		MainCubeP_t1727109218 * L_11 = &(L_10->___cubeP_4);
 		float L_12 = (L_11->___rotateSpeed_0);
 		NullCheck(L_3);
 		Transform_Rotate_m4229389705(L_3, L_8, ((float)((float)L_9*(float)L_12)), 0, /*hidden argument*/NULL);
 		MainCube_t55713198 * L_13 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_13);
-		MainCubeP_t1727109218 * L_14 = &(L_13->___cubeP_2);
+		MainCubeP_t1727109218 * L_14 = &(L_13->___cubeP_4);
 		MainCubeP_t1727109218 * L_15 = L_14;
 		float L_16 = (L_15->___startTime_2);
 		float L_17 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
 		MainCube_t55713198 * L_18 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_18);
-		MainCubeP_t1727109218 * L_19 = &(L_18->___cubeP_2);
+		MainCubeP_t1727109218 * L_19 = &(L_18->___cubeP_4);
 		float L_20 = (L_19->___rotateSpeed_0);
 		L_15->___startTime_2 = ((float)((float)L_16+(float)((float)((float)L_17*(float)L_20))));
 		MainCube_t55713198 * L_21 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_21);
-		MainCubeP_t1727109218 * L_22 = &(L_21->___cubeP_2);
+		MainCubeP_t1727109218 * L_22 = &(L_21->___cubeP_4);
 		float L_23 = (L_22->___startTime_2);
 		if ((!(((float)L_23) >= ((float)(30.0f)))))
 		{
@@ -8021,11 +8029,11 @@ IL_0026:
 	{
 		MainCube_t55713198 * L_24 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_24);
-		MainCubeP_t1727109218 * L_25 = &(L_24->___cubeP_2);
+		MainCubeP_t1727109218 * L_25 = &(L_24->___cubeP_4);
 		L_25->___isRotating_1 = (bool)0;
 		MainCube_t55713198 * L_26 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_26);
-		MainCubeP_t1727109218 * L_27 = &(L_26->___cubeP_2);
+		MainCubeP_t1727109218 * L_27 = &(L_26->___cubeP_4);
 		L_27->___startTime_2 = (0.0f);
 	}
 
@@ -8042,7 +8050,7 @@ IL_00ed:
 	{
 		MainCube_t55713198 * L_30 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_30);
-		MainCubeP_t1727109218 * L_31 = &(L_30->___cubeP_2);
+		MainCubeP_t1727109218 * L_31 = &(L_30->___cubeP_4);
 		bool L_32 = (L_31->___isRotating_1);
 		if (L_32)
 		{
@@ -8052,10 +8060,10 @@ IL_00ed:
 	{
 		MainCube_t55713198 * L_33 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_33);
-		MainCubeP_t1727109218 * L_34 = &(L_33->___cubeP_2);
+		MainCubeP_t1727109218 * L_34 = &(L_33->___cubeP_4);
 		MainCube_t55713198 * L_35 = (__this->___U3CU3Ef__this_4);
 		NullCheck(L_35);
-		MainCubeP_t1727109218 * L_36 = &(L_35->___cubeP_2);
+		MainCubeP_t1727109218 * L_36 = &(L_35->___cubeP_4);
 		bool L_37 = (L_36->___isRotating_1);
 		L_34->___isRotating_1 = (bool)((((int32_t)L_37) == ((int32_t)0))? 1 : 0);
 		__this->___U24PC_1 = (-1);

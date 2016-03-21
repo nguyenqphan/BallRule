@@ -12,11 +12,15 @@ public class Deactivator : MonoBehaviour {
 //	private GameObject leftCube;
 //	private GameObject rightCube;
 	private Flashing flashing;
+	private EventManager eventManager;
+
 	private bool isFlashing = false;
 
 	void Awake()
 	{
 		flashing = GetComponent<Flashing>();
+		eventManager = GetComponentInChildren<EventManager>();
+
 	}
 		
 	// Update is called once per frame
@@ -28,28 +32,18 @@ public class Deactivator : MonoBehaviour {
 		{
 			resetTime += Time.deltaTime * time;
 
-//			if(resetTime >= 10){
-//			//	leftCube = GameObject.FindGameObjectWithTag("LeftCube");
-//			
-//
-////				Debug.Log(leftCube.tag);
-//			}
-
-
-
 			if(resetTime >= 8f && !isFlashing)
 			{
 				flashing.StartFlashing();
 				isFlashing = true;
-//				Debug.Log(resetTime);
-				//Debug.Log(isFlashing);
+
 			}
 
 			if(resetTime >= 12f)
 			{
 				resetTime = 0f;
 				isFlashing = false;	
-
+				eventManager.isCollided = false;
 				gameObject.SetActive(false);
 				if(Emissive != null)
 				{

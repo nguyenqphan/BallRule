@@ -10970,6 +10970,8 @@ extern "C" void Ideas__ctor_m3961429167 ();
 extern "C" void Ideas_Start_m2908566959 ();
 extern "C" void Ideas_Update_m4272081982 ();
 extern "C" void MainCube__ctor_m4247397549 ();
+extern "C" void MainCube_LeftWallOn_m664739495 ();
+extern "C" void MainCube_RightWallOn_m472692624 ();
 extern "C" void MainCube_Start_m3194535341 ();
 extern "C" void MainCube_RotateCube_m2728080996 ();
 extern "C" void MainCube_StartToRotate_m271908560 ();
@@ -11536,7 +11538,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[11525] = 
+extern const methodPointerType g_MethodPointers[11527] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -22497,6 +22499,8 @@ extern const methodPointerType g_MethodPointers[11525] =
 	Ideas_Start_m2908566959,
 	Ideas_Update_m4272081982,
 	MainCube__ctor_m4247397549,
+	MainCube_LeftWallOn_m664739495,
+	MainCube_RightWallOn_m472692624,
 	MainCube_Start_m3194535341,
 	MainCube_RotateCube_m2728080996,
 	MainCube_StartToRotate_m271908560,

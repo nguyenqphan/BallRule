@@ -4734,8 +4734,6 @@ Il2CppCodeGenString* _stringLiteral201986755;
 Il2CppCodeGenString* _stringLiteral2698381737;
 Il2CppCodeGenString* _stringLiteral1782571260;
 Il2CppCodeGenString* _stringLiteral434351185;
-Il2CppCodeGenString* _stringLiteral3793139034;
-Il2CppCodeGenString* _stringLiteral1628854057;
 Il2CppCodeGenString* _stringLiteral2709;
 Il2CppCodeGenString* _stringLiteral2622669006;
 Il2CppCodeGenString* _stringLiteral3180882363;
@@ -4851,7 +4849,7 @@ Il2CppCodeGenString* _stringLiteral3093451866;
 Il2CppCodeGenString* _stringLiteral1342531814;
 Il2CppCodeGenString* _stringLiteral2341039237;
 Il2CppCodeGenString* _stringLiteral3474434835;
-extern void** const g_MetadataUsages[4840] = 
+extern void** const g_MetadataUsages[4838] = 
 {
 	(void**)&Contraction_t2055464445_0_0_0_var,
 	(void**)&Level2Map_t2857724309_0_0_0_var,
@@ -9576,8 +9574,6 @@ extern void** const g_MetadataUsages[4840] =
 	(void**)&_stringLiteral2698381737,
 	(void**)&_stringLiteral1782571260,
 	(void**)&_stringLiteral434351185,
-	(void**)&_stringLiteral3793139034,
-	(void**)&_stringLiteral1628854057,
 	(void**)&_stringLiteral2709,
 	(void**)&_stringLiteral2622669006,
 	(void**)&_stringLiteral3180882363,

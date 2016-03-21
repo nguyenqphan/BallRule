@@ -13929,15 +13929,14 @@ extern const Il2CppType CubeManager_t4034287000_1_0_0 = { (void*)1758, 0, IL2CPP
 extern const Il2CppType CubeMaterials_t4044142423_0_0_0 = { (void*)1759, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType CubeMaterials_t4044142423_1_0_0 = { (void*)1759, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
-extern const Il2CppType GetIndexCube_t3641666961_0_0_1 = { (void*)1762, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType GetIndexCube_t3641666961_0_0_0 = { (void*)1762, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-extern const Il2CppType GetIndexCube_t3641666961_1_0_0 = { (void*)1762, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
-
 extern const Il2CppType U3CFlashingCubeU3Ec__Iterator19_t3584501214_0_0_0 = { (void*)1761, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType U3CFlashingCubeU3Ec__Iterator19_t3584501214_1_0_0 = { (void*)1761, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const Il2CppType Renderer_t1092684080_0_0_0;
 extern const Il2CppType RendererU5BU5D_t3623042065_0_0_3 = { (void*)&Renderer_t1092684080_0_0_0, 3, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
+
+extern const Il2CppType GetIndexCube_t3641666961_0_0_0 = { (void*)1762, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
+extern const Il2CppType GetIndexCube_t3641666961_1_0_0 = { (void*)1762, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 
 extern const Il2CppType U3CModuleU3E_t86524798_0_0_0 = { (void*)1763, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType U3CModuleU3E_t86524798_1_0_0 = { (void*)1763, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
@@ -14262,7 +14261,7 @@ extern const Il2CppType TypeTagU5BU5D_t4081655900_0_0_0 = { (void*)&TypeTag_t173
 
 extern const Il2CppType ITrackingHandler_t663364710_0_0_0;
 extern const Il2CppType ITrackingHandlerU5BU5D_t4057050947_0_0_0 = { (void*)&ITrackingHandler_t663364710_0_0_0, 0, IL2CPP_TYPE_SZARRAY, 0, 0, 0 };
-extern const Il2CppType* const  g_Il2CppTypeTable[7647] = 
+extern const Il2CppType* const  g_Il2CppTypeTable[7646] = 
 {
 	&IEnumerator_1_t2320212868_0_0_0,
 	&Object_t_0_0_0,
@@ -21615,7 +21614,6 @@ extern const Il2CppType* const  g_Il2CppTypeTable[7647] =
 	&CubeManager_t4034287000_1_0_0,
 	&CubeMaterials_t4044142423_0_0_0,
 	&CubeMaterials_t4044142423_1_0_0,
-	&GetIndexCube_t3641666961_0_0_1,
 	&Flashing_t1690224146_0_0_0,
 	&Flashing_t1690224146_1_0_0,
 	&U3CFlashingCubeU3Ec__Iterator19_t3584501214_0_0_0,

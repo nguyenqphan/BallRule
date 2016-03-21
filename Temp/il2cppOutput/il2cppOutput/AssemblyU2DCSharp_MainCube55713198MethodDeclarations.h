@@ -22,6 +22,10 @@ struct IEnumerator_t287207039;
 
 // System.Void MainCube::.ctor()
 extern "C"  void MainCube__ctor_m4247397549 (MainCube_t55713198 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void MainCube::LeftWallOn()
+extern "C"  void MainCube_LeftWallOn_m664739495 (MainCube_t55713198 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void MainCube::RightWallOn()
+extern "C"  void MainCube_RightWallOn_m472692624 (MainCube_t55713198 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MainCube::Start()
 extern "C"  void MainCube_Start_m3194535341 (MainCube_t55713198 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void MainCube::RotateCube(System.Single)

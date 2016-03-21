@@ -3,8 +3,6 @@ using System.Collections;
 
 public class EventManager : MonoBehaviour {
 
-
-
 	public delegate void EventAction();
 	public static event EventAction OnCamMove;
 //	public static event EventAction OnPlayerLeft;
@@ -14,6 +12,10 @@ public class EventManager : MonoBehaviour {
 	private SoundBreaking soundDropBall;
 	private UpdateScore updateScore;
 
+	[HideInInspector]
+	public bool isCollided = false; 
+
+
 	void Awake()
 	{
 		soundDropBall = GameObject.Find("GameManager").GetComponent<SoundBreaking>();
@@ -21,37 +23,39 @@ public class EventManager : MonoBehaviour {
 //		weatherMan = GameObject.Find("WeatherCreater").GetComponent<WeatherMan>();
 	}
 
-	void OnTriggerEnter(Collider collider)
+//	void OnTriggerEnter(Collider collider)
+//	{
+//			if (collider.gameObject.tag == "Player") {
+//			soundDropBall.PlayDropBall();
+//			GameStateManager.HighScore++;
+//			updateScore.ChangeLiveScore();
+//
+//				if (OnCamMove != null) {
+//					OnCamMove ();
+//				}
+//				if (OnPlayerEnter != null) {
+//					OnPlayerEnter ();	
+//				}		
+//		}
+//	}
+
+	void OnCollisionEnter(Collision collider)
 	{
+		if (!isCollided) {
 			if (collider.gameObject.tag == "Player") {
-			soundDropBall.PlayDropBall();
-			GameStateManager.HighScore++;
-			updateScore.ChangeLiveScore();
-
-//			if(GameStateManager.HighScore == 2)
-//			{
-//				weatherMan.TurnOnSnow();
-//			}
-//
-//			if(GameStateManager.HighScore == 4)
-//			{
-//				weatherMan.TurnOnRain();
-//			}
-//
-//			if(GameStateManager.HighScore == 7){
-//				weatherMan.NoSnowRain();
-//			}
-
-//			Debug.Log(GameStateManager.HighScore);
-//			Debug.Log(gameObject.tag);
-//			Debug.Log(collider.gameObject.tag);
-//			Debug.Log(gameObject.transform.position);
+				soundDropBall.PlayDropBall ();
+				GameStateManager.HighScore++;
+				updateScore.ChangeLiveScore ();
+			
 				if (OnCamMove != null) {
 					OnCamMove ();
 				}
 				if (OnPlayerEnter != null) {
 					OnPlayerEnter ();	
 				}		
+			}
+
+			isCollided = true;
 		}
 	}
 

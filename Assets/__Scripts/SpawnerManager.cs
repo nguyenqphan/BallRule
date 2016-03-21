@@ -342,16 +342,14 @@ public class SpawnerManager : MonoBehaviour {
 //				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
 				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, 40f);
 				mainCube.MoveCube(spawnP.position);
-//				if(cube.gameObject.transform.position.x > 0)
-//				{
-//					cube.RightWallOn();
-//				}
-//				if(cube.gameObject.transform.position.x < 0)
-//				{
-//					cube.LeftWallOn();
-//				}
+
+
+
 			
 				break;
+
+
+
 			}
 		}
 			yield return 0;
