@@ -13,7 +13,7 @@ public class MainCube : MonoBehaviour {
 
 		public GameObject leftWall;
 		public GameObject rightWall;
-	//
+
 		public void LeftWallOn()
 		{
 			leftWall.SetActive(true);
@@ -39,7 +39,7 @@ public class MainCube : MonoBehaviour {
 	{
 		StopAllCoroutines();
 		cubeP.startTime = 0;																								//set the rotate degree to zero
-		StartCoroutine(StartToRotate(dirToRotate));																	//use coroutine to call a function
+		StartCoroutine(StartToRotate(dirToRotate));																			//use coroutine to call a function
 
 	}
 
@@ -68,8 +68,6 @@ public class MainCube : MonoBehaviour {
 
 	public IEnumerator StartToMove(Vector3 targetPos)
 	{
-
-
 		while (transform.position != targetPos) {
 			transform.position = Vector3.MoveTowards (transform.position, targetPos, cubeP.movingSpeed * Time.deltaTime);	//Moving to the target
 
@@ -77,13 +75,13 @@ public class MainCube : MonoBehaviour {
 		}
 
 		if(gameObject.transform.position.x > 0)
-							{
-								RightWallOn();
-							}
-							if(gameObject.transform.position.x < 0)
-							{
-								LeftWallOn();
-							}
+		{
+			RightWallOn();
+		}
+		if(gameObject.transform.position.x < 0)
+		{
+			LeftWallOn();
+		}
 			
 	}
 }

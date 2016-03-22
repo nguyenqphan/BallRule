@@ -5,39 +5,21 @@ public class EventManager : MonoBehaviour {
 
 	public delegate void EventAction();
 	public static event EventAction OnCamMove;
-//	public static event EventAction OnPlayerLeft;
 	public static event EventAction OnPlayerEnter;
 
-//	private WeatherMan weatherMan;
+	[HideInInspector]
 	private SoundBreaking soundDropBall;
+	[HideInInspector]
 	private UpdateScore updateScore;
 
 	[HideInInspector]
 	public bool isCollided = false; 
 
-
 	void Awake()
 	{
 		soundDropBall = GameObject.Find("GameManager").GetComponent<SoundBreaking>();
 		updateScore = GameObject.Find("UI").GetComponent<UpdateScore>();
-//		weatherMan = GameObject.Find("WeatherCreater").GetComponent<WeatherMan>();
 	}
-
-//	void OnTriggerEnter(Collider collider)
-//	{
-//			if (collider.gameObject.tag == "Player") {
-//			soundDropBall.PlayDropBall();
-//			GameStateManager.HighScore++;
-//			updateScore.ChangeLiveScore();
-//
-//				if (OnCamMove != null) {
-//					OnCamMove ();
-//				}
-//				if (OnPlayerEnter != null) {
-//					OnPlayerEnter ();	
-//				}		
-//		}
-//	}
 
 	void OnCollisionEnter(Collision collider)
 	{
@@ -58,11 +40,5 @@ public class EventManager : MonoBehaviour {
 			isCollided = true;
 		}
 	}
-
-	void OnTriggerExit(Collider collider)
-	{
-		//Debug.Log("Player has left");
-//		OnPlayerLeft();	
-
-	}
+		
 }

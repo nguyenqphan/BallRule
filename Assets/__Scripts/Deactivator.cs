@@ -9,8 +9,6 @@ public class Deactivator : MonoBehaviour {
 
 	private float time = 1f;
 	private float resetTime = 0f;
-//	private GameObject leftCube;
-//	private GameObject rightCube;
 	private Flashing flashing;
 	private EventManager eventManager;
 
@@ -20,19 +18,16 @@ public class Deactivator : MonoBehaviour {
 	{
 		flashing = GetComponent<Flashing>();
 		eventManager = GetComponentInChildren<EventManager>();
-
 	}
 		
 	// Update is called once per frame
 	void Update () {
-
-
 		//Each comboCube can stay active in the scene for only 12 seconds
 		if(gameObject.activeInHierarchy)
 		{
 			resetTime += Time.deltaTime * time;
 
-			if(resetTime >= 8f && !isFlashing)
+			if(resetTime > 9f && !isFlashing)
 			{
 				flashing.StartFlashing();
 				isFlashing = true;
