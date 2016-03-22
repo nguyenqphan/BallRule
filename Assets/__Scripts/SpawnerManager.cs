@@ -11,11 +11,11 @@ public struct SpawnerP{
 	public Vector3 position;
 	public float fixedY;
 	public float fixedX;
-	public float wait;
-	public float spawnTime;
 	public float speedTime;
 	public bool firstSpawn;
 	public int spawnNumber;
+	public MainCube mainCube;
+	public Cube cube;
 
 }
 
@@ -38,25 +38,6 @@ public class SpawnerManager : MonoBehaviour {
 	private List<GameObject> diaBreakingList;
 	private List<GameObject> ballList;
 	private List<GameObject> ballExplodeList;
-
-//	private int pooledAmount = 4;
-//	private int ballAmount = 2;
-//	private int diamondAmount = 8;
-//
-//	private int indexSwitch = 1;
-//	private Vector3 position;
-//
-//	private float fixedY = 4f;
-//	private float fixedX;
-//
-//	private float wait = 3f;
-//	private float spawnTime = 0f;				
-//	private float speedTime = 1f;
-//	private bool firstSpawn = true;
-//
-//	private int spawnNumber = 0;
-//	private int ballNumber;
-
 
 	void OnEnable()
 	{
@@ -86,8 +67,6 @@ public class SpawnerManager : MonoBehaviour {
 		spawnP.diamondAmount = 8;
 		spawnP.indexSwitch = 1;
 		spawnP.fixedY = 4f;
-		spawnP.wait = 3f;
-		spawnP.spawnTime = 0f;
 		spawnP.speedTime = 1f;
 		spawnP.firstSpawn = true;
 		spawnP.spawnNumber = 0;
@@ -140,15 +119,7 @@ public class SpawnerManager : MonoBehaviour {
 			ballExplodeList.Add(newBallExplode);
 		}
 	} 
-
-	void Update()
-	{
-		spawnP.spawnTime += Time.deltaTime * spawnP.speedTime;
-		//Debug.Log(spawnTime);
-	}
-
-
-
+		
 	public void PlayCubeEffect(GameObject o)
 	{
 		//StopAllCoroutines();
@@ -240,9 +211,6 @@ public class SpawnerManager : MonoBehaviour {
 
 	public void StartSpawnCube()
 	{
-		if (spawnP.firstSpawn || spawnP.spawnTime >=spawnP. wait) {
-			spawnP.spawnTime = 0f;
-			spawnP.firstSpawn = false;
 			if (spawnP.indexSwitch == 1) {
 				spawnP.indexSwitch = 0;
 				spawnP.fixedX = 2.5f;
@@ -254,7 +222,6 @@ public class SpawnerManager : MonoBehaviour {
 
 			spawnP.spawnNumber++;
 			StartCoroutine (InstantiateCube ());	
-		}
 	}
 
 	Vector3 targetPosition(){
@@ -264,9 +231,7 @@ public class SpawnerManager : MonoBehaviour {
 		}else{
 			spawnP.fixedY += - 5.5f;
 		}
-
-
-
+			
 		//fixedY += -4.5f;
 		return new Vector3(spawnP.fixedX,spawnP.fixedY, 0f);
 	}
@@ -314,11 +279,6 @@ public class SpawnerManager : MonoBehaviour {
 		spawnP.position = targetPosition();
 		StartCoroutine(InstantiateDiamond());
 
-		//Condition to Spawn ball
-//		if(GameManager.Instance.Score == 1 || GameManager.Instance.Score == 0)
-//		{
-//			StartCoroutine(InstantiateBall());
-//		}
 		//Condition to instantiate a scalling ball
 		if(spawnP.spawnNumber%4 == 0)
 		{
@@ -332,24 +292,17 @@ public class SpawnerManager : MonoBehaviour {
 			if(!cubeList[i].activeInHierarchy)
 			{
 				cubeList[i].transform.position = transform.position;
-//				cubeList[i].transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
 				cubeList[i].transform.rotation = transform.rotation;
 				cubeList[i].SetActive(true);
-				MainCube mainCube = cubeList[i].GetComponent<MainCube>();    	//cube.tag
-				Cube comboCube = cubeList[i].GetComponentInChildren<Cube>();
+				spawnP.mainCube = cubeList[i].GetComponent<MainCube>();    	//cube.tag
+				spawnP.cube = cubeList[i].GetComponentInChildren<Cube>();
 
-				comboCube.gameObject.transform.position = transform.position;
+				spawnP.cube.gameObject.transform.position = transform.position;
 //				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, randonDegree());
-				comboCube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, 40f);
-				mainCube.MoveCube(spawnP.position);
+				spawnP.cube.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, 40f);
+				spawnP.mainCube.MoveCube(spawnP.position);
 
-
-
-			
 				break;
-
-
-
 			}
 		}
 			yield return 0;
