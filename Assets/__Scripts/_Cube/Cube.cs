@@ -10,8 +10,6 @@ public struct CubeP{
 }
 
 public class Cube : MonoBehaviour {
-
-	private Vector3 eulerAngleVelocity;
 	CubeP cubeP;
 
 	void Start()
@@ -19,7 +17,6 @@ public class Cube : MonoBehaviour {
 		cubeP.rotateSpeed = 30f;
 		cubeP.isRotating = true;
 		cubeP.movingSpeed = 20f;
-		eulerAngleVelocity = new Vector3(0f,0f,30f);
 
 	}
 

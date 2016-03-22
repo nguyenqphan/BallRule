@@ -12,25 +12,23 @@ public class Destroyer : MonoBehaviour {
 
 	void Awake()
 	{
-		soundBallDrop = GameObject.Find("GameManager").GetComponent<SoundBreaking>();
-		updateScore = GameObject.Find("UI").GetComponent<UpdateScore>();
+		soundBallDrop = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
+		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
+		showUI = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
 	}
 
 	void OnTriggerEnter(Collider collider)
 	{
-		
 		if(collider.gameObject.tag == "Player")
 		{
-			
-
 			soundBallDrop.PlayWaterSound();
 			GameStateManager.Instance.IsStarted = true;
 			collider.gameObject.SetActive(false);
 
 
-			if(showUI == null){
+			if(showUI != null){
 //				Debug.Log("ShowUI is null");
-			showUI = GameObject.Find("UI").GetComponent<ShowPanels>();
+		
 				showUI.ShowMenu();
 				showUI.scaleText.SetActive(false);
 				GameStateManager.Instance.BestScore = PlayerPrefs.GetInt("CurBestScore");
@@ -42,7 +40,7 @@ public class Destroyer : MonoBehaviour {
 
 				updateScore.EndGameScore();
 			}
-			else if(showUI != null){
+			else if(showUI == null){
 				Debug.Log("ShowUI is not null");
 				showUI.ShowMenu();
 			}
