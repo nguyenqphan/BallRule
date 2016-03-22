@@ -35,8 +35,8 @@ public class PlayerScaler : MonoBehaviour {
 
 	void Awake()
 	{
-		scallerP.showPanels = GameObject.Find("UI").GetComponent<ShowPanels>();
-		updateScore = GameObject.Find("UI").GetComponent<UpdateScore>();
+		scallerP.showPanels = GameObject.FindWithTag("UI").GetComponent<ShowPanels>();
+		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 	}
 
 	// Use this for initialization

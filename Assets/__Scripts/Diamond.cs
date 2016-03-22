@@ -12,11 +12,14 @@ public struct DiamondProperty{
 	public float startingY;
 	public bool isMovingUp;
 	public float newY;
+	public SoundBreaking soundBreakingDiamond;
+	public UpdateScore updateScore;
 
 }
 
-
 public class Diamond : MonoBehaviour {
+
+	private DiamondProperty diamondP;
 
 	public delegate void ActionBreaking(GameObject gameObject);
 	public static event ActionBreaking BreakingDiamond;
@@ -24,35 +27,14 @@ public class Diamond : MonoBehaviour {
 	public delegate void EmissiveAction(GameObject gameObject);
 	public static event EmissiveAction EmissiveDiamond;
 
-	private SoundBreaking soundBreakingDiamond;
-	public DiamondProperty diamondP;
-	private UpdateScore updateScore;
-
-//
-//
-//	private bool isSpinning = true;
-//	private bool isFloating = true;
-//	private float movingSpeed = 20f;
-//
-//	private float floatSpeed = 1f; // In cycles (up and down) per second
-//
-//	private float movementDistance = 2f; // The maximum distance the coin can move up and down
-//	
-//	private float startingY;
-//	private bool isMovingUp = true;
-
-//
-//	private float newY;
-//
-
 	void Awake()
 	{
-		soundBreakingDiamond = GameObject.Find("GameManager").GetComponent<SoundBreaking>();
-		updateScore = GameObject.Find("UI").GetComponent<UpdateScore>();
+		diamondP.soundBreakingDiamond = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
+		diamondP.updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 
 	}
 		
-	
+
 	// Use this for initialization
 	void Start () {
 		
@@ -62,13 +44,6 @@ public class Diamond : MonoBehaviour {
 		diamondP.floatSpeed = 1f;
 		diamondP.movementDistance = 2f;
 		diamondP.isMovingUp = true;
-
-//		if(gameObject.CompareTag("StartDiamond"))
-//		{
-//			StartCoroutine(Spin());
-//			StartCoroutine(Float());
-//		}
-
 	}
 
 
@@ -92,18 +67,15 @@ public class Diamond : MonoBehaviour {
 				gameObject.SetActive(false);
 				BreakingDiamond(gameObject);
 			}
-		}else{
-//			if(collider.gameObject.CompareTag("LeftWall") || collider.gameObject.CompareTag("RightWall")) 			//Remove this code and tag when done with testing
-////				diaDeactivate.resetTime = 0f;
 		}
 	}
 	
 	private void Pickup()
 	{
-		soundBreakingDiamond.PlayBreakingDimond();
+		diamondP.soundBreakingDiamond.PlayBreakingDimond();
 //		diaDeactivate.resetTime = 0f;
 		GameStateManager.HighScore++;
-		updateScore.ChangeLiveScore();
+		diamondP.updateScore.ChangeLiveScore();
 		gameObject.SetActive(false);
 	}
 	
@@ -143,8 +115,6 @@ public class Diamond : MonoBehaviour {
 
 	private IEnumerator moving(Vector3 targetPos)
 	{
-//		MeshCollider meshCollider = gameObject.GetComponent<MeshCollider>();
-//		meshCollider.enabled = false;
 
 		while(transform.position != targetPos)
 		{
@@ -152,7 +122,6 @@ public class Diamond : MonoBehaviour {
 			yield return 0;
 		}
 
-//		meshCollider.enabled = true;
 		StartCoroutine(Spin());
 		StartCoroutine(Float());
 	}

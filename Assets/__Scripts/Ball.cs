@@ -21,20 +21,9 @@ public class Ball : MonoBehaviour {
 
 	BallP ballP;
 
-//	private SoundBreaking ballExplodeClip;
-
-
-//	private float movingSpeed = 20f;
-//	private float scale = 0.5f;
-//	private float startScale;
-//	private bool isBigger = true;
-//	private float scaleSpeed = 1f;
-
-//	private BallDeactivator ballDeactivator;
-
 	void Awake()
 	{
-		ballP.ballExplodeClip = GameObject.Find("GameManager").GetComponent<SoundBreaking>();
+		ballP.ballExplodeClip = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
 	}
 
 	void Start()
@@ -87,16 +76,12 @@ public class Ball : MonoBehaviour {
 
 	private IEnumerator moving(Vector3 targetPos)
 	{
-//		SphereCollider sphereCollider = gameObject.GetComponent<SphereCollider>();
-//		sphereCollider.enabled = false;
-
 		while(transform.position != targetPos)
 		{
 			transform.position = Vector3.MoveTowards(transform.position, targetPos, ballP.movingSpeed * Time.deltaTime);
 			yield return 0;
 		}
 
-//		sphereCollider.enabled = true;
 		StartCoroutine(pulse());
 
 	}
@@ -120,7 +105,6 @@ public class Ball : MonoBehaviour {
 			}
 				
 			transform.localScale = new Vector3(ballP.newScale, ballP.newScale, ballP.newScale);
-			//Debug.Log(transform.localScale);
 			yield return 0;
 		}
 	}
