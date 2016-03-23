@@ -143,7 +143,7 @@ public class SpawnerManager : MonoBehaviour {
 			}
 		}
 
-		yield return 0;
+		yield return new WaitForFixedUpdate();
 			
 	}
 
@@ -167,7 +167,7 @@ public class SpawnerManager : MonoBehaviour {
 			}
 		}
 
-		yield return 0;
+		yield return new WaitForFixedUpdate();
 	}
 
 	public void PlayExplodeBall(GameObject o)
@@ -189,7 +189,7 @@ public class SpawnerManager : MonoBehaviour {
 
 		}
 			
-		yield return 0;
+		yield return new WaitForFixedUpdate();
 	}
 
 	public void PlayDiamondBreaking(GameObject o)
@@ -210,7 +210,7 @@ public class SpawnerManager : MonoBehaviour {
 			}
 		}
 
-		yield return 0;
+		yield return new WaitForFixedUpdate();
 	}
 
 	public void StartSpawnCube()
@@ -309,11 +309,12 @@ public class SpawnerManager : MonoBehaviour {
 				break;
 			}
 		}
-			yield return 0;
+		yield return new WaitForFixedUpdate();
 	}
 
 	private IEnumerator InstantiateDiamond()
 	{
+		
 		for(int i = 0; i < diamondList.Count; i++)
 		{
 			if(!diamondList[i].activeInHierarchy)
@@ -329,6 +330,7 @@ public class SpawnerManager : MonoBehaviour {
 		}
 
 		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForFixedUpdate();
 
 		for(int i = 0; i < diamondList.Count; i++)
 		{
@@ -343,6 +345,8 @@ public class SpawnerManager : MonoBehaviour {
 				break;
 			}
 		}
+
+		yield return new WaitForFixedUpdate();
 	}
 
 	private IEnumerator InstantiateBall()
@@ -365,7 +369,7 @@ public class SpawnerManager : MonoBehaviour {
 			}
 		}
 
-		yield return 0;
+		yield return new WaitForFixedUpdate();
 	}
 
 	private int RandomSpawnNum()
