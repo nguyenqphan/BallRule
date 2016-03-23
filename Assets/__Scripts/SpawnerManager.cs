@@ -16,6 +16,8 @@ public struct SpawnerP{
 	public int spawnNumber;
 	public MainCube mainCube;
 	public Cube cube;
+	public Diamond diamondScript;
+	public Ball ballScript;
 
 }
 
@@ -319,9 +321,9 @@ public class SpawnerManager : MonoBehaviour {
 				diamondList[i].transform.position = transform.position;
 				diamondList[i].transform.rotation = Quaternion.Euler(270f, 0f, 0f);
 				diamondList[i].SetActive(true);
-				Diamond diamondScript = diamondList[i].GetComponent<Diamond>();
-				diamondScript.MoveDiamond(diamondPos());
-				diamondScript.SetDiaInactive(diamondList[i]);
+				spawnP.diamondScript = diamondList[i].GetComponent<Diamond>();
+				spawnP.diamondScript.MoveDiamond(diamondPos());
+				spawnP.diamondScript.SetDiaInactive(diamondList[i]);
 				break;
 			}
 		}
@@ -335,9 +337,9 @@ public class SpawnerManager : MonoBehaviour {
 				diamondList[i].transform.position = transform.position;
 				diamondList[i].transform.rotation = Quaternion.Euler(270f, 0f, 0f);
 				diamondList[i].SetActive(true);
-				Diamond diamondScript = diamondList[i].GetComponent<Diamond>();
-				diamondScript.MoveDiamond(diamondPos2());
-				diamondScript.SetDiaInactive(diamondList[i]);
+				spawnP.diamondScript = diamondList[i].GetComponent<Diamond>();
+				spawnP.diamondScript.MoveDiamond(diamondPos2());
+				spawnP.diamondScript.SetDiaInactive(diamondList[i]);
 				break;
 			}
 		}
@@ -355,9 +357,9 @@ public class SpawnerManager : MonoBehaviour {
 				ballList[i].transform.rotation = transform.rotation;
 				ballList[i].transform.localScale = new Vector3(.5f,.5f,.5f);
 				ballList[i].SetActive(true);
-				Ball ballScript = ballList[i].GetComponent<Ball>();
-				ballScript.MoveBall(ballPos());
-				ballScript.SetBallInactive(ballList[i]);
+				spawnP.ballScript = ballList[i].GetComponent<Ball>();
+				spawnP.ballScript.MoveBall(ballPos());
+				spawnP.ballScript.SetBallInactive(ballList[i]);
 
 				break;
 			}
