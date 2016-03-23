@@ -148,8 +148,9 @@ public class SpawnerManager : MonoBehaviour {
 	public void PlayerDiamondEmissive(GameObject o)
 	{
 		StartCoroutine(InstantiateDiamondEmissive(o));
+	
 	}
-
+		
 	private IEnumerator InstantiateDiamondEmissive(GameObject o)
 	{
 		for(int i =0; i < diaEmissiveList.Count; i++)
@@ -158,7 +159,8 @@ public class SpawnerManager : MonoBehaviour {
 			{
 				diaEmissiveList[i].transform.position = o.transform.position;
 				diaEmissiveList[i].transform.rotation = o.transform.rotation;
-				diaEmissiveList[i].SetActive(true);
+				diaEmissiveList[i].SetActive(true);											//Play Particle Effect
+			
 				break;
 			}
 		}

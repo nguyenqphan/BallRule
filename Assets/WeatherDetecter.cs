@@ -7,7 +7,7 @@ public class WeatherDetecter : MonoBehaviour {
 
 	void Awake()
 	{
-		weatherMan = GameObject.Find("WeatherCreater").GetComponent<WeatherMan>();
+		weatherMan = GameObject.FindWithTag("WeatherCreator").GetComponent<WeatherMan>();
 	}
 
 
@@ -40,15 +40,6 @@ public class WeatherDetecter : MonoBehaviour {
 			weatherMan.NoSnowRain();
 			break;
 		case 5: 
-			weatherMan.TurnOnRain();
-			break;
-		case 6: 
-			weatherMan.NoSnowRain();
-			break;
-		case 7:
-			weatherMan.TurnOnSnow();
-			break;
-		case 8:
 			weatherMan.TurnOnRain();
 			break;
 		default: 
