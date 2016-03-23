@@ -84,7 +84,7 @@ public class Diamond : MonoBehaviour {
 		while(diamondP.isSpinning)
 		{
 			transform.Rotate (transform.forward, 360 * .5f * Time.deltaTime, Space.World);
-			yield return 0;
+			yield return new WaitForFixedUpdate();
 		}
 	}
 
@@ -104,7 +104,7 @@ public class Diamond : MonoBehaviour {
 			
 			transform.position = new Vector3 (transform.position.x, diamondP.newY, transform.position.z);
 
-			yield return 0;
+			yield return new WaitForFixedUpdate();
 		}
 	}
 
@@ -119,7 +119,7 @@ public class Diamond : MonoBehaviour {
 		while(transform.position != targetPos)
 		{
 			transform.position = Vector3.MoveTowards(transform.position, targetPos, diamondP.movingSpeed * Time.deltaTime);
-			yield return 0;
+			yield return new WaitForFixedUpdate();
 		}
 
 		StartCoroutine(Spin());

@@ -105,7 +105,7 @@ public class Ball : MonoBehaviour {
 			}
 				
 			transform.localScale = new Vector3(ballP.newScale, ballP.newScale, ballP.newScale);
-			yield return 0;
+			yield return new WaitForFixedUpdate();
 		}
 	}
 

@@ -11,19 +11,19 @@ public struct MainCubeP{
 
 public class MainCube : MonoBehaviour {
 
-		public GameObject leftWall;
-		public GameObject rightWall;
-
-		public void LeftWallOn()
-		{
-			leftWall.SetActive(true);
-			rightWall.SetActive(false);
-		}
-		public void RightWallOn()
-		{
-			leftWall.SetActive(false);
-			rightWall.SetActive(true);
-		}
+//		public GameObject leftWall;
+//		public GameObject rightWall;
+//
+//		public void LeftWallOn()
+//		{
+//			leftWall.SetActive(true);
+//			rightWall.SetActive(false);
+//		}
+//		public void RightWallOn()
+//		{
+//			leftWall.SetActive(false);
+//			rightWall.SetActive(true);
+//		}
 
 	MainCubeP cubeP;
 
@@ -74,14 +74,14 @@ public class MainCube : MonoBehaviour {
 			yield return 0;	
 		}
 
-		if(gameObject.transform.position.x > 0)
-		{
-			RightWallOn();
-		}
-		if(gameObject.transform.position.x < 0)
-		{
-			LeftWallOn();
-		}
+//		if(gameObject.transform.position.x > 0)
+//		{
+//			RightWallOn();
+//		}
+//		if(gameObject.transform.position.x < 0)
+//		{
+//			LeftWallOn();
+//		}
 			
 	}
 }
