@@ -72,9 +72,15 @@ public class Diamond : MonoBehaviour {
 	
 	private void Pickup()
 	{
+		if(gameObject.transform.position.x > -4.5f && gameObject.transform.position.x < 4.5f){
+			GameStateManager.HighScore = GameStateManager.HighScore+ 2;
+		}else{
+			GameStateManager.HighScore = GameStateManager.HighScore + 4;
+		}
+
 		diamondP.soundBreakingDiamond.PlayBreakingDimond();
 //		diaDeactivate.resetTime = 0f;
-		GameStateManager.HighScore++;
+
 		diamondP.updateScore.ChangeLiveScore();
 		gameObject.SetActive(false);
 	}
