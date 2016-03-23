@@ -63,27 +63,27 @@ public class TextColor : MonoBehaviour {
 			//			bestDisplay.color =     new Color(1f, 0.4f, 0f, 1f);
 			//			liveScoreDisplay.color = new Color(1f, 0.4f, 0f, 1f);
 			//			break;
-			case 6:
-				scoreTextColor.color = new Color (0.7f, 0.4f, 1f, 1f);  //purple
-				bestTextColor.color = new Color (0.7f, 0.4f, 1f, 1f);
-				scoreDisplay.color = Color.black;
-				bestDisplay.color = Color.black;
-				liveScoreDisplay.color = Color.black;
-				break;
-			case 7:
-				scoreTextColor.color = new Color (0.2f, 0.4f, 0f, 1f);  //Light Green
-				bestTextColor.color = new Color (0.2f, 0.4f, 0f, 1f);
-				scoreDisplay.color = new Color (1f, 0.4f, 0f, 1f);
-				bestDisplay.color = new Color (1f, 0.4f, 0f, 1f);
-				liveScoreDisplay.color = new Color (1f, 0.4f, 0f, 1f);
-				break;
-			case 8:
-				scoreTextColor.color = Color.white;
-				bestTextColor.color = Color.white;
-				scoreDisplay.color = Color.cyan;
-				bestDisplay.color = Color.cyan;
-				liveScoreDisplay.color = Color.cyan;
-				break;
+//			case 6:
+//				scoreTextColor.color = new Color (0.7f, 0.4f, 1f, 1f);  //purple
+//				bestTextColor.color = new Color (0.7f, 0.4f, 1f, 1f);
+//				scoreDisplay.color = Color.black;
+//				bestDisplay.color = Color.black;
+//				liveScoreDisplay.color = Color.black;
+//				break;
+//			case 7:
+//				scoreTextColor.color = new Color (0.2f, 0.4f, 0f, 1f);  //Light Green
+//				bestTextColor.color = new Color (0.2f, 0.4f, 0f, 1f);
+//				scoreDisplay.color = new Color (1f, 0.4f, 0f, 1f);
+//				bestDisplay.color = new Color (1f, 0.4f, 0f, 1f);
+//				liveScoreDisplay.color = new Color (1f, 0.4f, 0f, 1f);
+//				break;
+//			case 8:
+//				scoreTextColor.color = Color.white;
+//				bestTextColor.color = Color.white;
+//				scoreDisplay.color = Color.cyan;
+//				bestDisplay.color = Color.cyan;
+//				liveScoreDisplay.color = Color.cyan;
+//				break;
 				
 			default: 
 				scoreTextColor.color = Color.yellow;

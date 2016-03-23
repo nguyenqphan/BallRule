@@ -1,55 +1,64 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+public struct FlashingP{
+	public bool isFlashing;
+	public float timeFlashing;
+	public float speedFlashing;
+	public int countFlashing;
+	public Renderer mesh;
+}
+
 public class Flashing : MonoBehaviour {
 
-	private bool isFlashing;
-	private float timeFlashing = 0f;
-	private float speedFlashing = 1f;
-	private int countFlashing;
-
-	private Renderer mesh;
+	FlashingP flashingP;
 
 	void Awake()
 	{
-		 mesh = gameObject.GetComponentInChildren<Renderer> ();
+		flashingP.mesh = gameObject.GetComponentInChildren<Renderer> ();
 //		 mesh.material.shader = Shader.Find("Legacy Shaders/VertexLit");
+	}
+
+	void Start()
+	{
+		flashingP.timeFlashing = 0f;
+		flashingP.speedFlashing = 1f;
 	}
 
 	public void StartFlashing()
 	{
-		countFlashing = 0;
-		isFlashing = true;
-		timeFlashing = 0;
+		flashingP.countFlashing = 0;
+		flashingP.isFlashing = true;
+		flashingP.timeFlashing = 0;
 		StopAllCoroutines();
 		StartCoroutine(FlashingCube());
 	}
 
 	private IEnumerator FlashingCube()
 	{
-		while (isFlashing) 
+		while (flashingP.isFlashing) 
 		{
-			timeFlashing += Time.deltaTime * speedFlashing;
+			flashingP.timeFlashing += Time.deltaTime * flashingP.speedFlashing;
 				if (GameStateManager.Instance.TestIndex < 2) {
-					if (timeFlashing < 0.4 && countFlashing < 3) {
-						mesh.material.SetColor ("_Emission", new Color (1f, 1f, 1f, 1f));
-					} else if (timeFlashing >= 0.4f) {
-						mesh.material.SetColor ("_Emission", new Color (0f, 0f, 0f, 0f));
-						if (timeFlashing >= 1) {
-							timeFlashing = 0f;	
-							countFlashing++;
+				if (flashingP.timeFlashing < 0.4 && flashingP.countFlashing < 3) {
+					flashingP.mesh.material.SetColor ("_Emission", new Color (1f, 1f, 1f, 1f));
+				} else if (flashingP.timeFlashing >= 0.4f) {
+					flashingP.mesh.material.SetColor ("_Emission", new Color (0f, 0f, 0f, 0f));
+					if (flashingP.timeFlashing >= 1) {
+						flashingP.timeFlashing = 0f;	
+						flashingP.countFlashing++;
 						}
 					}
 				}
 				else
 				{
-					if (timeFlashing < 0.4 && countFlashing < 3) {
-						mesh.material.SetColor ("_Emission", new Color (0.2f, 0.2f, 0.2f, 0.2f));
-					} else if (timeFlashing >= 0.4f) {
-						mesh.material.SetColor ("_Emission", new Color (0f, 0f, 0f, 0f));
-						if (timeFlashing >= 1) {
-							timeFlashing = 0f;	
-							countFlashing++;
+				if (flashingP.timeFlashing < 0.4 &&flashingP.countFlashing < 3) {
+					flashingP.mesh.material.SetColor ("_Emission", new Color (0.2f, 0.2f, 0.2f, 0.2f));
+				} else if (flashingP.timeFlashing >= 0.4f) {
+					flashingP.mesh.material.SetColor ("_Emission", new Color (0f, 0f, 0f, 0f));
+					if (flashingP.timeFlashing >= 1) {
+						flashingP.timeFlashing = 0f;	
+						flashingP.countFlashing++;
 						}
 					}
 				}
