@@ -5,11 +5,21 @@ public class WeatherDetecter : MonoBehaviour {
 
 	private WeatherMan weatherMan;
 
-	void Awake()
+	void Start()
 	{
 		weatherMan = GameObject.FindWithTag("WeatherCreator").GetComponent<WeatherMan>();
+		StartCoroutine("deactivateWeatherDetector");
 	}
 
+
+	private IEnumerator deactivateWeatherDetector(){
+		yield return new WaitForSeconds(2f);
+		if(gameObject.activeInHierarchy){
+			gameObject.SetActive(false);
+		}
+			
+
+	}
 
 	void OnTriggerEnter(Collider collider)
 	{
