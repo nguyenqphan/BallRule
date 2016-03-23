@@ -7,9 +7,7 @@ public class EventManager : MonoBehaviour {
 	public static event EventAction OnCamMove;
 	public static event EventAction OnPlayerEnter;
 
-	[HideInInspector]
 	private SoundBreaking soundDropBall;
-	[HideInInspector]
 	private UpdateScore updateScore;
 
 	[HideInInspector]
@@ -17,8 +15,8 @@ public class EventManager : MonoBehaviour {
 
 	void Awake()
 	{
-		soundDropBall = GameObject.Find("GameManager").GetComponent<SoundBreaking>();
-		updateScore = GameObject.Find("UI").GetComponent<UpdateScore>();
+		soundDropBall = GameObject.FindWithTag("GameManager").GetComponent<SoundBreaking>();
+		updateScore = GameObject.FindWithTag("UI").GetComponent<UpdateScore>();
 	}
 
 	void OnCollisionEnter(Collision collider)
