@@ -32,7 +32,7 @@ public class WeatherDetecter : MonoBehaviour {
 
 	private void ChooseWeather()
 	{
-		switch(GameStateManager.Instance.TestIndex)
+		switch(GameStateManager.Instance.SceneMaterialNum)
 		{
 		case 0:
 			weatherMan.NoSnowRain();	

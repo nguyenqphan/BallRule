@@ -26,10 +26,17 @@ public class GameStateManager : MonoBehaviour {
 		DontDestroyOnLoad(this);						// Persist through Scene loading
 	}
 
-	private int testIndex = 0;
-	public int TestIndex{
-		get{return testIndex;}
-		set{testIndex = value;}
+
+	private int numberOfGame = 0;
+	public int NumBerOfGame{
+		get{return numberOfGame;}
+		set{numberOfGame = value;}
+	}
+
+	private int sceneMaterialNum = 0;
+	public int SceneMaterialNum{
+		get{return sceneMaterialNum;}
+		set{sceneMaterialNum = value;}
 	}
 		
 	//the score of the game

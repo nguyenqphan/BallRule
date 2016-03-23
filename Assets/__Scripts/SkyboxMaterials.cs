@@ -14,7 +14,7 @@ public class SkyboxMaterials : MonoBehaviour {
 	void Start () 
 	{
 	//	skybox.material = materials[GameManager.Instance.IndexMaterial];	
-		skybox.material = materials[GameStateManager.Instance.TestIndex];	
+		skybox.material = materials[GameStateManager.Instance.SceneMaterialNum];	
 	}
 	
 	// Update is called once per frame

@@ -42,7 +42,7 @@ public class StartOptions : MonoBehaviour {
 	public void StartButtonClicked()
 	{
 		System.GC.Collect();
-		GameStateManager.Instance.TestIndex = 0;
+//		GameStateManager.Instance.NumBerOfGame = 0;
 		showPanels.gameTitleText.SetActive(false);
 		GameStateManager.Instance.IsStarted = true;						//keep loading the starting scene
 		GameStateManager.Instance.StartGame();
@@ -79,14 +79,16 @@ public class StartOptions : MonoBehaviour {
 
 	public void RefleshButtonClicked()
 	{
+		GameStateManager.Instance.NumBerOfGame++;
+
 		//showPanels.HideMenu();
-		if(GameStateManager.Instance.TestIndex < 5)
+		if(GameStateManager.Instance.SceneMaterialNum < 5 && GameStateManager.Instance.NumBerOfGame%3 == 0)
 		{
-			GameStateManager.Instance.TestIndex++;
+			GameStateManager.Instance.SceneMaterialNum++;
 		}
-		else if(GameStateManager.Instance.TestIndex >=5)
+		else if(GameStateManager.Instance.SceneMaterialNum >=5)
 		{
-			GameStateManager.Instance.TestIndex = 0;
+			GameStateManager.Instance.SceneMaterialNum = 0;
 		}
 
 		textColor.ChooseTextColor();

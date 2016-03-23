@@ -16,6 +16,6 @@ public class CubeMaterials : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		renderMaterial.material = cubeMats[GameStateManager.Instance.TestIndex];
+		renderMaterial.material = cubeMats[GameStateManager.Instance.SceneMaterialNum];
 	}
 }

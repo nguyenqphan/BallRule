@@ -13,7 +13,7 @@ public class WaterMaterials : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		renderMaterial.material = materials[GameStateManager.Instance.TestIndex];
+		renderMaterial.material = materials[GameStateManager.Instance.SceneMaterialNum];
 	}
 
 }

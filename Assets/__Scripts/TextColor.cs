@@ -13,7 +13,7 @@ public class TextColor : MonoBehaviour {
 	// Use this for initialization
 	public void ChooseTextColor () {
 
-			switch (GameStateManager.Instance.TestIndex) {
+			switch (GameStateManager.Instance.SceneMaterialNum) {
 			case 0:
 				scoreTextColor.color = Color.grey;
 				bestTextColor.color = Color.grey;
