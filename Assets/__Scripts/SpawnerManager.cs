@@ -225,6 +225,13 @@ public class SpawnerManager : MonoBehaviour {
 			}
 
 			spawnP.spawnNumber++;
+			
+			//Condition to go check the gravity
+			if(spawnP.spawnNumber % 20 == 0)
+			{
+				ChangeGravity();
+			}
+
 			StartCoroutine (InstantiateCube ());	
 	}
 
@@ -376,5 +383,32 @@ public class SpawnerManager : MonoBehaviour {
 	{
 		return Random.Range(8, 12);
 	}
+
+	private void ChangeGravity()
+	{
+		if(spawnP.spawnNumber % 80 == 0)
+		{
+			Physics.gravity = new Vector3(0f, -30f, 0f);
+			Debug.Log(Physics.gravity);
+		}else{
+			if(spawnP.spawnNumber % 60 == 0){
+				Physics.gravity = new Vector3(0f, -25f, 0f);
+				Debug.Log(Physics.gravity);
+			}else{
+				if(spawnP.spawnNumber % 40 == 0)
+				{
+					Physics.gravity = new Vector3(0f, -20f, 0f);
+					Debug.Log(Physics.gravity);
+				}else{
+					if(spawnP.spawnNumber % 20 == 0)
+					{
+						Physics.gravity = new Vector3(0f, -15f, 0f);
+						Debug.Log(Physics.gravity);
+					}
+				}
+			}
+		}
+	}
+
 
 }
