@@ -280,6 +280,11 @@ public class SpawnerManager : MonoBehaviour {
 		return Random.Range(5, 10);
 	}
 
+	int randomScalingBall()
+	{
+		return Random.Range(5, 9);
+	}
+
 	float randonDegree()
 	{
 		return Random.Range(-40f, 40f);;
@@ -291,7 +296,7 @@ public class SpawnerManager : MonoBehaviour {
 		StartCoroutine(InstantiateDiamond());
 
 		//Condition to instantiate a scalling ball
-		if(spawnP.spawnNumber%4 == 0)
+		if(spawnP.spawnNumber % 5 == 0)
 		{
 			StartCoroutine(InstantiateBall());
 		}
