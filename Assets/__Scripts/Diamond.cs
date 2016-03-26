@@ -103,7 +103,7 @@ public class Diamond : MonoBehaviour {
 			if (diamondP.newY > diamondP.startingY +diamondP. movementDistance) {
 				diamondP.newY = diamondP.startingY + diamondP.movementDistance;
 				diamondP.isMovingUp = false;
-			} else if (diamondP.newY <diamondP.startingY) {
+			} else if (diamondP.newY < diamondP.startingY) {
 				diamondP.newY = diamondP.startingY;
 				diamondP.isMovingUp = true;
 			}

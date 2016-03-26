@@ -7,6 +7,13 @@ public struct CubeP{
 	public bool isRotating;
 	public float startTime;
 	public float movingSpeed;
+	public float startingY;
+	public float newY;
+	public bool isMovingDown;
+	public bool isMovingUp;
+	public float movementDistance;
+	public float floatSpeed;
+	public bool isOneRound;
 }
 
 public class Cube : MonoBehaviour {
@@ -17,7 +24,8 @@ public class Cube : MonoBehaviour {
 		cubeP.rotateSpeed = 30f;
 		cubeP.isRotating = true;
 		cubeP.movingSpeed = 20f;
-
+		cubeP.floatSpeed = 5f;
+		cubeP.movementDistance = 0.2f;
 	}
 
 	//A method to rotate the cube
@@ -45,19 +53,41 @@ public class Cube : MonoBehaviour {
 		cubeP.isRotating = !cubeP.isRotating;																					//set isRotating = true
 	}
 
-	//Call this method to move a cube to desired target
-	public void MoveCube(Vector3 targetPos)
+	public void PulseCube()
 	{
-		StartCoroutine(StartToMove(targetPos));
+		cubeP.isMovingUp = true;
+		cubeP.isMovingDown = true;
+		StartCoroutine(StartPulse());
 	}
 
-	public IEnumerator StartToMove(Vector3 targetPos)
+	private IEnumerator StartPulse()
 	{
-		while (transform.position != targetPos) {
-			transform.position = Vector3.MoveTowards (transform.position, targetPos, cubeP.movingSpeed * Time.deltaTime);	//Moving to the target
+		cubeP.startingY = transform.position.y;
+		while (cubeP.isMovingDown) {
+			cubeP.newY = transform.position.y - cubeP.movementDistance * cubeP.floatSpeed * Time.deltaTime;
 
-			yield return 0;	
+			if (cubeP.newY < cubeP.startingY  - cubeP. movementDistance) {
+				cubeP.isMovingDown = false;
+			} 
+//
+			transform.position = new Vector3 (transform.position.x, cubeP.newY, transform.position.z);
+
+			yield return new WaitForFixedUpdate();
+		}
+
+		while (cubeP.isMovingUp) {
+			cubeP.newY = transform.position.y + cubeP.movementDistance * cubeP.floatSpeed * Time.deltaTime;
+
+			if (cubeP.newY > cubeP.startingY  + cubeP. movementDistance) {
+				cubeP.isMovingUp = false;
+			} 
+			//
+			transform.position = new Vector3 (transform.position.x, cubeP.newY, transform.position.z);
+
+			yield return new WaitForFixedUpdate();
 		}
 			
 	}
 }
+
+
