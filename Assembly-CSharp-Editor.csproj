@@ -46,9 +46,22 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\Scripts\Editor\AlphaNumericSort.cs" />
-     <Compile Include="Assets\Scripts\Editor\GUIHierarchy.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\FacebookBuild.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\FacebookConsoleEndpoint.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\FacebookPostprocess.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\FacebookSettingsEditor.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\Utility.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\android\FacebookAndroidUtil.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\android\ManifestMod.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\iOS\FixupFiles.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\iOS\PListDict.cs" />
+     <Compile Include="Assets\FacebookSDK\SDK\Editor\iOS\PListParser.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\Editor\AlphaNumericSort.cs" />
+     <Compile Include="Assets\__ImportAssets\Scripts\Editor\GUIHierarchy.cs" />
+     <None Include="Assets\FacebookSDK\SDK\Editor\android\DefaultAndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\FacebookSDK\SDK\Scripts\Canvas\Resources\JSSDKBindings.txt" />
      <None Include="Assets\__Shaders\Gem.shader" />
      <None Include="Assets\__Shaders\Skybox-Procedural.shader" />
  <Reference Include="Assembly-UnityScript">

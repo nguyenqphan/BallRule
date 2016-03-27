@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using Facebook.Unity;
+using System.Collections.Generic;
 
 public class GameStateManager : MonoBehaviour {
 
@@ -20,13 +22,38 @@ public class GameStateManager : MonoBehaviour {
 	static InstanceStep final = delegate() { return instance; };
 	static InstanceStep current = init;
 
-
+//	public static readonly string ServerURL = "https://friendsmash-unity.herokuapp.com/";
+	public static readonly string ServerURL = "https://friendsmash-unity-test/";
 	void Awake()
 	{
 		DontDestroyOnLoad(this);						// Persist through Scene loading
 	}
 
 
+	public static readonly int StartingLives = 3;
+
+
+	private int lives;
+	public static int LivesRemaining { get { return Instance.lives; } }
+	public static int CoinBalance, NumBombs;
+	public static string FriendName = "Blue Guy";
+	public static string FriendID = null;
+	public static Texture FriendTexture = null;
+	public static int CelebFriend = -1;
+
+	//   Facebook Data   //
+	public static string Username;
+	public static Texture UserTexture;
+	public static List<object> Friends;
+	public static Dictionary<string, Texture> FriendImages = new Dictionary<string, Texture>();
+	public static List<object> InvitableFriends = new List<object>();
+	// Scores
+	public static bool ScoresReady;
+	private static List<object> scores;
+	public static List<object> Scores {
+		get { return scores; }
+		set { scores = value; ScoresReady = true; }
+	}
 	private int numberOfGame = 0;
 	public int NumBerOfGame{
 		get{return numberOfGame;}
@@ -106,26 +133,17 @@ public class GameStateManager : MonoBehaviour {
 	public void StartGame () {
 		HighScore = StartingScore;									//Reset the score every time the game starts
 		BallTimer = ballTimer;
-//		TimeRemaining = maxTime;
 		NumCoins = startCoints;
 		IndexMaterial = PlayerPrefs.GetInt("IndexGame");	//Get the indexMaterial that has been save in Restart()
-
+	
+		lives = StartingLives;
+		score = StartingScore;
+		ScoringLockout = false;
+		Time.timeScale = 1f;
 	}
 
 	public void Restart()								
 	{
-//		if(TestIndex < 4)
-//		{
-//			TestIndex++;
-//		}
-//		else if(TestIndex >=4){
-//			TestIndex = 0;
-//		}
-
-//		TestIndex = 1;
-
-		//Application.LoadLevel(Application.loadedLevel);
-//		TimeRemaining = maxTime;
 		NumCoins = numCoins;
 		if(IndexMaterial <= 5)
 		{
@@ -135,20 +153,38 @@ public class GameStateManager : MonoBehaviour {
 				IndexMaterial = 0;
 			}
 		}
+	}
 
-//		Debug.Log(IndexMaterial);
-//
-//		Debug.Log(GameStateManager.HighScore + "Score before loading the scene");
-//
-//		PlayerPrefs.SetInt("IndexGame", IndexMaterial);		//save the indexMateriasl
-//		if(!GameStateManager.Instance.IsStarted){
-//			SceneManager.LoadScene("StartingScene");
-//
-//		}
-//		else{
-//			SceneManager.LoadScene("FirstScene");			//Load scene
-//			Debug.Log(GameStateManager.HighScore + "Score after loading the scene");
-//			Time.timeScale = 0.1f;
-//		}
+	public static void EndGame()
+	{
+		Debug.Log("EndGame Instance.highScore = " + Instance.highScore + "\nInstance.score = " + Instance.score);
+
+		// Log custom App Event for game completion
+		FBAppEvents.GameComplete(Instance.score);
+
+		// Ensure we have read score from FB before we allow overriding the High Score
+		if (FB.IsLoggedIn &&
+			Instance.highScore.HasValue &&
+			Instance.highScore < Instance.score)
+		{
+			Debug.Log("Player has new high score :" + Instance.score);
+			Instance.highScore = Instance.score;
+
+			//Set a flag so MainMenu can handle posting the score once its scene has loaded
+			highScorePending = true;
+		}
+
+		//Return to main menu
+		Application.LoadLevel("MainMenu");
+	}
+
+	// Convenience callback into GameMenu to redraw UI
+	public static void CallUIRedraw()
+	{
+		GameObject gMenuObj = GameObject.Find("GameMenu");
+		if (gMenuObj)
+		{
+			gMenuObj.GetComponent<GameMenu>().RedrawUI();
+		}
 	}
 }
