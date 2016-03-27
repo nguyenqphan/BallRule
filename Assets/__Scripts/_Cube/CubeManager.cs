@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+//Use struct to store varbales to reduce garbage collection
 public struct CubeManagerP
 {
-	public SoundBreaking soundCubeClick;
+	public SoundBreaking soundCubeClick;			
 	public bool getInput;
 	public RaycastHit hit;
 	public Ray ray;

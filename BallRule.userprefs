@@ -1,23 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/SpawnerManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/__Scripts/PlayerScaler.cs">
     <Files>
-      <File FileName="Assets/__Scripts/GameStateManager.cs" Line="30" Column="30" />
-      <File FileName="Assets/__Scripts/SpawnerManager.cs" Line="299" Column="28" />
-      <File FileName="Assets/Game Jam Menu Template/Scripts/StartOptions.cs" Line="60" Column="3" />
+      <File FileName="Assets/__Scripts/GameStateManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/SpawnerManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Game Jam Menu Template/Scripts/StartOptions.cs" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/Destroyer.cs" Line="1" Column="1" />
       <File FileName="Assets/Game Jam Menu Template/Scripts/ShowPanels.cs" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/UpdateScore.cs" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/_Cube/CubeManager.cs" Line="1" Column="1" />
       <File FileName="Assets/Game Jam Menu Template/Scripts/DontDestroy.cs" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/PlayerScaler.cs" Line="71" Column="50" />
-      <File FileName="Assets/WeatherDetecter.cs" Line="35" Column="36" />
-      <File FileName="Assets/__Scripts/EventManager.cs" Line="23" Column="3" />
+      <File FileName="Assets/WeatherDetecter.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/EventManager.cs" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/ParticeDeactivate.cs" Line="1" Column="1" />
-      <File FileName="Assets/__Scripts/TextColor.cs" Line="16" Column="1" />
-      <File FileName="Assets/__Scripts/_Cube/Flashing.cs" Line="36" Column="2" />
-      <File FileName="Assets/__Scripts/Diamond.cs" Line="75" Column="66" />
-      <File FileName="Assets/__Scripts/_Cube/Cube.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/TextColor.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/_Cube/Flashing.cs" Line="1" Column="1" />
+      <File FileName="Assets/__Scripts/Diamond.cs" Line="106" Column="31" />
+      <File FileName="Assets/__Scripts/_Cube/Cube.cs" Line="28" Column="33" />
       <File FileName="Assets/__Scripts/MainCube.cs" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/Deactivator.cs" Line="1" Column="1" />
       <File FileName="Assets/__Scripts/TestingScripts/GravityTest.cs" Line="1" Column="1" />

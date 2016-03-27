@@ -101,7 +101,6 @@
      <Compile Include="Assets\__Scripts\WaterMaterials.cs" />
      <Compile Include="Assets\__Scripts\_Cube\Cube.cs" />
      <Compile Include="Assets\__Scripts\_Cube\CubeController.cs" />
-     <Compile Include="Assets\__Scripts\_Cube\CubeEvent.cs" />
      <Compile Include="Assets\__Scripts\_Cube\CubeManager.cs" />
      <Compile Include="Assets\__Scripts\_Cube\CubeMaterials.cs" />
      <Compile Include="Assets\__Scripts\_Cube\Flashing.cs" />
