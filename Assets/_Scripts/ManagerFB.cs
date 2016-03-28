@@ -52,8 +52,14 @@ public class ManagerFB : MonoBehaviour {
 		}	
 	}
 
+	public void SetLeaderBoardInactive()
+	{
+		boardCanvas.SetActive(false);
+	}
+
 	public void GetReadPermission()
 	{
+		FBShare.PostScore1();
 		FBLogin.PromptForLogin(OnLoginComplete);
 		boardCanvas.SetActive(true);
 //		mainCanvas.SetActive(false);
@@ -75,9 +81,11 @@ public class ManagerFB : MonoBehaviour {
 		//LoadingText.SetActive(true);
 
 		// Begin querying the Graph API for Facebook data
+
 		FBGraph.GetPlayerInfo();
 		FBGraph.GetFriends();
 		//FBGraph.GetInvitableFriends();
+//		FBShare.PostScore(GameStateManager.HighScore);
 		FBGraph.GetScores();
 	}
 
@@ -153,8 +161,6 @@ public class ManagerFB : MonoBehaviour {
 
 		}
 	}
-
-
 
 	public void OnChallengeClicked()
 	{

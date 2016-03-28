@@ -100,11 +100,13 @@ public static class FBShare
         }
         else
         {
+
+
             // Showing context before prompting for publish actions
             // See Facebook Login Best Practices: https://developers.facebook.com/docs/facebook-login/best-practices
-            PopupScript.SetPopup("Prompting for Publish Permissions for Scores API", 4f, delegate
-            {
-                // Prompt for `publish actions` and if granted, post score
+//            PopupScript.SetPopup("Prompting for Publish Permissions for Scores API", 4f, delegate
+//            {
+//                // Prompt for `publish actions` and if granted, post score
                 FBLogin.PromptForPublish(delegate
                                          {
                     if (FBLogin.HavePublishActions)
@@ -112,7 +114,55 @@ public static class FBShare
                         PostScore(score);
                     }
                 });
-            });
+//            });
         }
     }
+
+
+
+	public static void PostScore1()
+	{
+		FB.LogInWithPublishPermissions (new List<string>(){"publish_actions"},AuthCallback);
+	}
+
+	public static void AuthCallback(IResult result)
+	{
+		if(result.Error != null)
+		{
+			Debug.Log(result.Error + " Could not get the permission");
+		}
+		else
+		{
+			if(FB.IsLoggedIn)
+			{
+				foreach(string perm in AccessToken.CurrentAccessToken.Permissions) {
+					// log each granted permission
+					Debug.Log(perm);
+				}
+
+				Debug.Log("Facebook is logged in");
+				int score = GameStateManager.HighScore;
+
+				var scoreData =
+					new Dictionary<string, string>() {{"score", score.ToString()}};
+				FB.API ("/me/scores", HttpMethod.POST, APICallback, scoreData);
+			}
+			else
+			{
+				Debug.Log("Facebook is not logged in");
+			}
+		}
+	}
+
+	public static void APICallback(IResult result)
+	{
+		if(result.Error != null)
+		{
+			Debug.Log(result.Error + "Failed to post the score");
+		}
+		else{
+			//    LoginText.SetActive(true);
+			Debug.Log("Your score has been posted");
+		}
+	}
 }
