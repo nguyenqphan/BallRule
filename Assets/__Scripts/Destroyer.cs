@@ -31,12 +31,16 @@ public class Destroyer : MonoBehaviour {
 		
 				showUI.ShowMenu();
 				showUI.scaleText.SetActive(false);
-				GameStateManager.Instance.BestScore = PlayerPrefs.GetInt("CurBestScore");
+//				GameStateManager.Instance.BestScore = PlayerPrefs.GetInt("CurBestScore");
+				GameStateManager.Instance.Load();
+
+				Debug.Log(GameStateManager.Instance.BestScore);
 				if(GameStateManager.Instance.BestScore < GameStateManager.HighScore)
 				{
 					GameStateManager.Instance.BestScore = GameStateManager.HighScore;
-					PlayerPrefs.SetInt("CurBestScore", GameStateManager.Instance.BestScore);
+					GameStateManager.Instance.Save();
 				}
+
 
 				updateScore.EndGameScore();
 			}

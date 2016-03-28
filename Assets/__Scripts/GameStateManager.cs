@@ -3,6 +3,9 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using Facebook.Unity;
 using System.Collections.Generic;
+using System.IO;
+using System;
+using System.Runtime.Serialization.Formatters.Binary;
 
 public class GameStateManager : MonoBehaviour {
 
@@ -134,7 +137,7 @@ public class GameStateManager : MonoBehaviour {
 		HighScore = StartingScore;									//Reset the score every time the game starts
 		BallTimer = ballTimer;
 		NumCoins = startCoints;
-		IndexMaterial = PlayerPrefs.GetInt("IndexGame");	//Get the indexMaterial that has been save in Restart()
+//		IndexMaterial = PlayerPrefs.GetInt("IndexGame");	//Get the indexMaterial that has been save in Restart()
 	
 		lives = StartingLives;
 		score = StartingScore;
@@ -186,5 +189,35 @@ public class GameStateManager : MonoBehaviour {
 		{
 			gMenuObj.GetComponent<GameMenu>().RedrawUI();
 		}
+	}
+
+	public void Save()
+	{
+		BinaryFormatter bf = new BinaryFormatter();
+		FileStream file = File.Create(Application.persistentDataPath + "/playerInfo.dat");
+
+		PlayerData data = new PlayerData();
+		data.playerScore = GameStateManager.Instance.BestScore;
+
+		bf.Serialize(file, data);
+		file.Close();
+	}
+
+	public void Load()
+	{
+		if(File.Exists(Application.persistentDataPath + "/playerInfo.dat"))
+		{
+			BinaryFormatter bf = new BinaryFormatter();
+			FileStream file = File.Open(Application.persistentDataPath + "/playerInfo.dat", FileMode.Open);
+			PlayerData data = (PlayerData)bf.Deserialize(file);
+			file.Close();
+			GameStateManager.instance.BestScore = data.playerScore;
+		}
+	}
+
+	[Serializable]
+	class PlayerData
+	{
+		public int playerScore;
 	}
 }

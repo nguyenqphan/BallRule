@@ -141,10 +141,10 @@ public static class FBShare
 				}
 
 				Debug.Log("Facebook is logged in");
-				int score = GameStateManager.HighScore;
-
+//				int score = GameStateManager.Instance.Load();
+				GameStateManager.Instance.Load();				//Load the best score to post it to FB API
 				var scoreData =
-					new Dictionary<string, string>() {{"score", score.ToString()}};
+					new Dictionary<string, string>() {{"score", GameStateManager.Instance.BestScore.ToString()}};
 				FB.API ("/me/scores", HttpMethod.POST, APICallback, scoreData);
 			}
 			else

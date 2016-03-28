@@ -74,7 +74,7 @@ public class GameManager : Singleton<GameManager> {
 		ballTimer = clock;
 		TimeRemaining = maxTime;
 		NumCoins = startCoints;
-		IndexMaterial = PlayerPrefs.GetInt("IndexGame");	//Get the indexMaterial that has been save in Restart()
+//		IndexMaterial = PlayerPrefs.GetInt("IndexGame");	//Get the indexMaterial that has been save in Restart()
 	}
 	
 	// Update is called once per frame
@@ -114,8 +114,8 @@ public class GameManager : Singleton<GameManager> {
 
 //		Debug.Log(IndexMaterial);
 
-		PlayerPrefs.SetInt("IndexGame", IndexMaterial);		//save the indexMateriasl
-		SceneManager.LoadScene("FirstScene");				//Load scene
+//		PlayerPrefs.SetInt("IndexGame", IndexMaterial);		//save the indexMateriasl
+//		SceneManager.LoadScene("FirstScene");				//Load scene
 
 	}
 }
