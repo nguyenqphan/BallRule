@@ -80,33 +80,33 @@ public class GameMenu : MonoBehaviour
     }
 
     // OnLevelWasLoaded is called when we return to the main menu
-    void OnLevelWasLoaded(int level)
-    {
-        Debug.Log("OnLevelWasLoaded");
-        if (level == 0 && FB.IsInitialized)
-        {
-            Debug.Log("Returned to main menu");
-
-            // We've returned to the main menu so let's complete any pending score activity
-            if (FB.IsLoggedIn)
-            {
-                RedrawUI();
-
-                // Post any pending High Score
-                if (GameStateManager.highScorePending)
-                {
-                    GameStateManager.highScorePending = false;
-                    FBShare.PostScore(GameStateManager.HighScore);
-                }
-            }
-        }
-    }
+//    void OnLevelWasLoaded(int level)
+//    {
+//        Debug.Log("OnLevelWasLoaded");
+//        if (level == 0 && FB.IsInitialized)
+//        {
+//            Debug.Log("Returned to main menu");
+//
+//            // We've returned to the main menu so let's complete any pending score activity
+//            if (FB.IsLoggedIn)
+//            {
+//                RedrawUI();
+//
+//                // Post any pending High Score
+//                if (GameStateManager.highScorePending)
+//                {
+//                    GameStateManager.highScorePending = false;
+//                    FBShare.PostScore(GameStateManager.HighScore);
+//                }
+//            }
+//        }
+//    }
     #endregion
 
     #region FB Init
     private void InitCallback()
     {
-        Debug.Log("InitCallback");
+//        Debug.Log("InitCallback");
 
         // App Launch events should be logged on app launch & app resume
         // See more: https://developers.facebook.com/docs/app-events/unity#quickstart

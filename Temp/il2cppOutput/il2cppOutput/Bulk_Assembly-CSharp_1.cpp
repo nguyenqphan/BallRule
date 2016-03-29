@@ -1,0 +1,19007 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+// Facebook.Unity.FacebookSdkVersion
+struct FacebookSdkVersion_t177573027;
+// System.String
+struct String_t;
+// Facebook.Unity.FacebookSettings
+struct FacebookSettings_t2175192840;
+// System.Collections.Generic.List`1<System.String>
+struct List_1_t1765447871;
+// System.Collections.Generic.List`1<Facebook.Unity.FacebookSettings/UrlSchemes>
+struct List_1_t4208567320;
+// System.Object
+struct Object_t;
+// Facebook.Unity.FacebookSettings/UrlSchemes
+struct UrlSchemes_t3411608351;
+// Facebook.Unity.FB
+struct FB_t2519727771;
+// Facebook.Unity.IFacebook
+struct IFacebook_t4281310222;
+// Facebook.Unity.FB/OnDLLLoaded
+struct OnDLLLoaded_t1601980106;
+// Facebook.Unity.InitDelegate
+struct InitDelegate_t1475272884;
+// Facebook.Unity.HideUnityDelegate
+struct HideUnityDelegate_t2364798903;
+// Facebook.Unity.Editor.EditorFacebookLoader
+struct EditorFacebookLoader_t797496352;
+// Facebook.Unity.Canvas.CanvasFacebookLoader
+struct CanvasFacebookLoader_t3729715412;
+// Facebook.Unity.Mobile.IOS.IOSFacebookLoader
+struct IOSFacebookLoader_t2859244156;
+// Facebook.Unity.Mobile.Android.AndroidFacebookLoader
+struct AndroidFacebookLoader_t2764161972;
+// System.Collections.Generic.IEnumerable`1<System.String>
+struct IEnumerable_1_t3840643258;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>
+struct FacebookDelegate_1_t2634519556;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>
+struct FacebookDelegate_1_t2757548155;
+// System.Collections.Generic.IEnumerable`1<System.Object>
+struct IEnumerable_1_t3709260776;
+// System.Uri
+struct Uri_t2776692961;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>
+struct FacebookDelegate_1_t1384006650;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGraphResult>
+struct FacebookDelegate_1_t2979309097;
+// System.Collections.Generic.IDictionary`2<System.String,System.String>
+struct IDictionary_2_t3781852593;
+// UnityEngine.WWWForm
+struct WWWForm_t3999572776;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>
+struct FacebookDelegate_1_t3690308374;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupCreateResult>
+struct FacebookDelegate_1_t2288646710;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupJoinResult>
+struct FacebookDelegate_1_t1900386660;
+// System.Collections.Generic.Dictionary`2<System.String,System.Object>
+struct Dictionary_2_t2474804324;
+// Facebook.Unity.FB/<Init>c__AnonStorey22
+struct U3CInitU3Ec__AnonStorey22_t1005788533;
+// Facebook.Unity.FB/Android
+struct Android_t803262031;
+// Facebook.Unity.FB/Canvas
+struct Canvas_t2011128184;
+// Facebook.Unity.Canvas.ICanvasFacebook
+struct ICanvasFacebook_t3620364202;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IPayResult>
+struct FacebookDelegate_1_t2840116163;
+// Facebook.Unity.FB/CompiledFacebookLoader
+struct CompiledFacebookLoader_t1549770122;
+// Facebook.Unity.FB/Mobile
+struct Mobile_t2309979330;
+// Facebook.Unity.Mobile.IMobileFacebook
+struct IMobileFacebook_t3651648834;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppInviteResult>
+struct FacebookDelegate_1_t573598949;
+// Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAccessTokenRefreshResult>
+struct FacebookDelegate_1_t2422421107;
+// System.IAsyncResult
+struct IAsyncResult_t537683269;
+// System.AsyncCallback
+struct AsyncCallback_t1363551830;
+// Facebook.Unity.GraphResult
+struct GraphResult_t1509843146;
+// UnityEngine.WWW
+struct WWW_t1522972100;
+// System.Collections.Generic.IList`1<System.Object>
+struct IList_1_t3003598734;
+// UnityEngine.Texture2D
+struct Texture2D_t2509538522;
+// Facebook.Unity.GroupCreateResult
+struct GroupCreateResult_t1424122391;
+// System.Collections.Generic.IDictionary`2<System.String,System.Object>
+struct IDictionary_2_t3650470111;
+// Facebook.Unity.GroupJoinResult
+struct GroupJoinResult_t4173281157;
+// Facebook.Unity.LoginResult
+struct LoginResult_t1165053605;
+// Facebook.Unity.AccessToken
+struct AccessToken_t3144904884;
+// Facebook.Unity.MethodArguments
+struct MethodArguments_t3878806324;
+// System.Collections.Generic.Dictionary`2<System.String,System.String>
+struct Dictionary_2_t2606186806;
+// Facebook.Unity.Mobile.Android.AndroidFacebook
+struct AndroidFacebook_t1604313921;
+// Facebook.Unity.Mobile.Android.IAndroidJavaClass
+struct IAndroidJavaClass_t2276864572;
+// Facebook.Unity.CallbackManager
+struct CallbackManager_t1943358823;
+// Facebook.Unity.Mobile.Android.AndroidFacebookGameObject
+struct AndroidFacebookGameObject_t2900811506;
+// Facebook.Unity.FacebookGameObject
+struct FacebookGameObject_t2636547894;
+// Facebook.Unity.Mobile.Android.FBJavaClass
+struct FBJavaClass_t283972646;
+// System.Object[]
+struct ObjectU5BU5D_t11523773;
+// Facebook.Unity.Mobile.Android.FBJavaClass/AndroidJavaClass
+struct AndroidJavaClass_t1802702567;
+// Facebook.Unity.Mobile.Android.FBJavaClass/AndroidJNIHelper
+struct AndroidJNIHelper_t1081769508;
+// Facebook.Unity.Mobile.IOS.IOSFacebook
+struct IOSFacebook_t2693359753;
+// Facebook.Unity.Mobile.IOS.IIOSWrapper
+struct IIOSWrapper_t3835080613;
+// Facebook.Unity.FacebookDelegate`1<System.Object>
+struct FacebookDelegate_1_t1473468476;
+// System.String[]
+struct StringU5BU5D_t2956870243;
+// Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict
+struct NativeDict_t802211981;
+// Facebook.Unity.Mobile.IOS.IOSFacebookGameObject
+struct IOSFacebookGameObject_t1556084410;
+// Facebook.Unity.Mobile.IOS.IOSWrapper
+struct IOSWrapper_t1868543644;
+// Facebook.Unity.Mobile.MobileFacebook
+struct MobileFacebook_t974549177;
+// Facebook.Unity.Mobile.MobileFacebookGameObject
+struct MobileFacebookGameObject_t2980575402;
+// Facebook.Unity.Mobile.IMobileFacebookImplementation
+struct IMobileFacebookImplementation_t3317238612;
+// Facebook.Unity.PayResult
+struct PayResult_t3664338084;
+// Facebook.Unity.ResultBase
+struct ResultBase_t3940793997;
+// Facebook.Unity.ShareResult
+struct ShareResult_t4209507995;
+// System.Collections.Generic.ICollection`1<System.String>
+struct ICollection_1_t1434320288;
+// System.Func`2<System.Object,System.String>
+struct Func_2_t2267165834;
+// System.Func`2<System.Object,System.Object>
+struct Func_2_t2135783352;
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_t1634065389;
+// Facebook.Unity.IGraphResult
+struct IGraphResult_t2342947041;
+// System.Action`1<UnityEngine.Texture>
+struct Action_1_t1918174889;
+// UnityEngine.Texture
+struct Texture_t1769722184;
+// FBGraph/<HandleScoresData>c__AnonStorey24
+struct U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338;
+// FBGraph/<LoadFriendImgFromID>c__AnonStorey25
+struct U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940;
+// System.Action
+struct Action_t437523947;
+// FBLogin/<PromptForLogin>c__AnonStorey26
+struct U3CPromptForLoginU3Ec__AnonStorey26_t3902140173;
+// Facebook.Unity.ILoginResult
+struct ILoginResult_t1998157500;
+// FBLogin/<PromptForPublish>c__AnonStorey27
+struct U3CPromptForPublishU3Ec__AnonStorey27_t4030531316;
+// FBManager
+struct FBManager_t3888485201;
+// Facebook.Unity.IAppRequestResult
+struct IAppRequestResult_t2121186099;
+// Facebook.Unity.IShareResult
+struct IShareResult_t747644594;
+// Facebook.Unity.IResult
+struct IResult_t1032425381;
+// FBShare/<PostScore>c__AnonStorey28
+struct U3CPostScoreU3Ec__AnonStorey28_t747449093;
+// Flashing
+struct Flashing_t1690224146;
+// UnityEngine.Renderer
+struct Renderer_t1092684080;
+// System.Collections.IEnumerator
+struct IEnumerator_t287207039;
+// Flashing/<FlashingCube>c__Iterator21
+struct U3CFlashingCubeU3Ec__Iterator21_t3584501237;
+// FriendMarker
+struct FriendMarker_t4012634264;
+// UnityEngine.MeshRenderer
+struct MeshRenderer_t1217738301;
+// GameResources
+struct GameResources_t3628012083;
+// FSPlayer
+struct FSPlayer_t484114958;
+// UnityEngine.Collider
+struct Collider_t955670625;
+// GameManager
+struct GameManager_t2369589051;
+// GameMenu
+struct GameMenu_t2590240913;
+// UnityEngine.Transform[]
+struct TransformU5BU5D_t3681339876;
+// UnityEngine.GameObject
+struct GameObject_t4012695102;
+// LeaderBoardElement
+struct LeaderBoardElement_t3363596543;
+// GameStateManager
+struct GameStateManager_t648042254;
+// GameStateManager/InstanceStep
+struct InstanceStep_t3721597217;
+// GameStateManager/PlayerData
+struct PlayerData_t4088824395;
+// GameUI
+struct GameUI_t2125598246;
+// GetIndexCube
+struct GetIndexCube_t3641666961;
+// GraphUtil
+struct GraphUtil_t830336592;
+// GraphUtil/<LoadImgEnumerator>c__Iterator2
+struct U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066;
+// GravityTest
+struct GravityTest_t2735471584;
+// GroundEffect
+struct GroundEffect_t3883356696;
+// Ideas
+struct Ideas_t70496316;
+// LoadingTextAnimation
+struct LoadingTextAnimation_t1922161947;
+// LoadingTextAnimation/<RotateText>c__Iterator3
+struct U3CRotateTextU3Ec__Iterator3_t4098359420;
+// MainCube
+struct MainCube_t55713198;
+// MainCube/<StartToMove>c__Iterator12
+struct U3CStartToMoveU3Ec__Iterator12_t64970246;
+// MainCube/<StartToRotate>c__Iterator11
+struct U3CStartToRotateU3Ec__Iterator11_t702441935;
+// ManagerFB
+struct ManagerFB_t1530265865;
+// ManagerFB/<TakeScreenshot>c__Iterator7
+struct U3CTakeScreenshotU3Ec__Iterator7_t564136571;
+// MoveTowadsTest
+struct MoveTowadsTest_t477145943;
+// MoveTowadsTest/<Move>c__Iterator1D
+struct U3CMoveU3Ec__Iterator1D_t3571380979;
+// Orbit
+struct Orbit_t76451882;
+// PanelManager
+struct PanelManager_t2965005609;
+// UnityEngine.Animator
+struct Animator_t792326996;
+// UnityEngine.UI.Selectable[]
+struct SelectableU5BU5D_t3692422310;
+// PanelManager/<DisablePanelDeleyed>c__Iterator8
+struct U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687;
+// ParticeDeactivate
+struct ParticeDeactivate_t2500325420;
+// Pause
+struct Pause_t76887510;
+// ShowPanels
+struct ShowPanels_t2673010796;
+// StartOptions
+struct StartOptions_t3075365884;
+// PaymentDialog
+struct PaymentDialog_t1790062286;
+// PlayerMaterials
+struct PlayerMaterials_t2277059115;
+// PlayerScaler
+struct PlayerScaler_t4190867145;
+// UpdateScore
+struct UpdateScore_t1082839849;
+// PlayerScaler/<ScaleBack>c__Iterator15
+struct U3CScaleBackU3Ec__Iterator15_t3914306348;
+// PlayerScaler/<ScalePlayer>c__Iterator13
+struct U3CScalePlayerU3Ec__Iterator13_t1940037668;
+// PlayerScaler/<TimeCounter>c__Iterator14
+struct U3CTimeCounterU3Ec__Iterator14_t2950974153;
+// PlayMusic
+struct PlayMusic_t109867825;
+// UnityEngine.AudioSource
+struct AudioSource_t3628549054;
+// PopupScript
+struct PopupScript_t2200872055;
+// PopupScript/<ClearPopup>c__Iterator4
+struct U3CClearPopupU3Ec__Iterator4_t766619814;
+// QuitApplication
+struct QuitApplication_t3105098593;
+// ResizePanel
+struct ResizePanel_t788198800;
+// UnityEngine.RectTransform
+struct RectTransform_t3317474837;
+// UnityEngine.EventSystems.PointerEventData
+struct PointerEventData_t3205101634;
+// ScrollDetailTexture
+struct ScrollDetailTexture_t3150826909;
+// UnityEngine.UI.Image
+struct Image_t3354615620;
+
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include "mscorlib_System_Array2840145358.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookSdkVersion177573027.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookSdkVersion177573027MethodDeclarations.h"
+#include "mscorlib_System_Void2779279689.h"
+#include "mscorlib_System_Object837106420MethodDeclarations.h"
+#include "mscorlib_System_String968488902.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookSettings2175192840.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookSettings2175192840MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1765447871MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4208567320MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookSettings_3411608351MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_ScriptableObject184905905MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1765447871.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen4208567320.h"
+#include "mscorlib_System_Boolean211005341.h"
+#include "mscorlib_System_String968488902MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookSettings_3411608351.h"
+#include "mscorlib_System_Int322847414787.h"
+#include "UnityEngine_UnityEngine_Object3878351788MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Resources1543782994MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Object3878351788.h"
+#include "UnityEngine_UnityEngine_ScriptableObject184905905.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookUnityPlat3133074337.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookUnityPlat3133074337MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB2519727771.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB2519727771MethodDeclarations.h"
+#include "mscorlib_System_NullReferenceException3216235232MethodDeclarations.h"
+#include "mscorlib_System_NullReferenceException3216235232.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_OnDLLLoaded1601980106.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_InitDelegate1475272884.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_HideUnityDelegate2364798903.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_U3CInitU3Ec__A1005788533MethodDeclarations.h"
+#include "mscorlib_System_ArgumentException124305799MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Constants4101416718MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_OnDLLLoaded1601980106MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ComponentFactory3038429004MethodDeclarations.h"
+#include "mscorlib_System_NotImplementedException1091014741MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookLogger3976958453MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_U3CInitU3Ec__A1005788533.h"
+#include "mscorlib_System_ArgumentException124305799.h"
+#include "mscorlib_System_Object837106420.h"
+#include "mscorlib_System_IntPtr676692020.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Editor_EditorFaceb797496352.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ComponentFactory_I479951937.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ComponentFactory3038429004.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Canvas_CanvasFace3729715412.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFac2859244156.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An2764161972.h"
+#include "mscorlib_System_NotImplementedException1091014741.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2634519556.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_OGActionType648209511.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2757548155.h"
+#include "mscorlib_System_Nullable_1_gen3534247419MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen1438485399.h"
+#include "mscorlib_System_Nullable_1_gen3534247419.h"
+#include "System_System_Uri2776692961.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_1384006650.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_HttpMethod969347464.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2979309097.h"
+#include "mscorlib_System_ArgumentNullException3214793280MethodDeclarations.h"
+#include "mscorlib_System_ArgumentNullException3214793280.h"
+#include "UnityEngine_UnityEngine_WWWForm3999572776.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_3690308374.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2288646710.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_1900386660.h"
+#include "mscorlib_System_Nullable_1_gen3844246929.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2474804324.h"
+#include "mscorlib_System_Single958209021.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Editor_EditorFace3556858413.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Editor_EditorFace3556858413MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Canvas_CanvasFaceb943264545MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Canvas_CanvasFaceb943264545.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFac2693359753MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFac2693359753.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An1604313921MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An1604313921.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_Android803262031.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_Android803262031MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_Canvas2011128184.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_Canvas2011128184MethodDeclarations.h"
+#include "mscorlib_System_InvalidOperationException2420574324MethodDeclarations.h"
+#include "mscorlib_System_InvalidOperationException2420574324.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2840116163.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_CompiledFacebo1549770122.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_CompiledFacebo1549770122MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MonoBehaviour3012272455MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookGameObjec2636547894MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookGameObjec2636547894.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_Mobile2309979330.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FB_Mobile2309979330MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ShareDialogMode698979849.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_1573598949.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2422421107.h"
+#include "mscorlib_System_AsyncCallback1363551830.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_GraphResult1509843146.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_GraphResult1509843146MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WWW1522972100.h"
+#include "UnityEngine_UnityEngine_WWW1522972100MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ResultBase3940793997MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ResultBase3940793997.h"
+#include "UnityEngine_UnityEngine_Texture2D2509538522.h"
+#include "AssemblyU2DCSharp_Facebook_MiniJSON_Json699972005MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_GroupCreateResult1424122391.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_GroupCreateResult1424122391MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Utilities1403571401MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Utilities1403571401.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_GroupJoinResult4173281157.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_GroupJoinResult4173281157MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_HideUnityDelegate2364798903MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_HttpMethod969347464MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_InitDelegate1475272884MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_LoginResult1165053605.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_LoginResult1165053605MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AccessToken3144904884.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodArguments3878806324.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodArguments3878806324MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2474804324MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2606186806.h"
+#include "System_System_Uri2776692961MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2606186806MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21963335622MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_21963335622.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_FBJ283972646MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_CallbackManager1943358823MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_FBJ283972646.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_CallbackManager1943358823.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_MobileFaceb974549177MethodDeclarations.h"
+#include "mscorlib_System_Boolean211005341MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookBase2319813814MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An3988932780MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An3988932780.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookBase2319813814.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_And659697603MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodCall_1_gen3282545496MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_And659697603.h"
+#include "System_Core_System_Linq_Enumerable4285654829MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_And782726202MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodCall_1_gen3405574095MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_And782726202.h"
+#include "System_Core_System_Linq_Enumerable4285654829.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An2893744292MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodCall_1_gen1221624889MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An2893744292.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An3704151993MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodCall_1_gen2032032590MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An3704151993.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_And313824757MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodCall_1_gen2936672650MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_And313824757.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An4220532003MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodCall_1_gen2548412600MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An4220532003.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An1715486421MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodCall_1_gen43367018MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An1715486421.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_And447599154MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_MethodCall_1_gen3070447047MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_And447599154.h"
+#include "mscorlib_System_Enum2778772662MethodDeclarations.h"
+#include "mscorlib_System_Enum2778772662.h"
+#include "mscorlib_ArrayTypes.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An2900811506.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An2900811506MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_MobileFace2980575402MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_An2764161972MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_FB1802702567MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_FB1802702567.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_FB1081769508.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_Android_FB1081769508MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSWra1868543644MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSWra1868543644.h"
+#include "mscorlib_System_Nullable_1_gen1438485399MethodDeclarations.h"
+#include "mscorlib_System_Convert1097883944MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen3844246929MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFace802211981MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFace802211981.h"
+#include "mscorlib_System_Double534516614.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E2241832265MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E2241832265.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E2373214747MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_22094718104MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_22094718104.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_E2373214747.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFace976827903.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFace976827903MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFac1556084410.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFac1556084410MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_IOS_IOSFac2859244156MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_MobileFaceb974549177.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AppLinkResult1305020279MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AppLinkResult1305020279.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AppRequestResult2113826026MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AppRequestResult2113826026.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AppInviteResult2846493446MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AppInviteResult2846493446.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ShareResult4209507995MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ShareResult4209507995.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AccessTokenRefres3098485730MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AccessToken3144904884MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_AccessTokenRefres3098485730.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_Mobile_MobileFace2980575402.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_OGActionType648209511MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_PayResult3664338084.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_PayResult3664338084MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen3097043249MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen3097043249.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_ShareDialogMode698979849MethodDeclarations.h"
+#include "mscorlib_System_DateTime339033936.h"
+#include "mscorlib_System_Int642847414882.h"
+#include "mscorlib_System_DateTime339033936MethodDeclarations.h"
+#include "mscorlib_System_TimeSpan763862892MethodDeclarations.h"
+#include "mscorlib_System_TimeSpan763862892.h"
+#include "mscorlib_System_Globalization_CultureInfo3603717042MethodDeclarations.h"
+#include "mscorlib_System_Globalization_CultureInfo3603717042.h"
+#include "mscorlib_System_Nullable_1_gen3225071844.h"
+#include "mscorlib_System_Int322847414787MethodDeclarations.h"
+#include "mscorlib_System_Nullable_1_gen3225071844MethodDeclarations.h"
+#include "System_Core_System_Func_2_gen2267165834MethodDeclarations.h"
+#include "mscorlib_System_Char2778706699.h"
+#include "System_Core_System_Func_2_gen2267165834.h"
+#include "AssemblyU2DCSharp_FBAppEvents1786942782.h"
+#include "AssemblyU2DCSharp_FBAppEvents1786942782MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBGraph3954302450.h"
+#include "AssemblyU2DCSharp_FBGraph3954302450MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2979309097MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Debug1588791936MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GraphUtil830336592MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1918174889MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GameStateManager648042254.h"
+#include "AssemblyU2DCSharp_GameStateManager648042254MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1918174889.h"
+#include "UnityEngine_UnityEngine_Texture1769722184.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1634065389.h"
+#include "mscorlib_System_Collections_Generic_List_1_gen1634065389MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4014815677MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBGraph_U3CHandleScoresDataU3Ec_3812237338MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_List_1_Enumera4014815677.h"
+#include "AssemblyU2DCSharp_FBGraph_U3CHandleScoresDataU3Ec_3812237338.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3407420088.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g3407420088MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBGraph_U3CLoadFriendImgFromIDU33816473940MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBGraph_U3CLoadFriendImgFromIDU33816473940.h"
+#include "AssemblyU2DCSharp_FBLogin3958836237.h"
+#include "AssemblyU2DCSharp_FBLogin3958836237MethodDeclarations.h"
+#include "System_Core_System_Action437523947.h"
+#include "AssemblyU2DCSharp_FBLogin_U3CPromptForLoginU3Ec__A3902140173MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2634519556MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBLogin_U3CPromptForLoginU3Ec__A3902140173.h"
+#include "AssemblyU2DCSharp_FBLogin_U3CPromptForPublishU3Ec_4030531316MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBLogin_U3CPromptForPublishU3Ec_4030531316.h"
+#include "System_Core_System_Action437523947MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBManager3888485201.h"
+#include "AssemblyU2DCSharp_FBManager3888485201MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Time1525492538MethodDeclarations.h"
+#include "AssemblyU2DCSharp_LoginFB2006997445MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBRequest4148917811.h"
+#include "AssemblyU2DCSharp_FBRequest4148917811MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2757548155MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PopupScript2200872055MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBShare3965086851.h"
+#include "AssemblyU2DCSharp_FBShare3965086851MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_1384006650MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBShare_U3CPostScoreU3Ec__AnonSto747449093MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FBShare_U3CPostScoreU3Ec__AnonSto747449093.h"
+#include "AssemblyU2DCSharp_Flashing1690224146.h"
+#include "AssemblyU2DCSharp_Flashing1690224146MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Component2126946602MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GameObject4012695102MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FlashingP857341054.h"
+#include "UnityEngine_UnityEngine_GameObject4012695102.h"
+#include "UnityEngine_UnityEngine_Renderer1092684080.h"
+#include "UnityEngine_UnityEngine_Coroutine2246592261.h"
+#include "AssemblyU2DCSharp_Flashing_U3CFlashingCubeU3Ec__It3584501237MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Flashing_U3CFlashingCubeU3Ec__It3584501237.h"
+#include "UnityEngine_UnityEngine_Renderer1092684080MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Color1588175760MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Material1886596500MethodDeclarations.h"
+#include "mscorlib_System_UInt32985925326.h"
+#include "UnityEngine_UnityEngine_Material1886596500.h"
+#include "UnityEngine_UnityEngine_Color1588175760.h"
+#include "mscorlib_System_NotSupportedException1374155497MethodDeclarations.h"
+#include "mscorlib_System_NotSupportedException1374155497.h"
+#include "AssemblyU2DCSharp_FlashingP857341054MethodDeclarations.h"
+#include "AssemblyU2DCSharp_FriendMarker4012634264.h"
+#include "AssemblyU2DCSharp_FriendMarker4012634264MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Random3963434288MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_MeshRenderer1217738301.h"
+#include "AssemblyU2DCSharp_GameResources3628012083.h"
+#include "UnityEngine_ArrayTypes.h"
+#include "AssemblyU2DCSharp_FSPlayer484114958.h"
+#include "AssemblyU2DCSharp_FSPlayer484114958MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Input1593691127MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_KeyCode2371581209.h"
+#include "UnityEngine_UnityEngine_Collider955670625.h"
+#include "UnityEngine_UnityEngine_Vector33525329789MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform284553113MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Transform284553113.h"
+#include "UnityEngine_UnityEngine_Vector33525329789.h"
+#include "UnityEngine_UnityEngine_Screen3994030297MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rect1525428817MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUI_WindowFunction999919624MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_GUI1522956648MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Rect1525428817.h"
+#include "UnityEngine_UnityEngine_GUI_WindowFunction999919624.h"
+#include "UnityEngine_UnityEngine_RenderSettings100441158MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Light1596303683.h"
+#include "AssemblyU2DCSharp_GameManager2369589051.h"
+#include "AssemblyU2DCSharp_GameManager2369589051MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Singleton_1_gen2622404444MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GameMenu2590240913.h"
+#include "AssemblyU2DCSharp_GameMenu2590240913MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Application450040189MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Selectable3621744255MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Button990034267.h"
+#include "AssemblyU2DCSharp_LeaderBoardElement3363596543MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_ScrollRect1048578170MethodDeclarations.h"
+#include "AssemblyU2DCSharp_LeaderBoardElement3363596543.h"
+#include "UnityEngine_UI_UnityEngine_UI_ScrollRect1048578170.h"
+#include "AssemblyU2DCSharp_GameResources3628012083MethodDeclarations.h"
+#include "mscorlib_System_Type2779229935.h"
+#include "AssemblyU2DCSharp_GameStateManager_InstanceStep3721597217MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GameStateManager_InstanceStep3721597217.h"
+#include "mscorlib_System_Runtime_Serialization_Formatters_Bi341659722MethodDeclarations.h"
+#include "mscorlib_System_IO_File2029342275MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GameStateManager_PlayerData4088824395MethodDeclarations.h"
+#include "mscorlib_System_Runtime_Serialization_Formatters_Bi341659722.h"
+#include "mscorlib_System_IO_FileStream1527309539.h"
+#include "AssemblyU2DCSharp_GameStateManager_PlayerData4088824395.h"
+#include "mscorlib_System_IO_Stream219029575.h"
+#include "mscorlib_System_IO_Stream219029575MethodDeclarations.h"
+#include "mscorlib_System_IO_FileMode1356058118.h"
+#include "AssemblyU2DCSharp_GameUI2125598246.h"
+#include "AssemblyU2DCSharp_GameUI2125598246MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text3286458198.h"
+#include "UnityEngine_UI_UnityEngine_UI_Text3286458198MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_RawImage3831555132MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_RawImage3831555132.h"
+#include "AssemblyU2DCSharp_GetIndexCube3641666961.h"
+#include "AssemblyU2DCSharp_GetIndexCube3641666961MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GraphUtil830336592.h"
+#include "AssemblyU2DCSharp_Coroutiner960066746MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GraphUtil_U3CLoadImgEnumeratorU32914255066MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GraphUtil_U3CLoadImgEnumeratorU32914255066.h"
+#include "AssemblyU2DCSharp_GravityTest2735471584.h"
+#include "AssemblyU2DCSharp_GravityTest2735471584MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Physics2601443956MethodDeclarations.h"
+#include "AssemblyU2DCSharp_GroundEffect3883356696.h"
+#include "AssemblyU2DCSharp_GroundEffect3883356696MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Quaternion1891715979MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Quaternion1891715979.h"
+#include "AssemblyU2DCSharp_Ideas70496316.h"
+#include "AssemblyU2DCSharp_Ideas70496316MethodDeclarations.h"
+#include "AssemblyU2DCSharp_LoadingTextAnimation1922161947.h"
+#include "AssemblyU2DCSharp_LoadingTextAnimation1922161947MethodDeclarations.h"
+#include "System_System_Collections_Generic_Queue_1_gen2676576442MethodDeclarations.h"
+#include "System_System_Collections_Generic_Queue_1_gen2676576442.h"
+#include "AssemblyU2DCSharp_LoadingTextAnimation_U3CRotateTe4098359420MethodDeclarations.h"
+#include "AssemblyU2DCSharp_LoadingTextAnimation_U3CRotateTe4098359420.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds1291133240MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForSeconds1291133240.h"
+#include "AssemblyU2DCSharp_LoginFB2006997445.h"
+#include "AssemblyU2DCSharp_MainCube55713198.h"
+#include "AssemblyU2DCSharp_MainCube55713198MethodDeclarations.h"
+#include "AssemblyU2DCSharp_MainCubeP1727109218.h"
+#include "AssemblyU2DCSharp_MainCube_U3CStartToRotateU3Ec__It702441935MethodDeclarations.h"
+#include "AssemblyU2DCSharp_MainCube_U3CStartToRotateU3Ec__It702441935.h"
+#include "AssemblyU2DCSharp_MainCube_U3CStartToMoveU3Ec__Itera64970246MethodDeclarations.h"
+#include "AssemblyU2DCSharp_MainCube_U3CStartToMoveU3Ec__Itera64970246.h"
+#include "UnityEngine_UnityEngine_Space1602970931.h"
+#include "AssemblyU2DCSharp_MainCubeP1727109218MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ManagerFB1530265865.h"
+#include "AssemblyU2DCSharp_ManagerFB1530265865MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ManagerFB_U3CTakeScreenshotU3Ec__564136571MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ManagerFB_U3CTakeScreenshotU3Ec__564136571.h"
+#include "UnityEngine_UnityEngine_WaitForEndOfFrame1917318876MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture2D2509538522MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WWWForm3999572776MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_WaitForEndOfFrame1917318876.h"
+#include "UnityEngine_UnityEngine_TextureFormat2239483167.h"
+#include "mscorlib_System_Byte2778693821.h"
+#include "AssemblyU2DCSharp_MoveTowadsTest477145943.h"
+#include "AssemblyU2DCSharp_MoveTowadsTest477145943MethodDeclarations.h"
+#include "AssemblyU2DCSharp_MoveTowadsTest_U3CMoveU3Ec__Iter3571380979MethodDeclarations.h"
+#include "AssemblyU2DCSharp_MoveTowadsTest_U3CMoveU3Ec__Iter3571380979.h"
+#include "AssemblyU2DCSharp_Orbit76451882.h"
+#include "AssemblyU2DCSharp_Orbit76451882MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PanelManager2965005609.h"
+#include "AssemblyU2DCSharp_PanelManager2965005609MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Animator792326996MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Animator792326996.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventSystem409518532MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_EventSystem409518532.h"
+#include "UnityEngine.UI_ArrayTypes.h"
+#include "UnityEngine_UI_UnityEngine_UI_Selectable3621744255.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour644839684MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour644839684.h"
+#include "AssemblyU2DCSharp_PanelManager_U3CDisablePanelDele3135294687MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PanelManager_U3CDisablePanelDele3135294687.h"
+#include "UnityEngine_UnityEngine_AnimatorStateInfo4162640357MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AnimatorStateInfo4162640357.h"
+#include "AssemblyU2DCSharp_ParticeDeactivate2500325420.h"
+#include "AssemblyU2DCSharp_ParticeDeactivate2500325420MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ParticleP203653738.h"
+#include "AssemblyU2DCSharp_ParticleP203653738MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Pause76887510.h"
+#include "AssemblyU2DCSharp_Pause76887510MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ShowPanels2673010796.h"
+#include "UnityEngine_UnityEngine_Component2126946602.h"
+#include "AssemblyU2DCSharp_StartOptions3075365884.h"
+#include "AssemblyU2DCSharp_ShowPanels2673010796MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PaymentDialog1790062286.h"
+#include "AssemblyU2DCSharp_PaymentDialog1790062286MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2319142109MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_g2319142109.h"
+#include "AssemblyU2DCSharp_PaymentDialog_BombPackage1732402980.h"
+#include "AssemblyU2DCSharp_PaymentDialog_BombPackage1732402980MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PlayerMaterials2277059115.h"
+#include "AssemblyU2DCSharp_PlayerMaterials2277059115MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PlayerScaler4190867145.h"
+#include "AssemblyU2DCSharp_PlayerScaler4190867145MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Ball_ActionScaling4098096209MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Ball2062879MethodDeclarations.h"
+#include "AssemblyU2DCSharp_Ball_ActionScaling4098096209.h"
+#include "AssemblyU2DCSharp_ScallerP3467974258.h"
+#include "AssemblyU2DCSharp_UpdateScore1082839849.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CScalePlayerU3Ec_1940037668MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CScalePlayerU3Ec_1940037668.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CTimeCounterU3Ec_2950974153MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CTimeCounterU3Ec_2950974153.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CScaleBackU3Ec__I3914306348MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PlayerScaler_U3CScaleBackU3Ec__I3914306348.h"
+#include "AssemblyU2DCSharp_UpdateScore1082839849MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PlayMusic109867825.h"
+#include "AssemblyU2DCSharp_PlayMusic109867825MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioSource3628549054.h"
+#include "UnityEngine_UnityEngine_SceneManagement_SceneManag1523288937MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SceneManagement_Scene2772977204MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_AudioSource3628549054MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_SceneManagement_Scene2772977204.h"
+#include "UnityEngine_UnityEngine_AudioClip3714538611.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixerSnapshot3013571836MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Audio_AudioMixerSnapshot3013571836.h"
+#include "AssemblyU2DCSharp_PopupScript2200872055.h"
+#include "AssemblyU2DCSharp_PopupScript_U3CClearPopupU3Ec__It766619814MethodDeclarations.h"
+#include "AssemblyU2DCSharp_PopupScript_U3CClearPopupU3Ec__It766619814.h"
+#include "AssemblyU2DCSharp_QuitApplication3105098593.h"
+#include "AssemblyU2DCSharp_QuitApplication3105098593MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ResizePanel788198800.h"
+#include "AssemblyU2DCSharp_ResizePanel788198800MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector23525329788MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Vector23525329788.h"
+#include "UnityEngine_UnityEngine_RectTransform3317474837.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve3205101634.h"
+#include "UnityEngine_UnityEngine_RectTransform3317474837MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_EventSystems_PointerEve3205101634MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_RectTransformUtility2895919825MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Camera3533968274.h"
+#include "UnityEngine_UnityEngine_Mathf1597001355MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ScallerP3467974258MethodDeclarations.h"
+#include "AssemblyU2DCSharp_ScrollDetailTexture3150826909.h"
+#include "AssemblyU2DCSharp_ScrollDetailTexture3150826909MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Image3354615620.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic933884113MethodDeclarations.h"
+#include "UnityEngine_UI_UnityEngine_UI_Graphic933884113.h"
+#include "UnityEngine_UnityEngine_HideFlags62234258.h"
+
+// !!0 UnityEngine.ScriptableObject::CreateInstance<System.Object>()
+extern "C"  Object_t * ScriptableObject_CreateInstance_TisObject_t_m1931564230_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define ScriptableObject_CreateInstance_TisObject_t_m1931564230(__this /* static, unused */, method) ((  Object_t * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m1931564230_gshared)(__this /* static, unused */, method)
+// !!0 UnityEngine.ScriptableObject::CreateInstance<Facebook.Unity.FacebookSettings>()
+#define ScriptableObject_CreateInstance_TisFacebookSettings_t2175192840_m1596493626(__this /* static, unused */, method) ((  FacebookSettings_t2175192840 * (*) (Object_t * /* static, unused */, const MethodInfo*))ScriptableObject_CreateInstance_TisObject_t_m1931564230_gshared)(__this /* static, unused */, method)
+// !!0 Facebook.Unity.ComponentFactory::GetComponent<System.Object>(Facebook.Unity.ComponentFactory/IfNotExist)
+extern "C"  Object_t * ComponentFactory_GetComponent_TisObject_t_m1118224849_gshared (Object_t * __this /* static, unused */, int32_t p0, const MethodInfo* method);
+#define ComponentFactory_GetComponent_TisObject_t_m1118224849(__this /* static, unused */, p0, method) ((  Object_t * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))ComponentFactory_GetComponent_TisObject_t_m1118224849_gshared)(__this /* static, unused */, p0, method)
+// !!0 Facebook.Unity.ComponentFactory::GetComponent<Facebook.Unity.Editor.EditorFacebookLoader>(Facebook.Unity.ComponentFactory/IfNotExist)
+#define ComponentFactory_GetComponent_TisEditorFacebookLoader_t797496352_m3439964165(__this /* static, unused */, p0, method) ((  EditorFacebookLoader_t797496352 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))ComponentFactory_GetComponent_TisObject_t_m1118224849_gshared)(__this /* static, unused */, p0, method)
+// !!0 Facebook.Unity.ComponentFactory::GetComponent<Facebook.Unity.Canvas.CanvasFacebookLoader>(Facebook.Unity.ComponentFactory/IfNotExist)
+#define ComponentFactory_GetComponent_TisCanvasFacebookLoader_t3729715412_m317807205(__this /* static, unused */, p0, method) ((  CanvasFacebookLoader_t3729715412 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))ComponentFactory_GetComponent_TisObject_t_m1118224849_gshared)(__this /* static, unused */, p0, method)
+// !!0 Facebook.Unity.ComponentFactory::GetComponent<Facebook.Unity.Mobile.IOS.IOSFacebookLoader>(Facebook.Unity.ComponentFactory/IfNotExist)
+#define ComponentFactory_GetComponent_TisIOSFacebookLoader_t2859244156_m3874624469(__this /* static, unused */, p0, method) ((  IOSFacebookLoader_t2859244156 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))ComponentFactory_GetComponent_TisObject_t_m1118224849_gshared)(__this /* static, unused */, p0, method)
+// !!0 Facebook.Unity.ComponentFactory::GetComponent<Facebook.Unity.Mobile.Android.AndroidFacebookLoader>(Facebook.Unity.ComponentFactory/IfNotExist)
+#define ComponentFactory_GetComponent_TisAndroidFacebookLoader_t2764161972_m574759185(__this /* static, unused */, p0, method) ((  AndroidFacebookLoader_t2764161972 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))ComponentFactory_GetComponent_TisObject_t_m1118224849_gshared)(__this /* static, unused */, p0, method)
+// System.Boolean Facebook.Unity.Utilities::TryGetValue<System.Object>(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String,!!0&)
+extern "C"  bool Utilities_TryGetValue_TisObject_t_m1418666276_gshared (Object_t * __this /* static, unused */, Object_t* p0, String_t* p1, Object_t ** p2, const MethodInfo* method);
+#define Utilities_TryGetValue_TisObject_t_m1418666276(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Object_t * /* static, unused */, Object_t*, String_t*, Object_t **, const MethodInfo*))Utilities_TryGetValue_TisObject_t_m1418666276_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Boolean Facebook.Unity.Utilities::TryGetValue<System.String>(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String,!!0&)
+#define Utilities_TryGetValue_TisString_t_m1193705746(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Object_t * /* static, unused */, Object_t*, String_t*, String_t**, const MethodInfo*))Utilities_TryGetValue_TisObject_t_m1418666276_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 Facebook.Unity.Mobile.Android.IAndroidJavaClass::CallStatic<System.Object>(System.String)
+extern "C"  Object_t * IAndroidJavaClass_CallStatic_TisObject_t_m3564101036_gshared (Object_t * __this, String_t* p0, const MethodInfo* method);
+#define IAndroidJavaClass_CallStatic_TisObject_t_m3564101036(__this, p0, method) ((  Object_t * (*) (Object_t *, String_t*, const MethodInfo*))IAndroidJavaClass_CallStatic_TisObject_t_m3564101036_gshared)(__this, p0, method)
+// !!0 Facebook.Unity.Mobile.Android.IAndroidJavaClass::CallStatic<System.String>(System.String)
+#define IAndroidJavaClass_CallStatic_TisString_t_m2661594750(__this, p0, method) ((  String_t* (*) (Object_t *, String_t*, const MethodInfo*))IAndroidJavaClass_CallStatic_TisObject_t_m3564101036_gshared)(__this, p0, method)
+// System.Void Facebook.Unity.MethodArguments::AddNullablePrimitive<Facebook.Unity.OGActionType>(System.String,System.Nullable`1<!!0>)
+extern "C"  void MethodArguments_AddNullablePrimitive_TisOGActionType_t648209511_m3437439996_gshared (MethodArguments_t3878806324 * __this, String_t* p0, Nullable_1_t3534247419  p1, const MethodInfo* method);
+#define MethodArguments_AddNullablePrimitive_TisOGActionType_t648209511_m3437439996(__this, p0, p1, method) ((  void (*) (MethodArguments_t3878806324 *, String_t*, Nullable_1_t3534247419 , const MethodInfo*))MethodArguments_AddNullablePrimitive_TisOGActionType_t648209511_m3437439996_gshared)(__this, p0, p1, method)
+// System.Boolean System.Linq.Enumerable::Any<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  bool Enumerable_Any_TisObject_t_m3411867191_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
+#define Enumerable_Any_TisObject_t_m3411867191(__this /* static, unused */, p0, method) ((  bool (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_Any_TisObject_t_m3411867191_gshared)(__this /* static, unused */, p0, method)
+// !!0 System.Linq.Enumerable::First<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  Object_t * Enumerable_First_TisObject_t_m4153369996_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
+#define Enumerable_First_TisObject_t_m4153369996(__this /* static, unused */, p0, method) ((  Object_t * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_First_TisObject_t_m4153369996_gshared)(__this /* static, unused */, p0, method)
+// System.Void Facebook.Unity.MethodArguments::AddNullablePrimitive<System.Int32>(System.String,System.Nullable`1<!!0>)
+extern "C"  void MethodArguments_AddNullablePrimitive_TisInt32_t2847414787_m244358048_gshared (MethodArguments_t3878806324 * __this, String_t* p0, Nullable_1_t1438485399  p1, const MethodInfo* method);
+#define MethodArguments_AddNullablePrimitive_TisInt32_t2847414787_m244358048(__this, p0, p1, method) ((  void (*) (MethodArguments_t3878806324 *, String_t*, Nullable_1_t1438485399 , const MethodInfo*))MethodArguments_AddNullablePrimitive_TisInt32_t2847414787_m244358048_gshared)(__this, p0, p1, method)
+// System.Void Facebook.Unity.MethodArguments::AddNullablePrimitive<System.Single>(System.String,System.Nullable`1<!!0>)
+extern "C"  void MethodArguments_AddNullablePrimitive_TisSingle_t958209021_m3080769822_gshared (MethodArguments_t3878806324 * __this, String_t* p0, Nullable_1_t3844246929  p1, const MethodInfo* method);
+#define MethodArguments_AddNullablePrimitive_TisSingle_t958209021_m3080769822(__this, p0, p1, method) ((  void (*) (MethodArguments_t3878806324 *, String_t*, Nullable_1_t3844246929 , const MethodInfo*))MethodArguments_AddNullablePrimitive_TisSingle_t958209021_m3080769822_gshared)(__this, p0, p1, method)
+// System.Void Facebook.Unity.MethodArguments::AddPrimative<System.Single>(System.String,!!0)
+extern "C"  void MethodArguments_AddPrimative_TisSingle_t958209021_m1933420324_gshared (MethodArguments_t3878806324 * __this, String_t* p0, float p1, const MethodInfo* method);
+#define MethodArguments_AddPrimative_TisSingle_t958209021_m1933420324(__this, p0, p1, method) ((  void (*) (MethodArguments_t3878806324 *, String_t*, float, const MethodInfo*))MethodArguments_AddPrimative_TisSingle_t958209021_m1933420324_gshared)(__this, p0, p1, method)
+// !!0 Facebook.Unity.ComponentFactory::GetComponent<Facebook.Unity.Mobile.Android.AndroidFacebookGameObject>(Facebook.Unity.ComponentFactory/IfNotExist)
+#define ComponentFactory_GetComponent_TisAndroidFacebookGameObject_t2900811506_m2785260691(__this /* static, unused */, p0, method) ((  AndroidFacebookGameObject_t2900811506 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))ComponentFactory_GetComponent_TisObject_t_m1118224849_gshared)(__this /* static, unused */, p0, method)
+// System.Int32 Facebook.Unity.Mobile.IOS.IOSFacebook::AddCallback<System.Object>(Facebook.Unity.FacebookDelegate`1<!!0>)
+extern "C"  int32_t IOSFacebook_AddCallback_TisObject_t_m2292285467_gshared (IOSFacebook_t2693359753 * __this, FacebookDelegate_1_t1473468476 * p0, const MethodInfo* method);
+#define IOSFacebook_AddCallback_TisObject_t_m2292285467(__this, p0, method) ((  int32_t (*) (IOSFacebook_t2693359753 *, FacebookDelegate_1_t1473468476 *, const MethodInfo*))IOSFacebook_AddCallback_TisObject_t_m2292285467_gshared)(__this, p0, method)
+// System.Int32 Facebook.Unity.Mobile.IOS.IOSFacebook::AddCallback<Facebook.Unity.ILoginResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define IOSFacebook_AddCallback_TisILoginResult_t1998157500_m4157207771(__this, p0, method) ((  int32_t (*) (IOSFacebook_t2693359753 *, FacebookDelegate_1_t2634519556 *, const MethodInfo*))IOSFacebook_AddCallback_TisObject_t_m2292285467_gshared)(__this, p0, method)
+// System.Int32 Facebook.Unity.Mobile.IOS.IOSFacebook::AddCallback<Facebook.Unity.IAppRequestResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define IOSFacebook_AddCallback_TisIAppRequestResult_t2121186099_m4185702968(__this, p0, method) ((  int32_t (*) (IOSFacebook_t2693359753 *, FacebookDelegate_1_t2757548155 *, const MethodInfo*))IOSFacebook_AddCallback_TisObject_t_m2292285467_gshared)(__this, p0, method)
+// !!0[] System.Linq.Enumerable::ToArray<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  ObjectU5BU5D_t11523773* Enumerable_ToArray_TisObject_t_m1195909660_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
+#define Enumerable_ToArray_TisObject_t_m1195909660(__this /* static, unused */, p0, method) ((  ObjectU5BU5D_t11523773* (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToArray_TisObject_t_m1195909660_gshared)(__this /* static, unused */, p0, method)
+// !!0[] System.Linq.Enumerable::ToArray<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_ToArray_TisString_t_m2199204590(__this /* static, unused */, p0, method) ((  StringU5BU5D_t2956870243* (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToArray_TisObject_t_m1195909660_gshared)(__this /* static, unused */, p0, method)
+// System.Int32 System.Linq.Enumerable::Count<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  int32_t Enumerable_Count_TisObject_t_m1136236352_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
+#define Enumerable_Count_TisObject_t_m1136236352(__this /* static, unused */, p0, method) ((  int32_t (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_Count_TisObject_t_m1136236352_gshared)(__this /* static, unused */, p0, method)
+// System.Int32 System.Linq.Enumerable::Count<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_Count_TisString_t_m2139531282(__this /* static, unused */, p0, method) ((  int32_t (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_Count_TisObject_t_m1136236352_gshared)(__this /* static, unused */, p0, method)
+// System.Int32 Facebook.Unity.Mobile.IOS.IOSFacebook::AddCallback<Facebook.Unity.IAppInviteResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define IOSFacebook_AddCallback_TisIAppInviteResult_t4232204189_m1232169498(__this, p0, method) ((  int32_t (*) (IOSFacebook_t2693359753 *, FacebookDelegate_1_t573598949 *, const MethodInfo*))IOSFacebook_AddCallback_TisObject_t_m2292285467_gshared)(__this, p0, method)
+// System.Int32 Facebook.Unity.Mobile.IOS.IOSFacebook::AddCallback<Facebook.Unity.IShareResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define IOSFacebook_AddCallback_TisIShareResult_t747644594_m2846175653(__this, p0, method) ((  int32_t (*) (IOSFacebook_t2693359753 *, FacebookDelegate_1_t1384006650 *, const MethodInfo*))IOSFacebook_AddCallback_TisObject_t_m2292285467_gshared)(__this, p0, method)
+// System.Int32 Facebook.Unity.Mobile.IOS.IOSFacebook::AddCallback<Facebook.Unity.IGroupCreateResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define IOSFacebook_AddCallback_TisIGroupCreateResult_t1652284654_m1399368297(__this, p0, method) ((  int32_t (*) (IOSFacebook_t2693359753 *, FacebookDelegate_1_t2288646710 *, const MethodInfo*))IOSFacebook_AddCallback_TisObject_t_m2292285467_gshared)(__this, p0, method)
+// System.String Facebook.Unity.CallbackManager::AddFacebookDelegate<System.Object>(Facebook.Unity.FacebookDelegate`1<!!0>)
+extern "C"  String_t* CallbackManager_AddFacebookDelegate_TisObject_t_m3982619062_gshared (CallbackManager_t1943358823 * __this, FacebookDelegate_1_t1473468476 * p0, const MethodInfo* method);
+#define CallbackManager_AddFacebookDelegate_TisObject_t_m3982619062(__this, p0, method) ((  String_t* (*) (CallbackManager_t1943358823 *, FacebookDelegate_1_t1473468476 *, const MethodInfo*))CallbackManager_AddFacebookDelegate_TisObject_t_m3982619062_gshared)(__this, p0, method)
+// System.String Facebook.Unity.CallbackManager::AddFacebookDelegate<Facebook.Unity.IGroupJoinResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define CallbackManager_AddFacebookDelegate_TisIGroupJoinResult_t1264024604_m3059906902(__this, p0, method) ((  String_t* (*) (CallbackManager_t1943358823 *, FacebookDelegate_1_t1900386660 *, const MethodInfo*))CallbackManager_AddFacebookDelegate_TisObject_t_m3982619062_gshared)(__this, p0, method)
+// System.Int32 Facebook.Unity.Mobile.IOS.IOSFacebook::AddCallback<Facebook.Unity.IAppLinkResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define IOSFacebook_AddCallback_TisIAppLinkResult_t3053946318_m848437385(__this, p0, method) ((  int32_t (*) (IOSFacebook_t2693359753 *, FacebookDelegate_1_t3690308374 *, const MethodInfo*))IOSFacebook_AddCallback_TisObject_t_m2292285467_gshared)(__this, p0, method)
+// System.String Facebook.Unity.CallbackManager::AddFacebookDelegate<Facebook.Unity.IAppLinkResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define CallbackManager_AddFacebookDelegate_TisIAppLinkResult_t3053946318_m3911842852(__this, p0, method) ((  String_t* (*) (CallbackManager_t1943358823 *, FacebookDelegate_1_t3690308374 *, const MethodInfo*))CallbackManager_AddFacebookDelegate_TisObject_t_m3982619062_gshared)(__this, p0, method)
+// System.String Facebook.Unity.CallbackManager::AddFacebookDelegate<Facebook.Unity.IAccessTokenRefreshResult>(Facebook.Unity.FacebookDelegate`1<!!0>)
+#define CallbackManager_AddFacebookDelegate_TisIAccessTokenRefreshResult_t1786059051_m2978375365(__this, p0, method) ((  String_t* (*) (CallbackManager_t1943358823 *, FacebookDelegate_1_t2422421107 *, const MethodInfo*))CallbackManager_AddFacebookDelegate_TisObject_t_m3982619062_gshared)(__this, p0, method)
+// !!0 Facebook.Unity.ComponentFactory::GetComponent<Facebook.Unity.Mobile.IOS.IOSFacebookGameObject>(Facebook.Unity.ComponentFactory/IfNotExist)
+#define ComponentFactory_GetComponent_TisIOSFacebookGameObject_t1556084410_m3627328855(__this /* static, unused */, p0, method) ((  IOSFacebookGameObject_t1556084410 * (*) (Object_t * /* static, unused */, int32_t, const MethodInfo*))ComponentFactory_GetComponent_TisObject_t_m1118224849_gshared)(__this /* static, unused */, p0, method)
+// !!0 Facebook.Unity.Utilities::GetValueOrDefault<System.Object>(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String,System.Boolean)
+extern "C"  Object_t * Utilities_GetValueOrDefault_TisObject_t_m2901265107_gshared (Object_t * __this /* static, unused */, Object_t* p0, String_t* p1, bool p2, const MethodInfo* method);
+#define Utilities_GetValueOrDefault_TisObject_t_m2901265107(__this /* static, unused */, p0, p1, p2, method) ((  Object_t * (*) (Object_t * /* static, unused */, Object_t*, String_t*, bool, const MethodInfo*))Utilities_GetValueOrDefault_TisObject_t_m2901265107_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 Facebook.Unity.Utilities::GetValueOrDefault<System.String>(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String,System.Boolean)
+#define Utilities_GetValueOrDefault_TisString_t_m3652753729(__this /* static, unused */, p0, p1, p2, method) ((  String_t* (*) (Object_t * /* static, unused */, Object_t*, String_t*, bool, const MethodInfo*))Utilities_GetValueOrDefault_TisObject_t_m2901265107_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// !!0 Facebook.Unity.Utilities::GetValueOrDefault<System.Int64>(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String,System.Boolean)
+extern "C"  int64_t Utilities_GetValueOrDefault_TisInt64_t2847414882_m2605676553_gshared (Object_t * __this /* static, unused */, Object_t* p0, String_t* p1, bool p2, const MethodInfo* method);
+#define Utilities_GetValueOrDefault_TisInt64_t2847414882_m2605676553(__this /* static, unused */, p0, p1, p2, method) ((  int64_t (*) (Object_t * /* static, unused */, Object_t*, String_t*, bool, const MethodInfo*))Utilities_GetValueOrDefault_TisInt64_t2847414882_m2605676553_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Boolean Facebook.Unity.Utilities::TryGetValue<System.Collections.Generic.IEnumerable`1<System.Object>>(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String,!!0&)
+#define Utilities_TryGetValue_TisIEnumerable_1_t3709260776_m1055319641(__this /* static, unused */, p0, p1, p2, method) ((  bool (*) (Object_t * /* static, unused */, Object_t*, String_t*, Object_t**, const MethodInfo*))Utilities_TryGetValue_TisObject_t_m1418666276_gshared)(__this /* static, unused */, p0, p1, p2, method)
+// System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.Object>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
+extern "C"  Object_t* Enumerable_Select_TisObject_t_TisObject_t_m1162332302_gshared (Object_t * __this /* static, unused */, Object_t* p0, Func_2_t2135783352 * p1, const MethodInfo* method);
+#define Enumerable_Select_TisObject_t_TisObject_t_m1162332302(__this /* static, unused */, p0, p1, method) ((  Object_t* (*) (Object_t * /* static, unused */, Object_t*, Func_2_t2135783352 *, const MethodInfo*))Enumerable_Select_TisObject_t_TisObject_t_m1162332302_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<System.Object,System.String>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)
+#define Enumerable_Select_TisObject_t_TisString_t_m3843025788(__this /* static, unused */, p0, p1, method) ((  Object_t* (*) (Object_t * /* static, unused */, Object_t*, Func_2_t2267165834 *, const MethodInfo*))Enumerable_Select_TisObject_t_TisObject_t_m1162332302_gshared)(__this /* static, unused */, p0, p1, method)
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.Object>(System.Collections.Generic.IEnumerable`1<!!0>)
+extern "C"  List_1_t1634065389 * Enumerable_ToList_TisObject_t_m1075343207_gshared (Object_t * __this /* static, unused */, Object_t* p0, const MethodInfo* method);
+#define Enumerable_ToList_TisObject_t_m1075343207(__this /* static, unused */, p0, method) ((  List_1_t1634065389 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m1075343207_gshared)(__this /* static, unused */, p0, method)
+// System.Collections.Generic.List`1<!!0> System.Linq.Enumerable::ToList<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)
+#define Enumerable_ToList_TisString_t_m2078638137(__this /* static, unused */, p0, method) ((  List_1_t1765447871 * (*) (Object_t * /* static, unused */, Object_t*, const MethodInfo*))Enumerable_ToList_TisObject_t_m1075343207_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::GetComponentInChildren<System.Object>()
+extern "C"  Object_t * GameObject_GetComponentInChildren_TisObject_t_m782999868_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_GetComponentInChildren_TisObject_t_m782999868(__this, method) ((  Object_t * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m782999868_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponentInChildren<UnityEngine.Renderer>()
+#define GameObject_GetComponentInChildren_TisRenderer_t1092684080_m2582749319(__this, method) ((  Renderer_t1092684080 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m782999868_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<System.Object>()
+extern "C"  Object_t * GameObject_GetComponent_TisObject_t_m2447772384_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_GetComponent_TisObject_t_m2447772384(__this, method) ((  Object_t * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UnityEngine.MeshRenderer>()
+#define GameObject_GetComponent_TisMeshRenderer_t1217738301_m2686897910(__this, method) ((  MeshRenderer_t1217738301 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<GameResources>()
+#define GameObject_GetComponent_TisGameResources_t3628012083_m1453302350(__this, method) ((  GameResources_t3628012083 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>()
+extern "C"  ObjectU5BU5D_t11523773* GameObject_GetComponentsInChildren_TisObject_t_m3418406430_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_GetComponentsInChildren_TisObject_t_m3418406430(__this, method) ((  ObjectU5BU5D_t11523773* (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m3418406430_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.Transform>()
+#define GameObject_GetComponentsInChildren_TisTransform_t284553113_m3176567175(__this, method) ((  TransformU5BU5D_t3681339876* (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m3418406430_gshared)(__this, method)
+// !!0 UnityEngine.Object::Instantiate<System.Object>(!!0)
+extern "C"  Object_t * Object_Instantiate_TisObject_t_m3133387403_gshared (Object_t * __this /* static, unused */, Object_t * p0, const MethodInfo* method);
+#define Object_Instantiate_TisObject_t_m3133387403(__this /* static, unused */, p0, method) ((  Object_t * (*) (Object_t * /* static, unused */, Object_t *, const MethodInfo*))Object_Instantiate_TisObject_t_m3133387403_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.Object::Instantiate<UnityEngine.GameObject>(!!0)
+#define Object_Instantiate_TisGameObject_t4012695102_m3917608929(__this /* static, unused */, p0, method) ((  GameObject_t4012695102 * (*) (Object_t * /* static, unused */, GameObject_t4012695102 *, const MethodInfo*))Object_Instantiate_TisObject_t_m3133387403_gshared)(__this /* static, unused */, p0, method)
+// !!0 UnityEngine.GameObject::GetComponent<LeaderBoardElement>()
+#define GameObject_GetComponent_TisLeaderBoardElement_t3363596543_m2072448510(__this, method) ((  LeaderBoardElement_t3363596543 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<GameMenu>()
+#define GameObject_GetComponent_TisGameMenu_t2590240913_m90002092(__this, method) ((  GameMenu_t2590240913 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<System.Object>()
+extern "C"  Object_t * GameObject_AddComponent_TisObject_t_m337943659_gshared (GameObject_t4012695102 * __this, const MethodInfo* method);
+#define GameObject_AddComponent_TisObject_t_m337943659(__this, method) ((  Object_t * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m337943659_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::AddComponent<GameStateManager>()
+#define GameObject_AddComponent_TisGameStateManager_t648042254_m2479685540(__this, method) ((  GameStateManager_t648042254 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_AddComponent_TisObject_t_m337943659_gshared)(__this, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<System.Object>(System.Boolean)
+extern "C"  ObjectU5BU5D_t11523773* GameObject_GetComponentsInChildren_TisObject_t_m2662950677_gshared (GameObject_t4012695102 * __this, bool p0, const MethodInfo* method);
+#define GameObject_GetComponentsInChildren_TisObject_t_m2662950677(__this, p0, method) ((  ObjectU5BU5D_t11523773* (*) (GameObject_t4012695102 *, bool, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m2662950677_gshared)(__this, p0, method)
+// !!0[] UnityEngine.GameObject::GetComponentsInChildren<UnityEngine.UI.Selectable>(System.Boolean)
+#define GameObject_GetComponentsInChildren_TisSelectable_t3621744255_m3873478778(__this, p0, method) ((  SelectableU5BU5D_t3692422310* (*) (GameObject_t4012695102 *, bool, const MethodInfo*))GameObject_GetComponentsInChildren_TisObject_t_m2662950677_gshared)(__this, p0, method)
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+extern "C"  Object_t * Component_GetComponent_TisObject_t_m267839954_gshared (Component_t2126946602 * __this, const MethodInfo* method);
+#define Component_GetComponent_TisObject_t_m267839954(__this, method) ((  Object_t * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<ShowPanels>()
+#define Component_GetComponent_TisShowPanels_t2673010796_m873919769(__this, method) ((  ShowPanels_t2673010796 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<StartOptions>()
+#define Component_GetComponent_TisStartOptions_t3075365884_m1307270665(__this, method) ((  StartOptions_t3075365884 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.Renderer>()
+#define Component_GetComponent_TisRenderer_t1092684080_m2901511552(__this, method) ((  Renderer_t1092684080 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<ShowPanels>()
+#define GameObject_GetComponent_TisShowPanels_t2673010796_m3807132017(__this, method) ((  ShowPanels_t2673010796 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<UpdateScore>()
+#define GameObject_GetComponent_TisUpdateScore_t1082839849_m3827381784(__this, method) ((  UpdateScore_t1082839849 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.AudioSource>()
+#define Component_GetComponent_TisAudioSource_t3628549054_m3821406207(__this, method) ((  AudioSource_t3628549054 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.GameObject::GetComponent<PopupScript>()
+#define GameObject_GetComponent_TisPopupScript_t2200872055_m3653450250(__this, method) ((  PopupScript_t2200872055 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.RectTransform>()
+#define Component_GetComponent_TisRectTransform_t3317474837_m1940403147(__this, method) ((  RectTransform_t3317474837 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Image>()
+#define Component_GetComponent_TisImage_t3354615620_m3706520426(__this, method) ((  Image_t3354615620 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Facebook.Unity.FacebookSdkVersion::.ctor()
+extern "C"  void FacebookSdkVersion__ctor_m3482304262 (FacebookSdkVersion_t177573027 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Facebook.Unity.FacebookSdkVersion::get_Build()
+extern Il2CppCodeGenString* _stringLiteral52215487;
+extern const uint32_t FacebookSdkVersion_get_Build_m903783052_MetadataUsageId;
+extern "C"  String_t* FacebookSdkVersion_get_Build_m903783052 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FacebookSdkVersion_get_Build_m903783052_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		return _stringLiteral52215487;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::.ctor()
+extern TypeInfo* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t4208567320_il2cpp_TypeInfo_var;
+extern TypeInfo* UrlSchemes_t3411608351_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m1225639119_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral48;
+extern Il2CppCodeGenString* _stringLiteral1173157226;
+extern const uint32_t FacebookSettings__ctor_m2997216257_MetadataUsageId;
+extern "C"  void FacebookSettings__ctor_m2997216257 (FacebookSettings_t2175192840 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FacebookSettings__ctor_m2997216257_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1765447871 * V_0 = {0};
+	List_1_t4208567320 * V_1 = {0};
+	{
+		List_1_t1765447871 * L_0 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_0, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t1765447871 * L_1 = V_0;
+		NullCheck(L_1);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_1, _stringLiteral48);
+		List_1_t1765447871 * L_2 = V_0;
+		__this->___appIds_7 = L_2;
+		List_1_t1765447871 * L_3 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_3, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_0 = L_3;
+		List_1_t1765447871 * L_4 = V_0;
+		NullCheck(L_4);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_4, _stringLiteral1173157226);
+		List_1_t1765447871 * L_5 = V_0;
+		__this->___appLabels_8 = L_5;
+		__this->___cookie_9 = (bool)1;
+		__this->___logging_10 = (bool)1;
+		__this->___status_11 = (bool)1;
+		__this->___frictionlessRequests_13 = (bool)1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		__this->___iosURLSuffix_14 = L_6;
+		List_1_t4208567320 * L_7 = (List_1_t4208567320 *)il2cpp_codegen_object_new(List_1_t4208567320_il2cpp_TypeInfo_var);
+		List_1__ctor_m1225639119(L_7, /*hidden argument*/List_1__ctor_m1225639119_MethodInfo_var);
+		V_1 = L_7;
+		List_1_t4208567320 * L_8 = V_1;
+		UrlSchemes_t3411608351 * L_9 = (UrlSchemes_t3411608351 *)il2cpp_codegen_object_new(UrlSchemes_t3411608351_il2cpp_TypeInfo_var);
+		UrlSchemes__ctor_m2179351467(L_9, (List_1_t1765447871 *)NULL, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		VirtActionInvoker1< UrlSchemes_t3411608351 * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<Facebook.Unity.FacebookSettings/UrlSchemes>::Add(!0) */, L_8, L_9);
+		List_1_t4208567320 * L_10 = V_1;
+		__this->___appLinkSchemes_15 = L_10;
+		ScriptableObject__ctor_m1827087273(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Facebook.Unity.FacebookSettings::get_SelectedAppIndex()
+extern "C"  int32_t FacebookSettings_get_SelectedAppIndex_m2702524106 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = (L_0->___selectedAppIndex_6);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_SelectedAppIndex(System.Int32)
+extern "C"  void FacebookSettings_set_SelectedAppIndex_m3455114077 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = (L_0->___selectedAppIndex_6);
+		int32_t L_2 = ___value;
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___selectedAppIndex_6 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.List`1<System.String> Facebook.Unity.FacebookSettings::get_AppIds()
+extern "C"  List_1_t1765447871 * FacebookSettings_get_AppIds_m1080686386 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		List_1_t1765447871 * L_1 = (L_0->___appIds_7);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_AppIds(System.Collections.Generic.List`1<System.String>)
+extern "C"  void FacebookSettings_set_AppIds_m857909291 (Object_t * __this /* static, unused */, List_1_t1765447871 * ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		List_1_t1765447871 * L_1 = (L_0->___appIds_7);
+		List_1_t1765447871 * L_2 = ___value;
+		if ((((Object_t*)(List_1_t1765447871 *)L_1) == ((Object_t*)(List_1_t1765447871 *)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		List_1_t1765447871 * L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___appIds_7 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.List`1<System.String> Facebook.Unity.FacebookSettings::get_AppLabels()
+extern "C"  List_1_t1765447871 * FacebookSettings_get_AppLabels_m1790941479 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		List_1_t1765447871 * L_1 = (L_0->___appLabels_8);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_AppLabels(System.Collections.Generic.List`1<System.String>)
+extern "C"  void FacebookSettings_set_AppLabels_m344760438 (Object_t * __this /* static, unused */, List_1_t1765447871 * ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		List_1_t1765447871 * L_1 = (L_0->___appLabels_8);
+		List_1_t1765447871 * L_2 = ___value;
+		if ((((Object_t*)(List_1_t1765447871 *)L_1) == ((Object_t*)(List_1_t1765447871 *)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		List_1_t1765447871 * L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___appLabels_8 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.String Facebook.Unity.FacebookSettings::get_AppId()
+extern "C"  String_t* FacebookSettings_get_AppId_m3439719413 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		List_1_t1765447871 * L_0 = FacebookSettings_get_AppIds_m1080686386(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = FacebookSettings_get_SelectedAppIndex_m2702524106(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_2 = VirtFuncInvoker1< String_t*, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<System.String>::get_Item(System.Int32) */, L_0, L_1);
+		return L_2;
+	}
+}
+// System.Boolean Facebook.Unity.FacebookSettings::get_IsValidAppId()
+extern Il2CppCodeGenString* _stringLiteral48;
+extern const uint32_t FacebookSettings_get_IsValidAppId_m3077604802_MetadataUsageId;
+extern "C"  bool FacebookSettings_get_IsValidAppId_m3077604802 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FacebookSettings_get_IsValidAppId_m3077604802_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B4_0 = 0;
+	{
+		String_t* L_0 = FacebookSettings_get_AppId_m3439719413(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		String_t* L_1 = FacebookSettings_get_AppId_m3439719413(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int32_t L_2 = String_get_Length_m2979997331(L_1, /*hidden argument*/NULL);
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		String_t* L_3 = FacebookSettings_get_AppId_m3439719413(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		bool L_4 = String_Equals_m3541721061(L_3, _stringLiteral48, /*hidden argument*/NULL);
+		G_B4_0 = ((((int32_t)L_4) == ((int32_t)0))? 1 : 0);
+		goto IL_002f;
+	}
+
+IL_002e:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_002f:
+	{
+		return (bool)G_B4_0;
+	}
+}
+// System.Boolean Facebook.Unity.FacebookSettings::get_Cookie()
+extern "C"  bool FacebookSettings_get_Cookie_m3219234204 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___cookie_9);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_Cookie(System.Boolean)
+extern "C"  void FacebookSettings_set_Cookie_m1495918267 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___cookie_9);
+		bool L_2 = ___value;
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___cookie_9 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Boolean Facebook.Unity.FacebookSettings::get_Logging()
+extern "C"  bool FacebookSettings_get_Logging_m3300508745 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___logging_10);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_Logging(System.Boolean)
+extern "C"  void FacebookSettings_set_Logging_m1643759192 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___logging_10);
+		bool L_2 = ___value;
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___logging_10 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Boolean Facebook.Unity.FacebookSettings::get_Status()
+extern "C"  bool FacebookSettings_get_Status_m789854122 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___status_11);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_Status(System.Boolean)
+extern "C"  void FacebookSettings_set_Status_m818335817 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___status_11);
+		bool L_2 = ___value;
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___status_11 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Boolean Facebook.Unity.FacebookSettings::get_Xfbml()
+extern "C"  bool FacebookSettings_get_Xfbml_m3093062141 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___xfbml_12);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_Xfbml(System.Boolean)
+extern "C"  void FacebookSettings_set_Xfbml_m3967848204 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___xfbml_12);
+		bool L_2 = ___value;
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___xfbml_12 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.String Facebook.Unity.FacebookSettings::get_IosURLSuffix()
+extern "C"  String_t* FacebookSettings_get_IosURLSuffix_m1713929852 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1 = (L_0->___iosURLSuffix_14);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_IosURLSuffix(System.String)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t FacebookSettings_set_IosURLSuffix_m1956236015_MetadataUsageId;
+extern "C"  void FacebookSettings_set_IosURLSuffix_m1956236015 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FacebookSettings_set_IosURLSuffix_m1956236015_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		String_t* L_1 = (L_0->___iosURLSuffix_14);
+		String_t* L_2 = ___value;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_3 = String_op_Inequality_m2125462205(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_4 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_5 = ___value;
+		NullCheck(L_4);
+		L_4->___iosURLSuffix_14 = L_5;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0025:
+	{
+		return;
+	}
+}
+// System.String Facebook.Unity.FacebookSettings::get_ChannelUrl()
+extern Il2CppCodeGenString* _stringLiteral3263209317;
+extern const uint32_t FacebookSettings_get_ChannelUrl_m2155947925_MetadataUsageId;
+extern "C"  String_t* FacebookSettings_get_ChannelUrl_m2155947925 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FacebookSettings_get_ChannelUrl_m2155947925_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		return _stringLiteral3263209317;
+	}
+}
+// System.Boolean Facebook.Unity.FacebookSettings::get_FrictionlessRequests()
+extern "C"  bool FacebookSettings_get_FrictionlessRequests_m3264645807 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___frictionlessRequests_13);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_FrictionlessRequests(System.Boolean)
+extern "C"  void FacebookSettings_set_FrictionlessRequests_m2645536910 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = (L_0->___frictionlessRequests_13);
+		bool L_2 = ___value;
+		if ((((int32_t)L_1) == ((int32_t)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___frictionlessRequests_13 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.List`1<Facebook.Unity.FacebookSettings/UrlSchemes> Facebook.Unity.FacebookSettings::get_AppLinkSchemes()
+extern "C"  List_1_t4208567320 * FacebookSettings_get_AppLinkSchemes_m158869512 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		List_1_t4208567320 * L_1 = (L_0->___appLinkSchemes_15);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::set_AppLinkSchemes(System.Collections.Generic.List`1<Facebook.Unity.FacebookSettings/UrlSchemes>)
+extern "C"  void FacebookSettings_set_AppLinkSchemes_m1868360611 (Object_t * __this /* static, unused */, List_1_t4208567320 * ___value, const MethodInfo* method)
+{
+	{
+		FacebookSettings_t2175192840 * L_0 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		List_1_t4208567320 * L_1 = (L_0->___appLinkSchemes_15);
+		List_1_t4208567320 * L_2 = ___value;
+		if ((((Object_t*)(List_1_t4208567320 *)L_1) == ((Object_t*)(List_1_t4208567320 *)L_2)))
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_3 = FacebookSettings_get_Instance_m3698181432(NULL /*static, unused*/, /*hidden argument*/NULL);
+		List_1_t4208567320 * L_4 = ___value;
+		NullCheck(L_3);
+		L_3->___appLinkSchemes_15 = L_4;
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0020:
+	{
+		return;
+	}
+}
+// Facebook.Unity.FacebookSettings Facebook.Unity.FacebookSettings::get_Instance()
+extern TypeInfo* FacebookSettings_t2175192840_il2cpp_TypeInfo_var;
+extern const MethodInfo* ScriptableObject_CreateInstance_TisFacebookSettings_t2175192840_m1596493626_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3950434601;
+extern const uint32_t FacebookSettings_get_Instance_m3698181432_MetadataUsageId;
+extern "C"  FacebookSettings_t2175192840 * FacebookSettings_get_Instance_m3698181432 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FacebookSettings_get_Instance_m3698181432_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FacebookSettings_t2175192840 * L_0 = ((FacebookSettings_t2175192840_StaticFields*)FacebookSettings_t2175192840_il2cpp_TypeInfo_var->static_fields)->___instance_5;
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		Object_t3878351788 * L_2 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral3950434601, /*hidden argument*/NULL);
+		((FacebookSettings_t2175192840_StaticFields*)FacebookSettings_t2175192840_il2cpp_TypeInfo_var->static_fields)->___instance_5 = ((FacebookSettings_t2175192840 *)IsInstClass(L_2, FacebookSettings_t2175192840_il2cpp_TypeInfo_var));
+		FacebookSettings_t2175192840 * L_3 = ((FacebookSettings_t2175192840_StaticFields*)FacebookSettings_t2175192840_il2cpp_TypeInfo_var->static_fields)->___instance_5;
+		bool L_4 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_3, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		FacebookSettings_t2175192840 * L_5 = ScriptableObject_CreateInstance_TisFacebookSettings_t2175192840_m1596493626(NULL /*static, unused*/, /*hidden argument*/ScriptableObject_CreateInstance_TisFacebookSettings_t2175192840_m1596493626_MethodInfo_var);
+		((FacebookSettings_t2175192840_StaticFields*)FacebookSettings_t2175192840_il2cpp_TypeInfo_var->static_fields)->___instance_5 = L_5;
+	}
+
+IL_003e:
+	{
+		FacebookSettings_t2175192840 * L_6 = ((FacebookSettings_t2175192840_StaticFields*)FacebookSettings_t2175192840_il2cpp_TypeInfo_var->static_fields)->___instance_5;
+		return L_6;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::SettingsChanged()
+extern "C"  void FacebookSettings_SettingsChanged_m3557563504 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		FacebookSettings_DirtyEditor_m2866268862(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings::DirtyEditor()
+extern "C"  void FacebookSettings_DirtyEditor_m2866268862 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings/UrlSchemes::.ctor(System.Collections.Generic.List`1<System.String>)
+extern TypeInfo* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const uint32_t UrlSchemes__ctor_m2179351467_MetadataUsageId;
+extern "C"  void UrlSchemes__ctor_m2179351467 (UrlSchemes_t3411608351 * __this, List_1_t1765447871 * ___schemes, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (UrlSchemes__ctor_m2179351467_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	UrlSchemes_t3411608351 * G_B2_0 = {0};
+	UrlSchemes_t3411608351 * G_B1_0 = {0};
+	List_1_t1765447871 * G_B3_0 = {0};
+	UrlSchemes_t3411608351 * G_B3_1 = {0};
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		List_1_t1765447871 * L_0 = ___schemes;
+		G_B1_0 = __this;
+		if (L_0)
+		{
+			G_B2_0 = __this;
+			goto IL_0017;
+		}
+	}
+	{
+		List_1_t1765447871 * L_1 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_1, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		G_B3_0 = L_1;
+		G_B3_1 = G_B1_0;
+		goto IL_0018;
+	}
+
+IL_0017:
+	{
+		List_1_t1765447871 * L_2 = ___schemes;
+		G_B3_0 = L_2;
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0018:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___list_0 = G_B3_0;
+		return;
+	}
+}
+// System.Collections.Generic.List`1<System.String> Facebook.Unity.FacebookSettings/UrlSchemes::get_Schemes()
+extern "C"  List_1_t1765447871 * UrlSchemes_get_Schemes_m3902950665 (UrlSchemes_t3411608351 * __this, const MethodInfo* method)
+{
+	{
+		List_1_t1765447871 * L_0 = (__this->___list_0);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.FacebookSettings/UrlSchemes::set_Schemes(System.Collections.Generic.List`1<System.String>)
+extern "C"  void UrlSchemes_set_Schemes_m3056754714 (UrlSchemes_t3411608351 * __this, List_1_t1765447871 * ___value, const MethodInfo* method)
+{
+	{
+		List_1_t1765447871 * L_0 = ___value;
+		__this->___list_0 = L_0;
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::.ctor()
+extern "C"  void FB__ctor_m1320841742 (FB_t2519727771 * __this, const MethodInfo* method)
+{
+	{
+		ScriptableObject__ctor_m1827087273(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::.cctor()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3930141273;
+extern Il2CppCodeGenString* _stringLiteral3564867;
+extern const uint32_t FB__cctor_m1809292127_MetadataUsageId;
+extern "C"  void FB__cctor_m1809292127 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB__cctor_m1809292127_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebookDomain_5 = _stringLiteral3930141273;
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___graphApiVersion_6 = _stringLiteral3564867;
+		return;
+	}
+}
+// System.String Facebook.Unity.FB::get_AppId()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_get_AppId_m2778791106_MetadataUsageId;
+extern "C"  String_t* FB_get_AppId_m2778791106 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_get_AppId_m2778791106_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___U3CAppIdU3Ek__BackingField_7;
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.FB::set_AppId(System.String)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_set_AppId_m1534276087_MetadataUsageId;
+extern "C"  void FB_set_AppId_m1534276087 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_set_AppId_m1534276087_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___value;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___U3CAppIdU3Ek__BackingField_7 = L_0;
+		return;
+	}
+}
+// System.String Facebook.Unity.FB::get_GraphApiVersion()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_get_GraphApiVersion_m4202202290_MetadataUsageId;
+extern "C"  String_t* FB_get_GraphApiVersion_m4202202290 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_get_GraphApiVersion_m4202202290_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___graphApiVersion_6;
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.FB::set_GraphApiVersion(System.String)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_set_GraphApiVersion_m2407933767_MetadataUsageId;
+extern "C"  void FB_set_GraphApiVersion_m2407933767 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_set_GraphApiVersion_m2407933767_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___value;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___graphApiVersion_6 = L_0;
+		return;
+	}
+}
+// System.Boolean Facebook.Unity.FB::get_IsLoggedIn()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_get_IsLoggedIn_m2733743004_MetadataUsageId;
+extern "C"  bool FB_get_IsLoggedIn_m2733743004 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_get_IsLoggedIn_m2733743004_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B3_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_1 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		bool L_2 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean Facebook.Unity.IFacebook::get_LoggedIn() */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_1);
+		G_B3_0 = ((int32_t)(L_2));
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Boolean Facebook.Unity.FB::get_IsInitialized()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_get_IsInitialized_m24459329_MetadataUsageId;
+extern "C"  bool FB_get_IsInitialized_m24459329 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_get_IsInitialized_m24459329_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B3_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_1 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		NullCheck(L_1);
+		bool L_2 = InterfaceFuncInvoker0< bool >::Invoke(6 /* System.Boolean Facebook.Unity.IFacebook::get_Initialized() */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_1);
+		G_B3_0 = ((int32_t)(L_2));
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Boolean Facebook.Unity.FB::get_LimitAppEventUsage()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_get_LimitAppEventUsage_m754763064_MetadataUsageId;
+extern "C"  bool FB_get_LimitAppEventUsage_m754763064 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_get_LimitAppEventUsage_m754763064_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B3_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_1 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		NullCheck(L_1);
+		bool L_2 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean Facebook.Unity.IFacebook::get_LimitEventUsage() */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_1);
+		G_B3_0 = ((int32_t)(L_2));
+		goto IL_0017;
+	}
+
+IL_0016:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0017:
+	{
+		return (bool)G_B3_0;
+	}
+}
+// System.Void Facebook.Unity.FB::set_LimitAppEventUsage(System.Boolean)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_set_LimitAppEventUsage_m2204318807_MetadataUsageId;
+extern "C"  void FB_set_LimitAppEventUsage_m2204318807 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_set_LimitAppEventUsage_m2204318807_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_1 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		bool L_2 = ___value;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< bool >::Invoke(2 /* System.Void Facebook.Unity.IFacebook::set_LimitEventUsage(System.Boolean) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_1, L_2);
+	}
+
+IL_0015:
+	{
+		return;
+	}
+}
+// Facebook.Unity.IFacebook Facebook.Unity.FB::get_FacebookImpl()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* NullReferenceException_t3216235232_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1254327751;
+extern const uint32_t FB_get_FacebookImpl_m3249694518_MetadataUsageId;
+extern "C"  Object_t * FB_get_FacebookImpl_m3249694518 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_get_FacebookImpl_m3249694518_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		if (L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		NullReferenceException_t3216235232 * L_1 = (NullReferenceException_t3216235232 *)il2cpp_codegen_object_new(NullReferenceException_t3216235232_il2cpp_TypeInfo_var);
+		NullReferenceException__ctor_m2208732056(L_1, _stringLiteral1254327751, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0015:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_2 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		return L_2;
+	}
+}
+// System.Void Facebook.Unity.FB::set_FacebookImpl(Facebook.Unity.IFacebook)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_set_FacebookImpl_m2914967019_MetadataUsageId;
+extern "C"  void FB_set_FacebookImpl_m2914967019 (Object_t * __this /* static, unused */, Object_t * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_set_FacebookImpl_m2914967019_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = ___value;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3 = L_0;
+		return;
+	}
+}
+// System.String Facebook.Unity.FB::get_FacebookDomain()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_get_FacebookDomain_m592939942_MetadataUsageId;
+extern "C"  String_t* FB_get_FacebookDomain_m592939942 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_get_FacebookDomain_m592939942_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebookDomain_5;
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.FB::set_FacebookDomain(System.String)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_set_FacebookDomain_m2340323973_MetadataUsageId;
+extern "C"  void FB_set_FacebookDomain_m2340323973 (Object_t * __this /* static, unused */, String_t* ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_set_FacebookDomain_m2340323973_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___value;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebookDomain_5 = L_0;
+		return;
+	}
+}
+// Facebook.Unity.FB/OnDLLLoaded Facebook.Unity.FB::get_OnDLLLoadedDelegate()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_get_OnDLLLoadedDelegate_m1943792301_MetadataUsageId;
+extern "C"  OnDLLLoaded_t1601980106 * FB_get_OnDLLLoadedDelegate_m1943792301 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_get_OnDLLLoadedDelegate_m1943792301_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		OnDLLLoaded_t1601980106 * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___U3COnDLLLoadedDelegateU3Ek__BackingField_8;
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.FB::set_OnDLLLoadedDelegate(Facebook.Unity.FB/OnDLLLoaded)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FB_set_OnDLLLoadedDelegate_m3998643868_MetadataUsageId;
+extern "C"  void FB_set_OnDLLLoadedDelegate_m3998643868 (Object_t * __this /* static, unused */, OnDLLLoaded_t1601980106 * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_set_OnDLLLoadedDelegate_m3998643868_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		OnDLLLoaded_t1601980106 * L_0 = ___value;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___U3COnDLLLoadedDelegateU3Ek__BackingField_8 = L_0;
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::Init(Facebook.Unity.InitDelegate,Facebook.Unity.HideUnityDelegate,System.String)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral96646644;
+extern const uint32_t FB_Init_m2331630741_MetadataUsageId;
+extern "C"  void FB_Init_m2331630741 (Object_t * __this /* static, unused */, InitDelegate_t1475272884 * ___onInitComplete, HideUnityDelegate_t2364798903 * ___onHideUnity, String_t* ___authResponse, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_Init_m2331630741_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = FacebookSettings_get_AppId_m3439719413(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_1 = FacebookSettings_get_Cookie_m3219234204(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_2 = FacebookSettings_get_Logging_m3300508745(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_3 = FacebookSettings_get_Status_m789854122(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_4 = FacebookSettings_get_Xfbml_m3093062141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		bool L_5 = FacebookSettings_get_FrictionlessRequests_m3264645807(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_6 = ___authResponse;
+		HideUnityDelegate_t2364798903 * L_7 = ___onHideUnity;
+		InitDelegate_t1475272884 * L_8 = ___onInitComplete;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_Init_m3349697964(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, L_6, _stringLiteral96646644, L_7, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::Init(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.String,System.String,Facebook.Unity.HideUnityDelegate,Facebook.Unity.InitDelegate)
+extern TypeInfo* U3CInitU3Ec__AnonStorey22_t1005788533_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentException_t124305799_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* OnDLLLoaded_t1601980106_il2cpp_TypeInfo_var;
+extern TypeInfo* NotImplementedException_t1091014741_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookLogger_t3976958453_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CInitU3Ec__AnonStorey22_U3CU3Em__0_m2946192769_MethodInfo_var;
+extern const MethodInfo* ComponentFactory_GetComponent_TisEditorFacebookLoader_t797496352_m3439964165_MethodInfo_var;
+extern const MethodInfo* U3CInitU3Ec__AnonStorey22_U3CU3Em__1_m2946193730_MethodInfo_var;
+extern const MethodInfo* ComponentFactory_GetComponent_TisCanvasFacebookLoader_t3729715412_m317807205_MethodInfo_var;
+extern const MethodInfo* U3CInitU3Ec__AnonStorey22_U3CU3Em__2_m2946194691_MethodInfo_var;
+extern const MethodInfo* ComponentFactory_GetComponent_TisIOSFacebookLoader_t2859244156_m3874624469_MethodInfo_var;
+extern const MethodInfo* U3CInitU3Ec__AnonStorey22_U3CU3Em__3_m2946195652_MethodInfo_var;
+extern const MethodInfo* ComponentFactory_GetComponent_TisAndroidFacebookLoader_t2764161972_m574759185_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3760455196;
+extern Il2CppCodeGenString* _stringLiteral2780956120;
+extern Il2CppCodeGenString* _stringLiteral3214234683;
+extern const uint32_t FB_Init_m3349697964_MetadataUsageId;
+extern "C"  void FB_Init_m3349697964 (Object_t * __this /* static, unused */, String_t* ___appId, bool ___cookie, bool ___logging, bool ___status, bool ___xfbml, bool ___frictionlessRequests, String_t* ___authResponse, String_t* ___jsSDKLocale, HideUnityDelegate_t2364798903 * ___onHideUnity, InitDelegate_t1475272884 * ___onInitComplete, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_Init_m3349697964_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CInitU3Ec__AnonStorey22_t1005788533 * V_0 = {0};
+	int32_t V_1 = {0};
+	{
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_0 = (U3CInitU3Ec__AnonStorey22_t1005788533 *)il2cpp_codegen_object_new(U3CInitU3Ec__AnonStorey22_t1005788533_il2cpp_TypeInfo_var);
+		U3CInitU3Ec__AnonStorey22__ctor_m2590958056(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_1 = V_0;
+		HideUnityDelegate_t2364798903 * L_2 = ___onHideUnity;
+		NullCheck(L_1);
+		L_1->___onHideUnity_0 = L_2;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_3 = V_0;
+		InitDelegate_t1475272884 * L_4 = ___onInitComplete;
+		NullCheck(L_3);
+		L_3->___onInitComplete_1 = L_4;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_5 = V_0;
+		String_t* L_6 = ___appId;
+		NullCheck(L_5);
+		L_5->___appId_2 = L_6;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_7 = V_0;
+		bool L_8 = ___cookie;
+		NullCheck(L_7);
+		L_7->___cookie_3 = L_8;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_9 = V_0;
+		bool L_10 = ___logging;
+		NullCheck(L_9);
+		L_9->___logging_4 = L_10;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_11 = V_0;
+		bool L_12 = ___status;
+		NullCheck(L_11);
+		L_11->___status_5 = L_12;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_13 = V_0;
+		bool L_14 = ___xfbml;
+		NullCheck(L_13);
+		L_13->___xfbml_6 = L_14;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_15 = V_0;
+		String_t* L_16 = ___authResponse;
+		NullCheck(L_15);
+		L_15->___authResponse_7 = L_16;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_17 = V_0;
+		bool L_18 = ___frictionlessRequests;
+		NullCheck(L_17);
+		L_17->___frictionlessRequests_8 = L_18;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_19 = V_0;
+		String_t* L_20 = ___jsSDKLocale;
+		NullCheck(L_19);
+		L_19->___jsSDKLocale_9 = L_20;
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_21 = V_0;
+		NullCheck(L_21);
+		String_t* L_22 = (L_21->___appId_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_23 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_22, /*hidden argument*/NULL);
+		if (!L_23)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		ArgumentException_t124305799 * L_24 = (ArgumentException_t124305799 *)il2cpp_codegen_object_new(ArgumentException_t124305799_il2cpp_TypeInfo_var);
+		ArgumentException__ctor_m3544856547(L_24, _stringLiteral3760455196, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24);
+	}
+
+IL_006d:
+	{
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_25 = V_0;
+		NullCheck(L_25);
+		String_t* L_26 = (L_25->___appId_2);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_set_AppId_m1534276087(NULL /*static, unused*/, L_26, /*hidden argument*/NULL);
+		bool L_27 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___isInitCalled_4;
+		if (L_27)
+		{
+			goto IL_0139;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___isInitCalled_4 = (bool)1;
+		bool L_28 = Constants_get_IsEditor_m2678710987(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_28)
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_29 = V_0;
+		IntPtr_t L_30 = { (void*)U3CInitU3Ec__AnonStorey22_U3CU3Em__0_m2946192769_MethodInfo_var };
+		OnDLLLoaded_t1601980106 * L_31 = (OnDLLLoaded_t1601980106 *)il2cpp_codegen_object_new(OnDLLLoaded_t1601980106_il2cpp_TypeInfo_var);
+		OnDLLLoaded__ctor_m2262301583(L_31, L_29, L_30, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_set_OnDLLLoadedDelegate_m3998643868(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		ComponentFactory_GetComponent_TisEditorFacebookLoader_t797496352_m3439964165(NULL /*static, unused*/, 0, /*hidden argument*/ComponentFactory_GetComponent_TisEditorFacebookLoader_t797496352_m3439964165_MethodInfo_var);
+		goto IL_0134;
+	}
+
+IL_00af:
+	{
+		int32_t L_32 = Constants_get_CurrentPlatform_m712437394(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_32;
+		int32_t L_33 = V_1;
+		if (((int32_t)((int32_t)L_33-(int32_t)1)) == 0)
+		{
+			goto IL_010c;
+		}
+		if (((int32_t)((int32_t)L_33-(int32_t)1)) == 1)
+		{
+			goto IL_00ef;
+		}
+		if (((int32_t)((int32_t)L_33-(int32_t)1)) == 2)
+		{
+			goto IL_00d2;
+		}
+		if (((int32_t)((int32_t)L_33-(int32_t)1)) == 3)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		goto IL_0129;
+	}
+
+IL_00d2:
+	{
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_34 = V_0;
+		IntPtr_t L_35 = { (void*)U3CInitU3Ec__AnonStorey22_U3CU3Em__1_m2946193730_MethodInfo_var };
+		OnDLLLoaded_t1601980106 * L_36 = (OnDLLLoaded_t1601980106 *)il2cpp_codegen_object_new(OnDLLLoaded_t1601980106_il2cpp_TypeInfo_var);
+		OnDLLLoaded__ctor_m2262301583(L_36, L_34, L_35, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_set_OnDLLLoadedDelegate_m3998643868(NULL /*static, unused*/, L_36, /*hidden argument*/NULL);
+		ComponentFactory_GetComponent_TisCanvasFacebookLoader_t3729715412_m317807205(NULL /*static, unused*/, 0, /*hidden argument*/ComponentFactory_GetComponent_TisCanvasFacebookLoader_t3729715412_m317807205_MethodInfo_var);
+		goto IL_0134;
+	}
+
+IL_00ef:
+	{
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_37 = V_0;
+		IntPtr_t L_38 = { (void*)U3CInitU3Ec__AnonStorey22_U3CU3Em__2_m2946194691_MethodInfo_var };
+		OnDLLLoaded_t1601980106 * L_39 = (OnDLLLoaded_t1601980106 *)il2cpp_codegen_object_new(OnDLLLoaded_t1601980106_il2cpp_TypeInfo_var);
+		OnDLLLoaded__ctor_m2262301583(L_39, L_37, L_38, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_set_OnDLLLoadedDelegate_m3998643868(NULL /*static, unused*/, L_39, /*hidden argument*/NULL);
+		ComponentFactory_GetComponent_TisIOSFacebookLoader_t2859244156_m3874624469(NULL /*static, unused*/, 0, /*hidden argument*/ComponentFactory_GetComponent_TisIOSFacebookLoader_t2859244156_m3874624469_MethodInfo_var);
+		goto IL_0134;
+	}
+
+IL_010c:
+	{
+		U3CInitU3Ec__AnonStorey22_t1005788533 * L_40 = V_0;
+		IntPtr_t L_41 = { (void*)U3CInitU3Ec__AnonStorey22_U3CU3Em__3_m2946195652_MethodInfo_var };
+		OnDLLLoaded_t1601980106 * L_42 = (OnDLLLoaded_t1601980106 *)il2cpp_codegen_object_new(OnDLLLoaded_t1601980106_il2cpp_TypeInfo_var);
+		OnDLLLoaded__ctor_m2262301583(L_42, L_40, L_41, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_set_OnDLLLoadedDelegate_m3998643868(NULL /*static, unused*/, L_42, /*hidden argument*/NULL);
+		ComponentFactory_GetComponent_TisAndroidFacebookLoader_t2764161972_m574759185(NULL /*static, unused*/, 0, /*hidden argument*/ComponentFactory_GetComponent_TisAndroidFacebookLoader_t2764161972_m574759185_MethodInfo_var);
+		goto IL_0134;
+	}
+
+IL_0129:
+	{
+		NotImplementedException_t1091014741 * L_43 = (NotImplementedException_t1091014741 *)il2cpp_codegen_object_new(NotImplementedException_t1091014741_il2cpp_TypeInfo_var);
+		NotImplementedException__ctor_m495190705(L_43, _stringLiteral2780956120, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_43);
+	}
+
+IL_0134:
+	{
+		goto IL_0143;
+	}
+
+IL_0139:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FacebookLogger_t3976958453_il2cpp_TypeInfo_var);
+		FacebookLogger_Warn_m1399288940(NULL /*static, unused*/, _stringLiteral3214234683, /*hidden argument*/NULL);
+	}
+
+IL_0143:
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::LogInWithPublishPermissions(System.Collections.Generic.IEnumerable`1<System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_LogInWithPublishPermissions_m3160456444_MetadataUsageId;
+extern "C"  void FB_LogInWithPublishPermissions_m3160456444 (Object_t * __this /* static, unused */, Object_t* ___permissions, FacebookDelegate_1_t2634519556 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_LogInWithPublishPermissions_m3160456444_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t* L_1 = ___permissions;
+		FacebookDelegate_1_t2634519556 * L_2 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker2< Object_t*, FacebookDelegate_1_t2634519556 * >::Invoke(7 /* System.Void Facebook.Unity.IFacebook::LogInWithPublishPermissions(System.Collections.Generic.IEnumerable`1<System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::LogInWithReadPermissions(System.Collections.Generic.IEnumerable`1<System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_LogInWithReadPermissions_m3440569185_MetadataUsageId;
+extern "C"  void FB_LogInWithReadPermissions_m3440569185 (Object_t * __this /* static, unused */, Object_t* ___permissions, FacebookDelegate_1_t2634519556 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_LogInWithReadPermissions_m3440569185_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t* L_1 = ___permissions;
+		FacebookDelegate_1_t2634519556 * L_2 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker2< Object_t*, FacebookDelegate_1_t2634519556 * >::Invoke(8 /* System.Void Facebook.Unity.IFacebook::LogInWithReadPermissions(System.Collections.Generic.IEnumerable`1<System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::LogOut()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_LogOut_m399663904_MetadataUsageId;
+extern "C"  void FB_LogOut_m399663904 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_LogOut_m399663904_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker0::Invoke(9 /* System.Void Facebook.Unity.IFacebook::LogOut() */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::AppRequest(System.String,Facebook.Unity.OGActionType,System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t1438485399_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m3295722796_MethodInfo_var;
+extern const uint32_t FB_AppRequest_m236900746_MetadataUsageId;
+extern "C"  void FB_AppRequest_m236900746 (Object_t * __this /* static, unused */, String_t* ___message, int32_t ___actionType, String_t* ___objectId, Object_t* ___to, String_t* ___data, String_t* ___title, FacebookDelegate_1_t2757548155 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_AppRequest_m236900746_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Nullable_1_t1438485399  V_0 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___message;
+		int32_t L_2 = ___actionType;
+		Nullable_1_t3534247419  L_3 = {0};
+		Nullable_1__ctor_m3295722796(&L_3, L_2, /*hidden argument*/Nullable_1__ctor_m3295722796_MethodInfo_var);
+		String_t* L_4 = ___objectId;
+		Object_t* L_5 = ___to;
+		Initobj (Nullable_1_t1438485399_il2cpp_TypeInfo_var, (&V_0));
+		Nullable_1_t1438485399  L_6 = V_0;
+		String_t* L_7 = ___data;
+		String_t* L_8 = ___title;
+		FacebookDelegate_1_t2757548155 * L_9 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker10< String_t*, Nullable_1_t3534247419 , String_t*, Object_t*, Object_t*, Object_t*, Nullable_1_t1438485399 , String_t*, String_t*, FacebookDelegate_1_t2757548155 * >::Invoke(11 /* System.Void Facebook.Unity.IFacebook::AppRequest(System.String,System.Nullable`1<Facebook.Unity.OGActionType>,System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_3, L_4, L_5, (Object_t*)NULL, (Object_t*)NULL, L_6, L_7, L_8, L_9);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::AppRequest(System.String,Facebook.Unity.OGActionType,System.String,System.Collections.Generic.IEnumerable`1<System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m3295722796_MethodInfo_var;
+extern const uint32_t FB_AppRequest_m1168120021_MetadataUsageId;
+extern "C"  void FB_AppRequest_m1168120021 (Object_t * __this /* static, unused */, String_t* ___message, int32_t ___actionType, String_t* ___objectId, Object_t* ___filters, Object_t* ___excludeIds, Nullable_1_t1438485399  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_1_t2757548155 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_AppRequest_m1168120021_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___message;
+		int32_t L_2 = ___actionType;
+		Nullable_1_t3534247419  L_3 = {0};
+		Nullable_1__ctor_m3295722796(&L_3, L_2, /*hidden argument*/Nullable_1__ctor_m3295722796_MethodInfo_var);
+		String_t* L_4 = ___objectId;
+		Object_t* L_5 = ___filters;
+		Object_t* L_6 = ___excludeIds;
+		Nullable_1_t1438485399  L_7 = ___maxRecipients;
+		String_t* L_8 = ___data;
+		String_t* L_9 = ___title;
+		FacebookDelegate_1_t2757548155 * L_10 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker10< String_t*, Nullable_1_t3534247419 , String_t*, Object_t*, Object_t*, Object_t*, Nullable_1_t1438485399 , String_t*, String_t*, FacebookDelegate_1_t2757548155 * >::Invoke(11 /* System.Void Facebook.Unity.IFacebook::AppRequest(System.String,System.Nullable`1<Facebook.Unity.OGActionType>,System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_3, L_4, (Object_t*)NULL, L_5, L_6, L_7, L_8, L_9, L_10);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::AppRequest(System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t3534247419_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_AppRequest_m3737494955_MetadataUsageId;
+extern "C"  void FB_AppRequest_m3737494955 (Object_t * __this /* static, unused */, String_t* ___message, Object_t* ___to, Object_t* ___filters, Object_t* ___excludeIds, Nullable_1_t1438485399  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_1_t2757548155 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_AppRequest_m3737494955_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Nullable_1_t3534247419  V_0 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___message;
+		Initobj (Nullable_1_t3534247419_il2cpp_TypeInfo_var, (&V_0));
+		Nullable_1_t3534247419  L_2 = V_0;
+		Object_t* L_3 = ___to;
+		Object_t* L_4 = ___filters;
+		Object_t* L_5 = ___excludeIds;
+		Nullable_1_t1438485399  L_6 = ___maxRecipients;
+		String_t* L_7 = ___data;
+		String_t* L_8 = ___title;
+		FacebookDelegate_1_t2757548155 * L_9 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker10< String_t*, Nullable_1_t3534247419 , String_t*, Object_t*, Object_t*, Object_t*, Nullable_1_t1438485399 , String_t*, String_t*, FacebookDelegate_1_t2757548155 * >::Invoke(11 /* System.Void Facebook.Unity.IFacebook::AppRequest(System.String,System.Nullable`1<Facebook.Unity.OGActionType>,System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_2, (String_t*)NULL, L_3, L_4, L_5, L_6, L_7, L_8, L_9);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::ShareLink(System.Uri,System.String,System.String,System.Uri,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_ShareLink_m1620681588_MetadataUsageId;
+extern "C"  void FB_ShareLink_m1620681588 (Object_t * __this /* static, unused */, Uri_t2776692961 * ___contentURL, String_t* ___contentTitle, String_t* ___contentDescription, Uri_t2776692961 * ___photoURL, FacebookDelegate_1_t1384006650 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_ShareLink_m1620681588_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Uri_t2776692961 * L_1 = ___contentURL;
+		String_t* L_2 = ___contentTitle;
+		String_t* L_3 = ___contentDescription;
+		Uri_t2776692961 * L_4 = ___photoURL;
+		FacebookDelegate_1_t1384006650 * L_5 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker5< Uri_t2776692961 *, String_t*, String_t*, Uri_t2776692961 *, FacebookDelegate_1_t1384006650 * >::Invoke(12 /* System.Void Facebook.Unity.IFacebook::ShareLink(System.Uri,System.String,System.String,System.Uri,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3, L_4, L_5);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::FeedShare(System.String,System.Uri,System.String,System.String,System.String,System.Uri,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_FeedShare_m3254004512_MetadataUsageId;
+extern "C"  void FB_FeedShare_m3254004512 (Object_t * __this /* static, unused */, String_t* ___toId, Uri_t2776692961 * ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, Uri_t2776692961 * ___picture, String_t* ___mediaSource, FacebookDelegate_1_t1384006650 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_FeedShare_m3254004512_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___toId;
+		Uri_t2776692961 * L_2 = ___link;
+		String_t* L_3 = ___linkName;
+		String_t* L_4 = ___linkCaption;
+		String_t* L_5 = ___linkDescription;
+		Uri_t2776692961 * L_6 = ___picture;
+		String_t* L_7 = ___mediaSource;
+		FacebookDelegate_1_t1384006650 * L_8 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker8< String_t*, Uri_t2776692961 *, String_t*, String_t*, String_t*, Uri_t2776692961 *, String_t*, FacebookDelegate_1_t1384006650 * >::Invoke(13 /* System.Void Facebook.Unity.IFacebook::FeedShare(System.String,System.Uri,System.String,System.String,System.String,System.Uri,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::API(System.String,Facebook.Unity.HttpMethod,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGraphResult>,System.Collections.Generic.IDictionary`2<System.String,System.String>)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral107944136;
+extern Il2CppCodeGenString* _stringLiteral3930041199;
+extern const uint32_t FB_API_m2514225622_MetadataUsageId;
+extern "C"  void FB_API_m2514225622 (Object_t * __this /* static, unused */, String_t* ___query, int32_t ___method, FacebookDelegate_1_t2979309097 * ___callback, Object_t* ___formData, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_API_m2514225622_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___query;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		ArgumentNullException_t3214793280 * L_2 = (ArgumentNullException_t3214793280 *)il2cpp_codegen_object_new(ArgumentNullException_t3214793280_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3341069848(L_2, _stringLiteral107944136, _stringLiteral3930041199, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_001b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_3 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = ___query;
+		int32_t L_5 = ___method;
+		Object_t* L_6 = ___formData;
+		FacebookDelegate_1_t2979309097 * L_7 = ___callback;
+		NullCheck(L_3);
+		InterfaceActionInvoker4< String_t*, int32_t, Object_t*, FacebookDelegate_1_t2979309097 * >::Invoke(16 /* System.Void Facebook.Unity.IFacebook::API(System.String,Facebook.Unity.HttpMethod,System.Collections.Generic.IDictionary`2<System.String,System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGraphResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_3, L_4, L_5, L_6, L_7);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::API(System.String,Facebook.Unity.HttpMethod,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGraphResult>,UnityEngine.WWWForm)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* ArgumentNullException_t3214793280_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral107944136;
+extern Il2CppCodeGenString* _stringLiteral3930041199;
+extern const uint32_t FB_API_m3866078070_MetadataUsageId;
+extern "C"  void FB_API_m3866078070 (Object_t * __this /* static, unused */, String_t* ___query, int32_t ___method, FacebookDelegate_1_t2979309097 * ___callback, WWWForm_t3999572776 * ___formData, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_API_m3866078070_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___query;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		ArgumentNullException_t3214793280 * L_2 = (ArgumentNullException_t3214793280 *)il2cpp_codegen_object_new(ArgumentNullException_t3214793280_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3341069848(L_2, _stringLiteral107944136, _stringLiteral3930041199, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_001b:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_3 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_4 = ___query;
+		int32_t L_5 = ___method;
+		WWWForm_t3999572776 * L_6 = ___formData;
+		FacebookDelegate_1_t2979309097 * L_7 = ___callback;
+		NullCheck(L_3);
+		InterfaceActionInvoker4< String_t*, int32_t, WWWForm_t3999572776 *, FacebookDelegate_1_t2979309097 * >::Invoke(17 /* System.Void Facebook.Unity.IFacebook::API(System.String,Facebook.Unity.HttpMethod,UnityEngine.WWWForm,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGraphResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_3, L_4, L_5, L_6, L_7);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::ActivateApp()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_ActivateApp_m3791592346_MetadataUsageId;
+extern "C"  void FB_ActivateApp_m3791592346 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_ActivateApp_m3791592346_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = FB_get_AppId_m2778791106(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< String_t* >::Invoke(18 /* System.Void Facebook.Unity.IFacebook::ActivateApp(System.String) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::GetAppLink(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_GetAppLink_m2554518606_MetadataUsageId;
+extern "C"  void FB_GetAppLink_m2554518606 (Object_t * __this /* static, unused */, FacebookDelegate_1_t3690308374 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_GetAppLink_m2554518606_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FacebookDelegate_1_t3690308374 * L_0 = ___callback;
+		if (L_0)
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0007:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_1 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FacebookDelegate_1_t3690308374 * L_2 = ___callback;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< FacebookDelegate_1_t3690308374 * >::Invoke(19 /* System.Void Facebook.Unity.IFacebook::GetAppLink(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_1, L_2);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::GameGroupCreate(System.String,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupCreateResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_GameGroupCreate_m3895171764_MetadataUsageId;
+extern "C"  void FB_GameGroupCreate_m3895171764 (Object_t * __this /* static, unused */, String_t* ___name, String_t* ___description, String_t* ___privacy, FacebookDelegate_1_t2288646710 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_GameGroupCreate_m3895171764_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___name;
+		String_t* L_2 = ___description;
+		String_t* L_3 = ___privacy;
+		FacebookDelegate_1_t2288646710 * L_4 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker4< String_t*, String_t*, String_t*, FacebookDelegate_1_t2288646710 * >::Invoke(14 /* System.Void Facebook.Unity.IFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupCreateResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3, L_4);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::GameGroupJoin(System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupJoinResult>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_GameGroupJoin_m2344352904_MetadataUsageId;
+extern "C"  void FB_GameGroupJoin_m2344352904 (Object_t * __this /* static, unused */, String_t* ___id, FacebookDelegate_1_t1900386660 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_GameGroupJoin_m2344352904_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___id;
+		FacebookDelegate_1_t1900386660 * L_2 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker2< String_t*, FacebookDelegate_1_t1900386660 * >::Invoke(15 /* System.Void Facebook.Unity.IFacebook::GameGroupJoin(System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupJoinResult>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::LogAppEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern const uint32_t FB_LogAppEvent_m1611691066_MetadataUsageId;
+extern "C"  void FB_LogAppEvent_m1611691066 (Object_t * __this /* static, unused */, String_t* ___logEvent, Nullable_1_t3844246929  ___valueToSum, Dictionary_2_t2474804324 * ___parameters, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_LogAppEvent_m1611691066_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___logEvent;
+		Nullable_1_t3844246929  L_2 = ___valueToSum;
+		Dictionary_2_t2474804324 * L_3 = ___parameters;
+		NullCheck(L_0);
+		InterfaceActionInvoker3< String_t*, Nullable_1_t3844246929 , Dictionary_2_t2474804324 * >::Invoke(20 /* System.Void Facebook.Unity.IFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::LogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral84326;
+extern const uint32_t FB_LogPurchase_m757512239_MetadataUsageId;
+extern "C"  void FB_LogPurchase_m757512239 (Object_t * __this /* static, unused */, float ___logPurchase, String_t* ___currency, Dictionary_2_t2474804324 * ___parameters, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_LogPurchase_m757512239_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___currency;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		___currency = _stringLiteral84326;
+	}
+
+IL_0012:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_2 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_3 = ___logPurchase;
+		String_t* L_4 = ___currency;
+		Dictionary_2_t2474804324 * L_5 = ___parameters;
+		NullCheck(L_2);
+		InterfaceActionInvoker3< float, String_t*, Dictionary_2_t2474804324 * >::Invoke(21 /* System.Void Facebook.Unity.IFacebook::AppEventsLogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>) */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_2, L_3, L_4, L_5);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB::LogVersion()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IFacebook_t4281310222_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookLogger_t3976958453_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3314805196;
+extern Il2CppCodeGenString* _stringLiteral826576193;
+extern const uint32_t FB_LogVersion_m4250994090_MetadataUsageId;
+extern "C"  void FB_LogVersion_m4250994090 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FB_LogVersion_m4250994090_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		if (!L_0)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		String_t* L_1 = FacebookSdkVersion_get_Build_m903783052(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_2 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(5 /* System.String Facebook.Unity.IFacebook::get_SDKUserAgent() */, IFacebook_t4281310222_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Format_m2398979370(NULL /*static, unused*/, _stringLiteral3314805196, L_1, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FacebookLogger_t3976958453_il2cpp_TypeInfo_var);
+		FacebookLogger_Info_m689573188(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		goto IL_0041;
+	}
+
+IL_002d:
+	{
+		String_t* L_5 = FacebookSdkVersion_get_Build_m903783052(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Format_m2471250780(NULL /*static, unused*/, _stringLiteral826576193, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FacebookLogger_t3976958453_il2cpp_TypeInfo_var);
+		FacebookLogger_Info_m689573188(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0041:
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/<Init>c__AnonStorey22::.ctor()
+extern "C"  void U3CInitU3Ec__AnonStorey22__ctor_m2590958056 (U3CInitU3Ec__AnonStorey22_t1005788533 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/<Init>c__AnonStorey22::<>m__0()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* EditorFacebook_t3556858413_il2cpp_TypeInfo_var;
+extern const uint32_t U3CInitU3Ec__AnonStorey22_U3CU3Em__0_m2946192769_MetadataUsageId;
+extern "C"  void U3CInitU3Ec__AnonStorey22_U3CU3Em__0_m2946192769 (U3CInitU3Ec__AnonStorey22_t1005788533 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CInitU3Ec__AnonStorey22_U3CU3Em__0_m2946192769_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		HideUnityDelegate_t2364798903 * L_1 = (__this->___onHideUnity_0);
+		InitDelegate_t1475272884 * L_2 = (__this->___onInitComplete_1);
+		NullCheck(((EditorFacebook_t3556858413 *)CastclassClass(L_0, EditorFacebook_t3556858413_il2cpp_TypeInfo_var)));
+		VirtActionInvoker2< HideUnityDelegate_t2364798903 *, InitDelegate_t1475272884 * >::Invoke(39 /* System.Void Facebook.Unity.Editor.EditorFacebook::Init(Facebook.Unity.HideUnityDelegate,Facebook.Unity.InitDelegate) */, ((EditorFacebook_t3556858413 *)CastclassClass(L_0, EditorFacebook_t3556858413_il2cpp_TypeInfo_var)), L_1, L_2);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/<Init>c__AnonStorey22::<>m__1()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* CanvasFacebook_t943264545_il2cpp_TypeInfo_var;
+extern const uint32_t U3CInitU3Ec__AnonStorey22_U3CU3Em__1_m2946193730_MetadataUsageId;
+extern "C"  void U3CInitU3Ec__AnonStorey22_U3CU3Em__1_m2946193730 (U3CInitU3Ec__AnonStorey22_t1005788533 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CInitU3Ec__AnonStorey22_U3CU3Em__1_m2946193730_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		String_t* L_1 = (__this->___appId_2);
+		bool L_2 = (__this->___cookie_3);
+		bool L_3 = (__this->___logging_4);
+		bool L_4 = (__this->___status_5);
+		bool L_5 = (__this->___xfbml_6);
+		String_t* L_6 = FacebookSettings_get_ChannelUrl_m2155947925(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_7 = (__this->___authResponse_7);
+		bool L_8 = (__this->___frictionlessRequests_8);
+		String_t* L_9 = (__this->___jsSDKLocale_9);
+		HideUnityDelegate_t2364798903 * L_10 = (__this->___onHideUnity_0);
+		InitDelegate_t1475272884 * L_11 = (__this->___onInitComplete_1);
+		NullCheck(((CanvasFacebook_t943264545 *)CastclassSealed(L_0, CanvasFacebook_t943264545_il2cpp_TypeInfo_var)));
+		CanvasFacebook_Init_m1868130010(((CanvasFacebook_t943264545 *)CastclassSealed(L_0, CanvasFacebook_t943264545_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/<Init>c__AnonStorey22::<>m__2()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IOSFacebook_t2693359753_il2cpp_TypeInfo_var;
+extern const uint32_t U3CInitU3Ec__AnonStorey22_U3CU3Em__2_m2946194691_MetadataUsageId;
+extern "C"  void U3CInitU3Ec__AnonStorey22_U3CU3Em__2_m2946194691 (U3CInitU3Ec__AnonStorey22_t1005788533 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CInitU3Ec__AnonStorey22_U3CU3Em__2_m2946194691_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		String_t* L_1 = (__this->___appId_2);
+		bool L_2 = (__this->___frictionlessRequests_8);
+		HideUnityDelegate_t2364798903 * L_3 = (__this->___onHideUnity_0);
+		InitDelegate_t1475272884 * L_4 = (__this->___onInitComplete_1);
+		NullCheck(((IOSFacebook_t2693359753 *)CastclassClass(L_0, IOSFacebook_t2693359753_il2cpp_TypeInfo_var)));
+		IOSFacebook_Init_m3719980090(((IOSFacebook_t2693359753 *)CastclassClass(L_0, IOSFacebook_t2693359753_il2cpp_TypeInfo_var)), L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/<Init>c__AnonStorey22::<>m__3()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* AndroidFacebook_t1604313921_il2cpp_TypeInfo_var;
+extern const uint32_t U3CInitU3Ec__AnonStorey22_U3CU3Em__3_m2946195652_MetadataUsageId;
+extern "C"  void U3CInitU3Ec__AnonStorey22_U3CU3Em__3_m2946195652 (U3CInitU3Ec__AnonStorey22_t1005788533 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CInitU3Ec__AnonStorey22_U3CU3Em__3_m2946195652_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = ((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3;
+		String_t* L_1 = (__this->___appId_2);
+		HideUnityDelegate_t2364798903 * L_2 = (__this->___onHideUnity_0);
+		InitDelegate_t1475272884 * L_3 = (__this->___onInitComplete_1);
+		NullCheck(((AndroidFacebook_t1604313921 *)CastclassSealed(L_0, AndroidFacebook_t1604313921_il2cpp_TypeInfo_var)));
+		AndroidFacebook_Init_m3528891639(((AndroidFacebook_t1604313921 *)CastclassSealed(L_0, AndroidFacebook_t1604313921_il2cpp_TypeInfo_var)), L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/Android::.ctor()
+extern "C"  void Android__ctor_m1357534158 (Android_t803262031 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Facebook.Unity.FB/Android::get_KeyHash()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* AndroidFacebook_t1604313921_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t Android_get_KeyHash_m1517091571_MetadataUsageId;
+extern "C"  String_t* Android_get_KeyHash_m1517091571 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Android_get_KeyHash_m1517091571_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AndroidFacebook_t1604313921 * V_0 = {0};
+	String_t* G_B3_0 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = ((AndroidFacebook_t1604313921 *)IsInstSealed(L_0, AndroidFacebook_t1604313921_il2cpp_TypeInfo_var));
+		AndroidFacebook_t1604313921 * L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		AndroidFacebook_t1604313921 * L_2 = V_0;
+		NullCheck(L_2);
+		String_t* L_3 = AndroidFacebook_get_KeyHash_m214487237(L_2, /*hidden argument*/NULL);
+		G_B3_0 = L_3;
+		goto IL_0021;
+	}
+
+IL_001c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B3_0 = L_4;
+	}
+
+IL_0021:
+	{
+		return G_B3_0;
+	}
+}
+// System.Void Facebook.Unity.FB/Canvas::.ctor()
+extern "C"  void Canvas__ctor_m2573753873 (Canvas_t2011128184 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Facebook.Unity.Canvas.ICanvasFacebook Facebook.Unity.FB/Canvas::get_CanvasFacebookImpl()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* ICanvasFacebook_t3620364202_il2cpp_TypeInfo_var;
+extern TypeInfo* InvalidOperationException_t2420574324_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3526161894;
+extern const uint32_t Canvas_get_CanvasFacebookImpl_m3299775611_MetadataUsageId;
+extern "C"  Object_t * Canvas_get_CanvasFacebookImpl_m3299775611 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Canvas_get_CanvasFacebookImpl_m3299775611_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = ((Object_t *)IsInst(L_0, ICanvasFacebook_t3620364202_il2cpp_TypeInfo_var));
+		Object_t * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		InvalidOperationException_t2420574324 * L_2 = (InvalidOperationException_t2420574324 *)il2cpp_codegen_object_new(InvalidOperationException_t2420574324_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m1485483280(L_2, _stringLiteral3526161894, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_001c:
+	{
+		Object_t * L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Void Facebook.Unity.FB/Canvas::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IPayResult>)
+extern TypeInfo* ICanvasFacebook_t3620364202_il2cpp_TypeInfo_var;
+extern const uint32_t Canvas_Pay_m2406867026_MetadataUsageId;
+extern "C"  void Canvas_Pay_m2406867026 (Object_t * __this /* static, unused */, String_t* ___product, String_t* ___action, int32_t ___quantity, Nullable_1_t1438485399  ___quantityMin, Nullable_1_t1438485399  ___quantityMax, String_t* ___requestId, String_t* ___pricepointId, String_t* ___testCurrency, FacebookDelegate_1_t2840116163 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Canvas_Pay_m2406867026_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = Canvas_get_CanvasFacebookImpl_m3299775611(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_1 = ___product;
+		String_t* L_2 = ___action;
+		int32_t L_3 = ___quantity;
+		Nullable_1_t1438485399  L_4 = ___quantityMin;
+		Nullable_1_t1438485399  L_5 = ___quantityMax;
+		String_t* L_6 = ___requestId;
+		String_t* L_7 = ___pricepointId;
+		String_t* L_8 = ___testCurrency;
+		FacebookDelegate_1_t2840116163 * L_9 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker9< String_t*, String_t*, int32_t, Nullable_1_t1438485399 , Nullable_1_t1438485399 , String_t*, String_t*, String_t*, FacebookDelegate_1_t2840116163 * >::Invoke(0 /* System.Void Facebook.Unity.Canvas.ICanvasFacebook::Pay(System.String,System.String,System.Int32,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IPayResult>) */, ICanvasFacebook_t3620364202_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/CompiledFacebookLoader::.ctor()
+extern "C"  void CompiledFacebookLoader__ctor_m3832597055 (CompiledFacebookLoader_t1549770122 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/CompiledFacebookLoader::Start()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t CompiledFacebookLoader_Start_m2779734847_MetadataUsageId;
+extern "C"  void CompiledFacebookLoader_Start_m2779734847 (CompiledFacebookLoader_t1549770122 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (CompiledFacebookLoader_Start_m2779734847_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FacebookGameObject_t2636547894 * L_0 = VirtFuncInvoker0< FacebookGameObject_t2636547894 * >::Invoke(4 /* Facebook.Unity.FacebookGameObject Facebook.Unity.FB/CompiledFacebookLoader::get_FBGameObject() */, __this);
+		NullCheck(L_0);
+		Object_t * L_1 = FacebookGameObject_get_Facebook_m2623010211(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		((FB_t2519727771_StaticFields*)FB_t2519727771_il2cpp_TypeInfo_var->static_fields)->___facebook_3 = L_1;
+		OnDLLLoaded_t1601980106 * L_2 = FB_get_OnDLLLoadedDelegate_m1943792301(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		OnDLLLoaded_Invoke_m3780148393(L_2, /*hidden argument*/NULL);
+		FB_LogVersion_m4250994090(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/Mobile::.ctor()
+extern "C"  void Mobile__ctor_m3988870663 (Mobile_t2309979330 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Facebook.Unity.ShareDialogMode Facebook.Unity.FB/Mobile::get_ShareDialogMode()
+extern TypeInfo* IMobileFacebook_t3651648834_il2cpp_TypeInfo_var;
+extern const uint32_t Mobile_get_ShareDialogMode_m4266857778_MetadataUsageId;
+extern "C"  int32_t Mobile_get_ShareDialogMode_m4266857778 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Mobile_get_ShareDialogMode_m4266857778_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = Mobile_get_MobileFacebookImpl_m4051181563(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = InterfaceFuncInvoker0< int32_t >::Invoke(0 /* Facebook.Unity.ShareDialogMode Facebook.Unity.Mobile.IMobileFacebook::get_ShareDialogMode() */, IMobileFacebook_t3651648834_il2cpp_TypeInfo_var, L_0);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.FB/Mobile::set_ShareDialogMode(Facebook.Unity.ShareDialogMode)
+extern TypeInfo* IMobileFacebook_t3651648834_il2cpp_TypeInfo_var;
+extern const uint32_t Mobile_set_ShareDialogMode_m576453673_MetadataUsageId;
+extern "C"  void Mobile_set_ShareDialogMode_m576453673 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Mobile_set_ShareDialogMode_m576453673_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = Mobile_get_MobileFacebookImpl_m4051181563(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = ___value;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int32_t >::Invoke(1 /* System.Void Facebook.Unity.Mobile.IMobileFacebook::set_ShareDialogMode(Facebook.Unity.ShareDialogMode) */, IMobileFacebook_t3651648834_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// Facebook.Unity.Mobile.IMobileFacebook Facebook.Unity.FB/Mobile::get_MobileFacebookImpl()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IMobileFacebook_t3651648834_il2cpp_TypeInfo_var;
+extern TypeInfo* InvalidOperationException_t2420574324_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2475942866;
+extern const uint32_t Mobile_get_MobileFacebookImpl_m4051181563_MetadataUsageId;
+extern "C"  Object_t * Mobile_get_MobileFacebookImpl_m4051181563 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Mobile_get_MobileFacebookImpl_m4051181563_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		Object_t * L_0 = FB_get_FacebookImpl_m3249694518(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = ((Object_t *)IsInst(L_0, IMobileFacebook_t3651648834_il2cpp_TypeInfo_var));
+		Object_t * L_1 = V_0;
+		if (L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		InvalidOperationException_t2420574324 * L_2 = (InvalidOperationException_t2420574324 *)il2cpp_codegen_object_new(InvalidOperationException_t2420574324_il2cpp_TypeInfo_var);
+		InvalidOperationException__ctor_m1485483280(L_2, _stringLiteral2475942866, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_2);
+	}
+
+IL_001c:
+	{
+		Object_t * L_3 = V_0;
+		return L_3;
+	}
+}
+// System.Void Facebook.Unity.FB/Mobile::AppInvite(System.Uri,System.Uri,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppInviteResult>)
+extern TypeInfo* IMobileFacebook_t3651648834_il2cpp_TypeInfo_var;
+extern const uint32_t Mobile_AppInvite_m396566129_MetadataUsageId;
+extern "C"  void Mobile_AppInvite_m396566129 (Object_t * __this /* static, unused */, Uri_t2776692961 * ___appLinkUrl, Uri_t2776692961 * ___previewImageUrl, FacebookDelegate_1_t573598949 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Mobile_AppInvite_m396566129_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = Mobile_get_MobileFacebookImpl_m4051181563(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Uri_t2776692961 * L_1 = ___appLinkUrl;
+		Uri_t2776692961 * L_2 = ___previewImageUrl;
+		FacebookDelegate_1_t573598949 * L_3 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker3< Uri_t2776692961 *, Uri_t2776692961 *, FacebookDelegate_1_t573598949 * >::Invoke(2 /* System.Void Facebook.Unity.Mobile.IMobileFacebook::AppInvite(System.Uri,System.Uri,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppInviteResult>) */, IMobileFacebook_t3651648834_il2cpp_TypeInfo_var, L_0, L_1, L_2, L_3);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/Mobile::FetchDeferredAppLinkData(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>)
+extern TypeInfo* IMobileFacebook_t3651648834_il2cpp_TypeInfo_var;
+extern const uint32_t Mobile_FetchDeferredAppLinkData_m2292336956_MetadataUsageId;
+extern "C"  void Mobile_FetchDeferredAppLinkData_m2292336956 (Object_t * __this /* static, unused */, FacebookDelegate_1_t3690308374 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Mobile_FetchDeferredAppLinkData_m2292336956_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FacebookDelegate_1_t3690308374 * L_0 = ___callback;
+		if (L_0)
+		{
+			goto IL_0007;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0007:
+	{
+		Object_t * L_1 = Mobile_get_MobileFacebookImpl_m4051181563(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FacebookDelegate_1_t3690308374 * L_2 = ___callback;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< FacebookDelegate_1_t3690308374 * >::Invoke(3 /* System.Void Facebook.Unity.Mobile.IMobileFacebook::FetchDeferredAppLink(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>) */, IMobileFacebook_t3651648834_il2cpp_TypeInfo_var, L_1, L_2);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/Mobile::RefreshCurrentAccessToken(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAccessTokenRefreshResult>)
+extern TypeInfo* IMobileFacebook_t3651648834_il2cpp_TypeInfo_var;
+extern const uint32_t Mobile_RefreshCurrentAccessToken_m320821506_MetadataUsageId;
+extern "C"  void Mobile_RefreshCurrentAccessToken_m320821506 (Object_t * __this /* static, unused */, FacebookDelegate_1_t2422421107 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Mobile_RefreshCurrentAccessToken_m320821506_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = Mobile_get_MobileFacebookImpl_m4051181563(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FacebookDelegate_1_t2422421107 * L_1 = ___callback;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< FacebookDelegate_1_t2422421107 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.IMobileFacebook::RefreshCurrentAccessToken(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAccessTokenRefreshResult>) */, IMobileFacebook_t3651648834_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Facebook.Unity.FB/OnDLLLoaded::.ctor(System.Object,System.IntPtr)
+extern "C"  void OnDLLLoaded__ctor_m2262301583 (OnDLLLoaded_t1601980106 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void Facebook.Unity.FB/OnDLLLoaded::Invoke()
+extern "C"  void OnDLLLoaded_Invoke_m3780148393 (OnDLLLoaded_t1601980106 * __this, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		OnDLLLoaded_Invoke_m3780148393((OnDLLLoaded_t1601980106 *)__this->___prev_9, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if ((__this->___m_target_2 != NULL || MethodHasParameters((MethodInfo*)(__this->___method_3.___m_value_0))) && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_OnDLLLoaded_t1601980106(Il2CppObject* delegate)
+{
+	typedef void (STDCALL *native_function_ptr_type)();
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Native function invocation
+	_il2cpp_pinvoke_func();
+
+}
+// System.IAsyncResult Facebook.Unity.FB/OnDLLLoaded::BeginInvoke(System.AsyncCallback,System.Object)
+extern "C"  Object_t * OnDLLLoaded_BeginInvoke_m1319254978 (OnDLLLoaded_t1601980106 * __this, AsyncCallback_t1363551830 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	void *__d_args[1] = {0};
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void Facebook.Unity.FB/OnDLLLoaded::EndInvoke(System.IAsyncResult)
+extern "C"  void OnDLLLoaded_EndInvoke_m1188924703 (OnDLLLoaded_t1601980106 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void Facebook.Unity.GraphResult::.ctor(UnityEngine.WWW)
+extern "C"  void GraphResult__ctor_m2277526337 (GraphResult_t1509843146 * __this, WWW_t1522972100 * ___result, const MethodInfo* method)
+{
+	{
+		WWW_t1522972100 * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = WWW_get_text_m4216049525(L_0, /*hidden argument*/NULL);
+		WWW_t1522972100 * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = WWW_get_error_m1787423074(L_2, /*hidden argument*/NULL);
+		ResultBase__ctor_m3744930907(__this, L_1, L_3, (bool)0, /*hidden argument*/NULL);
+		String_t* L_4 = VirtFuncInvoker0< String_t* >::Invoke(13 /* System.String Facebook.Unity.ResultBase::get_RawResult() */, __this);
+		GraphResult_Init_m3386404543(__this, L_4, /*hidden argument*/NULL);
+		WWW_t1522972100 * L_5 = ___result;
+		NullCheck(L_5);
+		String_t* L_6 = WWW_get_error_m1787423074(L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		WWW_t1522972100 * L_7 = ___result;
+		NullCheck(L_7);
+		Texture2D_t2509538522 * L_8 = WWW_get_texture_m2854732303(L_7, /*hidden argument*/NULL);
+		GraphResult_set_Texture_m2528966607(__this, L_8, /*hidden argument*/NULL);
+	}
+
+IL_0036:
+	{
+		return;
+	}
+}
+// System.Collections.Generic.IList`1<System.Object> Facebook.Unity.GraphResult::get_ResultList()
+extern "C"  Object_t* GraphResult_get_ResultList_m2342242487 (GraphResult_t1509843146 * __this, const MethodInfo* method)
+{
+	{
+		Object_t* L_0 = (__this->___U3CResultListU3Ek__BackingField_5);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.GraphResult::set_ResultList(System.Collections.Generic.IList`1<System.Object>)
+extern "C"  void GraphResult_set_ResultList_m2317639828 (GraphResult_t1509843146 * __this, Object_t* ___value, const MethodInfo* method)
+{
+	{
+		Object_t* L_0 = ___value;
+		__this->___U3CResultListU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+// UnityEngine.Texture2D Facebook.Unity.GraphResult::get_Texture()
+extern "C"  Texture2D_t2509538522 * GraphResult_get_Texture_m1763135428 (GraphResult_t1509843146 * __this, const MethodInfo* method)
+{
+	{
+		Texture2D_t2509538522 * L_0 = (__this->___U3CTextureU3Ek__BackingField_6);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.GraphResult::set_Texture(UnityEngine.Texture2D)
+extern "C"  void GraphResult_set_Texture_m2528966607 (GraphResult_t1509843146 * __this, Texture2D_t2509538522 * ___value, const MethodInfo* method)
+{
+	{
+		Texture2D_t2509538522 * L_0 = ___value;
+		__this->___U3CTextureU3Ek__BackingField_6 = L_0;
+		return;
+	}
+}
+// System.Void Facebook.Unity.GraphResult::Init(System.String)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Json_t699972005_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern TypeInfo* IList_1_t3003598734_il2cpp_TypeInfo_var;
+extern const uint32_t GraphResult_Init_m3386404543_MetadataUsageId;
+extern "C"  void GraphResult_Init_m3386404543 (GraphResult_t1509843146 * __this, String_t* ___rawResult, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GraphResult_Init_m3386404543_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Object_t* V_1 = {0};
+	Object_t* V_2 = {0};
+	{
+		String_t* L_0 = ___rawResult;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000c:
+	{
+		String_t* L_2 = VirtFuncInvoker0< String_t* >::Invoke(13 /* System.String Facebook.Unity.ResultBase::get_RawResult() */, __this);
+		IL2CPP_RUNTIME_CLASS_INIT(Json_t699972005_il2cpp_TypeInfo_var);
+		Object_t * L_3 = Json_Deserialize_m2159224366(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		Object_t * L_4 = V_0;
+		V_1 = ((Object_t*)IsInst(L_4, IDictionary_2_t3650470111_il2cpp_TypeInfo_var));
+		Object_t* L_5 = V_1;
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		Object_t* L_6 = V_1;
+		VirtActionInvoker1< Object_t* >::Invoke(12 /* System.Void Facebook.Unity.ResultBase::set_ResultDictionary(System.Collections.Generic.IDictionary`2<System.String,System.Object>) */, __this, L_6);
+		return;
+	}
+
+IL_002d:
+	{
+		Object_t * L_7 = V_0;
+		V_2 = ((Object_t*)IsInst(L_7, IList_1_t3003598734_il2cpp_TypeInfo_var));
+		Object_t* L_8 = V_2;
+		if (!L_8)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		Object_t* L_9 = V_2;
+		GraphResult_set_ResultList_m2317639828(__this, L_9, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0042:
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.GroupCreateResult::.ctor(System.String)
+extern const MethodInfo* Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3355;
+extern const uint32_t GroupCreateResult__ctor_m371110878_MetadataUsageId;
+extern "C"  void GroupCreateResult__ctor_m371110878 (GroupCreateResult_t1424122391 * __this, String_t* ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GroupCreateResult__ctor_m371110878_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	{
+		String_t* L_0 = ___result;
+		ResultBase__ctor_m2366187814(__this, L_0, /*hidden argument*/NULL);
+		Object_t* L_1 = VirtFuncInvoker0< Object_t* >::Invoke(11 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary() */, __this);
+		if (!L_1)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		Object_t* L_2 = VirtFuncInvoker0< Object_t* >::Invoke(11 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary() */, __this);
+		bool L_3 = Utilities_TryGetValue_TisString_t_m1193705746(NULL /*static, unused*/, L_2, _stringLiteral3355, (&V_0), /*hidden argument*/Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var);
+		if (!L_3)
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		String_t* L_4 = V_0;
+		GroupCreateResult_set_GroupId_m2694889859(__this, L_4, /*hidden argument*/NULL);
+	}
+
+IL_0030:
+	{
+		return;
+	}
+}
+// System.String Facebook.Unity.GroupCreateResult::get_GroupId()
+extern "C"  String_t* GroupCreateResult_get_GroupId_m3329014096 (GroupCreateResult_t1424122391 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = (__this->___U3CGroupIdU3Ek__BackingField_6);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.GroupCreateResult::set_GroupId(System.String)
+extern "C"  void GroupCreateResult_set_GroupId_m2694889859 (GroupCreateResult_t1424122391 * __this, String_t* ___value, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value;
+		__this->___U3CGroupIdU3Ek__BackingField_6 = L_0;
+		return;
+	}
+}
+// System.Void Facebook.Unity.GroupJoinResult::.ctor(System.String)
+extern "C"  void GroupJoinResult__ctor_m2983626892 (GroupJoinResult_t4173281157 * __this, String_t* ___result, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___result;
+		ResultBase__ctor_m2366187814(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.HideUnityDelegate::.ctor(System.Object,System.IntPtr)
+extern "C"  void HideUnityDelegate__ctor_m2462696862 (HideUnityDelegate_t2364798903 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void Facebook.Unity.HideUnityDelegate::Invoke(System.Boolean)
+extern "C"  void HideUnityDelegate_Invoke_m1011121903 (HideUnityDelegate_t2364798903 * __this, bool ___isUnityShown, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		HideUnityDelegate_Invoke_m1011121903((HideUnityDelegate_t2364798903 *)__this->___prev_9,___isUnityShown, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if (__this->___m_target_2 != NULL && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, void* __this, bool ___isUnityShown, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,il2cpp_codegen_get_delegate_this(__this),___isUnityShown,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, bool ___isUnityShown, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(il2cpp_codegen_get_delegate_this(__this),___isUnityShown,(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_HideUnityDelegate_t2364798903(Il2CppObject* delegate, bool ___isUnityShown)
+{
+	typedef void (STDCALL *native_function_ptr_type)(int32_t);
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Marshaling of parameter '___isUnityShown' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___isUnityShown);
+
+	// Marshaling cleanup of parameter '___isUnityShown' native representation
+
+}
+// System.IAsyncResult Facebook.Unity.HideUnityDelegate::BeginInvoke(System.Boolean,System.AsyncCallback,System.Object)
+extern TypeInfo* Boolean_t211005341_il2cpp_TypeInfo_var;
+extern const uint32_t HideUnityDelegate_BeginInvoke_m1800227100_MetadataUsageId;
+extern "C"  Object_t * HideUnityDelegate_BeginInvoke_m1800227100 (HideUnityDelegate_t2364798903 * __this, bool ___isUnityShown, AsyncCallback_t1363551830 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (HideUnityDelegate_BeginInvoke_m1800227100_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	void *__d_args[2] = {0};
+	__d_args[0] = Box(Boolean_t211005341_il2cpp_TypeInfo_var, &___isUnityShown);
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void Facebook.Unity.HideUnityDelegate::EndInvoke(System.IAsyncResult)
+extern "C"  void HideUnityDelegate_EndInvoke_m2293020334 (HideUnityDelegate_t2364798903 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void Facebook.Unity.InitDelegate::.ctor(System.Object,System.IntPtr)
+extern "C"  void InitDelegate__ctor_m1407180717 (InitDelegate_t1475272884 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// System.Void Facebook.Unity.InitDelegate::Invoke()
+extern "C"  void InitDelegate_Invoke_m4096150087 (InitDelegate_t1475272884 * __this, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		InitDelegate_Invoke_m4096150087((InitDelegate_t1475272884 *)__this->___prev_9, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if ((__this->___m_target_2 != NULL || MethodHasParameters((MethodInfo*)(__this->___method_3.___m_value_0))) && ___methodIsStatic)
+	{
+		typedef void (*FunctionPointerType) (Object_t *, void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(NULL,il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef void (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		((FunctionPointerType)__this->___method_ptr_0)(il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" void pinvoke_delegate_wrapper_InitDelegate_t1475272884(Il2CppObject* delegate)
+{
+	typedef void (STDCALL *native_function_ptr_type)();
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Native function invocation
+	_il2cpp_pinvoke_func();
+
+}
+// System.IAsyncResult Facebook.Unity.InitDelegate::BeginInvoke(System.AsyncCallback,System.Object)
+extern "C"  Object_t * InitDelegate_BeginInvoke_m130468196 (InitDelegate_t1475272884 * __this, AsyncCallback_t1363551830 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	void *__d_args[1] = {0};
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// System.Void Facebook.Unity.InitDelegate::EndInvoke(System.IAsyncResult)
+extern "C"  void InitDelegate_EndInvoke_m3729272893 (InitDelegate_t1475272884 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+}
+// System.Void Facebook.Unity.LoginResult::.ctor(System.String)
+extern TypeInfo* LoginResult_t1165053605_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern const uint32_t LoginResult__ctor_m1080664876_MetadataUsageId;
+extern "C"  void LoginResult__ctor_m1080664876 (LoginResult_t1165053605 * __this, String_t* ___response, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LoginResult__ctor_m1080664876_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___response;
+		ResultBase__ctor_m2366187814(__this, L_0, /*hidden argument*/NULL);
+		Object_t* L_1 = VirtFuncInvoker0< Object_t* >::Invoke(11 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary() */, __this);
+		if (!L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		Object_t* L_2 = VirtFuncInvoker0< Object_t* >::Invoke(11 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary() */, __this);
+		IL2CPP_RUNTIME_CLASS_INIT(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___AccessTokenKey_9;
+		NullCheck(L_2);
+		bool L_4 = InterfaceFuncInvoker1< bool, String_t* >::Invoke(1 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::ContainsKey(!0) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_2, L_3);
+		if (!L_4)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		Object_t* L_5 = VirtFuncInvoker0< Object_t* >::Invoke(11 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary() */, __this);
+		AccessToken_t3144904884 * L_6 = Utilities_ParseAccessTokenFromResult_m2258932600(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		LoginResult_set_AccessToken_m1730859416(__this, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0038:
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.LoginResult::.cctor()
+extern TypeInfo* LoginResult_t1165053605_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3458936358;
+extern Il2CppCodeGenString* _stringLiteral4147834383;
+extern Il2CppCodeGenString* _stringLiteral250196857;
+extern Il2CppCodeGenString* _stringLiteral2254512006;
+extern Il2CppCodeGenString* _stringLiteral773535546;
+extern Il2CppCodeGenString* _stringLiteral1133704324;
+extern Il2CppCodeGenString* _stringLiteral3252278005;
+extern Il2CppCodeGenString* _stringLiteral2356033374;
+extern const uint32_t LoginResult__cctor_m2472623831_MetadataUsageId;
+extern "C"  void LoginResult__cctor_m2472623831 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LoginResult__cctor_m2472623831_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* G_B3_0 = {0};
+	String_t* G_B6_0 = {0};
+	String_t* G_B9_0 = {0};
+	String_t* G_B12_0 = {0};
+	{
+		bool L_0 = Constants_get_IsWeb_m2581517528(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		G_B3_0 = _stringLiteral3458936358;
+		goto IL_0019;
+	}
+
+IL_0014:
+	{
+		G_B3_0 = _stringLiteral4147834383;
+	}
+
+IL_0019:
+	{
+		((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___UserIdKey_6 = G_B3_0;
+		bool L_1 = Constants_get_IsWeb_m2581517528(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		G_B6_0 = _stringLiteral250196857;
+		goto IL_0037;
+	}
+
+IL_0032:
+	{
+		G_B6_0 = _stringLiteral2254512006;
+	}
+
+IL_0037:
+	{
+		((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___ExpirationTimestampKey_7 = G_B6_0;
+		bool L_2 = Constants_get_IsWeb_m2581517528(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		G_B9_0 = _stringLiteral773535546;
+		goto IL_0055;
+	}
+
+IL_0050:
+	{
+		G_B9_0 = _stringLiteral1133704324;
+	}
+
+IL_0055:
+	{
+		((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___PermissionsKey_8 = G_B9_0;
+		bool L_3 = Constants_get_IsWeb_m2581517528(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		G_B12_0 = _stringLiteral3252278005;
+		goto IL_0073;
+	}
+
+IL_006e:
+	{
+		G_B12_0 = _stringLiteral2356033374;
+	}
+
+IL_0073:
+	{
+		((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___AccessTokenKey_9 = G_B12_0;
+		return;
+	}
+}
+// Facebook.Unity.AccessToken Facebook.Unity.LoginResult::get_AccessToken()
+extern "C"  AccessToken_t3144904884 * LoginResult_get_AccessToken_m3898112215 (LoginResult_t1165053605 * __this, const MethodInfo* method)
+{
+	{
+		AccessToken_t3144904884 * L_0 = (__this->___U3CAccessTokenU3Ek__BackingField_10);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.LoginResult::set_AccessToken(Facebook.Unity.AccessToken)
+extern "C"  void LoginResult_set_AccessToken_m1730859416 (LoginResult_t1165053605 * __this, AccessToken_t3144904884 * ___value, const MethodInfo* method)
+{
+	{
+		AccessToken_t3144904884 * L_0 = ___value;
+		__this->___U3CAccessTokenU3Ek__BackingField_10 = L_0;
+		return;
+	}
+}
+// System.Void Facebook.Unity.MethodArguments::.ctor()
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4186171898_MethodInfo_var;
+extern const uint32_t MethodArguments__ctor_m2104387431_MetadataUsageId;
+extern "C"  void MethodArguments__ctor_m2104387431 (MethodArguments_t3878806324 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MethodArguments__ctor_m2104387431_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Dictionary_2_t2474804324 * L_0 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m4186171898(L_0, /*hidden argument*/Dictionary_2__ctor_m4186171898_MethodInfo_var);
+		MethodArguments__ctor_m71005845(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.MethodArguments::.ctor(Facebook.Unity.MethodArguments)
+extern "C"  void MethodArguments__ctor_m2910977459 (MethodArguments_t3878806324 * __this, MethodArguments_t3878806324 * ___methodArgs, const MethodInfo* method)
+{
+	{
+		MethodArguments_t3878806324 * L_0 = ___methodArgs;
+		NullCheck(L_0);
+		Object_t* L_1 = (L_0->___arguments_0);
+		MethodArguments__ctor_m71005845(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.MethodArguments::.ctor(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4186171898_MethodInfo_var;
+extern const uint32_t MethodArguments__ctor_m71005845_MetadataUsageId;
+extern "C"  void MethodArguments__ctor_m71005845 (MethodArguments_t3878806324 * __this, Object_t* ___arguments, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MethodArguments__ctor_m71005845_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Dictionary_2_t2474804324 * L_0 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m4186171898(L_0, /*hidden argument*/Dictionary_2__ctor_m4186171898_MethodInfo_var);
+		__this->___arguments_0 = L_0;
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		Object_t* L_1 = ___arguments;
+		__this->___arguments_0 = L_1;
+		return;
+	}
+}
+// System.Void Facebook.Unity.MethodArguments::AddString(System.String,System.String)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern const uint32_t MethodArguments_AddString_m620728135_MetadataUsageId;
+extern "C"  void MethodArguments_AddString_m620728135 (MethodArguments_t3878806324 * __this, String_t* ___argumentName, String_t* ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MethodArguments_AddString_m620728135_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___value;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Object_t* L_2 = (__this->___arguments_0);
+		String_t* L_3 = ___argumentName;
+		String_t* L_4 = ___value;
+		NullCheck(L_2);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_2, L_3, L_4);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.MethodArguments::AddCommaSeparatedList(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern const uint32_t MethodArguments_AddCommaSeparatedList_m222366791_MetadataUsageId;
+extern "C"  void MethodArguments_AddCommaSeparatedList_m222366791 (MethodArguments_t3878806324 * __this, String_t* ___argumentName, Object_t* ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MethodArguments_AddCommaSeparatedList_m222366791_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t* L_0 = ___value;
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Object_t* L_1 = (__this->___arguments_0);
+		String_t* L_2 = ___argumentName;
+		Object_t* L_3 = ___value;
+		String_t* L_4 = Utilities_ToCommaSeparateList_m2708553843(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_1, L_2, L_4);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.MethodArguments::AddDictionary(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern const uint32_t MethodArguments_AddDictionary_m2983313916_MetadataUsageId;
+extern "C"  void MethodArguments_AddDictionary_m2983313916 (MethodArguments_t3878806324 * __this, String_t* ___argumentName, Object_t* ___dict, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MethodArguments_AddDictionary_m2983313916_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t* L_0 = ___dict;
+		if (!L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		Object_t* L_1 = (__this->___arguments_0);
+		String_t* L_2 = ___argumentName;
+		Object_t* L_3 = ___dict;
+		Dictionary_2_t2606186806 * L_4 = MethodArguments_ToStringDict_m2051508111(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_1, L_2, L_4);
+	}
+
+IL_0018:
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.MethodArguments::AddUri(System.String,System.Uri)
+extern TypeInfo* Uri_t2776692961_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern const uint32_t MethodArguments_AddUri_m1217908927_MetadataUsageId;
+extern "C"  void MethodArguments_AddUri_m1217908927 (MethodArguments_t3878806324 * __this, String_t* ___argumentName, Uri_t2776692961 * ___uri, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MethodArguments_AddUri_m1217908927_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Uri_t2776692961 * L_0 = ___uri;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2776692961_il2cpp_TypeInfo_var);
+		bool L_1 = Uri_op_Inequality_m2899852498(NULL /*static, unused*/, L_0, (Uri_t2776692961 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		Uri_t2776692961 * L_2 = ___uri;
+		NullCheck(L_2);
+		String_t* L_3 = Uri_get_AbsoluteUri_m2228269430(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_4 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		if (L_4)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		Object_t* L_5 = (__this->___arguments_0);
+		String_t* L_6 = ___argumentName;
+		Uri_t2776692961 * L_7 = ___uri;
+		NullCheck(L_7);
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_7);
+		NullCheck(L_5);
+		InterfaceActionInvoker2< String_t*, Object_t * >::Invoke(5 /* System.Void System.Collections.Generic.IDictionary`2<System.String,System.Object>::set_Item(!0,!1) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_5, L_6, L_8);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.String Facebook.Unity.MethodArguments::ToJsonString()
+extern TypeInfo* Json_t699972005_il2cpp_TypeInfo_var;
+extern const uint32_t MethodArguments_ToJsonString_m3811311828_MetadataUsageId;
+extern "C"  String_t* MethodArguments_ToJsonString_m3811311828 (MethodArguments_t3878806324 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MethodArguments_ToJsonString_m3811311828_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t* L_0 = (__this->___arguments_0);
+		IL2CPP_RUNTIME_CLASS_INIT(Json_t699972005_il2cpp_TypeInfo_var);
+		String_t* L_1 = Json_Serialize_m3576464301(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Collections.Generic.Dictionary`2<System.String,System.String> Facebook.Unity.MethodArguments::ToStringDict(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* Dictionary_2_t2606186806_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerable_1_t540522682_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_1_t3446442070_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t287207039_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m640701813_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m945524694_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2250325609_MethodInfo_var;
+extern const uint32_t MethodArguments_ToStringDict_m2051508111_MetadataUsageId;
+extern "C"  Dictionary_2_t2606186806 * MethodArguments_ToStringDict_m2051508111 (Object_t * __this /* static, unused */, Object_t* ___dict, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MethodArguments_ToStringDict_m2051508111_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Dictionary_2_t2606186806 * V_0 = {0};
+	KeyValuePair_2_t1963335622  V_1 = {0};
+	Object_t* V_2 = {0};
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t* L_0 = ___dict;
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return (Dictionary_2_t2606186806 *)NULL;
+	}
+
+IL_0008:
+	{
+		Dictionary_2_t2606186806 * L_1 = (Dictionary_2_t2606186806 *)il2cpp_codegen_object_new(Dictionary_2_t2606186806_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m640701813(L_1, /*hidden argument*/Dictionary_2__ctor_m640701813_MethodInfo_var);
+		V_0 = L_1;
+		Object_t* L_2 = ___dict;
+		NullCheck(L_2);
+		Object_t* L_3 = InterfaceFuncInvoker0< Object_t* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::GetEnumerator() */, IEnumerable_1_t540522682_il2cpp_TypeInfo_var, L_2);
+		V_2 = L_3;
+	}
+
+IL_0015:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_003a;
+		}
+
+IL_001a:
+		{
+			Object_t* L_4 = V_2;
+			NullCheck(L_4);
+			KeyValuePair_2_t1963335622  L_5 = InterfaceFuncInvoker0< KeyValuePair_2_t1963335622  >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.String,System.Object>>::get_Current() */, IEnumerator_1_t3446442070_il2cpp_TypeInfo_var, L_4);
+			V_1 = L_5;
+			Dictionary_2_t2606186806 * L_6 = V_0;
+			String_t* L_7 = KeyValuePair_2_get_Key_m945524694((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m945524694_MethodInfo_var);
+			Object_t * L_8 = KeyValuePair_2_get_Value_m2250325609((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2250325609_MethodInfo_var);
+			NullCheck(L_8);
+			String_t* L_9 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_8);
+			NullCheck(L_6);
+			VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_6, L_7, L_9);
+		}
+
+IL_003a:
+		{
+			Object_t* L_10 = V_2;
+			NullCheck(L_10);
+			bool L_11 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t287207039_il2cpp_TypeInfo_var, L_10);
+			if (L_11)
+			{
+				goto IL_001a;
+			}
+		}
+
+IL_0045:
+		{
+			IL2CPP_LEAVE(0x55, FINALLY_004a);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_004a;
+	}
+
+FINALLY_004a:
+	{ // begin finally (depth: 1)
+		{
+			Object_t* L_12 = V_2;
+			if (L_12)
+			{
+				goto IL_004e;
+			}
+		}
+
+IL_004d:
+		{
+			IL2CPP_END_FINALLY(74)
+		}
+
+IL_004e:
+		{
+			Object_t* L_13 = V_2;
+			NullCheck(L_13);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, L_13);
+			IL2CPP_END_FINALLY(74)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(74)
+	{
+		IL2CPP_JUMP_TBL(0x55, IL_0055)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0055:
+	{
+		Dictionary_2_t2606186806 * L_14 = V_0;
+		return L_14;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::.ctor()
+extern TypeInfo* FBJavaClass_t283972646_il2cpp_TypeInfo_var;
+extern TypeInfo* CallbackManager_t1943358823_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidFacebook__ctor_m1308819104_MetadataUsageId;
+extern "C"  void AndroidFacebook__ctor_m1308819104 (AndroidFacebook_t1604313921 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook__ctor_m1308819104_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FBJavaClass_t283972646 * L_0 = (FBJavaClass_t283972646 *)il2cpp_codegen_object_new(FBJavaClass_t283972646_il2cpp_TypeInfo_var);
+		FBJavaClass__ctor_m3508152411(L_0, /*hidden argument*/NULL);
+		CallbackManager_t1943358823 * L_1 = (CallbackManager_t1943358823 *)il2cpp_codegen_object_new(CallbackManager_t1943358823_il2cpp_TypeInfo_var);
+		CallbackManager__ctor_m2342766228(L_1, /*hidden argument*/NULL);
+		AndroidFacebook__ctor_m1154862163(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::.ctor(Facebook.Unity.Mobile.Android.IAndroidJavaClass,Facebook.Unity.CallbackManager)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidFacebook__ctor_m1154862163_MetadataUsageId;
+extern "C"  void AndroidFacebook__ctor_m1154862163 (AndroidFacebook_t1604313921 * __this, Object_t * ___facebookJavaClass, CallbackManager_t1943358823 * ___callbackManager, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook__ctor_m1154862163_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		CallbackManager_t1943358823 * L_0 = ___callbackManager;
+		MobileFacebook__ctor_m2525648705(__this, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		AndroidFacebook_set_KeyHash_m607892(__this, L_1, /*hidden argument*/NULL);
+		Object_t * L_2 = ___facebookJavaClass;
+		__this->___facebookJava_8 = L_2;
+		return;
+	}
+}
+// System.String Facebook.Unity.Mobile.Android.AndroidFacebook::get_KeyHash()
+extern "C"  String_t* AndroidFacebook_get_KeyHash_m214487237 (AndroidFacebook_t1604313921 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = (__this->___U3CKeyHashU3Ek__BackingField_9);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::set_KeyHash(System.String)
+extern "C"  void AndroidFacebook_set_KeyHash_m607892 (AndroidFacebook_t1604313921 * __this, String_t* ___value, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value;
+		__this->___U3CKeyHashU3Ek__BackingField_9 = L_0;
+		return;
+	}
+}
+// System.Boolean Facebook.Unity.Mobile.Android.AndroidFacebook::get_LimitEventUsage()
+extern "C"  bool AndroidFacebook_get_LimitEventUsage_m2962621899 (AndroidFacebook_t1604313921 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = (__this->___limitEventUsage_7);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::set_LimitEventUsage(System.Boolean)
+extern Il2CppCodeGenString* _stringLiteral4089236640;
+extern const uint32_t AndroidFacebook_set_LimitEventUsage_m264154970_MetadataUsageId;
+extern "C"  void AndroidFacebook_set_LimitEventUsage_m264154970 (AndroidFacebook_t1604313921 * __this, bool ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_set_LimitEventUsage_m264154970_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = ___value;
+		__this->___limitEventUsage_7 = L_0;
+		String_t* L_1 = Boolean_ToString_m2512358154((&___value), /*hidden argument*/NULL);
+		AndroidFacebook_CallFB_m560138752(__this, _stringLiteral4089236640, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Facebook.Unity.Mobile.Android.AndroidFacebook::get_SDKName()
+extern Il2CppCodeGenString* _stringLiteral527624487;
+extern const uint32_t AndroidFacebook_get_SDKName_m3552651421_MetadataUsageId;
+extern "C"  String_t* AndroidFacebook_get_SDKName_m3552651421 (AndroidFacebook_t1604313921 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_get_SDKName_m3552651421_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		return _stringLiteral527624487;
+	}
+}
+// System.String Facebook.Unity.Mobile.Android.AndroidFacebook::get_SDKVersion()
+extern const MethodInfo* IAndroidJavaClass_CallStatic_TisString_t_m2661594750_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2833550100;
+extern const uint32_t AndroidFacebook_get_SDKVersion_m2161495656_MetadataUsageId;
+extern "C"  String_t* AndroidFacebook_get_SDKVersion_m2161495656 (AndroidFacebook_t1604313921 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_get_SDKVersion_m2161495656_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___facebookJava_8);
+		NullCheck(L_0);
+		String_t* L_1 = GenericInterfaceFuncInvoker1< String_t*, String_t* >::Invoke(IAndroidJavaClass_CallStatic_TisString_t_m2661594750_MethodInfo_var, L_0, _stringLiteral2833550100);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::Init(System.String,Facebook.Unity.HideUnityDelegate,Facebook.Unity.InitDelegate)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m4075992475_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1571239241;
+extern Il2CppCodeGenString* _stringLiteral1553625583;
+extern Il2CppCodeGenString* _stringLiteral93028124;
+extern Il2CppCodeGenString* _stringLiteral2283824;
+extern const uint32_t AndroidFacebook_Init_m3528891639_MetadataUsageId;
+extern "C"  void AndroidFacebook_Init_m3528891639 (AndroidFacebook_t1604313921 * __this, String_t* ___appId, HideUnityDelegate_t2364798903 * ___hideUnityDelegate, InitDelegate_t1475272884 * ___onInitComplete, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_Init_m3528891639_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t3988932780 * V_1 = {0};
+	{
+		String_t* L_0 = Constants_get_UnitySDKUserAgentSuffixLegacy_m4166556622(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Format_m2471250780(NULL /*static, unused*/, _stringLiteral1553625583, L_0, /*hidden argument*/NULL);
+		AndroidFacebook_CallFB_m560138752(__this, _stringLiteral1571239241, L_1, /*hidden argument*/NULL);
+		HideUnityDelegate_t2364798903 * L_2 = ___hideUnityDelegate;
+		InitDelegate_t1475272884 * L_3 = ___onInitComplete;
+		FacebookBase_Init_m1682655584(__this, L_2, L_3, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_4 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_4, /*hidden argument*/NULL);
+		V_0 = L_4;
+		MethodArguments_t3878806324 * L_5 = V_0;
+		String_t* L_6 = ___appId;
+		NullCheck(L_5);
+		MethodArguments_AddString_m620728135(L_5, _stringLiteral93028124, L_6, /*hidden argument*/NULL);
+		JavaMethodCall_1_t3988932780 * L_7 = (JavaMethodCall_1_t3988932780 *)il2cpp_codegen_object_new(JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m4075992475(L_7, __this, _stringLiteral2283824, /*hidden argument*/JavaMethodCall_1__ctor_m4075992475_MethodInfo_var);
+		V_1 = L_7;
+		JavaMethodCall_1_t3988932780 * L_8 = V_1;
+		MethodArguments_t3878806324 * L_9 = V_0;
+		NullCheck(L_8);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IResult>::Call(Facebook.Unity.MethodArguments) */, L_8, L_9);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::LogInWithReadPermissions(System.Collections.Generic.IEnumerable`1<System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t659697603_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m3882408190_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m142285101_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral109264468;
+extern Il2CppCodeGenString* _stringLiteral1876145503;
+extern const uint32_t AndroidFacebook_LogInWithReadPermissions_m400655119_MetadataUsageId;
+extern "C"  void AndroidFacebook_LogInWithReadPermissions_m400655119 (AndroidFacebook_t1604313921 * __this, Object_t* ___permissions, FacebookDelegate_1_t2634519556 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_LogInWithReadPermissions_m400655119_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t659697603 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		Object_t* L_2 = ___permissions;
+		NullCheck(L_1);
+		MethodArguments_AddCommaSeparatedList_m222366791(L_1, _stringLiteral109264468, L_2, /*hidden argument*/NULL);
+		JavaMethodCall_1_t659697603 * L_3 = (JavaMethodCall_1_t659697603 *)il2cpp_codegen_object_new(JavaMethodCall_1_t659697603_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m3882408190(L_3, __this, _stringLiteral1876145503, /*hidden argument*/JavaMethodCall_1__ctor_m3882408190_MethodInfo_var);
+		V_1 = L_3;
+		JavaMethodCall_1_t659697603 * L_4 = V_1;
+		FacebookDelegate_1_t2634519556 * L_5 = ___callback;
+		NullCheck(L_4);
+		MethodCall_1_set_Callback_m142285101(L_4, L_5, /*hidden argument*/MethodCall_1_set_Callback_m142285101_MethodInfo_var);
+		JavaMethodCall_1_t659697603 * L_6 = V_1;
+		MethodArguments_t3878806324 * L_7 = V_0;
+		NullCheck(L_6);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.ILoginResult>::Call(Facebook.Unity.MethodArguments) */, L_6, L_7);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::LogInWithPublishPermissions(System.Collections.Generic.IEnumerable`1<System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t659697603_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m3882408190_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m142285101_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral109264468;
+extern Il2CppCodeGenString* _stringLiteral3238442500;
+extern const uint32_t AndroidFacebook_LogInWithPublishPermissions_m465952398_MetadataUsageId;
+extern "C"  void AndroidFacebook_LogInWithPublishPermissions_m465952398 (AndroidFacebook_t1604313921 * __this, Object_t* ___permissions, FacebookDelegate_1_t2634519556 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_LogInWithPublishPermissions_m465952398_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t659697603 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		Object_t* L_2 = ___permissions;
+		NullCheck(L_1);
+		MethodArguments_AddCommaSeparatedList_m222366791(L_1, _stringLiteral109264468, L_2, /*hidden argument*/NULL);
+		JavaMethodCall_1_t659697603 * L_3 = (JavaMethodCall_1_t659697603 *)il2cpp_codegen_object_new(JavaMethodCall_1_t659697603_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m3882408190(L_3, __this, _stringLiteral3238442500, /*hidden argument*/JavaMethodCall_1__ctor_m3882408190_MethodInfo_var);
+		V_1 = L_3;
+		JavaMethodCall_1_t659697603 * L_4 = V_1;
+		FacebookDelegate_1_t2634519556 * L_5 = ___callback;
+		NullCheck(L_4);
+		MethodCall_1_set_Callback_m142285101(L_4, L_5, /*hidden argument*/MethodCall_1_set_Callback_m142285101_MethodInfo_var);
+		JavaMethodCall_1_t659697603 * L_6 = V_1;
+		MethodArguments_t3878806324 * L_7 = V_0;
+		NullCheck(L_6);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.ILoginResult>::Call(Facebook.Unity.MethodArguments) */, L_6, L_7);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::LogOut()
+extern TypeInfo* JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m4075992475_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2281505194;
+extern const uint32_t AndroidFacebook_LogOut_m26962126_MetadataUsageId;
+extern "C"  void AndroidFacebook_LogOut_m26962126 (AndroidFacebook_t1604313921 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_LogOut_m26962126_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JavaMethodCall_1_t3988932780 * V_0 = {0};
+	{
+		JavaMethodCall_1_t3988932780 * L_0 = (JavaMethodCall_1_t3988932780 *)il2cpp_codegen_object_new(JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m4075992475(L_0, __this, _stringLiteral2281505194, /*hidden argument*/JavaMethodCall_1__ctor_m4075992475_MethodInfo_var);
+		V_0 = L_0;
+		JavaMethodCall_1_t3988932780 * L_1 = V_0;
+		NullCheck(L_1);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IResult>::Call(Facebook.Unity.MethodArguments) */, L_1, (MethodArguments_t3878806324 *)NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::AppRequest(System.String,System.Nullable`1<Facebook.Unity.OGActionType>,System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t782726202_il2cpp_TypeInfo_var;
+extern const MethodInfo* MethodArguments_AddNullablePrimitive_TisOGActionType_t648209511_m3437439996_MethodInfo_var;
+extern const MethodInfo* Enumerable_Any_TisObject_t_m3411867191_MethodInfo_var;
+extern const MethodInfo* Enumerable_First_TisObject_t_m4153369996_MethodInfo_var;
+extern const MethodInfo* MethodArguments_AddNullablePrimitive_TisInt32_t2847414787_m244358048_MethodInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m2130281229_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m2599528114_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral954925063;
+extern Il2CppCodeGenString* _stringLiteral1583758243;
+extern Il2CppCodeGenString* _stringLiteral2805371419;
+extern Il2CppCodeGenString* _stringLiteral3707;
+extern Il2CppCodeGenString* _stringLiteral3440419835;
+extern Il2CppCodeGenString* _stringLiteral1384446773;
+extern Il2CppCodeGenString* _stringLiteral3076010;
+extern Il2CppCodeGenString* _stringLiteral110371416;
+extern Il2CppCodeGenString* _stringLiteral4221662542;
+extern const uint32_t AndroidFacebook_AppRequest_m4222748223_MetadataUsageId;
+extern "C"  void AndroidFacebook_AppRequest_m4222748223 (AndroidFacebook_t1604313921 * __this, String_t* ___message, Nullable_1_t3534247419  ___actionType, String_t* ___objectId, Object_t* ___to, Object_t* ___filters, Object_t* ___excludeIds, Nullable_1_t1438485399  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_1_t2757548155 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_AppRequest_m4222748223_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	String_t* V_1 = {0};
+	JavaMethodCall_1_t782726202 * V_2 = {0};
+	{
+		String_t* L_0 = ___message;
+		Nullable_1_t3534247419  L_1 = ___actionType;
+		String_t* L_2 = ___objectId;
+		Object_t* L_3 = ___to;
+		Object_t* L_4 = ___filters;
+		Object_t* L_5 = ___excludeIds;
+		Nullable_1_t1438485399  L_6 = ___maxRecipients;
+		String_t* L_7 = ___data;
+		String_t* L_8 = ___title;
+		FacebookDelegate_1_t2757548155 * L_9 = ___callback;
+		FacebookBase_ValidateAppRequestArgs_m3314111263(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_10 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_10, /*hidden argument*/NULL);
+		V_0 = L_10;
+		MethodArguments_t3878806324 * L_11 = V_0;
+		String_t* L_12 = ___message;
+		NullCheck(L_11);
+		MethodArguments_AddString_m620728135(L_11, _stringLiteral954925063, L_12, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_13 = V_0;
+		Nullable_1_t3534247419  L_14 = ___actionType;
+		NullCheck(L_13);
+		MethodArguments_AddNullablePrimitive_TisOGActionType_t648209511_m3437439996(L_13, _stringLiteral1583758243, L_14, /*hidden argument*/MethodArguments_AddNullablePrimitive_TisOGActionType_t648209511_m3437439996_MethodInfo_var);
+		MethodArguments_t3878806324 * L_15 = V_0;
+		String_t* L_16 = ___objectId;
+		NullCheck(L_15);
+		MethodArguments_AddString_m620728135(L_15, _stringLiteral2805371419, L_16, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_17 = V_0;
+		Object_t* L_18 = ___to;
+		NullCheck(L_17);
+		MethodArguments_AddCommaSeparatedList_m222366791(L_17, _stringLiteral3707, L_18, /*hidden argument*/NULL);
+		Object_t* L_19 = ___filters;
+		if (!L_19)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		Object_t* L_20 = ___filters;
+		bool L_21 = Enumerable_Any_TisObject_t_m3411867191(NULL /*static, unused*/, L_20, /*hidden argument*/Enumerable_Any_TisObject_t_m3411867191_MethodInfo_var);
+		if (!L_21)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		Object_t* L_22 = ___filters;
+		Object_t * L_23 = Enumerable_First_TisObject_t_m4153369996(NULL /*static, unused*/, L_22, /*hidden argument*/Enumerable_First_TisObject_t_m4153369996_MethodInfo_var);
+		V_1 = ((String_t*)IsInstSealed(L_23, String_t_il2cpp_TypeInfo_var));
+		String_t* L_24 = V_1;
+		if (!L_24)
+		{
+			goto IL_0080;
+		}
+	}
+	{
+		MethodArguments_t3878806324 * L_25 = V_0;
+		String_t* L_26 = V_1;
+		NullCheck(L_25);
+		MethodArguments_AddString_m620728135(L_25, _stringLiteral3440419835, L_26, /*hidden argument*/NULL);
+	}
+
+IL_0080:
+	{
+		MethodArguments_t3878806324 * L_27 = V_0;
+		Nullable_1_t1438485399  L_28 = ___maxRecipients;
+		NullCheck(L_27);
+		MethodArguments_AddNullablePrimitive_TisInt32_t2847414787_m244358048(L_27, _stringLiteral1384446773, L_28, /*hidden argument*/MethodArguments_AddNullablePrimitive_TisInt32_t2847414787_m244358048_MethodInfo_var);
+		MethodArguments_t3878806324 * L_29 = V_0;
+		String_t* L_30 = ___data;
+		NullCheck(L_29);
+		MethodArguments_AddString_m620728135(L_29, _stringLiteral3076010, L_30, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_31 = V_0;
+		String_t* L_32 = ___title;
+		NullCheck(L_31);
+		MethodArguments_AddString_m620728135(L_31, _stringLiteral110371416, L_32, /*hidden argument*/NULL);
+		JavaMethodCall_1_t782726202 * L_33 = (JavaMethodCall_1_t782726202 *)il2cpp_codegen_object_new(JavaMethodCall_1_t782726202_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m2130281229(L_33, __this, _stringLiteral4221662542, /*hidden argument*/JavaMethodCall_1__ctor_m2130281229_MethodInfo_var);
+		V_2 = L_33;
+		JavaMethodCall_1_t782726202 * L_34 = V_2;
+		FacebookDelegate_1_t2757548155 * L_35 = ___callback;
+		NullCheck(L_34);
+		MethodCall_1_set_Callback_m2599528114(L_34, L_35, /*hidden argument*/MethodCall_1_set_Callback_m2599528114_MethodInfo_var);
+		JavaMethodCall_1_t782726202 * L_36 = V_2;
+		MethodArguments_t3878806324 * L_37 = V_0;
+		NullCheck(L_36);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IAppRequestResult>::Call(Facebook.Unity.MethodArguments) */, L_36, L_37);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::AppInvite(System.Uri,System.Uri,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppInviteResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t2893744292_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m4169475645_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m787730924_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1309575604;
+extern Il2CppCodeGenString* _stringLiteral3112854012;
+extern Il2CppCodeGenString* _stringLiteral3212105834;
+extern const uint32_t AndroidFacebook_AppInvite_m2894270346_MetadataUsageId;
+extern "C"  void AndroidFacebook_AppInvite_m2894270346 (AndroidFacebook_t1604313921 * __this, Uri_t2776692961 * ___appLinkUrl, Uri_t2776692961 * ___previewImageUrl, FacebookDelegate_1_t573598949 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_AppInvite_m2894270346_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t2893744292 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		Uri_t2776692961 * L_2 = ___appLinkUrl;
+		NullCheck(L_1);
+		MethodArguments_AddUri_m1217908927(L_1, _stringLiteral1309575604, L_2, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_3 = V_0;
+		Uri_t2776692961 * L_4 = ___previewImageUrl;
+		NullCheck(L_3);
+		MethodArguments_AddUri_m1217908927(L_3, _stringLiteral3112854012, L_4, /*hidden argument*/NULL);
+		JavaMethodCall_1_t2893744292 * L_5 = (JavaMethodCall_1_t2893744292 *)il2cpp_codegen_object_new(JavaMethodCall_1_t2893744292_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m4169475645(L_5, __this, _stringLiteral3212105834, /*hidden argument*/JavaMethodCall_1__ctor_m4169475645_MethodInfo_var);
+		V_1 = L_5;
+		JavaMethodCall_1_t2893744292 * L_6 = V_1;
+		FacebookDelegate_1_t573598949 * L_7 = ___callback;
+		NullCheck(L_6);
+		MethodCall_1_set_Callback_m787730924(L_6, L_7, /*hidden argument*/MethodCall_1_set_Callback_m787730924_MethodInfo_var);
+		JavaMethodCall_1_t2893744292 * L_8 = V_1;
+		MethodArguments_t3878806324 * L_9 = V_0;
+		NullCheck(L_8);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IAppInviteResult>::Call(Facebook.Unity.MethodArguments) */, L_8, L_9);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::ShareLink(System.Uri,System.String,System.String,System.Uri,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t3704151993_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m3848037064_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m2998892279_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3906159785;
+extern Il2CppCodeGenString* _stringLiteral16956178;
+extern Il2CppCodeGenString* _stringLiteral2878941494;
+extern Il2CppCodeGenString* _stringLiteral3447310818;
+extern Il2CppCodeGenString* _stringLiteral421694553;
+extern const uint32_t AndroidFacebook_ShareLink_m2246564614_MetadataUsageId;
+extern "C"  void AndroidFacebook_ShareLink_m2246564614 (AndroidFacebook_t1604313921 * __this, Uri_t2776692961 * ___contentURL, String_t* ___contentTitle, String_t* ___contentDescription, Uri_t2776692961 * ___photoURL, FacebookDelegate_1_t1384006650 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_ShareLink_m2246564614_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t3704151993 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		Uri_t2776692961 * L_2 = ___contentURL;
+		NullCheck(L_1);
+		MethodArguments_AddUri_m1217908927(L_1, _stringLiteral3906159785, L_2, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_3 = V_0;
+		String_t* L_4 = ___contentTitle;
+		NullCheck(L_3);
+		MethodArguments_AddString_m620728135(L_3, _stringLiteral16956178, L_4, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_5 = V_0;
+		String_t* L_6 = ___contentDescription;
+		NullCheck(L_5);
+		MethodArguments_AddString_m620728135(L_5, _stringLiteral2878941494, L_6, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_7 = V_0;
+		Uri_t2776692961 * L_8 = ___photoURL;
+		NullCheck(L_7);
+		MethodArguments_AddUri_m1217908927(L_7, _stringLiteral3447310818, L_8, /*hidden argument*/NULL);
+		JavaMethodCall_1_t3704151993 * L_9 = (JavaMethodCall_1_t3704151993 *)il2cpp_codegen_object_new(JavaMethodCall_1_t3704151993_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m3848037064(L_9, __this, _stringLiteral421694553, /*hidden argument*/JavaMethodCall_1__ctor_m3848037064_MethodInfo_var);
+		V_1 = L_9;
+		JavaMethodCall_1_t3704151993 * L_10 = V_1;
+		FacebookDelegate_1_t1384006650 * L_11 = ___callback;
+		NullCheck(L_10);
+		MethodCall_1_set_Callback_m2998892279(L_10, L_11, /*hidden argument*/MethodCall_1_set_Callback_m2998892279_MethodInfo_var);
+		JavaMethodCall_1_t3704151993 * L_12 = V_1;
+		MethodArguments_t3878806324 * L_13 = V_0;
+		NullCheck(L_12);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IShareResult>::Call(Facebook.Unity.MethodArguments) */, L_12, L_13);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::FeedShare(System.String,System.Uri,System.String,System.String,System.String,System.Uri,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t3704151993_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m3848037064_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m2998892279_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3564790;
+extern Il2CppCodeGenString* _stringLiteral3321850;
+extern Il2CppCodeGenString* _stringLiteral1194004901;
+extern Il2CppCodeGenString* _stringLiteral2806543500;
+extern Il2CppCodeGenString* _stringLiteral1018469282;
+extern Il2CppCodeGenString* _stringLiteral3717225726;
+extern Il2CppCodeGenString* _stringLiteral3953281311;
+extern Il2CppCodeGenString* _stringLiteral348744897;
+extern const uint32_t AndroidFacebook_FeedShare_m870239282_MetadataUsageId;
+extern "C"  void AndroidFacebook_FeedShare_m870239282 (AndroidFacebook_t1604313921 * __this, String_t* ___toId, Uri_t2776692961 * ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, Uri_t2776692961 * ___picture, String_t* ___mediaSource, FacebookDelegate_1_t1384006650 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_FeedShare_m870239282_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t3704151993 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		String_t* L_2 = ___toId;
+		NullCheck(L_1);
+		MethodArguments_AddString_m620728135(L_1, _stringLiteral3564790, L_2, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_3 = V_0;
+		Uri_t2776692961 * L_4 = ___link;
+		NullCheck(L_3);
+		MethodArguments_AddUri_m1217908927(L_3, _stringLiteral3321850, L_4, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_5 = V_0;
+		String_t* L_6 = ___linkName;
+		NullCheck(L_5);
+		MethodArguments_AddString_m620728135(L_5, _stringLiteral1194004901, L_6, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_7 = V_0;
+		String_t* L_8 = ___linkCaption;
+		NullCheck(L_7);
+		MethodArguments_AddString_m620728135(L_7, _stringLiteral2806543500, L_8, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_9 = V_0;
+		String_t* L_10 = ___linkDescription;
+		NullCheck(L_9);
+		MethodArguments_AddString_m620728135(L_9, _stringLiteral1018469282, L_10, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_11 = V_0;
+		Uri_t2776692961 * L_12 = ___picture;
+		NullCheck(L_11);
+		MethodArguments_AddUri_m1217908927(L_11, _stringLiteral3717225726, L_12, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_13 = V_0;
+		String_t* L_14 = ___mediaSource;
+		NullCheck(L_13);
+		MethodArguments_AddString_m620728135(L_13, _stringLiteral3953281311, L_14, /*hidden argument*/NULL);
+		JavaMethodCall_1_t3704151993 * L_15 = (JavaMethodCall_1_t3704151993 *)il2cpp_codegen_object_new(JavaMethodCall_1_t3704151993_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m3848037064(L_15, __this, _stringLiteral348744897, /*hidden argument*/JavaMethodCall_1__ctor_m3848037064_MethodInfo_var);
+		V_1 = L_15;
+		JavaMethodCall_1_t3704151993 * L_16 = V_1;
+		FacebookDelegate_1_t1384006650 * L_17 = ___callback;
+		NullCheck(L_16);
+		MethodCall_1_set_Callback_m2998892279(L_16, L_17, /*hidden argument*/MethodCall_1_set_Callback_m2998892279_MethodInfo_var);
+		JavaMethodCall_1_t3704151993 * L_18 = V_1;
+		MethodArguments_t3878806324 * L_19 = V_0;
+		NullCheck(L_18);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IShareResult>::Call(Facebook.Unity.MethodArguments) */, L_18, L_19);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupCreateResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t313824757_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m2462818380_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m905005243_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3373707;
+extern Il2CppCodeGenString* _stringLiteral2570421244;
+extern Il2CppCodeGenString* _stringLiteral3980469128;
+extern Il2CppCodeGenString* _stringLiteral2365583593;
+extern const uint32_t AndroidFacebook_GameGroupCreate_m3314530630_MetadataUsageId;
+extern "C"  void AndroidFacebook_GameGroupCreate_m3314530630 (AndroidFacebook_t1604313921 * __this, String_t* ___name, String_t* ___description, String_t* ___privacy, FacebookDelegate_1_t2288646710 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_GameGroupCreate_m3314530630_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t313824757 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		String_t* L_2 = ___name;
+		NullCheck(L_1);
+		MethodArguments_AddString_m620728135(L_1, _stringLiteral3373707, L_2, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_3 = V_0;
+		String_t* L_4 = ___description;
+		NullCheck(L_3);
+		MethodArguments_AddString_m620728135(L_3, _stringLiteral2570421244, L_4, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_5 = V_0;
+		String_t* L_6 = ___privacy;
+		NullCheck(L_5);
+		MethodArguments_AddString_m620728135(L_5, _stringLiteral3980469128, L_6, /*hidden argument*/NULL);
+		JavaMethodCall_1_t313824757 * L_7 = (JavaMethodCall_1_t313824757 *)il2cpp_codegen_object_new(JavaMethodCall_1_t313824757_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m2462818380(L_7, __this, _stringLiteral2365583593, /*hidden argument*/JavaMethodCall_1__ctor_m2462818380_MethodInfo_var);
+		V_1 = L_7;
+		JavaMethodCall_1_t313824757 * L_8 = V_1;
+		FacebookDelegate_1_t2288646710 * L_9 = ___callback;
+		NullCheck(L_8);
+		MethodCall_1_set_Callback_m905005243(L_8, L_9, /*hidden argument*/MethodCall_1_set_Callback_m905005243_MethodInfo_var);
+		JavaMethodCall_1_t313824757 * L_10 = V_1;
+		MethodArguments_t3878806324 * L_11 = V_0;
+		NullCheck(L_10);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IGroupCreateResult>::Call(Facebook.Unity.MethodArguments) */, L_10, L_11);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::GameGroupJoin(System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupJoinResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t4220532003_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m3195758878_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m1348859597_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3355;
+extern Il2CppCodeGenString* _stringLiteral4127802455;
+extern const uint32_t AndroidFacebook_GameGroupJoin_m422503194_MetadataUsageId;
+extern "C"  void AndroidFacebook_GameGroupJoin_m422503194 (AndroidFacebook_t1604313921 * __this, String_t* ___id, FacebookDelegate_1_t1900386660 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_GameGroupJoin_m422503194_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t4220532003 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		String_t* L_2 = ___id;
+		NullCheck(L_1);
+		MethodArguments_AddString_m620728135(L_1, _stringLiteral3355, L_2, /*hidden argument*/NULL);
+		JavaMethodCall_1_t4220532003 * L_3 = (JavaMethodCall_1_t4220532003 *)il2cpp_codegen_object_new(JavaMethodCall_1_t4220532003_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m3195758878(L_3, __this, _stringLiteral4127802455, /*hidden argument*/JavaMethodCall_1__ctor_m3195758878_MethodInfo_var);
+		V_1 = L_3;
+		JavaMethodCall_1_t4220532003 * L_4 = V_1;
+		FacebookDelegate_1_t1900386660 * L_5 = ___callback;
+		NullCheck(L_4);
+		MethodCall_1_set_Callback_m1348859597(L_4, L_5, /*hidden argument*/MethodCall_1_set_Callback_m1348859597_MethodInfo_var);
+		JavaMethodCall_1_t4220532003 * L_6 = V_1;
+		MethodArguments_t3878806324 * L_7 = V_0;
+		NullCheck(L_6);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IGroupJoinResult>::Call(Facebook.Unity.MethodArguments) */, L_6, L_7);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::GetAppLink(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>)
+extern TypeInfo* JavaMethodCall_1_t1715486421_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m146581996_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m2948785371_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2236136869;
+extern const uint32_t AndroidFacebook_GetAppLink_m1254681340_MetadataUsageId;
+extern "C"  void AndroidFacebook_GetAppLink_m1254681340 (AndroidFacebook_t1604313921 * __this, FacebookDelegate_1_t3690308374 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_GetAppLink_m1254681340_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JavaMethodCall_1_t1715486421 * V_0 = {0};
+	{
+		JavaMethodCall_1_t1715486421 * L_0 = (JavaMethodCall_1_t1715486421 *)il2cpp_codegen_object_new(JavaMethodCall_1_t1715486421_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m146581996(L_0, __this, _stringLiteral2236136869, /*hidden argument*/JavaMethodCall_1__ctor_m146581996_MethodInfo_var);
+		V_0 = L_0;
+		JavaMethodCall_1_t1715486421 * L_1 = V_0;
+		FacebookDelegate_1_t3690308374 * L_2 = ___callback;
+		NullCheck(L_1);
+		MethodCall_1_set_Callback_m2948785371(L_1, L_2, /*hidden argument*/MethodCall_1_set_Callback_m2948785371_MethodInfo_var);
+		JavaMethodCall_1_t1715486421 * L_3 = V_0;
+		NullCheck(L_3);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IAppLinkResult>::Call(Facebook.Unity.MethodArguments) */, L_3, (MethodArguments_t3878806324 *)NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var;
+extern const MethodInfo* MethodArguments_AddNullablePrimitive_TisSingle_t958209021_m3080769822_MethodInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m4075992475_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1989757366;
+extern Il2CppCodeGenString* _stringLiteral2033000159;
+extern Il2CppCodeGenString* _stringLiteral458736106;
+extern Il2CppCodeGenString* _stringLiteral256794685;
+extern const uint32_t AndroidFacebook_AppEventsLogEvent_m3916401013_MetadataUsageId;
+extern "C"  void AndroidFacebook_AppEventsLogEvent_m3916401013 (AndroidFacebook_t1604313921 * __this, String_t* ___logEvent, Nullable_1_t3844246929  ___valueToSum, Dictionary_2_t2474804324 * ___parameters, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_AppEventsLogEvent_m3916401013_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t3988932780 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		String_t* L_2 = ___logEvent;
+		NullCheck(L_1);
+		MethodArguments_AddString_m620728135(L_1, _stringLiteral1989757366, L_2, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_3 = V_0;
+		Nullable_1_t3844246929  L_4 = ___valueToSum;
+		NullCheck(L_3);
+		MethodArguments_AddNullablePrimitive_TisSingle_t958209021_m3080769822(L_3, _stringLiteral2033000159, L_4, /*hidden argument*/MethodArguments_AddNullablePrimitive_TisSingle_t958209021_m3080769822_MethodInfo_var);
+		MethodArguments_t3878806324 * L_5 = V_0;
+		Dictionary_2_t2474804324 * L_6 = ___parameters;
+		NullCheck(L_5);
+		MethodArguments_AddDictionary_m2983313916(L_5, _stringLiteral458736106, L_6, /*hidden argument*/NULL);
+		JavaMethodCall_1_t3988932780 * L_7 = (JavaMethodCall_1_t3988932780 *)il2cpp_codegen_object_new(JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m4075992475(L_7, __this, _stringLiteral256794685, /*hidden argument*/JavaMethodCall_1__ctor_m4075992475_MethodInfo_var);
+		V_1 = L_7;
+		JavaMethodCall_1_t3988932780 * L_8 = V_1;
+		MethodArguments_t3878806324 * L_9 = V_0;
+		NullCheck(L_8);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IResult>::Call(Facebook.Unity.MethodArguments) */, L_8, L_9);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::AppEventsLogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var;
+extern const MethodInfo* MethodArguments_AddPrimative_TisSingle_t958209021_m1933420324_MethodInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m4075992475_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3483338853;
+extern Il2CppCodeGenString* _stringLiteral575402001;
+extern Il2CppCodeGenString* _stringLiteral458736106;
+extern Il2CppCodeGenString* _stringLiteral256794685;
+extern const uint32_t AndroidFacebook_AppEventsLogPurchase_m2827356525_MetadataUsageId;
+extern "C"  void AndroidFacebook_AppEventsLogPurchase_m2827356525 (AndroidFacebook_t1604313921 * __this, float ___logPurchase, String_t* ___currency, Dictionary_2_t2474804324 * ___parameters, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_AppEventsLogPurchase_m2827356525_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t3988932780 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		float L_2 = ___logPurchase;
+		NullCheck(L_1);
+		MethodArguments_AddPrimative_TisSingle_t958209021_m1933420324(L_1, _stringLiteral3483338853, L_2, /*hidden argument*/MethodArguments_AddPrimative_TisSingle_t958209021_m1933420324_MethodInfo_var);
+		MethodArguments_t3878806324 * L_3 = V_0;
+		String_t* L_4 = ___currency;
+		NullCheck(L_3);
+		MethodArguments_AddString_m620728135(L_3, _stringLiteral575402001, L_4, /*hidden argument*/NULL);
+		MethodArguments_t3878806324 * L_5 = V_0;
+		Dictionary_2_t2474804324 * L_6 = ___parameters;
+		NullCheck(L_5);
+		MethodArguments_AddDictionary_m2983313916(L_5, _stringLiteral458736106, L_6, /*hidden argument*/NULL);
+		JavaMethodCall_1_t3988932780 * L_7 = (JavaMethodCall_1_t3988932780 *)il2cpp_codegen_object_new(JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m4075992475(L_7, __this, _stringLiteral256794685, /*hidden argument*/JavaMethodCall_1__ctor_m4075992475_MethodInfo_var);
+		V_1 = L_7;
+		JavaMethodCall_1_t3988932780 * L_8 = V_1;
+		MethodArguments_t3878806324 * L_9 = V_0;
+		NullCheck(L_8);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IResult>::Call(Facebook.Unity.MethodArguments) */, L_8, L_9);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::ActivateApp(System.String)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m4075992475_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2883893241;
+extern Il2CppCodeGenString* _stringLiteral520932366;
+extern const uint32_t AndroidFacebook_ActivateApp_m900850646_MetadataUsageId;
+extern "C"  void AndroidFacebook_ActivateApp_m900850646 (AndroidFacebook_t1604313921 * __this, String_t* ___appId, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_ActivateApp_m900850646_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t3988932780 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		MethodArguments_t3878806324 * L_1 = V_0;
+		String_t* L_2 = ___appId;
+		NullCheck(L_1);
+		MethodArguments_AddString_m620728135(L_1, _stringLiteral2883893241, L_2, /*hidden argument*/NULL);
+		JavaMethodCall_1_t3988932780 * L_3 = (JavaMethodCall_1_t3988932780 *)il2cpp_codegen_object_new(JavaMethodCall_1_t3988932780_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m4075992475(L_3, __this, _stringLiteral520932366, /*hidden argument*/JavaMethodCall_1__ctor_m4075992475_MethodInfo_var);
+		V_1 = L_3;
+		JavaMethodCall_1_t3988932780 * L_4 = V_1;
+		MethodArguments_t3878806324 * L_5 = V_0;
+		NullCheck(L_4);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IResult>::Call(Facebook.Unity.MethodArguments) */, L_4, L_5);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::FetchDeferredAppLink(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>)
+extern TypeInfo* MethodArguments_t3878806324_il2cpp_TypeInfo_var;
+extern TypeInfo* JavaMethodCall_1_t1715486421_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m146581996_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m2948785371_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4147898796;
+extern const uint32_t AndroidFacebook_FetchDeferredAppLink_m158153017_MetadataUsageId;
+extern "C"  void AndroidFacebook_FetchDeferredAppLink_m158153017 (AndroidFacebook_t1604313921 * __this, FacebookDelegate_1_t3690308374 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_FetchDeferredAppLink_m158153017_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	MethodArguments_t3878806324 * V_0 = {0};
+	JavaMethodCall_1_t1715486421 * V_1 = {0};
+	{
+		MethodArguments_t3878806324 * L_0 = (MethodArguments_t3878806324 *)il2cpp_codegen_object_new(MethodArguments_t3878806324_il2cpp_TypeInfo_var);
+		MethodArguments__ctor_m2104387431(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		JavaMethodCall_1_t1715486421 * L_1 = (JavaMethodCall_1_t1715486421 *)il2cpp_codegen_object_new(JavaMethodCall_1_t1715486421_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m146581996(L_1, __this, _stringLiteral4147898796, /*hidden argument*/JavaMethodCall_1__ctor_m146581996_MethodInfo_var);
+		V_1 = L_1;
+		JavaMethodCall_1_t1715486421 * L_2 = V_1;
+		FacebookDelegate_1_t3690308374 * L_3 = ___callback;
+		NullCheck(L_2);
+		MethodCall_1_set_Callback_m2948785371(L_2, L_3, /*hidden argument*/MethodCall_1_set_Callback_m2948785371_MethodInfo_var);
+		JavaMethodCall_1_t1715486421 * L_4 = V_1;
+		MethodArguments_t3878806324 * L_5 = V_0;
+		NullCheck(L_4);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IAppLinkResult>::Call(Facebook.Unity.MethodArguments) */, L_4, L_5);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::RefreshCurrentAccessToken(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAccessTokenRefreshResult>)
+extern TypeInfo* JavaMethodCall_1_t447599154_il2cpp_TypeInfo_var;
+extern const MethodInfo* JavaMethodCall_1__ctor_m1802046741_MethodInfo_var;
+extern const MethodInfo* MethodCall_1_set_Callback_m2441201082_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3484718551;
+extern const uint32_t AndroidFacebook_RefreshCurrentAccessToken_m3413714249_MetadataUsageId;
+extern "C"  void AndroidFacebook_RefreshCurrentAccessToken_m3413714249 (AndroidFacebook_t1604313921 * __this, FacebookDelegate_1_t2422421107 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_RefreshCurrentAccessToken_m3413714249_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	JavaMethodCall_1_t447599154 * V_0 = {0};
+	{
+		JavaMethodCall_1_t447599154 * L_0 = (JavaMethodCall_1_t447599154 *)il2cpp_codegen_object_new(JavaMethodCall_1_t447599154_il2cpp_TypeInfo_var);
+		JavaMethodCall_1__ctor_m1802046741(L_0, __this, _stringLiteral3484718551, /*hidden argument*/JavaMethodCall_1__ctor_m1802046741_MethodInfo_var);
+		V_0 = L_0;
+		JavaMethodCall_1_t447599154 * L_1 = V_0;
+		FacebookDelegate_1_t2422421107 * L_2 = ___callback;
+		NullCheck(L_1);
+		MethodCall_1_set_Callback_m2441201082(L_1, L_2, /*hidden argument*/MethodCall_1_set_Callback_m2441201082_MethodInfo_var);
+		JavaMethodCall_1_t447599154 * L_3 = V_0;
+		NullCheck(L_3);
+		VirtActionInvoker1< MethodArguments_t3878806324 * >::Invoke(4 /* System.Void Facebook.Unity.Mobile.Android.AndroidFacebook/JavaMethodCall`1<Facebook.Unity.IAccessTokenRefreshResult>::Call(Facebook.Unity.MethodArguments) */, L_3, (MethodArguments_t3878806324 *)NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::SetShareDialogMode(Facebook.Unity.ShareDialogMode)
+extern TypeInfo* ShareDialogMode_t698979849_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1474498472;
+extern const uint32_t AndroidFacebook_SetShareDialogMode_m2541607491_MetadataUsageId;
+extern "C"  void AndroidFacebook_SetShareDialogMode_m2541607491 (AndroidFacebook_t1604313921 * __this, int32_t ___mode, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_SetShareDialogMode_m2541607491_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = ___mode;
+		int32_t L_1 = L_0;
+		Object_t * L_2 = Box(ShareDialogMode_t698979849_il2cpp_TypeInfo_var, &L_1);
+		NullCheck((Enum_t2778772662 *)L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, (Enum_t2778772662 *)L_2);
+		AndroidFacebook_CallFB_m560138752(__this, _stringLiteral1474498472, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebook::CallFB(System.String,System.String)
+extern TypeInfo* ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var;
+extern TypeInfo* IAndroidJavaClass_t2276864572_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidFacebook_CallFB_m560138752_MetadataUsageId;
+extern "C"  void AndroidFacebook_CallFB_m560138752 (AndroidFacebook_t1604313921 * __this, String_t* ___method, String_t* ___args, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebook_CallFB_m560138752_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___facebookJava_8);
+		String_t* L_1 = ___method;
+		ObjectU5BU5D_t11523773* L_2 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)1));
+		String_t* L_3 = ___args;
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 0);
+		ArrayElementTypeCheck (L_2, L_3);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 0, sizeof(Object_t *))) = (Object_t *)L_3;
+		NullCheck(L_0);
+		InterfaceActionInvoker2< String_t*, ObjectU5BU5D_t11523773* >::Invoke(1 /* System.Void Facebook.Unity.Mobile.Android.IAndroidJavaClass::CallStatic(System.String,System.Object[]) */, IAndroidJavaClass_t2276864572_il2cpp_TypeInfo_var, L_0, L_1, L_2);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebookGameObject::.ctor()
+extern "C"  void AndroidFacebookGameObject__ctor_m3613647759 (AndroidFacebookGameObject_t2900811506 * __this, const MethodInfo* method)
+{
+	{
+		MobileFacebookGameObject__ctor_m1032091511(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebookGameObject::OnAwake()
+extern "C"  void AndroidFacebookGameObject_OnAwake_m2758884115 (AndroidFacebookGameObject_t2900811506 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.AndroidFacebookLoader::.ctor()
+extern "C"  void AndroidFacebookLoader__ctor_m497951245 (AndroidFacebookLoader_t2764161972 * __this, const MethodInfo* method)
+{
+	{
+		CompiledFacebookLoader__ctor_m3832597055(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Facebook.Unity.FacebookGameObject Facebook.Unity.Mobile.Android.AndroidFacebookLoader::get_FBGameObject()
+extern TypeInfo* AndroidFacebook_t1604313921_il2cpp_TypeInfo_var;
+extern const MethodInfo* ComponentFactory_GetComponent_TisAndroidFacebookGameObject_t2900811506_m2785260691_MethodInfo_var;
+extern const uint32_t AndroidFacebookLoader_get_FBGameObject_m414435026_MetadataUsageId;
+extern "C"  FacebookGameObject_t2636547894 * AndroidFacebookLoader_get_FBGameObject_m414435026 (AndroidFacebookLoader_t2764161972 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidFacebookLoader_get_FBGameObject_m414435026_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AndroidFacebookGameObject_t2900811506 * V_0 = {0};
+	{
+		AndroidFacebookGameObject_t2900811506 * L_0 = ComponentFactory_GetComponent_TisAndroidFacebookGameObject_t2900811506_m2785260691(NULL /*static, unused*/, 0, /*hidden argument*/ComponentFactory_GetComponent_TisAndroidFacebookGameObject_t2900811506_m2785260691_MethodInfo_var);
+		V_0 = L_0;
+		AndroidFacebookGameObject_t2900811506 * L_1 = V_0;
+		NullCheck(L_1);
+		Object_t * L_2 = FacebookGameObject_get_Facebook_m2623010211(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		AndroidFacebookGameObject_t2900811506 * L_3 = V_0;
+		AndroidFacebook_t1604313921 * L_4 = (AndroidFacebook_t1604313921 *)il2cpp_codegen_object_new(AndroidFacebook_t1604313921_il2cpp_TypeInfo_var);
+		AndroidFacebook__ctor_m1308819104(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		FacebookGameObject_set_Facebook_m1704558324(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_001d:
+	{
+		AndroidFacebookGameObject_t2900811506 * L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.FBJavaClass::.ctor()
+extern TypeInfo* AndroidJavaClass_t1802702567_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2337827024;
+extern const uint32_t FBJavaClass__ctor_m3508152411_MetadataUsageId;
+extern "C"  void FBJavaClass__ctor_m3508152411 (FBJavaClass_t283972646 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBJavaClass__ctor_m3508152411_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AndroidJavaClass_t1802702567 * L_0 = (AndroidJavaClass_t1802702567 *)il2cpp_codegen_object_new(AndroidJavaClass_t1802702567_il2cpp_TypeInfo_var);
+		AndroidJavaClass__ctor_m4170044877(L_0, _stringLiteral2337827024, /*hidden argument*/NULL);
+		__this->___facebookJavaClass_1 = L_0;
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.FBJavaClass::CallStatic(System.String,System.Object[])
+extern "C"  void FBJavaClass_CallStatic_m2178408089 (FBJavaClass_t283972646 * __this, String_t* ___methodName, ObjectU5BU5D_t11523773* ___args, const MethodInfo* method)
+{
+	{
+		AndroidJavaClass_t1802702567 * L_0 = (__this->___facebookJavaClass_1);
+		String_t* L_1 = ___methodName;
+		ObjectU5BU5D_t11523773* L_2 = ___args;
+		NullCheck(L_0);
+		AndroidJavaClass_CallStatic_m486019859(L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.FBJavaClass/AndroidJavaClass::.ctor(System.String)
+extern "C"  void AndroidJavaClass__ctor_m4170044877 (AndroidJavaClass_t1802702567 * __this, String_t* ___mock, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.FBJavaClass/AndroidJavaClass::CallStatic(System.String,System.Object[])
+extern "C"  void AndroidJavaClass_CallStatic_m486019859 (AndroidJavaClass_t1802702567 * __this, String_t* ___method, ObjectU5BU5D_t11523773* ___args, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.FBJavaClass/AndroidJNIHelper::.ctor()
+extern "C"  void AndroidJNIHelper__ctor_m1003552952 (AndroidJNIHelper_t1081769508 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean Facebook.Unity.Mobile.Android.FBJavaClass/AndroidJNIHelper::get_Debug()
+extern TypeInfo* AndroidJNIHelper_t1081769508_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidJNIHelper_get_Debug_m2764976076_MetadataUsageId;
+extern "C"  bool AndroidJNIHelper_get_Debug_m2764976076 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJNIHelper_get_Debug_m2764976076_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = ((AndroidJNIHelper_t1081769508_StaticFields*)AndroidJNIHelper_t1081769508_il2cpp_TypeInfo_var->static_fields)->___U3CDebugU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.Android.FBJavaClass/AndroidJNIHelper::set_Debug(System.Boolean)
+extern TypeInfo* AndroidJNIHelper_t1081769508_il2cpp_TypeInfo_var;
+extern const uint32_t AndroidJNIHelper_set_Debug_m4128326275_MetadataUsageId;
+extern "C"  void AndroidJNIHelper_set_Debug_m4128326275 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (AndroidJNIHelper_set_Debug_m4128326275_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = ___value;
+		((AndroidJNIHelper_t1081769508_StaticFields*)AndroidJNIHelper_t1081769508_il2cpp_TypeInfo_var->static_fields)->___U3CDebugU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::.ctor()
+extern TypeInfo* IOSWrapper_t1868543644_il2cpp_TypeInfo_var;
+extern TypeInfo* CallbackManager_t1943358823_il2cpp_TypeInfo_var;
+extern const uint32_t IOSFacebook__ctor_m605863012_MetadataUsageId;
+extern "C"  void IOSFacebook__ctor_m605863012 (IOSFacebook_t2693359753 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook__ctor_m605863012_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IOSWrapper_t1868543644 * L_0 = (IOSWrapper_t1868543644 *)il2cpp_codegen_object_new(IOSWrapper_t1868543644_il2cpp_TypeInfo_var);
+		IOSWrapper__ctor_m4073934985(L_0, /*hidden argument*/NULL);
+		CallbackManager_t1943358823 * L_1 = (CallbackManager_t1943358823 *)il2cpp_codegen_object_new(CallbackManager_t1943358823_il2cpp_TypeInfo_var);
+		CallbackManager__ctor_m2342766228(L_1, /*hidden argument*/NULL);
+		IOSFacebook__ctor_m1487271988(__this, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::.ctor(Facebook.Unity.Mobile.IOS.IIOSWrapper,Facebook.Unity.CallbackManager)
+extern "C"  void IOSFacebook__ctor_m1487271988 (IOSFacebook_t2693359753 * __this, Object_t * ___iosWrapper, CallbackManager_t1943358823 * ___callbackManager, const MethodInfo* method)
+{
+	{
+		CallbackManager_t1943358823 * L_0 = ___callbackManager;
+		MobileFacebook__ctor_m2525648705(__this, L_0, /*hidden argument*/NULL);
+		Object_t * L_1 = ___iosWrapper;
+		__this->___iosWrapper_8 = L_1;
+		return;
+	}
+}
+// System.Boolean Facebook.Unity.Mobile.IOS.IOSFacebook::get_LimitEventUsage()
+extern "C"  bool IOSFacebook_get_LimitEventUsage_m3867693199 (IOSFacebook_t2693359753 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = (__this->___limitEventUsage_7);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::set_LimitEventUsage(System.Boolean)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const uint32_t IOSFacebook_set_LimitEventUsage_m3543523102_MetadataUsageId;
+extern "C"  void IOSFacebook_set_LimitEventUsage_m3543523102 (IOSFacebook_t2693359753 * __this, bool ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_set_LimitEventUsage_m3543523102_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = ___value;
+		__this->___limitEventUsage_7 = L_0;
+		Object_t * L_1 = (__this->___iosWrapper_8);
+		bool L_2 = ___value;
+		NullCheck(L_1);
+		InterfaceActionInvoker1< bool >::Invoke(14 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::FBAppEventsSetLimitEventUsage(System.Boolean) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_1, L_2);
+		return;
+	}
+}
+// System.String Facebook.Unity.Mobile.IOS.IOSFacebook::get_SDKName()
+extern Il2CppCodeGenString* _stringLiteral3264913577;
+extern const uint32_t IOSFacebook_get_SDKName_m2439632481_MetadataUsageId;
+extern "C"  String_t* IOSFacebook_get_SDKName_m2439632481 (IOSFacebook_t2693359753 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_get_SDKName_m2439632481_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		return _stringLiteral3264913577;
+	}
+}
+// System.String Facebook.Unity.Mobile.IOS.IOSFacebook::get_SDKVersion()
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const uint32_t IOSFacebook_get_SDKVersion_m1361779236_MetadataUsageId;
+extern "C"  String_t* IOSFacebook_get_SDKVersion_m1361779236 (IOSFacebook_t2693359753 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_get_SDKVersion_m1361779236_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(17 /* System.String Facebook.Unity.Mobile.IOS.IIOSWrapper::FBSdkVersion() */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0);
+		return L_1;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::Init(System.String,System.Boolean,Facebook.Unity.HideUnityDelegate,Facebook.Unity.InitDelegate)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const uint32_t IOSFacebook_Init_m3719980090_MetadataUsageId;
+extern "C"  void IOSFacebook_Init_m3719980090 (IOSFacebook_t2693359753 * __this, String_t* ___appId, bool ___frictionlessRequests, HideUnityDelegate_t2364798903 * ___hideUnityDelegate, InitDelegate_t1475272884 * ___onInitComplete, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_Init_m3719980090_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		HideUnityDelegate_t2364798903 * L_0 = ___hideUnityDelegate;
+		InitDelegate_t1475272884 * L_1 = ___onInitComplete;
+		FacebookBase_Init_m1682655584(__this, L_0, L_1, /*hidden argument*/NULL);
+		Object_t * L_2 = (__this->___iosWrapper_8);
+		String_t* L_3 = ___appId;
+		bool L_4 = ___frictionlessRequests;
+		String_t* L_5 = FacebookSettings_get_IosURLSuffix_m1713929852(NULL /*static, unused*/, /*hidden argument*/NULL);
+		String_t* L_6 = Constants_get_UnitySDKUserAgentSuffixLegacy_m4166556622(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker4< String_t*, bool, String_t*, String_t* >::Invoke(0 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::Init(System.String,System.Boolean,System.String,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_2, L_3, L_4, L_5, L_6);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::LogInWithReadPermissions(System.Collections.Generic.IEnumerable`1<System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSFacebook_AddCallback_TisILoginResult_t1998157500_m4157207771_MethodInfo_var;
+extern const uint32_t IOSFacebook_LogInWithReadPermissions_m956252619_MetadataUsageId;
+extern "C"  void IOSFacebook_LogInWithReadPermissions_m956252619 (IOSFacebook_t2693359753 * __this, Object_t* ___permissions, FacebookDelegate_1_t2634519556 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_LogInWithReadPermissions_m956252619_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		FacebookDelegate_1_t2634519556 * L_1 = ___callback;
+		int32_t L_2 = IOSFacebook_AddCallback_TisILoginResult_t1998157500_m4157207771(__this, L_1, /*hidden argument*/IOSFacebook_AddCallback_TisILoginResult_t1998157500_m4157207771_MethodInfo_var);
+		Object_t* L_3 = ___permissions;
+		String_t* L_4 = Utilities_ToCommaSeparateList_m2708553843(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(1 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::LogInWithReadPermissions(System.Int32,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_2, L_4);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::LogInWithPublishPermissions(System.Collections.Generic.IEnumerable`1<System.String>,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.ILoginResult>)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSFacebook_AddCallback_TisILoginResult_t1998157500_m4157207771_MethodInfo_var;
+extern const uint32_t IOSFacebook_LogInWithPublishPermissions_m3762083410_MetadataUsageId;
+extern "C"  void IOSFacebook_LogInWithPublishPermissions_m3762083410 (IOSFacebook_t2693359753 * __this, Object_t* ___permissions, FacebookDelegate_1_t2634519556 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_LogInWithPublishPermissions_m3762083410_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		FacebookDelegate_1_t2634519556 * L_1 = ___callback;
+		int32_t L_2 = IOSFacebook_AddCallback_TisILoginResult_t1998157500_m4157207771(__this, L_1, /*hidden argument*/IOSFacebook_AddCallback_TisILoginResult_t1998157500_m4157207771_MethodInfo_var);
+		Object_t* L_3 = ___permissions;
+		String_t* L_4 = Utilities_ToCommaSeparateList_m2708553843(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(2 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::LogInWithPublishPermissions(System.Int32,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_2, L_4);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::LogOut()
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const uint32_t IOSFacebook_LogOut_m4005127050_MetadataUsageId;
+extern "C"  void IOSFacebook_LogOut_m4005127050 (IOSFacebook_t2693359753 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_LogOut_m4005127050_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FacebookBase_LogOut_m3591520315(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		NullCheck(L_0);
+		InterfaceActionInvoker0::Invoke(3 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::LogOut() */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::AppRequest(System.String,System.Nullable`1<Facebook.Unity.OGActionType>,System.String,System.Collections.Generic.IEnumerable`1<System.String>,System.Collections.Generic.IEnumerable`1<System.Object>,System.Collections.Generic.IEnumerable`1<System.String>,System.Nullable`1<System.Int32>,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppRequestResult>)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* Enumerable_Any_TisObject_t_m3411867191_MethodInfo_var;
+extern const MethodInfo* Enumerable_First_TisObject_t_m4153369996_MethodInfo_var;
+extern const MethodInfo* IOSFacebook_AddCallback_TisIAppRequestResult_t2121186099_m4185702968_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m145956701_MethodInfo_var;
+extern const MethodInfo* Nullable_1_ToString_m1428637112_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToArray_TisString_t_m2199204590_MethodInfo_var;
+extern const MethodInfo* Enumerable_Count_TisString_t_m2139531282_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m1686547625_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m844974555_MethodInfo_var;
+extern const uint32_t IOSFacebook_AppRequest_m394509307_MetadataUsageId;
+extern "C"  void IOSFacebook_AppRequest_m394509307 (IOSFacebook_t2693359753 * __this, String_t* ___message, Nullable_1_t3534247419  ___actionType, String_t* ___objectId, Object_t* ___to, Object_t* ___filters, Object_t* ___excludeIds, Nullable_1_t1438485399  ___maxRecipients, String_t* ___data, String_t* ___title, FacebookDelegate_1_t2757548155 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_AppRequest_m394509307_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	String_t* G_B5_0 = {0};
+	int32_t G_B5_1 = 0;
+	Object_t * G_B5_2 = {0};
+	String_t* G_B4_0 = {0};
+	int32_t G_B4_1 = 0;
+	Object_t * G_B4_2 = {0};
+	String_t* G_B6_0 = {0};
+	String_t* G_B6_1 = {0};
+	int32_t G_B6_2 = 0;
+	Object_t * G_B6_3 = {0};
+	String_t* G_B8_0 = {0};
+	String_t* G_B8_1 = {0};
+	int32_t G_B8_2 = 0;
+	Object_t * G_B8_3 = {0};
+	String_t* G_B7_0 = {0};
+	String_t* G_B7_1 = {0};
+	int32_t G_B7_2 = 0;
+	Object_t * G_B7_3 = {0};
+	String_t* G_B9_0 = {0};
+	String_t* G_B9_1 = {0};
+	String_t* G_B9_2 = {0};
+	int32_t G_B9_3 = 0;
+	Object_t * G_B9_4 = {0};
+	String_t* G_B11_0 = {0};
+	String_t* G_B11_1 = {0};
+	String_t* G_B11_2 = {0};
+	int32_t G_B11_3 = 0;
+	Object_t * G_B11_4 = {0};
+	String_t* G_B10_0 = {0};
+	String_t* G_B10_1 = {0};
+	String_t* G_B10_2 = {0};
+	int32_t G_B10_3 = 0;
+	Object_t * G_B10_4 = {0};
+	StringU5BU5D_t2956870243* G_B12_0 = {0};
+	String_t* G_B12_1 = {0};
+	String_t* G_B12_2 = {0};
+	String_t* G_B12_3 = {0};
+	int32_t G_B12_4 = 0;
+	Object_t * G_B12_5 = {0};
+	StringU5BU5D_t2956870243* G_B14_0 = {0};
+	String_t* G_B14_1 = {0};
+	String_t* G_B14_2 = {0};
+	String_t* G_B14_3 = {0};
+	int32_t G_B14_4 = 0;
+	Object_t * G_B14_5 = {0};
+	StringU5BU5D_t2956870243* G_B13_0 = {0};
+	String_t* G_B13_1 = {0};
+	String_t* G_B13_2 = {0};
+	String_t* G_B13_3 = {0};
+	int32_t G_B13_4 = 0;
+	Object_t * G_B13_5 = {0};
+	int32_t G_B15_0 = 0;
+	StringU5BU5D_t2956870243* G_B15_1 = {0};
+	String_t* G_B15_2 = {0};
+	String_t* G_B15_3 = {0};
+	String_t* G_B15_4 = {0};
+	int32_t G_B15_5 = 0;
+	Object_t * G_B15_6 = {0};
+	int32_t G_B17_0 = 0;
+	StringU5BU5D_t2956870243* G_B17_1 = {0};
+	String_t* G_B17_2 = {0};
+	String_t* G_B17_3 = {0};
+	String_t* G_B17_4 = {0};
+	int32_t G_B17_5 = 0;
+	Object_t * G_B17_6 = {0};
+	int32_t G_B16_0 = 0;
+	StringU5BU5D_t2956870243* G_B16_1 = {0};
+	String_t* G_B16_2 = {0};
+	String_t* G_B16_3 = {0};
+	String_t* G_B16_4 = {0};
+	int32_t G_B16_5 = 0;
+	Object_t * G_B16_6 = {0};
+	String_t* G_B18_0 = {0};
+	int32_t G_B18_1 = 0;
+	StringU5BU5D_t2956870243* G_B18_2 = {0};
+	String_t* G_B18_3 = {0};
+	String_t* G_B18_4 = {0};
+	String_t* G_B18_5 = {0};
+	int32_t G_B18_6 = 0;
+	Object_t * G_B18_7 = {0};
+	String_t* G_B20_0 = {0};
+	int32_t G_B20_1 = 0;
+	StringU5BU5D_t2956870243* G_B20_2 = {0};
+	String_t* G_B20_3 = {0};
+	String_t* G_B20_4 = {0};
+	String_t* G_B20_5 = {0};
+	int32_t G_B20_6 = 0;
+	Object_t * G_B20_7 = {0};
+	String_t* G_B19_0 = {0};
+	int32_t G_B19_1 = 0;
+	StringU5BU5D_t2956870243* G_B19_2 = {0};
+	String_t* G_B19_3 = {0};
+	String_t* G_B19_4 = {0};
+	String_t* G_B19_5 = {0};
+	int32_t G_B19_6 = 0;
+	Object_t * G_B19_7 = {0};
+	StringU5BU5D_t2956870243* G_B21_0 = {0};
+	String_t* G_B21_1 = {0};
+	int32_t G_B21_2 = 0;
+	StringU5BU5D_t2956870243* G_B21_3 = {0};
+	String_t* G_B21_4 = {0};
+	String_t* G_B21_5 = {0};
+	String_t* G_B21_6 = {0};
+	int32_t G_B21_7 = 0;
+	Object_t * G_B21_8 = {0};
+	StringU5BU5D_t2956870243* G_B23_0 = {0};
+	String_t* G_B23_1 = {0};
+	int32_t G_B23_2 = 0;
+	StringU5BU5D_t2956870243* G_B23_3 = {0};
+	String_t* G_B23_4 = {0};
+	String_t* G_B23_5 = {0};
+	String_t* G_B23_6 = {0};
+	int32_t G_B23_7 = 0;
+	Object_t * G_B23_8 = {0};
+	StringU5BU5D_t2956870243* G_B22_0 = {0};
+	String_t* G_B22_1 = {0};
+	int32_t G_B22_2 = 0;
+	StringU5BU5D_t2956870243* G_B22_3 = {0};
+	String_t* G_B22_4 = {0};
+	String_t* G_B22_5 = {0};
+	String_t* G_B22_6 = {0};
+	int32_t G_B22_7 = 0;
+	Object_t * G_B22_8 = {0};
+	int32_t G_B24_0 = 0;
+	StringU5BU5D_t2956870243* G_B24_1 = {0};
+	String_t* G_B24_2 = {0};
+	int32_t G_B24_3 = 0;
+	StringU5BU5D_t2956870243* G_B24_4 = {0};
+	String_t* G_B24_5 = {0};
+	String_t* G_B24_6 = {0};
+	String_t* G_B24_7 = {0};
+	int32_t G_B24_8 = 0;
+	Object_t * G_B24_9 = {0};
+	bool G_B26_0 = false;
+	int32_t G_B26_1 = 0;
+	StringU5BU5D_t2956870243* G_B26_2 = {0};
+	String_t* G_B26_3 = {0};
+	int32_t G_B26_4 = 0;
+	StringU5BU5D_t2956870243* G_B26_5 = {0};
+	String_t* G_B26_6 = {0};
+	String_t* G_B26_7 = {0};
+	String_t* G_B26_8 = {0};
+	int32_t G_B26_9 = 0;
+	Object_t * G_B26_10 = {0};
+	bool G_B25_0 = false;
+	int32_t G_B25_1 = 0;
+	StringU5BU5D_t2956870243* G_B25_2 = {0};
+	String_t* G_B25_3 = {0};
+	int32_t G_B25_4 = 0;
+	StringU5BU5D_t2956870243* G_B25_5 = {0};
+	String_t* G_B25_6 = {0};
+	String_t* G_B25_7 = {0};
+	String_t* G_B25_8 = {0};
+	int32_t G_B25_9 = 0;
+	Object_t * G_B25_10 = {0};
+	int32_t G_B27_0 = 0;
+	bool G_B27_1 = false;
+	int32_t G_B27_2 = 0;
+	StringU5BU5D_t2956870243* G_B27_3 = {0};
+	String_t* G_B27_4 = {0};
+	int32_t G_B27_5 = 0;
+	StringU5BU5D_t2956870243* G_B27_6 = {0};
+	String_t* G_B27_7 = {0};
+	String_t* G_B27_8 = {0};
+	String_t* G_B27_9 = {0};
+	int32_t G_B27_10 = 0;
+	Object_t * G_B27_11 = {0};
+	{
+		String_t* L_0 = ___message;
+		Nullable_1_t3534247419  L_1 = ___actionType;
+		String_t* L_2 = ___objectId;
+		Object_t* L_3 = ___to;
+		Object_t* L_4 = ___filters;
+		Object_t* L_5 = ___excludeIds;
+		Nullable_1_t1438485399  L_6 = ___maxRecipients;
+		String_t* L_7 = ___data;
+		String_t* L_8 = ___title;
+		FacebookDelegate_1_t2757548155 * L_9 = ___callback;
+		FacebookBase_ValidateAppRequestArgs_m3314111263(__this, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, /*hidden argument*/NULL);
+		V_0 = (String_t*)NULL;
+		Object_t* L_10 = ___filters;
+		if (!L_10)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		Object_t* L_11 = ___filters;
+		bool L_12 = Enumerable_Any_TisObject_t_m3411867191(NULL /*static, unused*/, L_11, /*hidden argument*/Enumerable_Any_TisObject_t_m3411867191_MethodInfo_var);
+		if (!L_12)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		Object_t* L_13 = ___filters;
+		Object_t * L_14 = Enumerable_First_TisObject_t_m4153369996(NULL /*static, unused*/, L_13, /*hidden argument*/Enumerable_First_TisObject_t_m4153369996_MethodInfo_var);
+		V_0 = ((String_t*)IsInstSealed(L_14, String_t_il2cpp_TypeInfo_var));
+	}
+
+IL_0039:
+	{
+		Object_t * L_15 = (__this->___iosWrapper_8);
+		FacebookDelegate_1_t2757548155 * L_16 = ___callback;
+		int32_t L_17 = IOSFacebook_AddCallback_TisIAppRequestResult_t2121186099_m4185702968(__this, L_16, /*hidden argument*/IOSFacebook_AddCallback_TisIAppRequestResult_t2121186099_m4185702968_MethodInfo_var);
+		String_t* L_18 = ___message;
+		bool L_19 = Nullable_1_get_HasValue_m145956701((&___actionType), /*hidden argument*/Nullable_1_get_HasValue_m145956701_MethodInfo_var);
+		G_B4_0 = L_18;
+		G_B4_1 = L_17;
+		G_B4_2 = L_15;
+		if (!L_19)
+		{
+			G_B5_0 = L_18;
+			G_B5_1 = L_17;
+			G_B5_2 = L_15;
+			goto IL_0060;
+		}
+	}
+	{
+		String_t* L_20 = Nullable_1_ToString_m1428637112((&___actionType), /*hidden argument*/Nullable_1_ToString_m1428637112_MethodInfo_var);
+		G_B6_0 = L_20;
+		G_B6_1 = G_B4_0;
+		G_B6_2 = G_B4_1;
+		G_B6_3 = G_B4_2;
+		goto IL_0065;
+	}
+
+IL_0060:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_21 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B6_0 = L_21;
+		G_B6_1 = G_B5_0;
+		G_B6_2 = G_B5_1;
+		G_B6_3 = G_B5_2;
+	}
+
+IL_0065:
+	{
+		String_t* L_22 = ___objectId;
+		G_B7_0 = G_B6_0;
+		G_B7_1 = G_B6_1;
+		G_B7_2 = G_B6_2;
+		G_B7_3 = G_B6_3;
+		if (!L_22)
+		{
+			G_B8_0 = G_B6_0;
+			G_B8_1 = G_B6_1;
+			G_B8_2 = G_B6_2;
+			G_B8_3 = G_B6_3;
+			goto IL_0071;
+		}
+	}
+	{
+		String_t* L_23 = ___objectId;
+		G_B9_0 = L_23;
+		G_B9_1 = G_B7_0;
+		G_B9_2 = G_B7_1;
+		G_B9_3 = G_B7_2;
+		G_B9_4 = G_B7_3;
+		goto IL_0076;
+	}
+
+IL_0071:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_24 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B9_0 = L_24;
+		G_B9_1 = G_B8_0;
+		G_B9_2 = G_B8_1;
+		G_B9_3 = G_B8_2;
+		G_B9_4 = G_B8_3;
+	}
+
+IL_0076:
+	{
+		Object_t* L_25 = ___to;
+		G_B10_0 = G_B9_0;
+		G_B10_1 = G_B9_1;
+		G_B10_2 = G_B9_2;
+		G_B10_3 = G_B9_3;
+		G_B10_4 = G_B9_4;
+		if (!L_25)
+		{
+			G_B11_0 = G_B9_0;
+			G_B11_1 = G_B9_1;
+			G_B11_2 = G_B9_2;
+			G_B11_3 = G_B9_3;
+			G_B11_4 = G_B9_4;
+			goto IL_0089;
+		}
+	}
+	{
+		Object_t* L_26 = ___to;
+		StringU5BU5D_t2956870243* L_27 = Enumerable_ToArray_TisString_t_m2199204590(NULL /*static, unused*/, L_26, /*hidden argument*/Enumerable_ToArray_TisString_t_m2199204590_MethodInfo_var);
+		G_B12_0 = L_27;
+		G_B12_1 = G_B10_0;
+		G_B12_2 = G_B10_1;
+		G_B12_3 = G_B10_2;
+		G_B12_4 = G_B10_3;
+		G_B12_5 = G_B10_4;
+		goto IL_008a;
+	}
+
+IL_0089:
+	{
+		G_B12_0 = ((StringU5BU5D_t2956870243*)(NULL));
+		G_B12_1 = G_B11_0;
+		G_B12_2 = G_B11_1;
+		G_B12_3 = G_B11_2;
+		G_B12_4 = G_B11_3;
+		G_B12_5 = G_B11_4;
+	}
+
+IL_008a:
+	{
+		Object_t* L_28 = ___to;
+		G_B13_0 = G_B12_0;
+		G_B13_1 = G_B12_1;
+		G_B13_2 = G_B12_2;
+		G_B13_3 = G_B12_3;
+		G_B13_4 = G_B12_4;
+		G_B13_5 = G_B12_5;
+		if (!L_28)
+		{
+			G_B14_0 = G_B12_0;
+			G_B14_1 = G_B12_1;
+			G_B14_2 = G_B12_2;
+			G_B14_3 = G_B12_3;
+			G_B14_4 = G_B12_4;
+			G_B14_5 = G_B12_5;
+			goto IL_009d;
+		}
+	}
+	{
+		Object_t* L_29 = ___to;
+		int32_t L_30 = Enumerable_Count_TisString_t_m2139531282(NULL /*static, unused*/, L_29, /*hidden argument*/Enumerable_Count_TisString_t_m2139531282_MethodInfo_var);
+		G_B15_0 = L_30;
+		G_B15_1 = G_B13_0;
+		G_B15_2 = G_B13_1;
+		G_B15_3 = G_B13_2;
+		G_B15_4 = G_B13_3;
+		G_B15_5 = G_B13_4;
+		G_B15_6 = G_B13_5;
+		goto IL_009e;
+	}
+
+IL_009d:
+	{
+		G_B15_0 = 0;
+		G_B15_1 = G_B14_0;
+		G_B15_2 = G_B14_1;
+		G_B15_3 = G_B14_2;
+		G_B15_4 = G_B14_3;
+		G_B15_5 = G_B14_4;
+		G_B15_6 = G_B14_5;
+	}
+
+IL_009e:
+	{
+		String_t* L_31 = V_0;
+		G_B16_0 = G_B15_0;
+		G_B16_1 = G_B15_1;
+		G_B16_2 = G_B15_2;
+		G_B16_3 = G_B15_3;
+		G_B16_4 = G_B15_4;
+		G_B16_5 = G_B15_5;
+		G_B16_6 = G_B15_6;
+		if (!L_31)
+		{
+			G_B17_0 = G_B15_0;
+			G_B17_1 = G_B15_1;
+			G_B17_2 = G_B15_2;
+			G_B17_3 = G_B15_3;
+			G_B17_4 = G_B15_4;
+			G_B17_5 = G_B15_5;
+			G_B17_6 = G_B15_6;
+			goto IL_00aa;
+		}
+	}
+	{
+		String_t* L_32 = V_0;
+		G_B18_0 = L_32;
+		G_B18_1 = G_B16_0;
+		G_B18_2 = G_B16_1;
+		G_B18_3 = G_B16_2;
+		G_B18_4 = G_B16_3;
+		G_B18_5 = G_B16_4;
+		G_B18_6 = G_B16_5;
+		G_B18_7 = G_B16_6;
+		goto IL_00af;
+	}
+
+IL_00aa:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_33 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B18_0 = L_33;
+		G_B18_1 = G_B17_0;
+		G_B18_2 = G_B17_1;
+		G_B18_3 = G_B17_2;
+		G_B18_4 = G_B17_3;
+		G_B18_5 = G_B17_4;
+		G_B18_6 = G_B17_5;
+		G_B18_7 = G_B17_6;
+	}
+
+IL_00af:
+	{
+		Object_t* L_34 = ___excludeIds;
+		G_B19_0 = G_B18_0;
+		G_B19_1 = G_B18_1;
+		G_B19_2 = G_B18_2;
+		G_B19_3 = G_B18_3;
+		G_B19_4 = G_B18_4;
+		G_B19_5 = G_B18_5;
+		G_B19_6 = G_B18_6;
+		G_B19_7 = G_B18_7;
+		if (!L_34)
+		{
+			G_B20_0 = G_B18_0;
+			G_B20_1 = G_B18_1;
+			G_B20_2 = G_B18_2;
+			G_B20_3 = G_B18_3;
+			G_B20_4 = G_B18_4;
+			G_B20_5 = G_B18_5;
+			G_B20_6 = G_B18_6;
+			G_B20_7 = G_B18_7;
+			goto IL_00c2;
+		}
+	}
+	{
+		Object_t* L_35 = ___excludeIds;
+		StringU5BU5D_t2956870243* L_36 = Enumerable_ToArray_TisString_t_m2199204590(NULL /*static, unused*/, L_35, /*hidden argument*/Enumerable_ToArray_TisString_t_m2199204590_MethodInfo_var);
+		G_B21_0 = L_36;
+		G_B21_1 = G_B19_0;
+		G_B21_2 = G_B19_1;
+		G_B21_3 = G_B19_2;
+		G_B21_4 = G_B19_3;
+		G_B21_5 = G_B19_4;
+		G_B21_6 = G_B19_5;
+		G_B21_7 = G_B19_6;
+		G_B21_8 = G_B19_7;
+		goto IL_00c3;
+	}
+
+IL_00c2:
+	{
+		G_B21_0 = ((StringU5BU5D_t2956870243*)(NULL));
+		G_B21_1 = G_B20_0;
+		G_B21_2 = G_B20_1;
+		G_B21_3 = G_B20_2;
+		G_B21_4 = G_B20_3;
+		G_B21_5 = G_B20_4;
+		G_B21_6 = G_B20_5;
+		G_B21_7 = G_B20_6;
+		G_B21_8 = G_B20_7;
+	}
+
+IL_00c3:
+	{
+		Object_t* L_37 = ___excludeIds;
+		G_B22_0 = G_B21_0;
+		G_B22_1 = G_B21_1;
+		G_B22_2 = G_B21_2;
+		G_B22_3 = G_B21_3;
+		G_B22_4 = G_B21_4;
+		G_B22_5 = G_B21_5;
+		G_B22_6 = G_B21_6;
+		G_B22_7 = G_B21_7;
+		G_B22_8 = G_B21_8;
+		if (!L_37)
+		{
+			G_B23_0 = G_B21_0;
+			G_B23_1 = G_B21_1;
+			G_B23_2 = G_B21_2;
+			G_B23_3 = G_B21_3;
+			G_B23_4 = G_B21_4;
+			G_B23_5 = G_B21_5;
+			G_B23_6 = G_B21_6;
+			G_B23_7 = G_B21_7;
+			G_B23_8 = G_B21_8;
+			goto IL_00d6;
+		}
+	}
+	{
+		Object_t* L_38 = ___excludeIds;
+		int32_t L_39 = Enumerable_Count_TisString_t_m2139531282(NULL /*static, unused*/, L_38, /*hidden argument*/Enumerable_Count_TisString_t_m2139531282_MethodInfo_var);
+		G_B24_0 = L_39;
+		G_B24_1 = G_B22_0;
+		G_B24_2 = G_B22_1;
+		G_B24_3 = G_B22_2;
+		G_B24_4 = G_B22_3;
+		G_B24_5 = G_B22_4;
+		G_B24_6 = G_B22_5;
+		G_B24_7 = G_B22_6;
+		G_B24_8 = G_B22_7;
+		G_B24_9 = G_B22_8;
+		goto IL_00d7;
+	}
+
+IL_00d6:
+	{
+		G_B24_0 = 0;
+		G_B24_1 = G_B23_0;
+		G_B24_2 = G_B23_1;
+		G_B24_3 = G_B23_2;
+		G_B24_4 = G_B23_3;
+		G_B24_5 = G_B23_4;
+		G_B24_6 = G_B23_5;
+		G_B24_7 = G_B23_6;
+		G_B24_8 = G_B23_7;
+		G_B24_9 = G_B23_8;
+	}
+
+IL_00d7:
+	{
+		bool L_40 = Nullable_1_get_HasValue_m1686547625((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		bool L_41 = Nullable_1_get_HasValue_m1686547625((&___maxRecipients), /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		G_B25_0 = L_40;
+		G_B25_1 = G_B24_0;
+		G_B25_2 = G_B24_1;
+		G_B25_3 = G_B24_2;
+		G_B25_4 = G_B24_3;
+		G_B25_5 = G_B24_4;
+		G_B25_6 = G_B24_5;
+		G_B25_7 = G_B24_6;
+		G_B25_8 = G_B24_7;
+		G_B25_9 = G_B24_8;
+		G_B25_10 = G_B24_9;
+		if (!L_41)
+		{
+			G_B26_0 = L_40;
+			G_B26_1 = G_B24_0;
+			G_B26_2 = G_B24_1;
+			G_B26_3 = G_B24_2;
+			G_B26_4 = G_B24_3;
+			G_B26_5 = G_B24_4;
+			G_B26_6 = G_B24_5;
+			G_B26_7 = G_B24_6;
+			G_B26_8 = G_B24_7;
+			G_B26_9 = G_B24_8;
+			G_B26_10 = G_B24_9;
+			goto IL_00f6;
+		}
+	}
+	{
+		int32_t L_42 = Nullable_1_get_Value_m844974555((&___maxRecipients), /*hidden argument*/Nullable_1_get_Value_m844974555_MethodInfo_var);
+		G_B27_0 = L_42;
+		G_B27_1 = G_B25_0;
+		G_B27_2 = G_B25_1;
+		G_B27_3 = G_B25_2;
+		G_B27_4 = G_B25_3;
+		G_B27_5 = G_B25_4;
+		G_B27_6 = G_B25_5;
+		G_B27_7 = G_B25_6;
+		G_B27_8 = G_B25_7;
+		G_B27_9 = G_B25_8;
+		G_B27_10 = G_B25_9;
+		G_B27_11 = G_B25_10;
+		goto IL_00f7;
+	}
+
+IL_00f6:
+	{
+		G_B27_0 = 0;
+		G_B27_1 = G_B26_0;
+		G_B27_2 = G_B26_1;
+		G_B27_3 = G_B26_2;
+		G_B27_4 = G_B26_3;
+		G_B27_5 = G_B26_4;
+		G_B27_6 = G_B26_5;
+		G_B27_7 = G_B26_6;
+		G_B27_8 = G_B26_7;
+		G_B27_9 = G_B26_8;
+		G_B27_10 = G_B26_9;
+		G_B27_11 = G_B26_10;
+	}
+
+IL_00f7:
+	{
+		String_t* L_43 = ___data;
+		String_t* L_44 = ___title;
+		NullCheck(G_B27_11);
+		InterfaceActionInvoker13< int32_t, String_t*, String_t*, String_t*, StringU5BU5D_t2956870243*, int32_t, String_t*, StringU5BU5D_t2956870243*, int32_t, bool, int32_t, String_t*, String_t* >::Invoke(7 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::AppRequest(System.Int32,System.String,System.String,System.String,System.String[],System.Int32,System.String,System.String[],System.Int32,System.Boolean,System.Int32,System.String,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, G_B27_11, G_B27_10, G_B27_9, G_B27_8, G_B27_7, G_B27_6, G_B27_5, G_B27_4, G_B27_3, G_B27_2, G_B27_1, G_B27_0, L_43, L_44);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::AppInvite(System.Uri,System.Uri,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppInviteResult>)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2776692961_il2cpp_TypeInfo_var;
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSFacebook_AddCallback_TisIAppInviteResult_t4232204189_m1232169498_MethodInfo_var;
+extern const uint32_t IOSFacebook_AppInvite_m3852083022_MetadataUsageId;
+extern "C"  void IOSFacebook_AppInvite_m3852083022 (IOSFacebook_t2693359753 * __this, Uri_t2776692961 * ___appLinkUrl, Uri_t2776692961 * ___previewImageUrl, FacebookDelegate_1_t573598949 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_AppInvite_m3852083022_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	String_t* V_1 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		V_0 = L_0;
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		V_1 = L_1;
+		Uri_t2776692961 * L_2 = ___appLinkUrl;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2776692961_il2cpp_TypeInfo_var);
+		bool L_3 = Uri_op_Inequality_m2899852498(NULL /*static, unused*/, L_2, (Uri_t2776692961 *)NULL, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Uri_t2776692961 * L_4 = ___appLinkUrl;
+		NullCheck(L_4);
+		String_t* L_5 = Uri_get_AbsoluteUri_m2228269430(L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_6 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		if (L_6)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		Uri_t2776692961 * L_7 = ___appLinkUrl;
+		NullCheck(L_7);
+		String_t* L_8 = Uri_get_AbsoluteUri_m2228269430(L_7, /*hidden argument*/NULL);
+		V_0 = L_8;
+	}
+
+IL_002f:
+	{
+		Uri_t2776692961 * L_9 = ___previewImageUrl;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2776692961_il2cpp_TypeInfo_var);
+		bool L_10 = Uri_op_Inequality_m2899852498(NULL /*static, unused*/, L_9, (Uri_t2776692961 *)NULL, /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		Uri_t2776692961 * L_11 = ___previewImageUrl;
+		NullCheck(L_11);
+		String_t* L_12 = Uri_get_AbsoluteUri_m2228269430(L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_13 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		if (L_13)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		Uri_t2776692961 * L_14 = ___previewImageUrl;
+		NullCheck(L_14);
+		String_t* L_15 = Uri_get_AbsoluteUri_m2228269430(L_14, /*hidden argument*/NULL);
+		V_1 = L_15;
+	}
+
+IL_0052:
+	{
+		Object_t * L_16 = (__this->___iosWrapper_8);
+		FacebookDelegate_1_t573598949 * L_17 = ___callback;
+		int32_t L_18 = IOSFacebook_AddCallback_TisIAppInviteResult_t4232204189_m1232169498(__this, L_17, /*hidden argument*/IOSFacebook_AddCallback_TisIAppInviteResult_t4232204189_m1232169498_MethodInfo_var);
+		String_t* L_19 = V_0;
+		String_t* L_20 = V_1;
+		NullCheck(L_16);
+		InterfaceActionInvoker3< int32_t, String_t*, String_t* >::Invoke(8 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::AppInvite(System.Int32,System.String,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_16, L_18, L_19, L_20);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::ShareLink(System.Uri,System.String,System.String,System.Uri,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSFacebook_AddCallback_TisIShareResult_t747644594_m2846175653_MethodInfo_var;
+extern const uint32_t IOSFacebook_ShareLink_m3011305162_MetadataUsageId;
+extern "C"  void IOSFacebook_ShareLink_m3011305162 (IOSFacebook_t2693359753 * __this, Uri_t2776692961 * ___contentURL, String_t* ___contentTitle, String_t* ___contentDescription, Uri_t2776692961 * ___photoURL, FacebookDelegate_1_t1384006650 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_ShareLink_m3011305162_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		FacebookDelegate_1_t1384006650 * L_1 = ___callback;
+		int32_t L_2 = IOSFacebook_AddCallback_TisIShareResult_t747644594_m2846175653(__this, L_1, /*hidden argument*/IOSFacebook_AddCallback_TisIShareResult_t747644594_m2846175653_MethodInfo_var);
+		Uri_t2776692961 * L_3 = ___contentURL;
+		String_t* L_4 = Utilities_AbsoluteUrlOrEmptyString_m3442024491(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		String_t* L_5 = ___contentTitle;
+		String_t* L_6 = ___contentDescription;
+		Uri_t2776692961 * L_7 = ___photoURL;
+		String_t* L_8 = Utilities_AbsoluteUrlOrEmptyString_m3442024491(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker5< int32_t, String_t*, String_t*, String_t*, String_t* >::Invoke(5 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::ShareLink(System.Int32,System.String,System.String,System.String,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_2, L_4, L_5, L_6, L_8);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::FeedShare(System.String,System.Uri,System.String,System.String,System.String,System.Uri,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IShareResult>)
+extern TypeInfo* Uri_t2776692961_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSFacebook_AddCallback_TisIShareResult_t747644594_m2846175653_MethodInfo_var;
+extern const uint32_t IOSFacebook_FeedShare_m3784891126_MetadataUsageId;
+extern "C"  void IOSFacebook_FeedShare_m3784891126 (IOSFacebook_t2693359753 * __this, String_t* ___toId, Uri_t2776692961 * ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, Uri_t2776692961 * ___picture, String_t* ___mediaSource, FacebookDelegate_1_t1384006650 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_FeedShare_m3784891126_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	String_t* V_1 = {0};
+	String_t* G_B3_0 = {0};
+	String_t* G_B6_0 = {0};
+	{
+		Uri_t2776692961 * L_0 = ___link;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2776692961_il2cpp_TypeInfo_var);
+		bool L_1 = Uri_op_Inequality_m2899852498(NULL /*static, unused*/, L_0, (Uri_t2776692961 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Uri_t2776692961 * L_2 = ___link;
+		NullCheck(L_2);
+		String_t* L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_2);
+		G_B3_0 = L_3;
+		goto IL_001c;
+	}
+
+IL_0017:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B3_0 = L_4;
+	}
+
+IL_001c:
+	{
+		V_0 = G_B3_0;
+		Uri_t2776692961 * L_5 = ___picture;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2776692961_il2cpp_TypeInfo_var);
+		bool L_6 = Uri_op_Inequality_m2899852498(NULL /*static, unused*/, L_5, (Uri_t2776692961 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Uri_t2776692961 * L_7 = ___picture;
+		NullCheck(L_7);
+		String_t* L_8 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Uri::ToString() */, L_7);
+		G_B6_0 = L_8;
+		goto IL_003b;
+	}
+
+IL_0036:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B6_0 = L_9;
+	}
+
+IL_003b:
+	{
+		V_1 = G_B6_0;
+		Object_t * L_10 = (__this->___iosWrapper_8);
+		FacebookDelegate_1_t1384006650 * L_11 = ___callback;
+		int32_t L_12 = IOSFacebook_AddCallback_TisIShareResult_t747644594_m2846175653(__this, L_11, /*hidden argument*/IOSFacebook_AddCallback_TisIShareResult_t747644594_m2846175653_MethodInfo_var);
+		String_t* L_13 = ___toId;
+		String_t* L_14 = V_0;
+		String_t* L_15 = ___linkName;
+		String_t* L_16 = ___linkCaption;
+		String_t* L_17 = ___linkDescription;
+		String_t* L_18 = V_1;
+		String_t* L_19 = ___mediaSource;
+		NullCheck(L_10);
+		InterfaceActionInvoker8< int32_t, String_t*, String_t*, String_t*, String_t*, String_t*, String_t*, String_t* >::Invoke(6 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::FeedShare(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_10, L_12, L_13, L_14, L_15, L_16, L_17, L_18, L_19);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::GameGroupCreate(System.String,System.String,System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupCreateResult>)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSFacebook_AddCallback_TisIGroupCreateResult_t1652284654_m1399368297_MethodInfo_var;
+extern const uint32_t IOSFacebook_GameGroupCreate_m1437940490_MetadataUsageId;
+extern "C"  void IOSFacebook_GameGroupCreate_m1437940490 (IOSFacebook_t2693359753 * __this, String_t* ___name, String_t* ___description, String_t* ___privacy, FacebookDelegate_1_t2288646710 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_GameGroupCreate_m1437940490_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		FacebookDelegate_1_t2288646710 * L_1 = ___callback;
+		int32_t L_2 = IOSFacebook_AddCallback_TisIGroupCreateResult_t1652284654_m1399368297(__this, L_1, /*hidden argument*/IOSFacebook_AddCallback_TisIGroupCreateResult_t1652284654_m1399368297_MethodInfo_var);
+		String_t* L_3 = ___name;
+		String_t* L_4 = ___description;
+		String_t* L_5 = ___privacy;
+		NullCheck(L_0);
+		InterfaceActionInvoker4< int32_t, String_t*, String_t*, String_t* >::Invoke(9 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::CreateGameGroup(System.Int32,System.String,System.String,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_2, L_3, L_4, L_5);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::GameGroupJoin(System.String,Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IGroupJoinResult>)
+extern TypeInfo* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* CallbackManager_AddFacebookDelegate_TisIGroupJoinResult_t1264024604_m3059906902_MethodInfo_var;
+extern const uint32_t IOSFacebook_GameGroupJoin_m1387033822_MetadataUsageId;
+extern "C"  void IOSFacebook_GameGroupJoin_m1387033822 (IOSFacebook_t2693359753 * __this, String_t* ___id, FacebookDelegate_1_t1900386660 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_GameGroupJoin_m1387033822_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		CallbackManager_t1943358823 * L_1 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		FacebookDelegate_1_t1900386660 * L_2 = ___callback;
+		NullCheck(L_1);
+		String_t* L_3 = CallbackManager_AddFacebookDelegate_TisIGroupJoinResult_t1264024604_m3059906902(L_1, L_2, /*hidden argument*/CallbackManager_AddFacebookDelegate_TisIGroupJoinResult_t1264024604_m3059906902_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		int32_t L_4 = Convert_ToInt32_m4085381007(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		String_t* L_5 = ___id;
+		NullCheck(L_0);
+		InterfaceActionInvoker2< int32_t, String_t* >::Invoke(10 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::JoinGameGroup(System.Int32,System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_4, L_5);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::AppEventsLogEvent(System.String,System.Nullable`1<System.Single>,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m610793215_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m838446481_MethodInfo_var;
+extern const uint32_t IOSFacebook_AppEventsLogEvent_m3584901937_MetadataUsageId;
+extern "C"  void IOSFacebook_AppEventsLogEvent_m3584901937 (IOSFacebook_t2693359753 * __this, String_t* ___logEvent, Nullable_1_t3844246929  ___valueToSum, Dictionary_2_t2474804324 * ___parameters, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_AppEventsLogEvent_m3584901937_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	NativeDict_t802211981 * V_0 = {0};
+	{
+		Dictionary_2_t2474804324 * L_0 = ___parameters;
+		NativeDict_t802211981 * L_1 = IOSFacebook_MarshallDict_m2358816763(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		bool L_2 = Nullable_1_get_HasValue_m610793215((&___valueToSum), /*hidden argument*/Nullable_1_get_HasValue_m610793215_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		Object_t * L_3 = (__this->___iosWrapper_8);
+		String_t* L_4 = ___logEvent;
+		float L_5 = Nullable_1_get_Value_m838446481((&___valueToSum), /*hidden argument*/Nullable_1_get_Value_m838446481_MethodInfo_var);
+		NativeDict_t802211981 * L_6 = V_0;
+		NullCheck(L_6);
+		int32_t L_7 = NativeDict_get_NumEntries_m299758911(L_6, /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_8 = V_0;
+		NullCheck(L_8);
+		StringU5BU5D_t2956870243* L_9 = NativeDict_get_Keys_m1588211004(L_8, /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_10 = V_0;
+		NullCheck(L_10);
+		StringU5BU5D_t2956870243* L_11 = NativeDict_get_Values_m3924939562(L_10, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		InterfaceActionInvoker5< String_t*, double, int32_t, StringU5BU5D_t2956870243*, StringU5BU5D_t2956870243* >::Invoke(12 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::LogAppEvent(System.String,System.Double,System.Int32,System.String[],System.String[]) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_3, L_4, (((double)((double)L_5))), L_7, L_9, L_11);
+		goto IL_0065;
+	}
+
+IL_003e:
+	{
+		Object_t * L_12 = (__this->___iosWrapper_8);
+		String_t* L_13 = ___logEvent;
+		NativeDict_t802211981 * L_14 = V_0;
+		NullCheck(L_14);
+		int32_t L_15 = NativeDict_get_NumEntries_m299758911(L_14, /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_16 = V_0;
+		NullCheck(L_16);
+		StringU5BU5D_t2956870243* L_17 = NativeDict_get_Keys_m1588211004(L_16, /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_18 = V_0;
+		NullCheck(L_18);
+		StringU5BU5D_t2956870243* L_19 = NativeDict_get_Values_m3924939562(L_18, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		InterfaceActionInvoker5< String_t*, double, int32_t, StringU5BU5D_t2956870243*, StringU5BU5D_t2956870243* >::Invoke(12 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::LogAppEvent(System.String,System.Double,System.Int32,System.String[],System.String[]) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_12, L_13, (0.0), L_15, L_17, L_19);
+	}
+
+IL_0065:
+	{
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::AppEventsLogPurchase(System.Single,System.String,System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const uint32_t IOSFacebook_AppEventsLogPurchase_m3850812201_MetadataUsageId;
+extern "C"  void IOSFacebook_AppEventsLogPurchase_m3850812201 (IOSFacebook_t2693359753 * __this, float ___logPurchase, String_t* ___currency, Dictionary_2_t2474804324 * ___parameters, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_AppEventsLogPurchase_m3850812201_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	NativeDict_t802211981 * V_0 = {0};
+	{
+		Dictionary_2_t2474804324 * L_0 = ___parameters;
+		NativeDict_t802211981 * L_1 = IOSFacebook_MarshallDict_m2358816763(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		Object_t * L_2 = (__this->___iosWrapper_8);
+		float L_3 = ___logPurchase;
+		String_t* L_4 = ___currency;
+		NativeDict_t802211981 * L_5 = V_0;
+		NullCheck(L_5);
+		int32_t L_6 = NativeDict_get_NumEntries_m299758911(L_5, /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_7 = V_0;
+		NullCheck(L_7);
+		StringU5BU5D_t2956870243* L_8 = NativeDict_get_Keys_m1588211004(L_7, /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_9 = V_0;
+		NullCheck(L_9);
+		StringU5BU5D_t2956870243* L_10 = NativeDict_get_Values_m3924939562(L_9, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		InterfaceActionInvoker5< double, String_t*, int32_t, StringU5BU5D_t2956870243*, StringU5BU5D_t2956870243* >::Invoke(13 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::LogPurchaseAppEvent(System.Double,System.String,System.Int32,System.String[],System.String[]) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_2, (((double)((double)L_3))), L_4, L_6, L_8, L_10);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::ActivateApp(System.String)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const uint32_t IOSFacebook_ActivateApp_m1646602130_MetadataUsageId;
+extern "C"  void IOSFacebook_ActivateApp_m1646602130 (IOSFacebook_t2693359753 * __this, String_t* ___appId, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_ActivateApp_m1646602130_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		String_t* L_1 = ___appId;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< String_t* >::Invoke(11 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::FBSettingsActivateApp(System.String) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::FetchDeferredAppLink(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* IOSFacebook_AddCallback_TisIAppLinkResult_t3053946318_m848437385_MethodInfo_var;
+extern const uint32_t IOSFacebook_FetchDeferredAppLink_m113498869_MetadataUsageId;
+extern "C"  void IOSFacebook_FetchDeferredAppLink_m113498869 (IOSFacebook_t2693359753 * __this, FacebookDelegate_1_t3690308374 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_FetchDeferredAppLink_m113498869_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		FacebookDelegate_1_t3690308374 * L_1 = ___callback;
+		int32_t L_2 = IOSFacebook_AddCallback_TisIAppLinkResult_t3053946318_m848437385(__this, L_1, /*hidden argument*/IOSFacebook_AddCallback_TisIAppLinkResult_t3053946318_m848437385_MethodInfo_var);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int32_t >::Invoke(18 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::FetchDeferredAppLink(System.Int32) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_2);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::GetAppLink(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAppLinkResult>)
+extern TypeInfo* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* CallbackManager_AddFacebookDelegate_TisIAppLinkResult_t3053946318_m3911842852_MethodInfo_var;
+extern const uint32_t IOSFacebook_GetAppLink_m3614394296_MetadataUsageId;
+extern "C"  void IOSFacebook_GetAppLink_m3614394296 (IOSFacebook_t2693359753 * __this, FacebookDelegate_1_t3690308374 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_GetAppLink_m3614394296_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		CallbackManager_t1943358823 * L_1 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		FacebookDelegate_1_t3690308374 * L_2 = ___callback;
+		NullCheck(L_1);
+		String_t* L_3 = CallbackManager_AddFacebookDelegate_TisIAppLinkResult_t3053946318_m3911842852(L_1, L_2, /*hidden argument*/CallbackManager_AddFacebookDelegate_TisIAppLinkResult_t3053946318_m3911842852_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		int32_t L_4 = Convert_ToInt32_m4085381007(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int32_t >::Invoke(15 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::GetAppLink(System.Int32) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_4);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::RefreshCurrentAccessToken(Facebook.Unity.FacebookDelegate`1<Facebook.Unity.IAccessTokenRefreshResult>)
+extern TypeInfo* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const MethodInfo* CallbackManager_AddFacebookDelegate_TisIAccessTokenRefreshResult_t1786059051_m2978375365_MethodInfo_var;
+extern const uint32_t IOSFacebook_RefreshCurrentAccessToken_m1848430341_MetadataUsageId;
+extern "C"  void IOSFacebook_RefreshCurrentAccessToken_m1848430341 (IOSFacebook_t2693359753 * __this, FacebookDelegate_1_t2422421107 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_RefreshCurrentAccessToken_m1848430341_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		CallbackManager_t1943358823 * L_1 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		FacebookDelegate_1_t2422421107 * L_2 = ___callback;
+		NullCheck(L_1);
+		String_t* L_3 = CallbackManager_AddFacebookDelegate_TisIAccessTokenRefreshResult_t1786059051_m2978375365(L_1, L_2, /*hidden argument*/CallbackManager_AddFacebookDelegate_TisIAccessTokenRefreshResult_t1786059051_m2978375365_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		int32_t L_4 = Convert_ToInt32_m4085381007(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int32_t >::Invoke(16 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::RefreshCurrentAccessToken(System.Int32) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_4);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook::SetShareDialogMode(Facebook.Unity.ShareDialogMode)
+extern TypeInfo* IIOSWrapper_t3835080613_il2cpp_TypeInfo_var;
+extern const uint32_t IOSFacebook_SetShareDialogMode_m311470591_MetadataUsageId;
+extern "C"  void IOSFacebook_SetShareDialogMode_m311470591 (IOSFacebook_t2693359753 * __this, int32_t ___mode, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_SetShareDialogMode_m311470591_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = (__this->___iosWrapper_8);
+		int32_t L_1 = ___mode;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< int32_t >::Invoke(4 /* System.Void Facebook.Unity.Mobile.IOS.IIOSWrapper::SetShareDialogMode(System.Int32) */, IIOSWrapper_t3835080613_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict Facebook.Unity.Mobile.IOS.IOSFacebook::MarshallDict(System.Collections.Generic.Dictionary`2<System.String,System.Object>)
+extern TypeInfo* NativeDict_t802211981_il2cpp_TypeInfo_var;
+extern TypeInfo* StringU5BU5D_t2956870243_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t2241832265_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m3494254192_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m489173242_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m945524694_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m2250325609_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m890755205_MethodInfo_var;
+extern const uint32_t IOSFacebook_MarshallDict_m2358816763_MetadataUsageId;
+extern "C"  NativeDict_t802211981 * IOSFacebook_MarshallDict_m2358816763 (Object_t * __this /* static, unused */, Dictionary_2_t2474804324 * ___dict, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_MarshallDict_m2358816763_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	NativeDict_t802211981 * V_0 = {0};
+	KeyValuePair_2_t1963335622  V_1 = {0};
+	Enumerator_t2241832265  V_2 = {0};
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		NativeDict_t802211981 * L_0 = (NativeDict_t802211981 *)il2cpp_codegen_object_new(NativeDict_t802211981_il2cpp_TypeInfo_var);
+		NativeDict__ctor_m1883680646(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Dictionary_2_t2474804324 * L_1 = ___dict;
+		if (!L_1)
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		Dictionary_2_t2474804324 * L_2 = ___dict;
+		NullCheck(L_2);
+		int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Count() */, L_2);
+		if ((((int32_t)L_3) <= ((int32_t)0)))
+		{
+			goto IL_00ad;
+		}
+	}
+	{
+		NativeDict_t802211981 * L_4 = V_0;
+		Dictionary_2_t2474804324 * L_5 = ___dict;
+		NullCheck(L_5);
+		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Count() */, L_5);
+		NullCheck(L_4);
+		NativeDict_set_Keys_m3554411473(L_4, ((StringU5BU5D_t2956870243*)SZArrayNew(StringU5BU5D_t2956870243_il2cpp_TypeInfo_var, (uint32_t)L_6)), /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_7 = V_0;
+		Dictionary_2_t2474804324 * L_8 = ___dict;
+		NullCheck(L_8);
+		int32_t L_9 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Count() */, L_8);
+		NullCheck(L_7);
+		NativeDict_set_Values_m1611988195(L_7, ((StringU5BU5D_t2956870243*)SZArrayNew(StringU5BU5D_t2956870243_il2cpp_TypeInfo_var, (uint32_t)L_9)), /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_10 = V_0;
+		NullCheck(L_10);
+		NativeDict_set_NumEntries_m3441629942(L_10, 0, /*hidden argument*/NULL);
+		Dictionary_2_t2474804324 * L_11 = ___dict;
+		NullCheck(L_11);
+		Enumerator_t2241832265  L_12 = Dictionary_2_GetEnumerator_m3494254192(L_11, /*hidden argument*/Dictionary_2_GetEnumerator_m3494254192_MethodInfo_var);
+		V_2 = L_12;
+	}
+
+IL_0048:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0090;
+		}
+
+IL_004d:
+		{
+			KeyValuePair_2_t1963335622  L_13 = Enumerator_get_Current_m489173242((&V_2), /*hidden argument*/Enumerator_get_Current_m489173242_MethodInfo_var);
+			V_1 = L_13;
+			NativeDict_t802211981 * L_14 = V_0;
+			NullCheck(L_14);
+			StringU5BU5D_t2956870243* L_15 = NativeDict_get_Keys_m1588211004(L_14, /*hidden argument*/NULL);
+			NativeDict_t802211981 * L_16 = V_0;
+			NullCheck(L_16);
+			int32_t L_17 = NativeDict_get_NumEntries_m299758911(L_16, /*hidden argument*/NULL);
+			String_t* L_18 = KeyValuePair_2_get_Key_m945524694((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m945524694_MethodInfo_var);
+			NullCheck(L_15);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_17);
+			ArrayElementTypeCheck (L_15, L_18);
+			*((String_t**)(String_t**)SZArrayLdElema(L_15, L_17, sizeof(String_t*))) = (String_t*)L_18;
+			NativeDict_t802211981 * L_19 = V_0;
+			NullCheck(L_19);
+			StringU5BU5D_t2956870243* L_20 = NativeDict_get_Values_m3924939562(L_19, /*hidden argument*/NULL);
+			NativeDict_t802211981 * L_21 = V_0;
+			NullCheck(L_21);
+			int32_t L_22 = NativeDict_get_NumEntries_m299758911(L_21, /*hidden argument*/NULL);
+			Object_t * L_23 = KeyValuePair_2_get_Value_m2250325609((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m2250325609_MethodInfo_var);
+			NullCheck(L_23);
+			String_t* L_24 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_23);
+			NullCheck(L_20);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_20, L_22);
+			ArrayElementTypeCheck (L_20, L_24);
+			*((String_t**)(String_t**)SZArrayLdElema(L_20, L_22, sizeof(String_t*))) = (String_t*)L_24;
+			NativeDict_t802211981 * L_25 = V_0;
+			NativeDict_t802211981 * L_26 = L_25;
+			NullCheck(L_26);
+			int32_t L_27 = NativeDict_get_NumEntries_m299758911(L_26, /*hidden argument*/NULL);
+			NullCheck(L_26);
+			NativeDict_set_NumEntries_m3441629942(L_26, ((int32_t)((int32_t)L_27+(int32_t)1)), /*hidden argument*/NULL);
+		}
+
+IL_0090:
+		{
+			bool L_28 = Enumerator_MoveNext_m890755205((&V_2), /*hidden argument*/Enumerator_MoveNext_m890755205_MethodInfo_var);
+			if (L_28)
+			{
+				goto IL_004d;
+			}
+		}
+
+IL_009c:
+		{
+			IL2CPP_LEAVE(0xAD, FINALLY_00a1);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_00a1;
+	}
+
+FINALLY_00a1:
+	{ // begin finally (depth: 1)
+		Enumerator_t2241832265  L_29 = V_2;
+		Enumerator_t2241832265  L_30 = L_29;
+		Object_t * L_31 = Box(Enumerator_t2241832265_il2cpp_TypeInfo_var, &L_30);
+		NullCheck((Object_t *)L_31);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Object_t *)L_31);
+		IL2CPP_END_FINALLY(161)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(161)
+	{
+		IL2CPP_JUMP_TBL(0xAD, IL_00ad)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_00ad:
+	{
+		NativeDict_t802211981 * L_32 = V_0;
+		return L_32;
+	}
+}
+// Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict Facebook.Unity.Mobile.IOS.IOSFacebook::MarshallDict(System.Collections.Generic.Dictionary`2<System.String,System.String>)
+extern TypeInfo* NativeDict_t802211981_il2cpp_TypeInfo_var;
+extern TypeInfo* StringU5BU5D_t2956870243_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t2373214747_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2_GetEnumerator_m2759194411_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m2871721525_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Key_m1739472607_MethodInfo_var;
+extern const MethodInfo* KeyValuePair_2_get_Value_m730091314_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m2577713898_MethodInfo_var;
+extern const uint32_t IOSFacebook_MarshallDict_m4063330381_MetadataUsageId;
+extern "C"  NativeDict_t802211981 * IOSFacebook_MarshallDict_m4063330381 (Object_t * __this /* static, unused */, Dictionary_2_t2606186806 * ___dict, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebook_MarshallDict_m4063330381_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	NativeDict_t802211981 * V_0 = {0};
+	KeyValuePair_2_t2094718104  V_1 = {0};
+	Enumerator_t2373214747  V_2 = {0};
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		NativeDict_t802211981 * L_0 = (NativeDict_t802211981 *)il2cpp_codegen_object_new(NativeDict_t802211981_il2cpp_TypeInfo_var);
+		NativeDict__ctor_m1883680646(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		Dictionary_2_t2606186806 * L_1 = ___dict;
+		if (!L_1)
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		Dictionary_2_t2606186806 * L_2 = ___dict;
+		NullCheck(L_2);
+		int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Count() */, L_2);
+		if ((((int32_t)L_3) <= ((int32_t)0)))
+		{
+			goto IL_00a8;
+		}
+	}
+	{
+		NativeDict_t802211981 * L_4 = V_0;
+		Dictionary_2_t2606186806 * L_5 = ___dict;
+		NullCheck(L_5);
+		int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Count() */, L_5);
+		NullCheck(L_4);
+		NativeDict_set_Keys_m3554411473(L_4, ((StringU5BU5D_t2956870243*)SZArrayNew(StringU5BU5D_t2956870243_il2cpp_TypeInfo_var, (uint32_t)L_6)), /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_7 = V_0;
+		Dictionary_2_t2606186806 * L_8 = ___dict;
+		NullCheck(L_8);
+		int32_t L_9 = VirtFuncInvoker0< int32_t >::Invoke(10 /* System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Count() */, L_8);
+		NullCheck(L_7);
+		NativeDict_set_Values_m1611988195(L_7, ((StringU5BU5D_t2956870243*)SZArrayNew(StringU5BU5D_t2956870243_il2cpp_TypeInfo_var, (uint32_t)L_9)), /*hidden argument*/NULL);
+		NativeDict_t802211981 * L_10 = V_0;
+		NullCheck(L_10);
+		NativeDict_set_NumEntries_m3441629942(L_10, 0, /*hidden argument*/NULL);
+		Dictionary_2_t2606186806 * L_11 = ___dict;
+		NullCheck(L_11);
+		Enumerator_t2373214747  L_12 = Dictionary_2_GetEnumerator_m2759194411(L_11, /*hidden argument*/Dictionary_2_GetEnumerator_m2759194411_MethodInfo_var);
+		V_2 = L_12;
+	}
+
+IL_0048:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_008b;
+		}
+
+IL_004d:
+		{
+			KeyValuePair_2_t2094718104  L_13 = Enumerator_get_Current_m2871721525((&V_2), /*hidden argument*/Enumerator_get_Current_m2871721525_MethodInfo_var);
+			V_1 = L_13;
+			NativeDict_t802211981 * L_14 = V_0;
+			NullCheck(L_14);
+			StringU5BU5D_t2956870243* L_15 = NativeDict_get_Keys_m1588211004(L_14, /*hidden argument*/NULL);
+			NativeDict_t802211981 * L_16 = V_0;
+			NullCheck(L_16);
+			int32_t L_17 = NativeDict_get_NumEntries_m299758911(L_16, /*hidden argument*/NULL);
+			String_t* L_18 = KeyValuePair_2_get_Key_m1739472607((&V_1), /*hidden argument*/KeyValuePair_2_get_Key_m1739472607_MethodInfo_var);
+			NullCheck(L_15);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_17);
+			ArrayElementTypeCheck (L_15, L_18);
+			*((String_t**)(String_t**)SZArrayLdElema(L_15, L_17, sizeof(String_t*))) = (String_t*)L_18;
+			NativeDict_t802211981 * L_19 = V_0;
+			NullCheck(L_19);
+			StringU5BU5D_t2956870243* L_20 = NativeDict_get_Values_m3924939562(L_19, /*hidden argument*/NULL);
+			NativeDict_t802211981 * L_21 = V_0;
+			NullCheck(L_21);
+			int32_t L_22 = NativeDict_get_NumEntries_m299758911(L_21, /*hidden argument*/NULL);
+			String_t* L_23 = KeyValuePair_2_get_Value_m730091314((&V_1), /*hidden argument*/KeyValuePair_2_get_Value_m730091314_MethodInfo_var);
+			NullCheck(L_20);
+			IL2CPP_ARRAY_BOUNDS_CHECK(L_20, L_22);
+			ArrayElementTypeCheck (L_20, L_23);
+			*((String_t**)(String_t**)SZArrayLdElema(L_20, L_22, sizeof(String_t*))) = (String_t*)L_23;
+			NativeDict_t802211981 * L_24 = V_0;
+			NativeDict_t802211981 * L_25 = L_24;
+			NullCheck(L_25);
+			int32_t L_26 = NativeDict_get_NumEntries_m299758911(L_25, /*hidden argument*/NULL);
+			NullCheck(L_25);
+			NativeDict_set_NumEntries_m3441629942(L_25, ((int32_t)((int32_t)L_26+(int32_t)1)), /*hidden argument*/NULL);
+		}
+
+IL_008b:
+		{
+			bool L_27 = Enumerator_MoveNext_m2577713898((&V_2), /*hidden argument*/Enumerator_MoveNext_m2577713898_MethodInfo_var);
+			if (L_27)
+			{
+				goto IL_004d;
+			}
+		}
+
+IL_0097:
+		{
+			IL2CPP_LEAVE(0xA8, FINALLY_009c);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_009c;
+	}
+
+FINALLY_009c:
+	{ // begin finally (depth: 1)
+		Enumerator_t2373214747  L_28 = V_2;
+		Enumerator_t2373214747  L_29 = L_28;
+		Object_t * L_30 = Box(Enumerator_t2373214747_il2cpp_TypeInfo_var, &L_29);
+		NullCheck((Object_t *)L_30);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Object_t *)L_30);
+		IL2CPP_END_FINALLY(156)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(156)
+	{
+		IL2CPP_JUMP_TBL(0xA8, IL_00a8)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_00a8:
+	{
+		NativeDict_t802211981 * L_31 = V_0;
+		return L_31;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict::.ctor()
+extern "C"  void NativeDict__ctor_m1883680646 (NativeDict_t802211981 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		NativeDict_set_NumEntries_m3441629942(__this, 0, /*hidden argument*/NULL);
+		NativeDict_set_Keys_m3554411473(__this, (StringU5BU5D_t2956870243*)(StringU5BU5D_t2956870243*)NULL, /*hidden argument*/NULL);
+		NativeDict_set_Values_m1611988195(__this, (StringU5BU5D_t2956870243*)(StringU5BU5D_t2956870243*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict::get_NumEntries()
+extern "C"  int32_t NativeDict_get_NumEntries_m299758911 (NativeDict_t802211981 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___U3CNumEntriesU3Ek__BackingField_0);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict::set_NumEntries(System.Int32)
+extern "C"  void NativeDict_set_NumEntries_m3441629942 (NativeDict_t802211981 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___U3CNumEntriesU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+// System.String[] Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict::get_Keys()
+extern "C"  StringU5BU5D_t2956870243* NativeDict_get_Keys_m1588211004 (NativeDict_t802211981 * __this, const MethodInfo* method)
+{
+	{
+		StringU5BU5D_t2956870243* L_0 = (__this->___U3CKeysU3Ek__BackingField_1);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict::set_Keys(System.String[])
+extern "C"  void NativeDict_set_Keys_m3554411473 (NativeDict_t802211981 * __this, StringU5BU5D_t2956870243* ___value, const MethodInfo* method)
+{
+	{
+		StringU5BU5D_t2956870243* L_0 = ___value;
+		__this->___U3CKeysU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+// System.String[] Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict::get_Values()
+extern "C"  StringU5BU5D_t2956870243* NativeDict_get_Values_m3924939562 (NativeDict_t802211981 * __this, const MethodInfo* method)
+{
+	{
+		StringU5BU5D_t2956870243* L_0 = (__this->___U3CValuesU3Ek__BackingField_2);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebook/NativeDict::set_Values(System.String[])
+extern "C"  void NativeDict_set_Values_m1611988195 (NativeDict_t802211981 * __this, StringU5BU5D_t2956870243* ___value, const MethodInfo* method)
+{
+	{
+		StringU5BU5D_t2956870243* L_0 = ___value;
+		__this->___U3CValuesU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebookGameObject::.ctor()
+extern "C"  void IOSFacebookGameObject__ctor_m2035170387 (IOSFacebookGameObject_t1556084410 * __this, const MethodInfo* method)
+{
+	{
+		MobileFacebookGameObject__ctor_m1032091511(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSFacebookLoader::.ctor()
+extern "C"  void IOSFacebookLoader__ctor_m3070983377 (IOSFacebookLoader_t2859244156 * __this, const MethodInfo* method)
+{
+	{
+		CompiledFacebookLoader__ctor_m3832597055(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Facebook.Unity.FacebookGameObject Facebook.Unity.Mobile.IOS.IOSFacebookLoader::get_FBGameObject()
+extern TypeInfo* IOSFacebook_t2693359753_il2cpp_TypeInfo_var;
+extern const MethodInfo* ComponentFactory_GetComponent_TisIOSFacebookGameObject_t1556084410_m3627328855_MethodInfo_var;
+extern const uint32_t IOSFacebookLoader_get_FBGameObject_m327122574_MetadataUsageId;
+extern "C"  FacebookGameObject_t2636547894 * IOSFacebookLoader_get_FBGameObject_m327122574 (IOSFacebookLoader_t2859244156 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (IOSFacebookLoader_get_FBGameObject_m327122574_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	IOSFacebookGameObject_t1556084410 * V_0 = {0};
+	{
+		IOSFacebookGameObject_t1556084410 * L_0 = ComponentFactory_GetComponent_TisIOSFacebookGameObject_t1556084410_m3627328855(NULL /*static, unused*/, 0, /*hidden argument*/ComponentFactory_GetComponent_TisIOSFacebookGameObject_t1556084410_m3627328855_MethodInfo_var);
+		V_0 = L_0;
+		IOSFacebookGameObject_t1556084410 * L_1 = V_0;
+		NullCheck(L_1);
+		Object_t * L_2 = FacebookGameObject_get_Facebook_m2623010211(L_1, /*hidden argument*/NULL);
+		if (L_2)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		IOSFacebookGameObject_t1556084410 * L_3 = V_0;
+		IOSFacebook_t2693359753 * L_4 = (IOSFacebook_t2693359753 *)il2cpp_codegen_object_new(IOSFacebook_t2693359753_il2cpp_TypeInfo_var);
+		IOSFacebook__ctor_m605863012(L_4, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		FacebookGameObject_set_Facebook_m1704558324(L_3, L_4, /*hidden argument*/NULL);
+	}
+
+IL_001d:
+	{
+		IOSFacebookGameObject_t1556084410 * L_5 = V_0;
+		return L_5;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::.ctor()
+extern "C"  void IOSWrapper__ctor_m4073934985 (IOSWrapper_t1868543644 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::Init(System.String,System.Boolean,System.String,System.String)
+extern "C"  void IOSWrapper_Init_m3422518494 (IOSWrapper_t1868543644 * __this, String_t* ___appId, bool ___frictionlessRequests, String_t* ___urlSuffix, String_t* ___unityUserAgentSuffix, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___appId;
+		bool L_1 = ___frictionlessRequests;
+		String_t* L_2 = ___urlSuffix;
+		String_t* L_3 = ___unityUserAgentSuffix;
+		IOSWrapper_IOSInit_m2435988695(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::LogInWithReadPermissions(System.Int32,System.String)
+extern "C"  void IOSWrapper_LogInWithReadPermissions_m3780952903 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, String_t* ___scope, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		String_t* L_1 = ___scope;
+		IOSWrapper_IOSLogInWithReadPermissions_m3408361088(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::LogInWithPublishPermissions(System.Int32,System.String)
+extern "C"  void IOSWrapper_LogInWithPublishPermissions_m1458094712 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, String_t* ___scope, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		String_t* L_1 = ___scope;
+		IOSWrapper_IOSLogInWithPublishPermissions_m4065794207(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::LogOut()
+extern "C"  void IOSWrapper_LogOut_m4141175813 (IOSWrapper_t1868543644 * __this, const MethodInfo* method)
+{
+	{
+		IOSWrapper_IOSLogOut_m3709434046(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::SetShareDialogMode(System.Int32)
+extern "C"  void IOSWrapper_SetShareDialogMode_m700382324 (IOSWrapper_t1868543644 * __this, int32_t ___mode, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___mode;
+		IOSWrapper_IOSSetShareDialogMode_m3586049581(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::ShareLink(System.Int32,System.String,System.String,System.String,System.String)
+extern "C"  void IOSWrapper_ShareLink_m167988769 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, String_t* ___contentURL, String_t* ___contentTitle, String_t* ___contentDescription, String_t* ___photoURL, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		String_t* L_1 = ___contentURL;
+		String_t* L_2 = ___contentTitle;
+		String_t* L_3 = ___contentDescription;
+		String_t* L_4 = ___photoURL;
+		IOSWrapper_IOSShareLink_m413884232(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::FeedShare(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+extern "C"  void IOSWrapper_FeedShare_m3232183037 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, String_t* ___toId, String_t* ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, String_t* ___picture, String_t* ___mediaSource, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		String_t* L_1 = ___toId;
+		String_t* L_2 = ___link;
+		String_t* L_3 = ___linkName;
+		String_t* L_4 = ___linkCaption;
+		String_t* L_5 = ___linkDescription;
+		String_t* L_6 = ___picture;
+		String_t* L_7 = ___mediaSource;
+		IOSWrapper_IOSFeedShare_m1117905764(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::AppRequest(System.Int32,System.String,System.String,System.String,System.String[],System.Int32,System.String,System.String[],System.Int32,System.Boolean,System.Int32,System.String,System.String)
+extern "C"  void IOSWrapper_AppRequest_m181741796 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, String_t* ___message, String_t* ___actionType, String_t* ___objectId, StringU5BU5D_t2956870243* ___to, int32_t ___toLength, String_t* ___filters, StringU5BU5D_t2956870243* ___excludeIds, int32_t ___excludeIdsLength, bool ___hasMaxRecipients, int32_t ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		String_t* L_1 = ___message;
+		String_t* L_2 = ___actionType;
+		String_t* L_3 = ___objectId;
+		StringU5BU5D_t2956870243* L_4 = ___to;
+		int32_t L_5 = ___toLength;
+		String_t* L_6 = ___filters;
+		StringU5BU5D_t2956870243* L_7 = ___excludeIds;
+		int32_t L_8 = ___excludeIdsLength;
+		bool L_9 = ___hasMaxRecipients;
+		int32_t L_10 = ___maxRecipients;
+		String_t* L_11 = ___data;
+		String_t* L_12 = ___title;
+		IOSWrapper_IOSAppRequest_m1087681629(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, L_5, L_6, L_7, L_8, L_9, L_10, L_11, L_12, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::AppInvite(System.Int32,System.String,System.String)
+extern "C"  void IOSWrapper_AppInvite_m4011009274 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, String_t* ___appLinkUrl, String_t* ___previewImageUrl, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		String_t* L_1 = ___appLinkUrl;
+		String_t* L_2 = ___previewImageUrl;
+		IOSWrapper_IOSAppInvite_m1643685537(NULL /*static, unused*/, L_0, L_1, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::CreateGameGroup(System.Int32,System.String,System.String,System.String)
+extern "C"  void IOSWrapper_CreateGameGroup_m1639079357 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, String_t* ___name, String_t* ___description, String_t* ___privacy, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		String_t* L_1 = ___name;
+		String_t* L_2 = ___description;
+		String_t* L_3 = ___privacy;
+		IOSWrapper_IOSCreateGameGroup_m3147138532(NULL /*static, unused*/, L_0, L_1, L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::JoinGameGroup(System.Int32,System.String)
+extern "C"  void IOSWrapper_JoinGameGroup_m1159817687 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, String_t* ___groupId, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		String_t* L_1 = ___groupId;
+		IOSWrapper_IOSJoinGameGroup_m3672539198(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::FBSettingsActivateApp(System.String)
+extern "C"  void IOSWrapper_FBSettingsActivateApp_m3363330828 (IOSWrapper_t1868543644 * __this, String_t* ___appId, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___appId;
+		IOSWrapper_IOSFBSettingsActivateApp_m2006622277(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::LogAppEvent(System.String,System.Double,System.Int32,System.String[],System.String[])
+extern "C"  void IOSWrapper_LogAppEvent_m1773104273 (IOSWrapper_t1868543644 * __this, String_t* ___logEvent, double ___valueToSum, int32_t ___numParams, StringU5BU5D_t2956870243* ___paramKeys, StringU5BU5D_t2956870243* ___paramVals, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___logEvent;
+		double L_1 = ___valueToSum;
+		int32_t L_2 = ___numParams;
+		StringU5BU5D_t2956870243* L_3 = ___paramKeys;
+		StringU5BU5D_t2956870243* L_4 = ___paramVals;
+		IOSWrapper_IOSFBAppEventsLogEvent_m2963927951(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::LogPurchaseAppEvent(System.Double,System.String,System.Int32,System.String[],System.String[])
+extern "C"  void IOSWrapper_LogPurchaseAppEvent_m623906162 (IOSWrapper_t1868543644 * __this, double ___logPurchase, String_t* ___currency, int32_t ___numParams, StringU5BU5D_t2956870243* ___paramKeys, StringU5BU5D_t2956870243* ___paramVals, const MethodInfo* method)
+{
+	{
+		double L_0 = ___logPurchase;
+		String_t* L_1 = ___currency;
+		int32_t L_2 = ___numParams;
+		StringU5BU5D_t2956870243* L_3 = ___paramKeys;
+		StringU5BU5D_t2956870243* L_4 = ___paramVals;
+		IOSWrapper_IOSFBAppEventsLogPurchase_m1319337352(NULL /*static, unused*/, L_0, L_1, L_2, L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::FBAppEventsSetLimitEventUsage(System.Boolean)
+extern "C"  void IOSWrapper_FBAppEventsSetLimitEventUsage_m798755676 (IOSWrapper_t1868543644 * __this, bool ___limitEventUsage, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___limitEventUsage;
+		IOSWrapper_IOSFBAppEventsSetLimitEventUsage_m2526123587(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::GetAppLink(System.Int32)
+extern "C"  void IOSWrapper_GetAppLink_m1899005361 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		IOSWrapper_IOSGetAppLink_m2104367210(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Facebook.Unity.Mobile.IOS.IOSWrapper::FBSdkVersion()
+extern "C"  String_t* IOSWrapper_FBSdkVersion_m3332607672 (IOSWrapper_t1868543644 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = IOSWrapper_IOSFBSdkVersion_m1954078859(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::FetchDeferredAppLink(System.Int32)
+extern "C"  void IOSWrapper_FetchDeferredAppLink_m1006563246 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		IOSWrapper_IOSFetchDeferredAppLink_m3878891303(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::RefreshCurrentAccessToken(System.Int32)
+extern "C"  void IOSWrapper_RefreshCurrentAccessToken_m493671215 (IOSWrapper_t1868543644 * __this, int32_t ___requestId, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___requestId;
+		IOSWrapper_IOSRefreshCurrentAccessToken_m2726451030(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSInit(System.String,System.Boolean,System.String,System.String)
+extern "C" {void DEFAULT_CALL IOSInit(char*, int32_t, char*, char*);}
+extern "C"  void IOSWrapper_IOSInit_m2435988695 (Object_t * __this /* static, unused */, String_t* ___appId, bool ___frictionlessRequests, String_t* ___urlSuffix, String_t* ___unityUserAgentSuffix, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, int32_t, char*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSInit;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSInit'"));
+		}
+	}
+
+	// Marshaling of parameter '___appId' to native representation
+	char* ____appId_marshaled = { 0 };
+	____appId_marshaled = il2cpp_codegen_marshal_string(___appId);
+
+	// Marshaling of parameter '___frictionlessRequests' to native representation
+
+	// Marshaling of parameter '___urlSuffix' to native representation
+	char* ____urlSuffix_marshaled = { 0 };
+	____urlSuffix_marshaled = il2cpp_codegen_marshal_string(___urlSuffix);
+
+	// Marshaling of parameter '___unityUserAgentSuffix' to native representation
+	char* ____unityUserAgentSuffix_marshaled = { 0 };
+	____unityUserAgentSuffix_marshaled = il2cpp_codegen_marshal_string(___unityUserAgentSuffix);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____appId_marshaled, ___frictionlessRequests, ____urlSuffix_marshaled, ____unityUserAgentSuffix_marshaled);
+
+	// Marshaling cleanup of parameter '___appId' native representation
+	il2cpp_codegen_marshal_free(____appId_marshaled);
+	____appId_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___frictionlessRequests' native representation
+
+	// Marshaling cleanup of parameter '___urlSuffix' native representation
+	il2cpp_codegen_marshal_free(____urlSuffix_marshaled);
+	____urlSuffix_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___unityUserAgentSuffix' native representation
+	il2cpp_codegen_marshal_free(____unityUserAgentSuffix_marshaled);
+	____unityUserAgentSuffix_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSLogInWithReadPermissions(System.Int32,System.String)
+extern "C" {void DEFAULT_CALL IOSLogInWithReadPermissions(int32_t, char*);}
+extern "C"  void IOSWrapper_IOSLogInWithReadPermissions_m3408361088 (Object_t * __this /* static, unused */, int32_t ___requestId, String_t* ___scope, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSLogInWithReadPermissions;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSLogInWithReadPermissions'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestId' to native representation
+
+	// Marshaling of parameter '___scope' to native representation
+	char* ____scope_marshaled = { 0 };
+	____scope_marshaled = il2cpp_codegen_marshal_string(___scope);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestId, ____scope_marshaled);
+
+	// Marshaling cleanup of parameter '___requestId' native representation
+
+	// Marshaling cleanup of parameter '___scope' native representation
+	il2cpp_codegen_marshal_free(____scope_marshaled);
+	____scope_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSLogInWithPublishPermissions(System.Int32,System.String)
+extern "C" {void DEFAULT_CALL IOSLogInWithPublishPermissions(int32_t, char*);}
+extern "C"  void IOSWrapper_IOSLogInWithPublishPermissions_m4065794207 (Object_t * __this /* static, unused */, int32_t ___requestId, String_t* ___scope, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSLogInWithPublishPermissions;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSLogInWithPublishPermissions'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestId' to native representation
+
+	// Marshaling of parameter '___scope' to native representation
+	char* ____scope_marshaled = { 0 };
+	____scope_marshaled = il2cpp_codegen_marshal_string(___scope);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestId, ____scope_marshaled);
+
+	// Marshaling cleanup of parameter '___requestId' native representation
+
+	// Marshaling cleanup of parameter '___scope' native representation
+	il2cpp_codegen_marshal_free(____scope_marshaled);
+	____scope_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSLogOut()
+extern "C" {void DEFAULT_CALL IOSLogOut();}
+extern "C"  void IOSWrapper_IOSLogOut_m3709434046 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSLogOut;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSLogOut'"));
+		}
+	}
+
+	// Native function invocation
+	_il2cpp_pinvoke_func();
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSSetShareDialogMode(System.Int32)
+extern "C" {void DEFAULT_CALL IOSSetShareDialogMode(int32_t);}
+extern "C"  void IOSWrapper_IOSSetShareDialogMode_m3586049581 (Object_t * __this /* static, unused */, int32_t ___mode, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSSetShareDialogMode;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSSetShareDialogMode'"));
+		}
+	}
+
+	// Marshaling of parameter '___mode' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___mode);
+
+	// Marshaling cleanup of parameter '___mode' native representation
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSShareLink(System.Int32,System.String,System.String,System.String,System.String)
+extern "C" {void DEFAULT_CALL IOSShareLink(int32_t, char*, char*, char*, char*);}
+extern "C"  void IOSWrapper_IOSShareLink_m413884232 (Object_t * __this /* static, unused */, int32_t ___requestId, String_t* ___contentURL, String_t* ___contentTitle, String_t* ___contentDescription, String_t* ___photoURL, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, char*, char*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSShareLink;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSShareLink'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestId' to native representation
+
+	// Marshaling of parameter '___contentURL' to native representation
+	char* ____contentURL_marshaled = { 0 };
+	____contentURL_marshaled = il2cpp_codegen_marshal_string(___contentURL);
+
+	// Marshaling of parameter '___contentTitle' to native representation
+	char* ____contentTitle_marshaled = { 0 };
+	____contentTitle_marshaled = il2cpp_codegen_marshal_string(___contentTitle);
+
+	// Marshaling of parameter '___contentDescription' to native representation
+	char* ____contentDescription_marshaled = { 0 };
+	____contentDescription_marshaled = il2cpp_codegen_marshal_string(___contentDescription);
+
+	// Marshaling of parameter '___photoURL' to native representation
+	char* ____photoURL_marshaled = { 0 };
+	____photoURL_marshaled = il2cpp_codegen_marshal_string(___photoURL);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestId, ____contentURL_marshaled, ____contentTitle_marshaled, ____contentDescription_marshaled, ____photoURL_marshaled);
+
+	// Marshaling cleanup of parameter '___requestId' native representation
+
+	// Marshaling cleanup of parameter '___contentURL' native representation
+	il2cpp_codegen_marshal_free(____contentURL_marshaled);
+	____contentURL_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___contentTitle' native representation
+	il2cpp_codegen_marshal_free(____contentTitle_marshaled);
+	____contentTitle_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___contentDescription' native representation
+	il2cpp_codegen_marshal_free(____contentDescription_marshaled);
+	____contentDescription_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___photoURL' native representation
+	il2cpp_codegen_marshal_free(____photoURL_marshaled);
+	____photoURL_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSFeedShare(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String)
+extern "C" {void DEFAULT_CALL IOSFeedShare(int32_t, char*, char*, char*, char*, char*, char*, char*);}
+extern "C"  void IOSWrapper_IOSFeedShare_m1117905764 (Object_t * __this /* static, unused */, int32_t ___requestId, String_t* ___toId, String_t* ___link, String_t* ___linkName, String_t* ___linkCaption, String_t* ___linkDescription, String_t* ___picture, String_t* ___mediaSource, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, char*, char*, char*, char*, char*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSFeedShare;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSFeedShare'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestId' to native representation
+
+	// Marshaling of parameter '___toId' to native representation
+	char* ____toId_marshaled = { 0 };
+	____toId_marshaled = il2cpp_codegen_marshal_string(___toId);
+
+	// Marshaling of parameter '___link' to native representation
+	char* ____link_marshaled = { 0 };
+	____link_marshaled = il2cpp_codegen_marshal_string(___link);
+
+	// Marshaling of parameter '___linkName' to native representation
+	char* ____linkName_marshaled = { 0 };
+	____linkName_marshaled = il2cpp_codegen_marshal_string(___linkName);
+
+	// Marshaling of parameter '___linkCaption' to native representation
+	char* ____linkCaption_marshaled = { 0 };
+	____linkCaption_marshaled = il2cpp_codegen_marshal_string(___linkCaption);
+
+	// Marshaling of parameter '___linkDescription' to native representation
+	char* ____linkDescription_marshaled = { 0 };
+	____linkDescription_marshaled = il2cpp_codegen_marshal_string(___linkDescription);
+
+	// Marshaling of parameter '___picture' to native representation
+	char* ____picture_marshaled = { 0 };
+	____picture_marshaled = il2cpp_codegen_marshal_string(___picture);
+
+	// Marshaling of parameter '___mediaSource' to native representation
+	char* ____mediaSource_marshaled = { 0 };
+	____mediaSource_marshaled = il2cpp_codegen_marshal_string(___mediaSource);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestId, ____toId_marshaled, ____link_marshaled, ____linkName_marshaled, ____linkCaption_marshaled, ____linkDescription_marshaled, ____picture_marshaled, ____mediaSource_marshaled);
+
+	// Marshaling cleanup of parameter '___requestId' native representation
+
+	// Marshaling cleanup of parameter '___toId' native representation
+	il2cpp_codegen_marshal_free(____toId_marshaled);
+	____toId_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___link' native representation
+	il2cpp_codegen_marshal_free(____link_marshaled);
+	____link_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___linkName' native representation
+	il2cpp_codegen_marshal_free(____linkName_marshaled);
+	____linkName_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___linkCaption' native representation
+	il2cpp_codegen_marshal_free(____linkCaption_marshaled);
+	____linkCaption_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___linkDescription' native representation
+	il2cpp_codegen_marshal_free(____linkDescription_marshaled);
+	____linkDescription_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___picture' native representation
+	il2cpp_codegen_marshal_free(____picture_marshaled);
+	____picture_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___mediaSource' native representation
+	il2cpp_codegen_marshal_free(____mediaSource_marshaled);
+	____mediaSource_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSAppRequest(System.Int32,System.String,System.String,System.String,System.String[],System.Int32,System.String,System.String[],System.Int32,System.Boolean,System.Int32,System.String,System.String)
+extern "C" {void DEFAULT_CALL IOSAppRequest(int32_t, char*, char*, char*, char**, int32_t, char*, char**, int32_t, int32_t, int32_t, char*, char*);}
+extern "C"  void IOSWrapper_IOSAppRequest_m1087681629 (Object_t * __this /* static, unused */, int32_t ___requestId, String_t* ___message, String_t* ___actionType, String_t* ___objectId, StringU5BU5D_t2956870243* ___to, int32_t ___toLength, String_t* ___filters, StringU5BU5D_t2956870243* ___excludeIds, int32_t ___excludeIdsLength, bool ___hasMaxRecipients, int32_t ___maxRecipients, String_t* ___data, String_t* ___title, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, char*, char*, char**, int32_t, char*, char**, int32_t, int32_t, int32_t, char*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSAppRequest;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSAppRequest'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestId' to native representation
+
+	// Marshaling of parameter '___message' to native representation
+	char* ____message_marshaled = { 0 };
+	____message_marshaled = il2cpp_codegen_marshal_string(___message);
+
+	// Marshaling of parameter '___actionType' to native representation
+	char* ____actionType_marshaled = { 0 };
+	____actionType_marshaled = il2cpp_codegen_marshal_string(___actionType);
+
+	// Marshaling of parameter '___objectId' to native representation
+	char* ____objectId_marshaled = { 0 };
+	____objectId_marshaled = il2cpp_codegen_marshal_string(___objectId);
+
+	// Marshaling of parameter '___to' to native representation
+	char** ____to_marshaled = { 0 };
+	____to_marshaled = il2cpp_codegen_marshal_string_array(___to);
+
+	// Marshaling of parameter '___toLength' to native representation
+
+	// Marshaling of parameter '___filters' to native representation
+	char* ____filters_marshaled = { 0 };
+	____filters_marshaled = il2cpp_codegen_marshal_string(___filters);
+
+	// Marshaling of parameter '___excludeIds' to native representation
+	char** ____excludeIds_marshaled = { 0 };
+	____excludeIds_marshaled = il2cpp_codegen_marshal_string_array(___excludeIds);
+
+	// Marshaling of parameter '___excludeIdsLength' to native representation
+
+	// Marshaling of parameter '___hasMaxRecipients' to native representation
+
+	// Marshaling of parameter '___maxRecipients' to native representation
+
+	// Marshaling of parameter '___data' to native representation
+	char* ____data_marshaled = { 0 };
+	____data_marshaled = il2cpp_codegen_marshal_string(___data);
+
+	// Marshaling of parameter '___title' to native representation
+	char* ____title_marshaled = { 0 };
+	____title_marshaled = il2cpp_codegen_marshal_string(___title);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestId, ____message_marshaled, ____actionType_marshaled, ____objectId_marshaled, ____to_marshaled, ___toLength, ____filters_marshaled, ____excludeIds_marshaled, ___excludeIdsLength, ___hasMaxRecipients, ___maxRecipients, ____data_marshaled, ____title_marshaled);
+
+	// Marshaling cleanup of parameter '___requestId' native representation
+
+	// Marshaling cleanup of parameter '___message' native representation
+	il2cpp_codegen_marshal_free(____message_marshaled);
+	____message_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___actionType' native representation
+	il2cpp_codegen_marshal_free(____actionType_marshaled);
+	____actionType_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___objectId' native representation
+	il2cpp_codegen_marshal_free(____objectId_marshaled);
+	____objectId_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___to' native representation
+	if (___to != NULL) il2cpp_codegen_marshal_free_string_array((void**)____to_marshaled, ((Il2CppCodeGenArray*)___to)->max_length);
+	____to_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___toLength' native representation
+
+	// Marshaling cleanup of parameter '___filters' native representation
+	il2cpp_codegen_marshal_free(____filters_marshaled);
+	____filters_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___excludeIds' native representation
+	if (___excludeIds != NULL) il2cpp_codegen_marshal_free_string_array((void**)____excludeIds_marshaled, ((Il2CppCodeGenArray*)___excludeIds)->max_length);
+	____excludeIds_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___excludeIdsLength' native representation
+
+	// Marshaling cleanup of parameter '___hasMaxRecipients' native representation
+
+	// Marshaling cleanup of parameter '___maxRecipients' native representation
+
+	// Marshaling cleanup of parameter '___data' native representation
+	il2cpp_codegen_marshal_free(____data_marshaled);
+	____data_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___title' native representation
+	il2cpp_codegen_marshal_free(____title_marshaled);
+	____title_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSAppInvite(System.Int32,System.String,System.String)
+extern "C" {void DEFAULT_CALL IOSAppInvite(int32_t, char*, char*);}
+extern "C"  void IOSWrapper_IOSAppInvite_m1643685537 (Object_t * __this /* static, unused */, int32_t ___requestId, String_t* ___appLinkUrl, String_t* ___previewImageUrl, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSAppInvite;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSAppInvite'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestId' to native representation
+
+	// Marshaling of parameter '___appLinkUrl' to native representation
+	char* ____appLinkUrl_marshaled = { 0 };
+	____appLinkUrl_marshaled = il2cpp_codegen_marshal_string(___appLinkUrl);
+
+	// Marshaling of parameter '___previewImageUrl' to native representation
+	char* ____previewImageUrl_marshaled = { 0 };
+	____previewImageUrl_marshaled = il2cpp_codegen_marshal_string(___previewImageUrl);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestId, ____appLinkUrl_marshaled, ____previewImageUrl_marshaled);
+
+	// Marshaling cleanup of parameter '___requestId' native representation
+
+	// Marshaling cleanup of parameter '___appLinkUrl' native representation
+	il2cpp_codegen_marshal_free(____appLinkUrl_marshaled);
+	____appLinkUrl_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___previewImageUrl' native representation
+	il2cpp_codegen_marshal_free(____previewImageUrl_marshaled);
+	____previewImageUrl_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSCreateGameGroup(System.Int32,System.String,System.String,System.String)
+extern "C" {void DEFAULT_CALL IOSCreateGameGroup(int32_t, char*, char*, char*);}
+extern "C"  void IOSWrapper_IOSCreateGameGroup_m3147138532 (Object_t * __this /* static, unused */, int32_t ___requestId, String_t* ___name, String_t* ___description, String_t* ___privacy, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*, char*, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSCreateGameGroup;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSCreateGameGroup'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestId' to native representation
+
+	// Marshaling of parameter '___name' to native representation
+	char* ____name_marshaled = { 0 };
+	____name_marshaled = il2cpp_codegen_marshal_string(___name);
+
+	// Marshaling of parameter '___description' to native representation
+	char* ____description_marshaled = { 0 };
+	____description_marshaled = il2cpp_codegen_marshal_string(___description);
+
+	// Marshaling of parameter '___privacy' to native representation
+	char* ____privacy_marshaled = { 0 };
+	____privacy_marshaled = il2cpp_codegen_marshal_string(___privacy);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestId, ____name_marshaled, ____description_marshaled, ____privacy_marshaled);
+
+	// Marshaling cleanup of parameter '___requestId' native representation
+
+	// Marshaling cleanup of parameter '___name' native representation
+	il2cpp_codegen_marshal_free(____name_marshaled);
+	____name_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___description' native representation
+	il2cpp_codegen_marshal_free(____description_marshaled);
+	____description_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___privacy' native representation
+	il2cpp_codegen_marshal_free(____privacy_marshaled);
+	____privacy_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSJoinGameGroup(System.Int32,System.String)
+extern "C" {void DEFAULT_CALL IOSJoinGameGroup(int32_t, char*);}
+extern "C"  void IOSWrapper_IOSJoinGameGroup_m3672539198 (Object_t * __this /* static, unused */, int32_t ___requestId, String_t* ___groupId, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t, char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSJoinGameGroup;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSJoinGameGroup'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestId' to native representation
+
+	// Marshaling of parameter '___groupId' to native representation
+	char* ____groupId_marshaled = { 0 };
+	____groupId_marshaled = il2cpp_codegen_marshal_string(___groupId);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestId, ____groupId_marshaled);
+
+	// Marshaling cleanup of parameter '___requestId' native representation
+
+	// Marshaling cleanup of parameter '___groupId' native representation
+	il2cpp_codegen_marshal_free(____groupId_marshaled);
+	____groupId_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSFBSettingsActivateApp(System.String)
+extern "C" {void DEFAULT_CALL IOSFBSettingsActivateApp(char*);}
+extern "C"  void IOSWrapper_IOSFBSettingsActivateApp_m2006622277 (Object_t * __this /* static, unused */, String_t* ___appId, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSFBSettingsActivateApp;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSFBSettingsActivateApp'"));
+		}
+	}
+
+	// Marshaling of parameter '___appId' to native representation
+	char* ____appId_marshaled = { 0 };
+	____appId_marshaled = il2cpp_codegen_marshal_string(___appId);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____appId_marshaled);
+
+	// Marshaling cleanup of parameter '___appId' native representation
+	il2cpp_codegen_marshal_free(____appId_marshaled);
+	____appId_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSFBAppEventsLogEvent(System.String,System.Double,System.Int32,System.String[],System.String[])
+extern "C" {void DEFAULT_CALL IOSFBAppEventsLogEvent(char*, double, int32_t, char**, char**);}
+extern "C"  void IOSWrapper_IOSFBAppEventsLogEvent_m2963927951 (Object_t * __this /* static, unused */, String_t* ___logEvent, double ___valueToSum, int32_t ___numParams, StringU5BU5D_t2956870243* ___paramKeys, StringU5BU5D_t2956870243* ___paramVals, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (char*, double, int32_t, char**, char**);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSFBAppEventsLogEvent;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSFBAppEventsLogEvent'"));
+		}
+	}
+
+	// Marshaling of parameter '___logEvent' to native representation
+	char* ____logEvent_marshaled = { 0 };
+	____logEvent_marshaled = il2cpp_codegen_marshal_string(___logEvent);
+
+	// Marshaling of parameter '___valueToSum' to native representation
+
+	// Marshaling of parameter '___numParams' to native representation
+
+	// Marshaling of parameter '___paramKeys' to native representation
+	char** ____paramKeys_marshaled = { 0 };
+	____paramKeys_marshaled = il2cpp_codegen_marshal_string_array(___paramKeys);
+
+	// Marshaling of parameter '___paramVals' to native representation
+	char** ____paramVals_marshaled = { 0 };
+	____paramVals_marshaled = il2cpp_codegen_marshal_string_array(___paramVals);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(____logEvent_marshaled, ___valueToSum, ___numParams, ____paramKeys_marshaled, ____paramVals_marshaled);
+
+	// Marshaling cleanup of parameter '___logEvent' native representation
+	il2cpp_codegen_marshal_free(____logEvent_marshaled);
+	____logEvent_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___valueToSum' native representation
+
+	// Marshaling cleanup of parameter '___numParams' native representation
+
+	// Marshaling cleanup of parameter '___paramKeys' native representation
+	if (___paramKeys != NULL) il2cpp_codegen_marshal_free_string_array((void**)____paramKeys_marshaled, ((Il2CppCodeGenArray*)___paramKeys)->max_length);
+	____paramKeys_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___paramVals' native representation
+	if (___paramVals != NULL) il2cpp_codegen_marshal_free_string_array((void**)____paramVals_marshaled, ((Il2CppCodeGenArray*)___paramVals)->max_length);
+	____paramVals_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSFBAppEventsLogPurchase(System.Double,System.String,System.Int32,System.String[],System.String[])
+extern "C" {void DEFAULT_CALL IOSFBAppEventsLogPurchase(double, char*, int32_t, char**, char**);}
+extern "C"  void IOSWrapper_IOSFBAppEventsLogPurchase_m1319337352 (Object_t * __this /* static, unused */, double ___logPurchase, String_t* ___currency, int32_t ___numParams, StringU5BU5D_t2956870243* ___paramKeys, StringU5BU5D_t2956870243* ___paramVals, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (double, char*, int32_t, char**, char**);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSFBAppEventsLogPurchase;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSFBAppEventsLogPurchase'"));
+		}
+	}
+
+	// Marshaling of parameter '___logPurchase' to native representation
+
+	// Marshaling of parameter '___currency' to native representation
+	char* ____currency_marshaled = { 0 };
+	____currency_marshaled = il2cpp_codegen_marshal_string(___currency);
+
+	// Marshaling of parameter '___numParams' to native representation
+
+	// Marshaling of parameter '___paramKeys' to native representation
+	char** ____paramKeys_marshaled = { 0 };
+	____paramKeys_marshaled = il2cpp_codegen_marshal_string_array(___paramKeys);
+
+	// Marshaling of parameter '___paramVals' to native representation
+	char** ____paramVals_marshaled = { 0 };
+	____paramVals_marshaled = il2cpp_codegen_marshal_string_array(___paramVals);
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___logPurchase, ____currency_marshaled, ___numParams, ____paramKeys_marshaled, ____paramVals_marshaled);
+
+	// Marshaling cleanup of parameter '___logPurchase' native representation
+
+	// Marshaling cleanup of parameter '___currency' native representation
+	il2cpp_codegen_marshal_free(____currency_marshaled);
+	____currency_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___numParams' native representation
+
+	// Marshaling cleanup of parameter '___paramKeys' native representation
+	if (___paramKeys != NULL) il2cpp_codegen_marshal_free_string_array((void**)____paramKeys_marshaled, ((Il2CppCodeGenArray*)___paramKeys)->max_length);
+	____paramKeys_marshaled = NULL;
+
+	// Marshaling cleanup of parameter '___paramVals' native representation
+	if (___paramVals != NULL) il2cpp_codegen_marshal_free_string_array((void**)____paramVals_marshaled, ((Il2CppCodeGenArray*)___paramVals)->max_length);
+	____paramVals_marshaled = NULL;
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSFBAppEventsSetLimitEventUsage(System.Boolean)
+extern "C" {void DEFAULT_CALL IOSFBAppEventsSetLimitEventUsage(int32_t);}
+extern "C"  void IOSWrapper_IOSFBAppEventsSetLimitEventUsage_m2526123587 (Object_t * __this /* static, unused */, bool ___limitEventUsage, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSFBAppEventsSetLimitEventUsage;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSFBAppEventsSetLimitEventUsage'"));
+		}
+	}
+
+	// Marshaling of parameter '___limitEventUsage' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___limitEventUsage);
+
+	// Marshaling cleanup of parameter '___limitEventUsage' native representation
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSGetAppLink(System.Int32)
+extern "C" {void DEFAULT_CALL IOSGetAppLink(int32_t);}
+extern "C"  void IOSWrapper_IOSGetAppLink_m2104367210 (Object_t * __this /* static, unused */, int32_t ___requestID, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSGetAppLink;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSGetAppLink'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestID' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestID);
+
+	// Marshaling cleanup of parameter '___requestID' native representation
+
+}
+// System.String Facebook.Unity.Mobile.IOS.IOSWrapper::IOSFBSdkVersion()
+extern "C" {char* DEFAULT_CALL IOSFBSdkVersion();}
+extern "C"  String_t* IOSWrapper_IOSFBSdkVersion_m1954078859 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	typedef char* (DEFAULT_CALL *PInvokeFunc) ();
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSFBSdkVersion;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSFBSdkVersion'"));
+		}
+	}
+
+	// Native function invocation and marshaling of return value back from native representation
+	char* _return_value = _il2cpp_pinvoke_func();
+	String_t* __return_value_unmarshaled = { 0 };
+	__return_value_unmarshaled = il2cpp_codegen_marshal_string_result(_return_value);
+	il2cpp_codegen_marshal_free(_return_value);
+	_return_value = NULL;
+
+	return __return_value_unmarshaled;
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSFetchDeferredAppLink(System.Int32)
+extern "C" {void DEFAULT_CALL IOSFetchDeferredAppLink(int32_t);}
+extern "C"  void IOSWrapper_IOSFetchDeferredAppLink_m3878891303 (Object_t * __this /* static, unused */, int32_t ___requestID, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSFetchDeferredAppLink;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSFetchDeferredAppLink'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestID' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestID);
+
+	// Marshaling cleanup of parameter '___requestID' native representation
+
+}
+// System.Void Facebook.Unity.Mobile.IOS.IOSWrapper::IOSRefreshCurrentAccessToken(System.Int32)
+extern "C" {void DEFAULT_CALL IOSRefreshCurrentAccessToken(int32_t);}
+extern "C"  void IOSWrapper_IOSRefreshCurrentAccessToken_m2726451030 (Object_t * __this /* static, unused */, int32_t ___requestID, const MethodInfo* method)
+{
+	typedef void (DEFAULT_CALL *PInvokeFunc) (int32_t);
+	static PInvokeFunc _il2cpp_pinvoke_func;
+	if (!_il2cpp_pinvoke_func)
+	{
+		_il2cpp_pinvoke_func = (PInvokeFunc)IOSRefreshCurrentAccessToken;
+
+		if (_il2cpp_pinvoke_func == NULL)
+		{
+			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Unable to find method for p/invoke: 'IOSRefreshCurrentAccessToken'"));
+		}
+	}
+
+	// Marshaling of parameter '___requestID' to native representation
+
+	// Native function invocation
+	_il2cpp_pinvoke_func(___requestID);
+
+	// Marshaling cleanup of parameter '___requestID' native representation
+
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::.ctor(Facebook.Unity.CallbackManager)
+extern "C"  void MobileFacebook__ctor_m2525648705 (MobileFacebook_t974549177 * __this, CallbackManager_t1943358823 * ___callbackManager, const MethodInfo* method)
+{
+	{
+		CallbackManager_t1943358823 * L_0 = ___callbackManager;
+		FacebookBase__ctor_m1438933772(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Facebook.Unity.ShareDialogMode Facebook.Unity.Mobile.MobileFacebook::get_ShareDialogMode()
+extern "C"  int32_t MobileFacebook_get_ShareDialogMode_m3994491891 (MobileFacebook_t974549177 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___shareDialogMode_5);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::set_ShareDialogMode(Facebook.Unity.ShareDialogMode)
+extern "C"  void MobileFacebook_set_ShareDialogMode_m1467972906 (MobileFacebook_t974549177 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___shareDialogMode_5 = L_0;
+		int32_t L_1 = (__this->___shareDialogMode_5);
+		VirtActionInvoker1< int32_t >::Invoke(71 /* System.Void Facebook.Unity.Mobile.MobileFacebook::SetShareDialogMode(Facebook.Unity.ShareDialogMode) */, __this, L_1);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnLoginComplete(System.String)
+extern TypeInfo* LoginResult_t1165053605_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnLoginComplete_m3079097049_MetadataUsageId;
+extern "C"  void MobileFacebook_OnLoginComplete_m3079097049 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnLoginComplete_m3079097049_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	LoginResult_t1165053605 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		LoginResult_t1165053605 * L_1 = (LoginResult_t1165053605 *)il2cpp_codegen_object_new(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		LoginResult__ctor_m1080664876(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		LoginResult_t1165053605 * L_2 = V_0;
+		FacebookBase_OnAuthResponse_m2942255828(__this, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnGetAppLinkComplete(System.String)
+extern TypeInfo* AppLinkResult_t1305020279_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnGetAppLinkComplete_m1170345737_MetadataUsageId;
+extern "C"  void MobileFacebook_OnGetAppLinkComplete_m1170345737 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnGetAppLinkComplete_m1170345737_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AppLinkResult_t1305020279 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		AppLinkResult_t1305020279 * L_1 = (AppLinkResult_t1305020279 *)il2cpp_codegen_object_new(AppLinkResult_t1305020279_il2cpp_TypeInfo_var);
+		AppLinkResult__ctor_m192236734(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		CallbackManager_t1943358823 * L_2 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		AppLinkResult_t1305020279 * L_3 = V_0;
+		NullCheck(L_2);
+		CallbackManager_OnFacebookResponse_m851410132(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnGroupCreateComplete(System.String)
+extern TypeInfo* GroupCreateResult_t1424122391_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnGroupCreateComplete_m380571175_MetadataUsageId;
+extern "C"  void MobileFacebook_OnGroupCreateComplete_m380571175 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnGroupCreateComplete_m380571175_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GroupCreateResult_t1424122391 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		GroupCreateResult_t1424122391 * L_1 = (GroupCreateResult_t1424122391 *)il2cpp_codegen_object_new(GroupCreateResult_t1424122391_il2cpp_TypeInfo_var);
+		GroupCreateResult__ctor_m371110878(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		CallbackManager_t1943358823 * L_2 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		GroupCreateResult_t1424122391 * L_3 = V_0;
+		NullCheck(L_2);
+		CallbackManager_OnFacebookResponse_m851410132(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnGroupJoinComplete(System.String)
+extern TypeInfo* GroupJoinResult_t4173281157_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnGroupJoinComplete_m2019893497_MetadataUsageId;
+extern "C"  void MobileFacebook_OnGroupJoinComplete_m2019893497 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnGroupJoinComplete_m2019893497_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GroupJoinResult_t4173281157 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		GroupJoinResult_t4173281157 * L_1 = (GroupJoinResult_t4173281157 *)il2cpp_codegen_object_new(GroupJoinResult_t4173281157_il2cpp_TypeInfo_var);
+		GroupJoinResult__ctor_m2983626892(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		CallbackManager_t1943358823 * L_2 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		GroupJoinResult_t4173281157 * L_3 = V_0;
+		NullCheck(L_2);
+		CallbackManager_OnFacebookResponse_m851410132(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnAppRequestsComplete(System.String)
+extern TypeInfo* AppRequestResult_t2113826026_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnAppRequestsComplete_m2036222525_MetadataUsageId;
+extern "C"  void MobileFacebook_OnAppRequestsComplete_m2036222525 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnAppRequestsComplete_m2036222525_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AppRequestResult_t2113826026 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		AppRequestResult_t2113826026 * L_1 = (AppRequestResult_t2113826026 *)il2cpp_codegen_object_new(AppRequestResult_t2113826026_il2cpp_TypeInfo_var);
+		AppRequestResult__ctor_m3173592323(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		CallbackManager_t1943358823 * L_2 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		AppRequestResult_t2113826026 * L_3 = V_0;
+		NullCheck(L_2);
+		CallbackManager_OnFacebookResponse_m851410132(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnAppInviteComplete(System.String)
+extern TypeInfo* AppInviteResult_t2846493446_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnAppInviteComplete_m3281887128_MetadataUsageId;
+extern "C"  void MobileFacebook_OnAppInviteComplete_m3281887128 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnAppInviteComplete_m3281887128_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AppInviteResult_t2846493446 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		AppInviteResult_t2846493446 * L_1 = (AppInviteResult_t2846493446 *)il2cpp_codegen_object_new(AppInviteResult_t2846493446_il2cpp_TypeInfo_var);
+		AppInviteResult__ctor_m3146732877(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		CallbackManager_t1943358823 * L_2 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		AppInviteResult_t2846493446 * L_3 = V_0;
+		NullCheck(L_2);
+		CallbackManager_OnFacebookResponse_m851410132(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnFetchDeferredAppLinkComplete(System.String)
+extern TypeInfo* AppLinkResult_t1305020279_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnFetchDeferredAppLinkComplete_m2544515500_MetadataUsageId;
+extern "C"  void MobileFacebook_OnFetchDeferredAppLinkComplete_m2544515500 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnFetchDeferredAppLinkComplete_m2544515500_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AppLinkResult_t1305020279 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		AppLinkResult_t1305020279 * L_1 = (AppLinkResult_t1305020279 *)il2cpp_codegen_object_new(AppLinkResult_t1305020279_il2cpp_TypeInfo_var);
+		AppLinkResult__ctor_m192236734(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		CallbackManager_t1943358823 * L_2 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		AppLinkResult_t1305020279 * L_3 = V_0;
+		NullCheck(L_2);
+		CallbackManager_OnFacebookResponse_m851410132(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnShareLinkComplete(System.String)
+extern TypeInfo* ShareResult_t4209507995_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnShareLinkComplete_m866840265_MetadataUsageId;
+extern "C"  void MobileFacebook_OnShareLinkComplete_m866840265 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnShareLinkComplete_m866840265_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	ShareResult_t4209507995 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		ShareResult_t4209507995 * L_1 = (ShareResult_t4209507995 *)il2cpp_codegen_object_new(ShareResult_t4209507995_il2cpp_TypeInfo_var);
+		ShareResult__ctor_m214718114(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		CallbackManager_t1943358823 * L_2 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		ShareResult_t4209507995 * L_3 = V_0;
+		NullCheck(L_2);
+		CallbackManager_OnFacebookResponse_m851410132(L_2, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebook::OnRefreshCurrentAccessTokenComplete(System.String)
+extern TypeInfo* AccessTokenRefreshResult_t3098485730_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_OnRefreshCurrentAccessTokenComplete_m1667736459_MetadataUsageId;
+extern "C"  void MobileFacebook_OnRefreshCurrentAccessTokenComplete_m1667736459 (MobileFacebook_t974549177 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_OnRefreshCurrentAccessTokenComplete_m1667736459_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AccessTokenRefreshResult_t3098485730 * V_0 = {0};
+	{
+		String_t* L_0 = ___message;
+		AccessTokenRefreshResult_t3098485730 * L_1 = (AccessTokenRefreshResult_t3098485730 *)il2cpp_codegen_object_new(AccessTokenRefreshResult_t3098485730_il2cpp_TypeInfo_var);
+		AccessTokenRefreshResult__ctor_m3607097595(L_1, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		AccessTokenRefreshResult_t3098485730 * L_2 = V_0;
+		NullCheck(L_2);
+		AccessToken_t3144904884 * L_3 = VirtFuncInvoker0< AccessToken_t3144904884 * >::Invoke(19 /* Facebook.Unity.AccessToken Facebook.Unity.AccessTokenRefreshResult::get_AccessToken() */, L_2);
+		if (!L_3)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		AccessTokenRefreshResult_t3098485730 * L_4 = V_0;
+		NullCheck(L_4);
+		AccessToken_t3144904884 * L_5 = VirtFuncInvoker0< AccessToken_t3144904884 * >::Invoke(19 /* Facebook.Unity.AccessToken Facebook.Unity.AccessTokenRefreshResult::get_AccessToken() */, L_4);
+		AccessToken_set_CurrentAccessToken_m2536477442(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+	}
+
+IL_001d:
+	{
+		CallbackManager_t1943358823 * L_6 = FacebookBase_get_CallbackManager_m3167100966(__this, /*hidden argument*/NULL);
+		AccessTokenRefreshResult_t3098485730 * L_7 = V_0;
+		NullCheck(L_6);
+		CallbackManager_OnFacebookResponse_m851410132(L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.Mobile.MobileFacebook::DeserializeMessage(System.String)
+extern TypeInfo* Json_t699972005_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_DeserializeMessage_m1681838625_MetadataUsageId;
+extern "C"  Object_t* MobileFacebook_DeserializeMessage_m1681838625 (Object_t * __this /* static, unused */, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_DeserializeMessage_m1681838625_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		String_t* L_0 = ___message;
+		IL2CPP_RUNTIME_CLASS_INIT(Json_t699972005_il2cpp_TypeInfo_var);
+		Object_t * L_1 = Json_Deserialize_m2159224366(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return ((Dictionary_2_t2474804324 *)CastclassClass(L_1, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+	}
+}
+// System.String Facebook.Unity.Mobile.MobileFacebook::SerializeDictionary(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* Json_t699972005_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebook_SerializeDictionary_m2760557123_MetadataUsageId;
+extern "C"  String_t* MobileFacebook_SerializeDictionary_m2760557123 (Object_t * __this /* static, unused */, Object_t* ___dict, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_SerializeDictionary_m2760557123_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t* L_0 = ___dict;
+		IL2CPP_RUNTIME_CLASS_INIT(Json_t699972005_il2cpp_TypeInfo_var);
+		String_t* L_1 = Json_Serialize_m3576464301(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Boolean Facebook.Unity.Mobile.MobileFacebook::TryGetCallbackId(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String&)
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1869655893;
+extern const uint32_t MobileFacebook_TryGetCallbackId_m2368855007_MetadataUsageId;
+extern "C"  bool MobileFacebook_TryGetCallbackId_m2368855007 (Object_t * __this /* static, unused */, Object_t* ___result, String_t** ___callbackId, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_TryGetCallbackId_m2368855007_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	{
+		String_t** L_0 = ___callbackId;
+		*((Object_t **)(L_0)) = (Object_t *)NULL;
+		Object_t* L_1 = ___result;
+		NullCheck(L_1);
+		bool L_2 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_1, _stringLiteral1869655893, (&V_0));
+		if (!L_2)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		String_t** L_3 = ___callbackId;
+		Object_t * L_4 = V_0;
+		*((Object_t **)(L_3)) = (Object_t *)((String_t*)IsInstSealed(L_4, String_t_il2cpp_TypeInfo_var));
+		return (bool)1;
+	}
+
+IL_001f:
+	{
+		return (bool)0;
+	}
+}
+// System.Boolean Facebook.Unity.Mobile.MobileFacebook::TryGetError(System.Collections.Generic.IDictionary`2<System.String,System.Object>,System.String&)
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral96784904;
+extern const uint32_t MobileFacebook_TryGetError_m1498725139_MetadataUsageId;
+extern "C"  bool MobileFacebook_TryGetError_m1498725139 (Object_t * __this /* static, unused */, Object_t* ___result, String_t** ___errorMessage, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebook_TryGetError_m1498725139_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	{
+		String_t** L_0 = ___errorMessage;
+		*((Object_t **)(L_0)) = (Object_t *)NULL;
+		Object_t* L_1 = ___result;
+		NullCheck(L_1);
+		bool L_2 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_1, _stringLiteral96784904, (&V_0));
+		if (!L_2)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		String_t** L_3 = ___errorMessage;
+		Object_t * L_4 = V_0;
+		*((Object_t **)(L_3)) = (Object_t *)((String_t*)IsInstSealed(L_4, String_t_il2cpp_TypeInfo_var));
+		return (bool)1;
+	}
+
+IL_001f:
+	{
+		return (bool)0;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebookGameObject::.ctor()
+extern "C"  void MobileFacebookGameObject__ctor_m1032091511 (MobileFacebookGameObject_t2980575402 * __this, const MethodInfo* method)
+{
+	{
+		FacebookGameObject__ctor_m497285587(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// Facebook.Unity.Mobile.IMobileFacebookImplementation Facebook.Unity.Mobile.MobileFacebookGameObject::get_MobileFacebook()
+extern TypeInfo* IMobileFacebookImplementation_t3317238612_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebookGameObject_get_MobileFacebook_m3457836601_MetadataUsageId;
+extern "C"  Object_t * MobileFacebookGameObject_get_MobileFacebook_m3457836601 (MobileFacebookGameObject_t2980575402 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebookGameObject_get_MobileFacebook_m3457836601_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = FacebookGameObject_get_Facebook_m2623010211(__this, /*hidden argument*/NULL);
+		return ((Object_t *)Castclass(L_0, IMobileFacebookImplementation_t3317238612_il2cpp_TypeInfo_var));
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebookGameObject::OnAppInviteComplete(System.String)
+extern TypeInfo* IMobileFacebookCallbackHandler_t2866300901_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebookGameObject_OnAppInviteComplete_m3750862665_MetadataUsageId;
+extern "C"  void MobileFacebookGameObject_OnAppInviteComplete_m3750862665 (MobileFacebookGameObject_t2980575402 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebookGameObject_OnAppInviteComplete_m3750862665_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = MobileFacebookGameObject_get_MobileFacebook_m3457836601(__this, /*hidden argument*/NULL);
+		String_t* L_1 = ___message;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< String_t* >::Invoke(0 /* System.Void Facebook.Unity.Mobile.IMobileFacebookCallbackHandler::OnAppInviteComplete(System.String) */, IMobileFacebookCallbackHandler_t2866300901_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebookGameObject::OnFetchDeferredAppLinkComplete(System.String)
+extern TypeInfo* IMobileFacebookCallbackHandler_t2866300901_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebookGameObject_OnFetchDeferredAppLinkComplete_m3680776539_MetadataUsageId;
+extern "C"  void MobileFacebookGameObject_OnFetchDeferredAppLinkComplete_m3680776539 (MobileFacebookGameObject_t2980575402 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebookGameObject_OnFetchDeferredAppLinkComplete_m3680776539_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = MobileFacebookGameObject_get_MobileFacebook_m3457836601(__this, /*hidden argument*/NULL);
+		String_t* L_1 = ___message;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< String_t* >::Invoke(1 /* System.Void Facebook.Unity.Mobile.IMobileFacebookCallbackHandler::OnFetchDeferredAppLinkComplete(System.String) */, IMobileFacebookCallbackHandler_t2866300901_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Facebook.Unity.Mobile.MobileFacebookGameObject::OnRefreshCurrentAccessTokenComplete(System.String)
+extern TypeInfo* IMobileFacebookCallbackHandler_t2866300901_il2cpp_TypeInfo_var;
+extern const uint32_t MobileFacebookGameObject_OnRefreshCurrentAccessTokenComplete_m854597948_MetadataUsageId;
+extern "C"  void MobileFacebookGameObject_OnRefreshCurrentAccessTokenComplete_m854597948 (MobileFacebookGameObject_t2980575402 * __this, String_t* ___message, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MobileFacebookGameObject_OnRefreshCurrentAccessTokenComplete_m854597948_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = MobileFacebookGameObject_get_MobileFacebook_m3457836601(__this, /*hidden argument*/NULL);
+		String_t* L_1 = ___message;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< String_t* >::Invoke(2 /* System.Void Facebook.Unity.Mobile.IMobileFacebookCallbackHandler::OnRefreshCurrentAccessTokenComplete(System.String) */, IMobileFacebookCallbackHandler_t2866300901_il2cpp_TypeInfo_var, L_0, L_1);
+		return;
+	}
+}
+// System.Void Facebook.Unity.PayResult::.ctor(System.String)
+extern "C"  void PayResult__ctor_m2980695467 (PayResult_t3664338084 * __this, String_t* ___result, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___result;
+		ResultBase__ctor_m2366187814(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.ResultBase::.ctor(System.String)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Json_t699972005_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern const uint32_t ResultBase__ctor_m2366187814_MetadataUsageId;
+extern "C"  void ResultBase__ctor_m2366187814 (ResultBase_t3940793997 * __this, String_t* ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ResultBase__ctor_m2366187814_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	bool V_1 = false;
+	String_t* V_2 = {0};
+	Dictionary_2_t2474804324 * V_3 = {0};
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		V_0 = (String_t*)NULL;
+		V_1 = (bool)0;
+		V_2 = (String_t*)NULL;
+		String_t* L_0 = ___result;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		bool L_1 = String_IsNullOrEmpty_m1256468773(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		String_t* L_2 = ___result;
+		IL2CPP_RUNTIME_CLASS_INIT(Json_t699972005_il2cpp_TypeInfo_var);
+		Object_t * L_3 = Json_Deserialize_m2159224366(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_3 = ((Dictionary_2_t2474804324 *)IsInstClass(L_3, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+		Dictionary_2_t2474804324 * L_4 = V_3;
+		if (!L_4)
+		{
+			goto IL_0045;
+		}
+	}
+	{
+		Dictionary_2_t2474804324 * L_5 = V_3;
+		VirtActionInvoker1< Object_t* >::Invoke(12 /* System.Void Facebook.Unity.ResultBase::set_ResultDictionary(System.Collections.Generic.IDictionary`2<System.String,System.Object>) */, __this, L_5);
+		Dictionary_2_t2474804324 * L_6 = V_3;
+		String_t* L_7 = ResultBase_GetErrorValue_m3521616064(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		V_0 = L_7;
+		Dictionary_2_t2474804324 * L_8 = V_3;
+		bool L_9 = ResultBase_GetCancelledValue_m2792726360(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		V_1 = L_9;
+		Dictionary_2_t2474804324 * L_10 = V_3;
+		String_t* L_11 = ResultBase_GetCallbackId_m1014883561(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		V_2 = L_11;
+	}
+
+IL_0045:
+	{
+		String_t* L_12 = ___result;
+		String_t* L_13 = V_0;
+		bool L_14 = V_1;
+		String_t* L_15 = V_2;
+		ResultBase_Init_m976658803(__this, L_12, L_13, L_14, L_15, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Facebook.Unity.ResultBase::.ctor(System.String,System.String,System.Boolean)
+extern "C"  void ResultBase__ctor_m3744930907 (ResultBase_t3940793997 * __this, String_t* ___result, String_t* ___error, bool ___cancelled, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		String_t* L_0 = ___result;
+		String_t* L_1 = ___error;
+		bool L_2 = ___cancelled;
+		ResultBase_Init_m976658803(__this, L_0, L_1, L_2, (String_t*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String Facebook.Unity.ResultBase::get_Error()
+extern "C"  String_t* ResultBase_get_Error_m1773188092 (ResultBase_t3940793997 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = (__this->___U3CErrorU3Ek__BackingField_0);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.ResultBase::set_Error(System.String)
+extern "C"  void ResultBase_set_Error_m2688538109 (ResultBase_t3940793997 * __this, String_t* ___value, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value;
+		__this->___U3CErrorU3Ek__BackingField_0 = L_0;
+		return;
+	}
+}
+// System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary()
+extern "C"  Object_t* ResultBase_get_ResultDictionary_m2914765479 (ResultBase_t3940793997 * __this, const MethodInfo* method)
+{
+	{
+		Object_t* L_0 = (__this->___U3CResultDictionaryU3Ek__BackingField_1);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.ResultBase::set_ResultDictionary(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern "C"  void ResultBase_set_ResultDictionary_m4233896292 (ResultBase_t3940793997 * __this, Object_t* ___value, const MethodInfo* method)
+{
+	{
+		Object_t* L_0 = ___value;
+		__this->___U3CResultDictionaryU3Ek__BackingField_1 = L_0;
+		return;
+	}
+}
+// System.String Facebook.Unity.ResultBase::get_RawResult()
+extern "C"  String_t* ResultBase_get_RawResult_m1178287001 (ResultBase_t3940793997 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = (__this->___U3CRawResultU3Ek__BackingField_2);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.ResultBase::set_RawResult(System.String)
+extern "C"  void ResultBase_set_RawResult_m3886662144 (ResultBase_t3940793997 * __this, String_t* ___value, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value;
+		__this->___U3CRawResultU3Ek__BackingField_2 = L_0;
+		return;
+	}
+}
+// System.Boolean Facebook.Unity.ResultBase::get_Cancelled()
+extern "C"  bool ResultBase_get_Cancelled_m2606209750 (ResultBase_t3940793997 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = (__this->___U3CCancelledU3Ek__BackingField_3);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.ResultBase::set_Cancelled(System.Boolean)
+extern "C"  void ResultBase_set_Cancelled_m3010204965 (ResultBase_t3940793997 * __this, bool ___value, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value;
+		__this->___U3CCancelledU3Ek__BackingField_3 = L_0;
+		return;
+	}
+}
+// System.String Facebook.Unity.ResultBase::get_CallbackId()
+extern "C"  String_t* ResultBase_get_CallbackId_m2397258286 (ResultBase_t3940793997 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = (__this->___U3CCallbackIdU3Ek__BackingField_4);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.ResultBase::set_CallbackId(System.String)
+extern "C"  void ResultBase_set_CallbackId_m592812157 (ResultBase_t3940793997 * __this, String_t* ___value, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value;
+		__this->___U3CCallbackIdU3Ek__BackingField_4 = L_0;
+		return;
+	}
+}
+// System.String Facebook.Unity.ResultBase::ToString()
+extern TypeInfo* ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var;
+extern TypeInfo* Boolean_t211005341_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3700680083;
+extern const uint32_t ResultBase_ToString_m2293125649_MetadataUsageId;
+extern "C"  String_t* ResultBase_ToString_m2293125649 (ResultBase_t3940793997 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ResultBase_ToString_m2293125649_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ObjectU5BU5D_t11523773* L_0 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)4));
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(9 /* System.String Facebook.Unity.ResultBase::get_Error() */, __this);
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, L_1);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0, sizeof(Object_t *))) = (Object_t *)L_1;
+		ObjectU5BU5D_t11523773* L_2 = L_0;
+		Object_t* L_3 = VirtFuncInvoker0< Object_t* >::Invoke(11 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary() */, __this);
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
+		ArrayElementTypeCheck (L_2, L_3);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_2, 1, sizeof(Object_t *))) = (Object_t *)L_3;
+		ObjectU5BU5D_t11523773* L_4 = L_2;
+		String_t* L_5 = VirtFuncInvoker0< String_t* >::Invoke(13 /* System.String Facebook.Unity.ResultBase::get_RawResult() */, __this);
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 2);
+		ArrayElementTypeCheck (L_4, L_5);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_4, 2, sizeof(Object_t *))) = (Object_t *)L_5;
+		ObjectU5BU5D_t11523773* L_6 = L_4;
+		bool L_7 = VirtFuncInvoker0< bool >::Invoke(15 /* System.Boolean Facebook.Unity.ResultBase::get_Cancelled() */, __this);
+		bool L_8 = L_7;
+		Object_t * L_9 = Box(Boolean_t211005341_il2cpp_TypeInfo_var, &L_8);
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 3);
+		ArrayElementTypeCheck (L_6, L_9);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 3, sizeof(Object_t *))) = (Object_t *)L_9;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = String_Format_m4050103162(NULL /*static, unused*/, _stringLiteral3700680083, L_6, /*hidden argument*/NULL);
+		return L_10;
+	}
+}
+// System.Void Facebook.Unity.ResultBase::Init(System.String,System.String,System.Boolean,System.String)
+extern "C"  void ResultBase_Init_m976658803 (ResultBase_t3940793997 * __this, String_t* ___result, String_t* ___error, bool ___cancelled, String_t* ___callbackId, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___result;
+		VirtActionInvoker1< String_t* >::Invoke(14 /* System.Void Facebook.Unity.ResultBase::set_RawResult(System.String) */, __this, L_0);
+		bool L_1 = ___cancelled;
+		VirtActionInvoker1< bool >::Invoke(16 /* System.Void Facebook.Unity.ResultBase::set_Cancelled(System.Boolean) */, __this, L_1);
+		String_t* L_2 = ___error;
+		VirtActionInvoker1< String_t* >::Invoke(10 /* System.Void Facebook.Unity.ResultBase::set_Error(System.String) */, __this, L_2);
+		String_t* L_3 = ___callbackId;
+		VirtActionInvoker1< String_t* >::Invoke(18 /* System.Void Facebook.Unity.ResultBase::set_CallbackId(System.String) */, __this, L_3);
+		return;
+	}
+}
+// System.String Facebook.Unity.ResultBase::GetErrorValue(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern const MethodInfo* Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral96784904;
+extern const uint32_t ResultBase_GetErrorValue_m3521616064_MetadataUsageId;
+extern "C"  String_t* ResultBase_GetErrorValue_m3521616064 (Object_t * __this /* static, unused */, Object_t* ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ResultBase_GetErrorValue_m3521616064_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	{
+		Object_t* L_0 = ___result;
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return (String_t*)NULL;
+	}
+
+IL_0008:
+	{
+		Object_t* L_1 = ___result;
+		bool L_2 = Utilities_TryGetValue_TisString_t_m1193705746(NULL /*static, unused*/, L_1, _stringLiteral96784904, (&V_0), /*hidden argument*/Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		String_t* L_3 = V_0;
+		return L_3;
+	}
+
+IL_001c:
+	{
+		return (String_t*)NULL;
+	}
+}
+// System.Boolean Facebook.Unity.ResultBase::GetCancelledValue(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t3097043249_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t1438485399_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m3843350607_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m3854168437_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m1686547625_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m844974555_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral476588369;
+extern const uint32_t ResultBase_GetCancelledValue_m2792726360_MetadataUsageId;
+extern "C"  bool ResultBase_GetCancelledValue_m2792726360 (Object_t * __this /* static, unused */, Object_t* ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ResultBase_GetCancelledValue_m2792726360_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	Nullable_1_t3097043249  V_1 = {0};
+	String_t* V_2 = {0};
+	Nullable_1_t1438485399  V_3 = {0};
+	int32_t G_B7_0 = 0;
+	int32_t G_B14_0 = 0;
+	{
+		Object_t* L_0 = ___result;
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0008:
+	{
+		Object_t* L_1 = ___result;
+		NullCheck(L_1);
+		bool L_2 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_1, _stringLiteral476588369, (&V_0));
+		if (!L_2)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		Object_t * L_3 = V_0;
+		void* L_4 = alloca(sizeof(Nullable_1_t3097043249 ));
+		UnBoxNullable(((Object_t *)IsInst(L_3, Nullable_1_t3097043249_il2cpp_TypeInfo_var)), Nullable_1_t3097043249_il2cpp_TypeInfo_var, L_4);
+		V_1 = ((*(Nullable_1_t3097043249 *)((Nullable_1_t3097043249 *)L_4)));
+		bool L_5 = Nullable_1_get_HasValue_m3843350607((&V_1), /*hidden argument*/Nullable_1_get_HasValue_m3843350607_MethodInfo_var);
+		if (!L_5)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		bool L_6 = Nullable_1_get_HasValue_m3843350607((&V_1), /*hidden argument*/Nullable_1_get_HasValue_m3843350607_MethodInfo_var);
+		if (!L_6)
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		bool L_7 = Nullable_1_get_Value_m3854168437((&V_1), /*hidden argument*/Nullable_1_get_Value_m3854168437_MethodInfo_var);
+		G_B7_0 = ((int32_t)(L_7));
+		goto IL_0048;
+	}
+
+IL_0047:
+	{
+		G_B7_0 = 0;
+	}
+
+IL_0048:
+	{
+		return (bool)G_B7_0;
+	}
+
+IL_0049:
+	{
+		Object_t * L_8 = V_0;
+		V_2 = ((String_t*)IsInstSealed(L_8, String_t_il2cpp_TypeInfo_var));
+		String_t* L_9 = V_2;
+		if (!L_9)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		String_t* L_10 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		bool L_11 = Convert_ToBoolean_m309004443(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		return L_11;
+	}
+
+IL_005d:
+	{
+		Object_t * L_12 = V_0;
+		void* L_13 = alloca(sizeof(Nullable_1_t1438485399 ));
+		UnBoxNullable(((Object_t *)IsInst(L_12, Nullable_1_t1438485399_il2cpp_TypeInfo_var)), Nullable_1_t1438485399_il2cpp_TypeInfo_var, L_13);
+		V_3 = ((*(Nullable_1_t1438485399 *)((Nullable_1_t1438485399 *)L_13)));
+		bool L_14 = Nullable_1_get_HasValue_m1686547625((&V_3), /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		if (!L_14)
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		bool L_15 = Nullable_1_get_HasValue_m1686547625((&V_3), /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		if (!L_15)
+		{
+			goto IL_0090;
+		}
+	}
+	{
+		int32_t L_16 = Nullable_1_get_Value_m844974555((&V_3), /*hidden argument*/Nullable_1_get_Value_m844974555_MethodInfo_var);
+		G_B14_0 = ((((int32_t)((((int32_t)L_16) == ((int32_t)0))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		goto IL_0091;
+	}
+
+IL_0090:
+	{
+		G_B14_0 = 0;
+	}
+
+IL_0091:
+	{
+		return (bool)G_B14_0;
+	}
+
+IL_0092:
+	{
+		return (bool)0;
+	}
+}
+// System.String Facebook.Unity.ResultBase::GetCallbackId(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern const MethodInfo* Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1869655893;
+extern const uint32_t ResultBase_GetCallbackId_m1014883561_MetadataUsageId;
+extern "C"  String_t* ResultBase_GetCallbackId_m1014883561 (Object_t * __this /* static, unused */, Object_t* ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ResultBase_GetCallbackId_m1014883561_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	{
+		Object_t* L_0 = ___result;
+		if (L_0)
+		{
+			goto IL_0008;
+		}
+	}
+	{
+		return (String_t*)NULL;
+	}
+
+IL_0008:
+	{
+		Object_t* L_1 = ___result;
+		bool L_2 = Utilities_TryGetValue_TisString_t_m1193705746(NULL /*static, unused*/, L_1, _stringLiteral1869655893, (&V_0), /*hidden argument*/Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		String_t* L_3 = V_0;
+		return L_3;
+	}
+
+IL_001c:
+	{
+		return (String_t*)NULL;
+	}
+}
+// System.Void Facebook.Unity.ShareResult::.ctor(System.String)
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3355;
+extern const uint32_t ShareResult__ctor_m214718114_MetadataUsageId;
+extern "C"  void ShareResult__ctor_m214718114 (ShareResult_t4209507995 * __this, String_t* ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ShareResult__ctor_m214718114_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	{
+		String_t* L_0 = ___result;
+		ResultBase__ctor_m2366187814(__this, L_0, /*hidden argument*/NULL);
+		Object_t* L_1 = VirtFuncInvoker0< Object_t* >::Invoke(11 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary() */, __this);
+		if (!L_1)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Object_t* L_2 = VirtFuncInvoker0< Object_t* >::Invoke(11 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.ResultBase::get_ResultDictionary() */, __this);
+		NullCheck(L_2);
+		bool L_3 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_2, _stringLiteral3355, (&V_0));
+		if (!L_3)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Object_t * L_4 = V_0;
+		ShareResult_set_PostId_m99241862(__this, ((String_t*)IsInstSealed(L_4, String_t_il2cpp_TypeInfo_var)), /*hidden argument*/NULL);
+	}
+
+IL_0035:
+	{
+		return;
+	}
+}
+// System.String Facebook.Unity.ShareResult::get_PostId()
+extern "C"  String_t* ShareResult_get_PostId_m2293539755 (ShareResult_t4209507995 * __this, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = (__this->___U3CPostIdU3Ek__BackingField_5);
+		return L_0;
+	}
+}
+// System.Void Facebook.Unity.ShareResult::set_PostId(System.String)
+extern "C"  void ShareResult_set_PostId_m99241862 (ShareResult_t4209507995 * __this, String_t* ___value, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___value;
+		__this->___U3CPostIdU3Ek__BackingField_5 = L_0;
+		return;
+	}
+}
+// System.Int64 Facebook.Unity.Utilities::TotalSeconds(System.DateTime)
+extern TypeInfo* DateTime_t339033936_il2cpp_TypeInfo_var;
+extern const uint32_t Utilities_TotalSeconds_m2621164156_MetadataUsageId;
+extern "C"  int64_t Utilities_TotalSeconds_m2621164156 (Object_t * __this /* static, unused */, DateTime_t339033936  ___dateTime, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_TotalSeconds_m2621164156_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	TimeSpan_t763862892  V_0 = {0};
+	int64_t V_1 = 0;
+	{
+		DateTime_t339033936  L_0 = ___dateTime;
+		DateTime_t339033936  L_1 = {0};
+		DateTime__ctor_m145640619(&L_1, ((int32_t)1970), 1, 1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t339033936_il2cpp_TypeInfo_var);
+		TimeSpan_t763862892  L_2 = DateTime_op_Subtraction_m3612355463(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		double L_3 = TimeSpan_get_TotalSeconds_m3163750087((&V_0), /*hidden argument*/NULL);
+		V_1 = (((int64_t)((int64_t)L_3)));
+		int64_t L_4 = V_1;
+		return L_4;
+	}
+}
+// System.String Facebook.Unity.Utilities::ToCommaSeparateList(System.Collections.Generic.IEnumerable`1<System.String>)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Enumerable_ToArray_TisString_t_m2199204590_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral44;
+extern const uint32_t Utilities_ToCommaSeparateList_m2708553843_MetadataUsageId;
+extern "C"  String_t* Utilities_ToCommaSeparateList_m2708553843 (Object_t * __this /* static, unused */, Object_t* ___list, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_ToCommaSeparateList_m2708553843_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t* L_0 = ___list;
+		if (L_0)
+		{
+			goto IL_000c;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		return L_1;
+	}
+
+IL_000c:
+	{
+		Object_t* L_2 = ___list;
+		StringU5BU5D_t2956870243* L_3 = Enumerable_ToArray_TisString_t_m2199204590(NULL /*static, unused*/, L_2, /*hidden argument*/Enumerable_ToArray_TisString_t_m2199204590_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Join_m2789530325(NULL /*static, unused*/, _stringLiteral44, L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.String Facebook.Unity.Utilities::AbsoluteUrlOrEmptyString(System.Uri)
+extern TypeInfo* Uri_t2776692961_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const uint32_t Utilities_AbsoluteUrlOrEmptyString_m3442024491_MetadataUsageId;
+extern "C"  String_t* Utilities_AbsoluteUrlOrEmptyString_m3442024491 (Object_t * __this /* static, unused */, Uri_t2776692961 * ___uri, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_AbsoluteUrlOrEmptyString_m3442024491_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Uri_t2776692961 * L_0 = ___uri;
+		IL2CPP_RUNTIME_CLASS_INIT(Uri_t2776692961_il2cpp_TypeInfo_var);
+		bool L_1 = Uri_op_Equality_m877019543(NULL /*static, unused*/, L_0, (Uri_t2776692961 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		return L_2;
+	}
+
+IL_0012:
+	{
+		Uri_t2776692961 * L_3 = ___uri;
+		NullCheck(L_3);
+		String_t* L_4 = Uri_get_AbsoluteUri_m2228269430(L_3, /*hidden argument*/NULL);
+		return L_4;
+	}
+}
+// System.String Facebook.Unity.Utilities::GetUserAgent(System.String,System.String)
+extern TypeInfo* CultureInfo_t3603717042_il2cpp_TypeInfo_var;
+extern TypeInfo* ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3279929760;
+extern const uint32_t Utilities_GetUserAgent_m3046302949_MetadataUsageId;
+extern "C"  String_t* Utilities_GetUserAgent_m3046302949 (Object_t * __this /* static, unused */, String_t* ___productName, String_t* ___productVersion, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_GetUserAgent_m3046302949_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(CultureInfo_t3603717042_il2cpp_TypeInfo_var);
+		CultureInfo_t3603717042 * L_0 = CultureInfo_get_InvariantCulture_m764001524(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ObjectU5BU5D_t11523773* L_1 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)2));
+		String_t* L_2 = ___productName;
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 0);
+		ArrayElementTypeCheck (L_1, L_2);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 0, sizeof(Object_t *))) = (Object_t *)L_2;
+		ObjectU5BU5D_t11523773* L_3 = L_1;
+		String_t* L_4 = ___productVersion;
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 1);
+		ArrayElementTypeCheck (L_3, L_4);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_3, 1, sizeof(Object_t *))) = (Object_t *)L_4;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Format_m3351777162(NULL /*static, unused*/, L_0, _stringLiteral3279929760, L_3, /*hidden argument*/NULL);
+		return L_5;
+	}
+}
+// System.String Facebook.Unity.Utilities::ToJson(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* Json_t699972005_il2cpp_TypeInfo_var;
+extern const uint32_t Utilities_ToJson_m675583844_MetadataUsageId;
+extern "C"  String_t* Utilities_ToJson_m675583844 (Object_t * __this /* static, unused */, Object_t* ___dictionary, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_ToJson_m675583844_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t* L_0 = ___dictionary;
+		IL2CPP_RUNTIME_CLASS_INIT(Json_t699972005_il2cpp_TypeInfo_var);
+		String_t* L_1 = Json_Serialize_m3576464301(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// Facebook.Unity.AccessToken Facebook.Unity.Utilities::ParseAccessTokenFromResult(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* LoginResult_t1165053605_il2cpp_TypeInfo_var;
+extern TypeInfo* AccessToken_t3144904884_il2cpp_TypeInfo_var;
+extern const MethodInfo* Utilities_GetValueOrDefault_TisString_t_m3652753729_MethodInfo_var;
+extern const uint32_t Utilities_ParseAccessTokenFromResult_m2258932600_MetadataUsageId;
+extern "C"  AccessToken_t3144904884 * Utilities_ParseAccessTokenFromResult_m2258932600 (Object_t * __this /* static, unused */, Object_t* ___resultDictionary, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_ParseAccessTokenFromResult_m2258932600_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	String_t* V_1 = {0};
+	DateTime_t339033936  V_2 = {0};
+	Object_t* V_3 = {0};
+	Nullable_1_t3225071844  V_4 = {0};
+	{
+		Object_t* L_0 = ___resultDictionary;
+		IL2CPP_RUNTIME_CLASS_INIT(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___UserIdKey_6;
+		String_t* L_2 = Utilities_GetValueOrDefault_TisString_t_m3652753729(NULL /*static, unused*/, L_0, L_1, (bool)1, /*hidden argument*/Utilities_GetValueOrDefault_TisString_t_m3652753729_MethodInfo_var);
+		V_0 = L_2;
+		Object_t* L_3 = ___resultDictionary;
+		String_t* L_4 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___AccessTokenKey_9;
+		String_t* L_5 = Utilities_GetValueOrDefault_TisString_t_m3652753729(NULL /*static, unused*/, L_3, L_4, (bool)1, /*hidden argument*/Utilities_GetValueOrDefault_TisString_t_m3652753729_MethodInfo_var);
+		V_1 = L_5;
+		Object_t* L_6 = ___resultDictionary;
+		DateTime_t339033936  L_7 = Utilities_ParseExpirationDateFromResult_m658593134(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		V_2 = L_7;
+		Object_t* L_8 = ___resultDictionary;
+		Object_t* L_9 = Utilities_ParsePermissionFromResult_m4171489813(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		V_3 = L_9;
+		Object_t* L_10 = ___resultDictionary;
+		Nullable_1_t3225071844  L_11 = Utilities_ParseLastRefreshFromResult_m266401315(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+		V_4 = L_11;
+		String_t* L_12 = V_1;
+		String_t* L_13 = V_0;
+		DateTime_t339033936  L_14 = V_2;
+		Object_t* L_15 = V_3;
+		Nullable_1_t3225071844  L_16 = V_4;
+		AccessToken_t3144904884 * L_17 = (AccessToken_t3144904884 *)il2cpp_codegen_object_new(AccessToken_t3144904884_il2cpp_TypeInfo_var);
+		AccessToken__ctor_m3299925913(L_17, L_12, L_13, L_14, L_15, L_16, /*hidden argument*/NULL);
+		return L_17;
+	}
+}
+// System.DateTime Facebook.Unity.Utilities::ParseExpirationDateFromResult(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* DateTime_t339033936_il2cpp_TypeInfo_var;
+extern TypeInfo* LoginResult_t1165053605_il2cpp_TypeInfo_var;
+extern const MethodInfo* Utilities_GetValueOrDefault_TisInt64_t2847414882_m2605676553_MethodInfo_var;
+extern const MethodInfo* Utilities_GetValueOrDefault_TisString_t_m3652753729_MethodInfo_var;
+extern const uint32_t Utilities_ParseExpirationDateFromResult_m658593134_MetadataUsageId;
+extern "C"  DateTime_t339033936  Utilities_ParseExpirationDateFromResult_m658593134 (Object_t * __this /* static, unused */, Object_t* ___resultDictionary, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_ParseExpirationDateFromResult_m658593134_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	DateTime_t339033936  V_0 = {0};
+	String_t* V_1 = {0};
+	int32_t V_2 = 0;
+	DateTime_t339033936  V_3 = {0};
+	{
+		bool L_0 = Constants_get_IsWeb_m2581517528(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t339033936_il2cpp_TypeInfo_var);
+		DateTime_t339033936  L_1 = DateTime_get_Now_m1812131422(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_3 = L_1;
+		Object_t* L_2 = ___resultDictionary;
+		IL2CPP_RUNTIME_CLASS_INIT(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		String_t* L_3 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___ExpirationTimestampKey_7;
+		int64_t L_4 = Utilities_GetValueOrDefault_TisInt64_t2847414882_m2605676553(NULL /*static, unused*/, L_2, L_3, (bool)1, /*hidden argument*/Utilities_GetValueOrDefault_TisInt64_t2847414882_m2605676553_MethodInfo_var);
+		DateTime_t339033936  L_5 = DateTime_AddSeconds_m2515640243((&V_3), (((double)((double)L_4))), /*hidden argument*/NULL);
+		V_0 = L_5;
+		goto IL_005d;
+	}
+
+IL_002a:
+	{
+		Object_t* L_6 = ___resultDictionary;
+		IL2CPP_RUNTIME_CLASS_INIT(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___ExpirationTimestampKey_7;
+		String_t* L_8 = Utilities_GetValueOrDefault_TisString_t_m3652753729(NULL /*static, unused*/, L_6, L_7, (bool)1, /*hidden argument*/Utilities_GetValueOrDefault_TisString_t_m3652753729_MethodInfo_var);
+		V_1 = L_8;
+		String_t* L_9 = V_1;
+		bool L_10 = Int32_TryParse_m695344220(NULL /*static, unused*/, L_9, (&V_2), /*hidden argument*/NULL);
+		if (!L_10)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		int32_t L_11 = V_2;
+		if ((((int32_t)L_11) <= ((int32_t)0)))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		int32_t L_12 = V_2;
+		DateTime_t339033936  L_13 = Utilities_FromTimestamp_m476580852(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		V_0 = L_13;
+		goto IL_005d;
+	}
+
+IL_0057:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(DateTime_t339033936_il2cpp_TypeInfo_var);
+		DateTime_t339033936  L_14 = ((DateTime_t339033936_StaticFields*)DateTime_t339033936_il2cpp_TypeInfo_var->static_fields)->___MaxValue_2;
+		V_0 = L_14;
+	}
+
+IL_005d:
+	{
+		DateTime_t339033936  L_15 = V_0;
+		return L_15;
+	}
+}
+// System.Nullable`1<System.DateTime> Facebook.Unity.Utilities::ParseLastRefreshFromResult(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* LoginResult_t1165053605_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t3225071844_il2cpp_TypeInfo_var;
+extern const MethodInfo* Utilities_GetValueOrDefault_TisString_t_m3652753729_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m1725216541_MethodInfo_var;
+extern const uint32_t Utilities_ParseLastRefreshFromResult_m266401315_MetadataUsageId;
+extern "C"  Nullable_1_t3225071844  Utilities_ParseLastRefreshFromResult_m266401315 (Object_t * __this /* static, unused */, Object_t* ___resultDictionary, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_ParseLastRefreshFromResult_m266401315_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	int32_t V_1 = 0;
+	Nullable_1_t3225071844  V_2 = {0};
+	{
+		Object_t* L_0 = ___resultDictionary;
+		IL2CPP_RUNTIME_CLASS_INIT(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___ExpirationTimestampKey_7;
+		String_t* L_2 = Utilities_GetValueOrDefault_TisString_t_m3652753729(NULL /*static, unused*/, L_0, L_1, (bool)1, /*hidden argument*/Utilities_GetValueOrDefault_TisString_t_m3652753729_MethodInfo_var);
+		V_0 = L_2;
+		String_t* L_3 = V_0;
+		bool L_4 = Int32_TryParse_m695344220(NULL /*static, unused*/, L_3, (&V_1), /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		if ((((int32_t)L_5) <= ((int32_t)0)))
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		int32_t L_6 = V_1;
+		DateTime_t339033936  L_7 = Utilities_FromTimestamp_m476580852(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		Nullable_1_t3225071844  L_8 = {0};
+		Nullable_1__ctor_m1725216541(&L_8, L_7, /*hidden argument*/Nullable_1__ctor_m1725216541_MethodInfo_var);
+		return L_8;
+	}
+
+IL_002d:
+	{
+		Initobj (Nullable_1_t3225071844_il2cpp_TypeInfo_var, (&V_2));
+		Nullable_1_t3225071844  L_9 = V_2;
+		return L_9;
+	}
+}
+// System.Collections.Generic.ICollection`1<System.String> Facebook.Unity.Utilities::ParsePermissionFromResult(System.Collections.Generic.IDictionary`2<System.String,System.Object>)
+extern TypeInfo* LoginResult_t1165053605_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t3416858730_il2cpp_TypeInfo_var;
+extern TypeInfo* StringU5BU5D_t2956870243_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookLogger_t3976958453_il2cpp_TypeInfo_var;
+extern TypeInfo* Utilities_t1403571401_il2cpp_TypeInfo_var;
+extern TypeInfo* Func_2_t2267165834_il2cpp_TypeInfo_var;
+extern const MethodInfo* Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var;
+extern const MethodInfo* Utilities_TryGetValue_TisIEnumerable_1_t3709260776_m1055319641_MethodInfo_var;
+extern const MethodInfo* Utilities_U3CParsePermissionFromResultU3Em__6_m2701115053_MethodInfo_var;
+extern const MethodInfo* Func_2__ctor_m1065449066_MethodInfo_var;
+extern const MethodInfo* Enumerable_Select_TisObject_t_TisString_t_m3843025788_MethodInfo_var;
+extern const MethodInfo* Enumerable_ToList_TisString_t_m2078638137_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2766266265;
+extern const uint32_t Utilities_ParsePermissionFromResult_m4171489813_MetadataUsageId;
+extern "C"  Object_t* Utilities_ParsePermissionFromResult_m4171489813 (Object_t * __this /* static, unused */, Object_t* ___resultDictionary, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Utilities_ParsePermissionFromResult_m4171489813_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	Object_t* V_1 = {0};
+	Object_t* G_B6_0 = {0};
+	Object_t* G_B5_0 = {0};
+	{
+		Object_t* L_0 = ___resultDictionary;
+		IL2CPP_RUNTIME_CLASS_INIT(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___PermissionsKey_8;
+		bool L_2 = Utilities_TryGetValue_TisString_t_m1193705746(NULL /*static, unused*/, L_0, L_1, (&V_0), /*hidden argument*/Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		String_t* L_3 = V_0;
+		CharU5BU5D_t3416858730* L_4 = ((CharU5BU5D_t3416858730*)SZArrayNew(CharU5BU5D_t3416858730_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 0);
+		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_4, 0, sizeof(uint16_t))) = (uint16_t)((int32_t)44);
+		NullCheck(L_3);
+		StringU5BU5D_t2956870243* L_5 = String_Split_m290179486(L_3, L_4, /*hidden argument*/NULL);
+		V_1 = (Object_t*)L_5;
+		goto IL_005a;
+	}
+
+IL_0029:
+	{
+		Object_t* L_6 = ___resultDictionary;
+		IL2CPP_RUNTIME_CLASS_INIT(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		String_t* L_7 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___PermissionsKey_8;
+		bool L_8 = Utilities_TryGetValue_TisIEnumerable_1_t3709260776_m1055319641(NULL /*static, unused*/, L_6, L_7, (&V_1), /*hidden argument*/Utilities_TryGetValue_TisIEnumerable_1_t3709260776_m1055319641_MethodInfo_var);
+		if (L_8)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		V_1 = (Object_t*)((StringU5BU5D_t2956870243*)SZArrayNew(StringU5BU5D_t2956870243_il2cpp_TypeInfo_var, (uint32_t)0));
+		StringU5BU5D_t2956870243* L_9 = ((StringU5BU5D_t2956870243*)SZArrayNew(StringU5BU5D_t2956870243_il2cpp_TypeInfo_var, (uint32_t)1));
+		IL2CPP_RUNTIME_CLASS_INIT(LoginResult_t1165053605_il2cpp_TypeInfo_var);
+		String_t* L_10 = ((LoginResult_t1165053605_StaticFields*)LoginResult_t1165053605_il2cpp_TypeInfo_var->static_fields)->___PermissionsKey_8;
+		NullCheck(L_9);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, 0);
+		ArrayElementTypeCheck (L_9, L_10);
+		*((String_t**)(String_t**)SZArrayLdElema(L_9, 0, sizeof(String_t*))) = (String_t*)L_10;
+		IL2CPP_RUNTIME_CLASS_INIT(FacebookLogger_t3976958453_il2cpp_TypeInfo_var);
+		FacebookLogger_Warn_m2088365254(NULL /*static, unused*/, _stringLiteral2766266265, L_9, /*hidden argument*/NULL);
+	}
+
+IL_005a:
+	{
+		Object_t* L_11 = V_1;
+		Func_2_t2267165834 * L_12 = ((Utilities_t1403571401_StaticFields*)Utilities_t1403571401_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_1;
+		G_B5_0 = L_11;
+		if (L_12)
+		{
+			G_B6_0 = L_11;
+			goto IL_0073;
+		}
+	}
+	{
+		IntPtr_t L_13 = { (void*)Utilities_U3CParsePermissionFromResultU3Em__6_m2701115053_MethodInfo_var };
+		Func_2_t2267165834 * L_14 = (Func_2_t2267165834 *)il2cpp_codegen_object_new(Func_2_t2267165834_il2cpp_TypeInfo_var);
+		Func_2__ctor_m1065449066(L_14, NULL, L_13, /*hidden argument*/Func_2__ctor_m1065449066_MethodInfo_var);
+		((Utilities_t1403571401_StaticFields*)Utilities_t1403571401_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_1 = L_14;
+		G_B6_0 = G_B5_0;
+	}
+
+IL_0073:
+	{
+		Func_2_t2267165834 * L_15 = ((Utilities_t1403571401_StaticFields*)Utilities_t1403571401_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_1;
+		Object_t* L_16 = Enumerable_Select_TisObject_t_TisString_t_m3843025788(NULL /*static, unused*/, G_B6_0, L_15, /*hidden argument*/Enumerable_Select_TisObject_t_TisString_t_m3843025788_MethodInfo_var);
+		List_1_t1765447871 * L_17 = Enumerable_ToList_TisString_t_m2078638137(NULL /*static, unused*/, L_16, /*hidden argument*/Enumerable_ToList_TisString_t_m2078638137_MethodInfo_var);
+		return L_17;
+	}
+}
+// System.DateTime Facebook.Unity.Utilities::FromTimestamp(System.Int32)
+extern "C"  DateTime_t339033936  Utilities_FromTimestamp_m476580852 (Object_t * __this /* static, unused */, int32_t ___timestamp, const MethodInfo* method)
+{
+	DateTime_t339033936  V_0 = {0};
+	{
+		DateTime__ctor_m1594789867((&V_0), ((int32_t)1970), 1, 1, 0, 0, 0, 0, /*hidden argument*/NULL);
+		int32_t L_0 = ___timestamp;
+		DateTime_t339033936  L_1 = DateTime_AddSeconds_m2515640243((&V_0), (((double)((double)L_0))), /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.String Facebook.Unity.Utilities::<ParsePermissionFromResult>m__6(System.Object)
+extern "C"  String_t* Utilities_U3CParsePermissionFromResultU3Em__6_m2701115053 (Object_t * __this /* static, unused */, Object_t * ___permission, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = ___permission;
+		NullCheck(L_0);
+		String_t* L_1 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_0);
+		return L_1;
+	}
+}
+// System.Void FBAppEvents::.cctor()
+extern TypeInfo* FBAppEvents_t1786942782_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4219492288;
+extern Il2CppCodeGenString* _stringLiteral109264530;
+extern const uint32_t FBAppEvents__cctor_m3505872224_MetadataUsageId;
+extern "C"  void FBAppEvents__cctor_m3505872224 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBAppEvents__cctor_m3505872224_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		((FBAppEvents_t1786942782_StaticFields*)FBAppEvents_t1786942782_il2cpp_TypeInfo_var->static_fields)->___EVENT_NAME_GAME_PLAYED_0 = _stringLiteral4219492288;
+		((FBAppEvents_t1786942782_StaticFields*)FBAppEvents_t1786942782_il2cpp_TypeInfo_var->static_fields)->___EVENT_PARAM_SCORE_1 = _stringLiteral109264530;
+		return;
+	}
+}
+// System.Void FBAppEvents::LaunchEvent()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const uint32_t FBAppEvents_LaunchEvent_m2944092786_MetadataUsageId;
+extern "C"  void FBAppEvents_LaunchEvent_m2944092786 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBAppEvents_LaunchEvent_m2944092786_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_ActivateApp_m3791592346(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBAppEvents::GameComplete(System.Int32)
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern TypeInfo* FBAppEvents_t1786942782_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t3844246929_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4186171898_MethodInfo_var;
+extern const uint32_t FBAppEvents_GameComplete_m4263675027_MetadataUsageId;
+extern "C"  void FBAppEvents_GameComplete_m4263675027 (Object_t * __this /* static, unused */, int32_t ___score, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBAppEvents_GameComplete_m4263675027_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Dictionary_2_t2474804324 * V_0 = {0};
+	Nullable_1_t3844246929  V_1 = {0};
+	{
+		Dictionary_2_t2474804324 * L_0 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m4186171898(L_0, /*hidden argument*/Dictionary_2__ctor_m4186171898_MethodInfo_var);
+		V_0 = L_0;
+		Dictionary_2_t2474804324 * L_1 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(FBAppEvents_t1786942782_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((FBAppEvents_t1786942782_StaticFields*)FBAppEvents_t1786942782_il2cpp_TypeInfo_var->static_fields)->___EVENT_PARAM_SCORE_1;
+		int32_t L_3 = ___score;
+		int32_t L_4 = L_3;
+		Object_t * L_5 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_4);
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_1, L_2, L_5);
+		String_t* L_6 = ((FBAppEvents_t1786942782_StaticFields*)FBAppEvents_t1786942782_il2cpp_TypeInfo_var->static_fields)->___EVENT_NAME_GAME_PLAYED_0;
+		Initobj (Nullable_1_t3844246929_il2cpp_TypeInfo_var, (&V_1));
+		Nullable_1_t3844246929  L_7 = V_1;
+		Dictionary_2_t2474804324 * L_8 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_LogAppEvent_m1611691066(NULL /*static, unused*/, L_6, L_7, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBAppEvents::SpentCoins(System.Int32,System.String)
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m4186171898_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m1721422666_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1255733764;
+extern Il2CppCodeGenString* _stringLiteral2108443023;
+extern const uint32_t FBAppEvents_SpentCoins_m2043024760_MetadataUsageId;
+extern "C"  void FBAppEvents_SpentCoins_m2043024760 (Object_t * __this /* static, unused */, int32_t ___coins, String_t* ___item, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBAppEvents_SpentCoins_m2043024760_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Dictionary_2_t2474804324 * V_0 = {0};
+	{
+		Dictionary_2_t2474804324 * L_0 = (Dictionary_2_t2474804324 *)il2cpp_codegen_object_new(Dictionary_2_t2474804324_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m4186171898(L_0, /*hidden argument*/Dictionary_2__ctor_m4186171898_MethodInfo_var);
+		V_0 = L_0;
+		Dictionary_2_t2474804324 * L_1 = V_0;
+		String_t* L_2 = ___item;
+		NullCheck(L_1);
+		VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_1, _stringLiteral1255733764, L_2);
+		int32_t L_3 = ___coins;
+		Nullable_1_t3844246929  L_4 = {0};
+		Nullable_1__ctor_m1721422666(&L_4, (((float)((float)L_3))), /*hidden argument*/Nullable_1__ctor_m1721422666_MethodInfo_var);
+		Dictionary_2_t2474804324 * L_5 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_LogAppEvent_m1611691066(NULL /*static, unused*/, _stringLiteral2108443023, L_4, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::GetPlayerInfo()
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* FBGraph_GetPlayerInfoCallback_m585684430_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral406891430;
+extern const uint32_t FBGraph_GetPlayerInfo_m1977855676_MetadataUsageId;
+extern "C"  void FBGraph_GetPlayerInfo_m1977855676 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetPlayerInfo_m1977855676_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	{
+		V_0 = _stringLiteral406891430;
+		String_t* L_0 = V_0;
+		IntPtr_t L_1 = { (void*)FBGraph_GetPlayerInfoCallback_m585684430_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_2 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_2, NULL, L_1, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m2514225622(NULL /*static, unused*/, L_0, 0, L_2, (Object_t*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::GetPlayerInfoCallback(Facebook.Unity.IGraphResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* FBGraph_t3954302450_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t1918174889_il2cpp_TypeInfo_var;
+extern const MethodInfo* Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var;
+extern const MethodInfo* FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3349086711_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2415964778;
+extern Il2CppCodeGenString* _stringLiteral4133981882;
+extern const uint32_t FBGraph_GetPlayerInfoCallback_m585684430_MetadataUsageId;
+extern "C"  void FBGraph_GetPlayerInfoCallback_m585684430 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetPlayerInfoCallback_m585684430_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	String_t* V_1 = {0};
+	String_t* G_B6_0 = {0};
+	String_t* G_B5_0 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2415964778, /*hidden argument*/NULL);
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		Object_t * L_4 = ___result;
+		NullCheck(L_4);
+		String_t* L_5 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Object_t * L_6 = ___result;
+		NullCheck(L_6);
+		Object_t* L_7 = InterfaceFuncInvoker0< Object_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.IResult::get_ResultDictionary() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_6);
+		bool L_8 = Utilities_TryGetValue_TisString_t_m1193705746(NULL /*static, unused*/, L_7, _stringLiteral4133981882, (&V_0), /*hidden argument*/Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var);
+		if (!L_8)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		String_t* L_9 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Username_15 = L_9;
+	}
+
+IL_0049:
+	{
+		Object_t * L_10 = ___result;
+		NullCheck(L_10);
+		Object_t* L_11 = InterfaceFuncInvoker0< Object_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.IResult::get_ResultDictionary() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_10);
+		String_t* L_12 = GraphUtil_DeserializePictureURL_m1884610824(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		V_1 = L_12;
+		String_t* L_13 = V_1;
+		Action_1_t1918174889 * L_14 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0;
+		G_B5_0 = L_13;
+		if (L_14)
+		{
+			G_B6_0 = L_13;
+			goto IL_006e;
+		}
+	}
+	{
+		IntPtr_t L_15 = { (void*)FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061_MethodInfo_var };
+		Action_1_t1918174889 * L_16 = (Action_1_t1918174889 *)il2cpp_codegen_object_new(Action_1_t1918174889_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3349086711(L_16, NULL, L_15, /*hidden argument*/Action_1__ctor_m3349086711_MethodInfo_var);
+		((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0 = L_16;
+		G_B6_0 = G_B5_0;
+	}
+
+IL_006e:
+	{
+		Action_1_t1918174889 * L_17 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0;
+		GraphUtil_LoadImgFromURL_m1031304485(NULL /*static, unused*/, G_B6_0, L_17, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::GetPlayerPicture()
+extern TypeInfo* FBGraph_t3954302450_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m944559736_MethodInfo_var;
+extern const MethodInfo* FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3480;
+extern const uint32_t FBGraph_GetPlayerPicture_m1599699666_MetadataUsageId;
+extern "C"  void FBGraph_GetPlayerPicture_m1599699666 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetPlayerPicture_m1599699666_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B2_0 = 0;
+	String_t* G_B2_1 = {0};
+	int32_t G_B1_0 = 0;
+	String_t* G_B1_1 = {0};
+	{
+		Nullable_1_t1438485399  L_0 = {0};
+		Nullable_1__ctor_m944559736(&L_0, ((int32_t)128), /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
+		Nullable_1_t1438485399  L_1 = {0};
+		Nullable_1__ctor_m944559736(&L_1, ((int32_t)128), /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
+		String_t* L_2 = GraphUtil_GetPictureQuery_m2437608875(NULL /*static, unused*/, _stringLiteral3480, L_0, L_1, (String_t*)NULL, (bool)0, /*hidden argument*/NULL);
+		FacebookDelegate_1_t2979309097 * L_3 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_1;
+		G_B1_0 = 0;
+		G_B1_1 = L_2;
+		if (L_3)
+		{
+			G_B2_0 = 0;
+			G_B2_1 = L_2;
+			goto IL_0039;
+		}
+	}
+	{
+		IntPtr_t L_4 = { (void*)FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_5 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_5, NULL, L_4, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_1 = L_5;
+		G_B2_0 = G_B1_0;
+		G_B2_1 = G_B1_1;
+	}
+
+IL_0039:
+	{
+		FacebookDelegate_1_t2979309097 * L_6 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_1;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m2514225622(NULL /*static, unused*/, G_B2_1, G_B2_0, L_6, (Object_t*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::GetFriends()
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* FBGraph_GetFriendsCallback_m1175772992_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3488823429;
+extern const uint32_t FBGraph_GetFriends_m2921996938_MetadataUsageId;
+extern "C"  void FBGraph_GetFriends_m2921996938 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetFriends_m2921996938_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	{
+		V_0 = _stringLiteral3488823429;
+		String_t* L_0 = V_0;
+		IntPtr_t L_1 = { (void*)FBGraph_GetFriendsCallback_m1175772992_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_2 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_2, NULL, L_1, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m2514225622(NULL /*static, unused*/, L_0, 0, L_2, (Object_t*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::GetFriendsCallback(Facebook.Unity.IGraphResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t1634065389_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2356344548;
+extern Il2CppCodeGenString* _stringLiteral3076010;
+extern const uint32_t FBGraph_GetFriendsCallback_m1175772992_MetadataUsageId;
+extern "C"  void FBGraph_GetFriendsCallback_m1175772992 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetFriendsCallback_m1175772992_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	List_1_t1634065389 * V_1 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2356344548, /*hidden argument*/NULL);
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		Object_t * L_4 = ___result;
+		NullCheck(L_4);
+		String_t* L_5 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Object_t * L_6 = ___result;
+		NullCheck(L_6);
+		Object_t* L_7 = InterfaceFuncInvoker0< Object_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.IResult::get_ResultDictionary() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_6);
+		NullCheck(L_7);
+		bool L_8 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_7, _stringLiteral3076010, (&V_0));
+		if (!L_8)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		Object_t * L_9 = V_0;
+		V_1 = ((List_1_t1634065389 *)CastclassClass(L_9, List_1_t1634065389_il2cpp_TypeInfo_var));
+		List_1_t1634065389 * L_10 = V_1;
+		FBGraph_CacheFriends_m2578017600(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0050:
+	{
+		return;
+	}
+}
+// System.Void FBGraph::GetInvitableFriends()
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* FBGraph_GetInvitableFriendsCallback_m485910398_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral682557756;
+extern const uint32_t FBGraph_GetInvitableFriends_m4117510924_MetadataUsageId;
+extern "C"  void FBGraph_GetInvitableFriends_m4117510924 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetInvitableFriends_m4117510924_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	{
+		V_0 = _stringLiteral682557756;
+		String_t* L_0 = V_0;
+		IntPtr_t L_1 = { (void*)FBGraph_GetInvitableFriendsCallback_m485910398_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_2 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_2, NULL, L_1, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m2514225622(NULL /*static, unused*/, L_0, 0, L_2, (Object_t*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::GetInvitableFriendsCallback(Facebook.Unity.IGraphResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t1634065389_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2551296826;
+extern Il2CppCodeGenString* _stringLiteral3076010;
+extern const uint32_t FBGraph_GetInvitableFriendsCallback_m485910398_MetadataUsageId;
+extern "C"  void FBGraph_GetInvitableFriendsCallback_m485910398 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetInvitableFriendsCallback_m485910398_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	List_1_t1634065389 * V_1 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2551296826, /*hidden argument*/NULL);
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		Object_t * L_4 = ___result;
+		NullCheck(L_4);
+		String_t* L_5 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Object_t * L_6 = ___result;
+		NullCheck(L_6);
+		Object_t* L_7 = InterfaceFuncInvoker0< Object_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.IResult::get_ResultDictionary() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_6);
+		NullCheck(L_7);
+		bool L_8 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_7, _stringLiteral3076010, (&V_0));
+		if (!L_8)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		Object_t * L_9 = V_0;
+		V_1 = ((List_1_t1634065389 *)CastclassClass(L_9, List_1_t1634065389_il2cpp_TypeInfo_var));
+		List_1_t1634065389 * L_10 = V_1;
+		FBGraph_CacheFriends_m2578017600(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_0050:
+	{
+		return;
+	}
+}
+// System.Void FBGraph::CacheFriends(System.Collections.Generic.List`1<System.Object>)
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1_AddRange_m2870286429_MethodInfo_var;
+extern const uint32_t FBGraph_CacheFriends_m2578017600_MetadataUsageId;
+extern "C"  void FBGraph_CacheFriends_m2578017600 (Object_t * __this /* static, unused */, List_1_t1634065389 * ___newFriends, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_CacheFriends_m2578017600_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		List_1_t1634065389 * L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Friends_17;
+		if (!L_0)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		List_1_t1634065389 * L_1 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Friends_17;
+		NullCheck(L_1);
+		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count() */, L_1);
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		List_1_t1634065389 * L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Friends_17;
+		List_1_t1634065389 * L_4 = ___newFriends;
+		NullCheck(L_3);
+		List_1_AddRange_m2870286429(L_3, L_4, /*hidden argument*/List_1_AddRange_m2870286429_MethodInfo_var);
+		goto IL_0030;
+	}
+
+IL_002a:
+	{
+		List_1_t1634065389 * L_5 = ___newFriends;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Friends_17 = L_5;
+	}
+
+IL_0030:
+	{
+		return;
+	}
+}
+// System.Void FBGraph::GetScores()
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* FBGraph_GetScoresCallback_m213755420_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1545571832;
+extern const uint32_t FBGraph_GetScores_m3802773806_MetadataUsageId;
+extern "C"  void FBGraph_GetScores_m3802773806 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetScores_m3802773806_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IntPtr_t L_0 = { (void*)FBGraph_GetScoresCallback_m213755420_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_1 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_1, NULL, L_0, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m2514225622(NULL /*static, unused*/, _stringLiteral1545571832, 0, L_1, (Object_t*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::GetScoresCallback(Facebook.Unity.IGraphResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t1634065389_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m574172797_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral634745948;
+extern Il2CppCodeGenString* _stringLiteral3076010;
+extern Il2CppCodeGenString* _stringLiteral980427059;
+extern const uint32_t FBGraph_GetScoresCallback_m213755420_MetadataUsageId;
+extern "C"  void FBGraph_GetScoresCallback_m213755420 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_GetScoresCallback_m213755420_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1634065389 * V_0 = {0};
+	Object_t * V_1 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral634745948, /*hidden argument*/NULL);
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		Object_t * L_4 = ___result;
+		NullCheck(L_4);
+		String_t* L_5 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		List_1_t1634065389 * L_6 = (List_1_t1634065389 *)il2cpp_codegen_object_new(List_1_t1634065389_il2cpp_TypeInfo_var);
+		List_1__ctor_m574172797(L_6, /*hidden argument*/List_1__ctor_m574172797_MethodInfo_var);
+		V_0 = L_6;
+		Object_t * L_7 = ___result;
+		NullCheck(L_7);
+		Object_t* L_8 = InterfaceFuncInvoker0< Object_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.IResult::get_ResultDictionary() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_7);
+		NullCheck(L_8);
+		bool L_9 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_8, _stringLiteral3076010, (&V_1));
+		if (!L_9)
+		{
+			goto IL_0050;
+		}
+	}
+	{
+		Object_t * L_10 = V_1;
+		V_0 = ((List_1_t1634065389 *)CastclassClass(L_10, List_1_t1634065389_il2cpp_TypeInfo_var));
+	}
+
+IL_0050:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral980427059, /*hidden argument*/NULL);
+		List_1_t1634065389 * L_11 = V_0;
+		FBGraph_HandleScoresData_m1482114112(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_CallUIRedraw_m2882927136(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::HandleScoresData(System.Collections.Generic.List`1<System.Object>)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t1634065389_il2cpp_TypeInfo_var;
+extern TypeInfo* U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t1918174889_il2cpp_TypeInfo_var;
+extern TypeInfo* Enumerator_t4014815677_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m574172797_MethodInfo_var;
+extern const MethodInfo* List_1_GetEnumerator_m1919240000_MethodInfo_var;
+extern const MethodInfo* Enumerator_get_Current_m396252160_MethodInfo_var;
+extern const MethodInfo* U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3349086711_MethodInfo_var;
+extern const MethodInfo* Enumerator_MoveNext_m4284703760_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2212419370;
+extern Il2CppCodeGenString* _stringLiteral3599307;
+extern Il2CppCodeGenString* _stringLiteral3355;
+extern Il2CppCodeGenString* _stringLiteral2368195305;
+extern Il2CppCodeGenString* _stringLiteral609577775;
+extern Il2CppCodeGenString* _stringLiteral109264530;
+extern const uint32_t FBGraph_HandleScoresData_m1482114112_MetadataUsageId;
+extern "C"  void FBGraph_HandleScoresData_m1482114112 (Object_t * __this /* static, unused */, List_1_t1634065389 * ___scoresResponse, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_HandleScoresData_m1482114112_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1634065389 * V_0 = {0};
+	Object_t * V_1 = {0};
+	Enumerator_t4014815677  V_2 = {0};
+	Dictionary_2_t2474804324 * V_3 = {0};
+	Dictionary_2_t2474804324 * V_4 = {0};
+	int32_t V_5 = 0;
+	U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * V_6 = {0};
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2212419370, /*hidden argument*/NULL);
+		List_1_t1634065389 * L_0 = (List_1_t1634065389 *)il2cpp_codegen_object_new(List_1_t1634065389_il2cpp_TypeInfo_var);
+		List_1__ctor_m574172797(L_0, /*hidden argument*/List_1__ctor_m574172797_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t1634065389 * L_1 = ___scoresResponse;
+		NullCheck(L_1);
+		Enumerator_t4014815677  L_2 = List_1_GetEnumerator_m1919240000(L_1, /*hidden argument*/List_1_GetEnumerator_m1919240000_MethodInfo_var);
+		V_2 = L_2;
+	}
+
+IL_0017:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0110;
+		}
+
+IL_001c:
+		{
+			Object_t * L_3 = Enumerator_get_Current_m396252160((&V_2), /*hidden argument*/Enumerator_get_Current_m396252160_MethodInfo_var);
+			V_1 = L_3;
+			U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * L_4 = (U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 *)il2cpp_codegen_object_new(U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338_il2cpp_TypeInfo_var);
+			U3CHandleScoresDataU3Ec__AnonStorey24__ctor_m1613874894(L_4, /*hidden argument*/NULL);
+			V_6 = L_4;
+			Object_t * L_5 = V_1;
+			V_3 = ((Dictionary_2_t2474804324 *)CastclassClass(L_5, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+			Dictionary_2_t2474804324 * L_6 = V_3;
+			NullCheck(L_6);
+			Object_t * L_7 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_6, _stringLiteral3599307);
+			V_4 = ((Dictionary_2_t2474804324 *)CastclassClass(L_7, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+			U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * L_8 = V_6;
+			Dictionary_2_t2474804324 * L_9 = V_4;
+			NullCheck(L_9);
+			Object_t * L_10 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_9, _stringLiteral3355);
+			NullCheck(L_8);
+			L_8->___userId_0 = ((String_t*)CastclassSealed(L_10, String_t_il2cpp_TypeInfo_var));
+			U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * L_11 = V_6;
+			NullCheck(L_11);
+			String_t* L_12 = (L_11->___userId_0);
+			AccessToken_t3144904884 * L_13 = AccessToken_get_CurrentAccessToken_m1256155595(NULL /*static, unused*/, /*hidden argument*/NULL);
+			NullCheck(L_13);
+			String_t* L_14 = AccessToken_get_UserId_m951892911(L_13, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			bool L_15 = String_Equals_m1002918753(NULL /*static, unused*/, L_12, L_14, /*hidden argument*/NULL);
+			if (!L_15)
+			{
+				goto IL_00da;
+			}
+		}
+
+IL_0077:
+		{
+			Dictionary_2_t2474804324 * L_16 = V_3;
+			int32_t L_17 = GraphUtil_GetScoreFromEntry_m886342209(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+			V_5 = L_17;
+			int32_t L_18 = V_5;
+			int32_t L_19 = L_18;
+			Object_t * L_20 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_19);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_21 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral2368195305, L_20, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+			Debug_Log_m1731103628(NULL /*static, unused*/, L_21, /*hidden argument*/NULL);
+			int32_t L_22 = V_5;
+			IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+			int32_t L_23 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+			if ((((int32_t)L_22) >= ((int32_t)L_23)))
+			{
+				goto IL_00c1;
+			}
+		}
+
+IL_00a1:
+		{
+			IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+			int32_t L_24 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+			int32_t L_25 = L_24;
+			Object_t * L_26 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_25);
+			IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+			String_t* L_27 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral609577775, L_26, /*hidden argument*/NULL);
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+			Debug_Log_m1731103628(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+			int32_t L_28 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+			V_5 = L_28;
+		}
+
+IL_00c1:
+		{
+			Dictionary_2_t2474804324 * L_29 = V_3;
+			String_t* L_30 = Int32_ToString_m1286526384((&V_5), /*hidden argument*/NULL);
+			NullCheck(L_29);
+			VirtActionInvoker2< String_t*, Object_t * >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1) */, L_29, _stringLiteral109264530, L_30);
+			int32_t L_31 = V_5;
+			IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+			GameStateManager_set_HighScore_m1444715631(NULL /*static, unused*/, L_31, /*hidden argument*/NULL);
+		}
+
+IL_00da:
+		{
+			List_1_t1634065389 * L_32 = V_0;
+			Dictionary_2_t2474804324 * L_33 = V_3;
+			NullCheck(L_32);
+			VirtActionInvoker1< Object_t * >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.Object>::Add(!0) */, L_32, L_33);
+			IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+			Dictionary_2_t3407420088 * L_34 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendImages_18;
+			U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * L_35 = V_6;
+			NullCheck(L_35);
+			String_t* L_36 = (L_35->___userId_0);
+			NullCheck(L_34);
+			bool L_37 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture>::ContainsKey(!0) */, L_34, L_36);
+			if (L_37)
+			{
+				goto IL_0110;
+			}
+		}
+
+IL_00f7:
+		{
+			U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * L_38 = V_6;
+			NullCheck(L_38);
+			String_t* L_39 = (L_38->___userId_0);
+			U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * L_40 = V_6;
+			IntPtr_t L_41 = { (void*)U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714_MethodInfo_var };
+			Action_1_t1918174889 * L_42 = (Action_1_t1918174889 *)il2cpp_codegen_object_new(Action_1_t1918174889_il2cpp_TypeInfo_var);
+			Action_1__ctor_m3349086711(L_42, L_40, L_41, /*hidden argument*/Action_1__ctor_m3349086711_MethodInfo_var);
+			FBGraph_LoadFriendImgFromID_m1067899055(NULL /*static, unused*/, L_39, L_42, /*hidden argument*/NULL);
+		}
+
+IL_0110:
+		{
+			bool L_43 = Enumerator_MoveNext_m4284703760((&V_2), /*hidden argument*/Enumerator_MoveNext_m4284703760_MethodInfo_var);
+			if (L_43)
+			{
+				goto IL_001c;
+			}
+		}
+
+IL_011c:
+		{
+			IL2CPP_LEAVE(0x12D, FINALLY_0121);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0121;
+	}
+
+FINALLY_0121:
+	{ // begin finally (depth: 1)
+		Enumerator_t4014815677  L_44 = V_2;
+		Enumerator_t4014815677  L_45 = L_44;
+		Object_t * L_46 = Box(Enumerator_t4014815677_il2cpp_TypeInfo_var, &L_45);
+		NullCheck((Object_t *)L_46);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, (Object_t *)L_46);
+		IL2CPP_END_FINALLY(289)
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(289)
+	{
+		IL2CPP_JUMP_TBL(0x12D, IL_012d)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_012d:
+	{
+		List_1_t1634065389 * L_47 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_set_Scores_m662854871(NULL /*static, unused*/, L_47, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::LoadFriendImgFromID(System.String,System.Action`1<UnityEngine.Texture>)
+extern TypeInfo* U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m944559736_MethodInfo_var;
+extern const MethodInfo* U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern const uint32_t FBGraph_LoadFriendImgFromID_m1067899055_MetadataUsageId;
+extern "C"  void FBGraph_LoadFriendImgFromID_m1067899055 (Object_t * __this /* static, unused */, String_t* ___userID, Action_1_t1918174889 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_LoadFriendImgFromID_m1067899055_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * V_0 = {0};
+	{
+		U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * L_0 = (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 *)il2cpp_codegen_object_new(U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940_il2cpp_TypeInfo_var);
+		U3CLoadFriendImgFromIDU3Ec__AnonStorey25__ctor_m2972177002(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * L_1 = V_0;
+		String_t* L_2 = ___userID;
+		NullCheck(L_1);
+		L_1->___userID_0 = L_2;
+		U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * L_3 = V_0;
+		Action_1_t1918174889 * L_4 = ___callback;
+		NullCheck(L_3);
+		L_3->___callback_1 = L_4;
+		U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * L_5 = V_0;
+		NullCheck(L_5);
+		String_t* L_6 = (L_5->___userID_0);
+		Nullable_1_t1438485399  L_7 = {0};
+		Nullable_1__ctor_m944559736(&L_7, ((int32_t)128), /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
+		Nullable_1_t1438485399  L_8 = {0};
+		Nullable_1__ctor_m944559736(&L_8, ((int32_t)128), /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
+		String_t* L_9 = GraphUtil_GetPictureQuery_m2437608875(NULL /*static, unused*/, L_6, L_7, L_8, (String_t*)NULL, (bool)0, /*hidden argument*/NULL);
+		U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * L_10 = V_0;
+		IntPtr_t L_11 = { (void*)U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_12 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_12, L_10, L_11, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m2514225622(NULL /*static, unused*/, L_9, 0, L_12, (Object_t*)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::<GetPlayerInfoCallback>m__7(UnityEngine.Texture)
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061_MetadataUsageId;
+extern "C"  void FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061 (Object_t * __this /* static, unused */, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Texture_t1769722184 * L_0 = ___pictureTexture;
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		Texture_t1769722184 * L_2 = ___pictureTexture;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___UserTexture_16 = L_2;
+	}
+
+IL_0012:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_CallUIRedraw_m2882927136(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph::<GetPlayerPicture>m__8(Facebook.Unity.IGraphResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* IGraphResult_t2342947041_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2215850530;
+extern Il2CppCodeGenString* _stringLiteral2941415915;
+extern const uint32_t FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838_MetadataUsageId;
+extern "C"  void FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2215850530, /*hidden argument*/NULL);
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		Object_t * L_4 = ___result;
+		NullCheck(L_4);
+		Texture2D_t2509538522 * L_5 = InterfaceFuncInvoker0< Texture2D_t2509538522 * >::Invoke(1 /* UnityEngine.Texture2D Facebook.Unity.IGraphResult::get_Texture() */, IGraphResult_t2342947041_il2cpp_TypeInfo_var, L_4);
+		bool L_6 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2941415915, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_003d:
+	{
+		Object_t * L_7 = ___result;
+		NullCheck(L_7);
+		Texture2D_t2509538522 * L_8 = InterfaceFuncInvoker0< Texture2D_t2509538522 * >::Invoke(1 /* UnityEngine.Texture2D Facebook.Unity.IGraphResult::get_Texture() */, IGraphResult_t2342947041_il2cpp_TypeInfo_var, L_7);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___UserTexture_16 = L_8;
+		GameStateManager_CallUIRedraw_m2882927136(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph/<HandleScoresData>c__AnonStorey24::.ctor()
+extern "C"  void U3CHandleScoresDataU3Ec__AnonStorey24__ctor_m1613874894 (U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph/<HandleScoresData>c__AnonStorey24::<>m__9(UnityEngine.Texture)
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714_MetadataUsageId;
+extern "C"  void U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714 (U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * __this, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Texture_t1769722184 * L_0 = ___pictureTexture;
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Dictionary_2_t3407420088 * L_2 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendImages_18;
+		String_t* L_3 = (__this->___userId_0);
+		Texture_t1769722184 * L_4 = ___pictureTexture;
+		NullCheck(L_2);
+		VirtActionInvoker2< String_t*, Texture_t1769722184 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture>::Add(!0,!1) */, L_2, L_3, L_4);
+		GameStateManager_CallUIRedraw_m2882927136(NULL /*static, unused*/, /*hidden argument*/NULL);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+// System.Void FBGraph/<LoadFriendImgFromID>c__AnonStorey25::.ctor()
+extern "C"  void U3CLoadFriendImgFromIDU3Ec__AnonStorey25__ctor_m2972177002 (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBGraph/<LoadFriendImgFromID>c__AnonStorey25::<>m__A(Facebook.Unity.IGraphResult)
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IGraphResult_t2342947041_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m908434626_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral498449925;
+extern Il2CppCodeGenString* _stringLiteral1369372238;
+extern const uint32_t U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527_MetadataUsageId;
+extern "C"  void U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527 (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		String_t* L_4 = (__this->___userID_0);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m1825781833(NULL /*static, unused*/, L_3, _stringLiteral498449925, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0027:
+	{
+		Object_t * L_6 = ___result;
+		NullCheck(L_6);
+		Texture2D_t2509538522 * L_7 = InterfaceFuncInvoker0< Texture2D_t2509538522 * >::Invoke(1 /* UnityEngine.Texture2D Facebook.Unity.IGraphResult::get_Texture() */, IGraphResult_t2342947041_il2cpp_TypeInfo_var, L_6);
+		bool L_8 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_7, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_8)
+		{
+			goto IL_0043;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1369372238, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0043:
+	{
+		Action_1_t1918174889 * L_9 = (__this->___callback_1);
+		Object_t * L_10 = ___result;
+		NullCheck(L_10);
+		Texture2D_t2509538522 * L_11 = InterfaceFuncInvoker0< Texture2D_t2509538522 * >::Invoke(1 /* UnityEngine.Texture2D Facebook.Unity.IGraphResult::get_Texture() */, IGraphResult_t2342947041_il2cpp_TypeInfo_var, L_10);
+		NullCheck(L_9);
+		Action_1_Invoke_m908434626(L_9, L_11, /*hidden argument*/Action_1_Invoke_m908434626_MethodInfo_var);
+		return;
+	}
+}
+// System.Void FBLogin::.cctor()
+extern TypeInfo* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2551933395;
+extern Il2CppCodeGenString* _stringLiteral925557025;
+extern Il2CppCodeGenString* _stringLiteral1767771597;
+extern const uint32_t FBLogin__cctor_m1635101039_MetadataUsageId;
+extern "C"  void FBLogin__cctor_m1635101039 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBLogin__cctor_m1635101039_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1765447871 * V_0 = {0};
+	{
+		List_1_t1765447871 * L_0 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_0, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t1765447871 * L_1 = V_0;
+		NullCheck(L_1);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_1, _stringLiteral2551933395);
+		List_1_t1765447871 * L_2 = V_0;
+		NullCheck(L_2);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_2, _stringLiteral925557025);
+		List_1_t1765447871 * L_3 = V_0;
+		((FBLogin_t3958836237_StaticFields*)FBLogin_t3958836237_il2cpp_TypeInfo_var->static_fields)->___readPermissions_0 = L_3;
+		List_1_t1765447871 * L_4 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_4, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_0 = L_4;
+		List_1_t1765447871 * L_5 = V_0;
+		NullCheck(L_5);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_5, _stringLiteral1767771597);
+		List_1_t1765447871 * L_6 = V_0;
+		((FBLogin_t3958836237_StaticFields*)FBLogin_t3958836237_il2cpp_TypeInfo_var->static_fields)->___publishPermissions_1 = L_6;
+		return;
+	}
+}
+// System.Void FBLogin::PromptForLogin(System.Action)
+extern TypeInfo* U3CPromptForLoginU3Ec__AnonStorey26_t3902140173_il2cpp_TypeInfo_var;
+extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m1136555718_MethodInfo_var;
+extern const uint32_t FBLogin_PromptForLogin_m911439827_MetadataUsageId;
+extern "C"  void FBLogin_PromptForLogin_m911439827 (Object_t * __this /* static, unused */, Action_t437523947 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBLogin_PromptForLogin_m911439827_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * V_0 = {0};
+	{
+		U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * L_0 = (U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 *)il2cpp_codegen_object_new(U3CPromptForLoginU3Ec__AnonStorey26_t3902140173_il2cpp_TypeInfo_var);
+		U3CPromptForLoginU3Ec__AnonStorey26__ctor_m3068611264(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * L_1 = V_0;
+		Action_t437523947 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
+		List_1_t1765447871 * L_3 = ((FBLogin_t3958836237_StaticFields*)FBLogin_t3958836237_il2cpp_TypeInfo_var->static_fields)->___readPermissions_0;
+		U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * L_4 = V_0;
+		IntPtr_t L_5 = { (void*)U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825_MethodInfo_var };
+		FacebookDelegate_1_t2634519556 * L_6 = (FacebookDelegate_1_t2634519556 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m1136555718(L_6, L_4, L_5, /*hidden argument*/FacebookDelegate_1__ctor_m1136555718_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_LogInWithReadPermissions_m3440569185(NULL /*static, unused*/, L_3, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBLogin::PromptForPublish(System.Action)
+extern TypeInfo* U3CPromptForPublishU3Ec__AnonStorey27_t4030531316_il2cpp_TypeInfo_var;
+extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m1136555718_MethodInfo_var;
+extern const uint32_t FBLogin_PromptForPublish_m3794860397_MetadataUsageId;
+extern "C"  void FBLogin_PromptForPublish_m3794860397 (Object_t * __this /* static, unused */, Action_t437523947 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBLogin_PromptForPublish_m3794860397_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * V_0 = {0};
+	{
+		U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * L_0 = (U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 *)il2cpp_codegen_object_new(U3CPromptForPublishU3Ec__AnonStorey27_t4030531316_il2cpp_TypeInfo_var);
+		U3CPromptForPublishU3Ec__AnonStorey27__ctor_m1209345081(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * L_1 = V_0;
+		Action_t437523947 * L_2 = ___callback;
+		NullCheck(L_1);
+		L_1->___callback_0 = L_2;
+		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
+		List_1_t1765447871 * L_3 = ((FBLogin_t3958836237_StaticFields*)FBLogin_t3958836237_il2cpp_TypeInfo_var->static_fields)->___publishPermissions_1;
+		U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * L_4 = V_0;
+		IntPtr_t L_5 = { (void*)U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945_MethodInfo_var };
+		FacebookDelegate_1_t2634519556 * L_6 = (FacebookDelegate_1_t2634519556 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m1136555718(L_6, L_4, L_5, /*hidden argument*/FacebookDelegate_1__ctor_m1136555718_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_LogInWithPublishPermissions_m3160456444(NULL /*static, unused*/, L_3, L_6, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Boolean FBLogin::get_HavePublishActions()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1767771597;
+extern const uint32_t FBLogin_get_HavePublishActions_m3353262161_MetadataUsageId;
+extern "C"  bool FBLogin_get_HavePublishActions_m3353262161 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBLogin_get_HavePublishActions_m3353262161_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B4_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		AccessToken_t3144904884 * L_1 = AccessToken_get_CurrentAccessToken_m1256155595(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Object_t* L_2 = AccessToken_get_Permissions_m382482404(L_1, /*hidden argument*/NULL);
+		NullCheck(((List_1_t1765447871 *)IsInstClass(L_2, List_1_t1765447871_il2cpp_TypeInfo_var)));
+		bool L_3 = VirtFuncInvoker1< bool, String_t* >::Invoke(24 /* System.Boolean System.Collections.Generic.List`1<System.String>::Contains(!0) */, ((List_1_t1765447871 *)IsInstClass(L_2, List_1_t1765447871_il2cpp_TypeInfo_var)), _stringLiteral1767771597);
+		if (!L_3)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		G_B4_0 = 1;
+		goto IL_002f;
+	}
+
+IL_002e:
+	{
+		G_B4_0 = 0;
+	}
+
+IL_002f:
+	{
+		return (bool)G_B4_0;
+	}
+}
+// System.Void FBLogin::set_HavePublishActions(System.Boolean)
+extern "C"  void FBLogin_set_HavePublishActions_m1531527344 (Object_t * __this /* static, unused */, bool ___value, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void FBLogin/<PromptForLogin>c__AnonStorey26::.ctor()
+extern "C"  void U3CPromptForLoginU3Ec__AnonStorey26__ctor_m3068611264 (U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBLogin/<PromptForLogin>c__AnonStorey26::<>m__B(Facebook.Unity.ILoginResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3993905838;
+extern Il2CppCodeGenString* _stringLiteral3701337374;
+extern Il2CppCodeGenString* _stringLiteral87030779;
+extern Il2CppCodeGenString* _stringLiteral265779030;
+extern const uint32_t U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825_MetadataUsageId;
+extern "C"  void U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825 (U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3993905838, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		AccessToken_t3144904884 * L_1 = AccessToken_get_CurrentAccessToken_m1256155595(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = AccessToken_get_UserId_m951892911(L_1, /*hidden argument*/NULL);
+		AccessToken_t3144904884 * L_3 = AccessToken_get_CurrentAccessToken_m1256155595(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Object_t* L_4 = AccessToken_get_Permissions_m382482404(L_3, /*hidden argument*/NULL);
+		String_t* L_5 = Utilities_ToCommaSeparateList_m2708553843(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Concat_m2933632197(NULL /*static, unused*/, _stringLiteral3701337374, L_2, _stringLiteral87030779, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		goto IL_0066;
+	}
+
+IL_0046:
+	{
+		Object_t * L_7 = ___result;
+		NullCheck(L_7);
+		String_t* L_8 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_7);
+		if (!L_8)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		Object_t * L_9 = ___result;
+		NullCheck(L_9);
+		String_t* L_10 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_9);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_005c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral265779030, /*hidden argument*/NULL);
+	}
+
+IL_0066:
+	{
+		Action_t437523947 * L_11 = (__this->___callback_0);
+		if (!L_11)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		Action_t437523947 * L_12 = (__this->___callback_0);
+		NullCheck(L_12);
+		Action_Invoke_m1445970038(L_12, /*hidden argument*/NULL);
+	}
+
+IL_007c:
+	{
+		return;
+	}
+}
+// System.Void FBLogin/<PromptForPublish>c__AnonStorey27::.ctor()
+extern "C"  void U3CPromptForPublishU3Ec__AnonStorey27__ctor_m1209345081 (U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBLogin/<PromptForPublish>c__AnonStorey27::<>m__C(Facebook.Unity.ILoginResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3993905838;
+extern Il2CppCodeGenString* _stringLiteral3701337374;
+extern Il2CppCodeGenString* _stringLiteral87030779;
+extern Il2CppCodeGenString* _stringLiteral265779030;
+extern const uint32_t U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945_MetadataUsageId;
+extern "C"  void U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945 (U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3993905838, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		AccessToken_t3144904884 * L_1 = AccessToken_get_CurrentAccessToken_m1256155595(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		String_t* L_2 = AccessToken_get_UserId_m951892911(L_1, /*hidden argument*/NULL);
+		AccessToken_t3144904884 * L_3 = AccessToken_get_CurrentAccessToken_m1256155595(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Object_t* L_4 = AccessToken_get_Permissions_m382482404(L_3, /*hidden argument*/NULL);
+		String_t* L_5 = Utilities_ToCommaSeparateList_m2708553843(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_6 = String_Concat_m2933632197(NULL /*static, unused*/, _stringLiteral3701337374, L_2, _stringLiteral87030779, L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+		goto IL_0066;
+	}
+
+IL_0046:
+	{
+		Object_t * L_7 = ___result;
+		NullCheck(L_7);
+		String_t* L_8 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_7);
+		if (!L_8)
+		{
+			goto IL_005c;
+		}
+	}
+	{
+		Object_t * L_9 = ___result;
+		NullCheck(L_9);
+		String_t* L_10 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_9);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_10, /*hidden argument*/NULL);
+	}
+
+IL_005c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral265779030, /*hidden argument*/NULL);
+	}
+
+IL_0066:
+	{
+		Action_t437523947 * L_11 = (__this->___callback_0);
+		if (!L_11)
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		Action_t437523947 * L_12 = (__this->___callback_0);
+		NullCheck(L_12);
+		Action_Invoke_m1445970038(L_12, /*hidden argument*/NULL);
+	}
+
+IL_007c:
+	{
+		return;
+	}
+}
+// System.Void FBManager::.ctor()
+extern "C"  void FBManager__ctor_m4196904250 (FBManager_t3888485201 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBManager::Awake()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* InitDelegate_t1475272884_il2cpp_TypeInfo_var;
+extern TypeInfo* HideUnityDelegate_t2364798903_il2cpp_TypeInfo_var;
+extern const MethodInfo* FBManager_InitCallback_m1304160255_MethodInfo_var;
+extern const MethodInfo* FBManager_OnHideUnity_m1413560515_MethodInfo_var;
+extern const uint32_t FBManager_Awake_m139542173_MetadataUsageId;
+extern "C"  void FBManager_Awake_m139542173 (FBManager_t3888485201 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBManager_Awake_m139542173_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsInitialized_m24459329(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		IntPtr_t L_1 = { (void*)FBManager_InitCallback_m1304160255_MethodInfo_var };
+		InitDelegate_t1475272884 * L_2 = (InitDelegate_t1475272884 *)il2cpp_codegen_object_new(InitDelegate_t1475272884_il2cpp_TypeInfo_var);
+		InitDelegate__ctor_m1407180717(L_2, __this, L_1, /*hidden argument*/NULL);
+		IntPtr_t L_3 = { (void*)FBManager_OnHideUnity_m1413560515_MethodInfo_var };
+		HideUnityDelegate_t2364798903 * L_4 = (HideUnityDelegate_t2364798903 *)il2cpp_codegen_object_new(HideUnityDelegate_t2364798903_il2cpp_TypeInfo_var);
+		HideUnityDelegate__ctor_m2462696862(L_4, __this, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_Init_m2331630741(NULL /*static, unused*/, L_2, L_4, (String_t*)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0028:
+	{
+		return;
+	}
+}
+// System.Void FBManager::InitCallback()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2258972053;
+extern Il2CppCodeGenString* _stringLiteral2765426331;
+extern Il2CppCodeGenString* _stringLiteral2574304506;
+extern const uint32_t FBManager_InitCallback_m1304160255_MetadataUsageId;
+extern "C"  void FBManager_InitCallback_m1304160255 (FBManager_t3888485201 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBManager_InitCallback_m1304160255_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2258972053, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2765426331, /*hidden argument*/NULL);
+		goto IL_002d;
+	}
+
+IL_0023:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2574304506, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return;
+	}
+}
+// System.Void FBManager::OnHideUnity(System.Boolean)
+extern "C"  void FBManager_OnHideUnity_m1413560515 (FBManager_t3888485201 * __this, bool ___isGameShown, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___isGameShown;
+		if (L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Time_set_timeScale_m1848691981(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		goto IL_001f;
+	}
+
+IL_0015:
+	{
+		Time_set_timeScale_m1848691981(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void FBManager::GetReadPermission()
+extern "C"  void FBManager_GetReadPermission_m2298722835 (FBManager_t3888485201 * __this, const MethodInfo* method)
+{
+	{
+		LoginFB_AskToLogin_m2482419507(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBRequest::RequestChallenge()
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t1438485399_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2757548155_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* FBRequest_AppRequestCallback_m3525577644_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m963528547_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1845907012;
+extern Il2CppCodeGenString* _stringLiteral4294072323;
+extern Il2CppCodeGenString* _stringLiteral2102474272;
+extern Il2CppCodeGenString* _stringLiteral2169501287;
+extern Il2CppCodeGenString* _stringLiteral125;
+extern Il2CppCodeGenString* _stringLiteral1555863273;
+extern Il2CppCodeGenString* _stringLiteral2454359880;
+extern const uint32_t FBRequest_RequestChallenge_m2768989888_MetadataUsageId;
+extern "C"  void FBRequest_RequestChallenge_m2768989888 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBRequest_RequestChallenge_m2768989888_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1765447871 * V_0 = {0};
+	String_t* V_1 = {0};
+	String_t* V_2 = {0};
+	String_t* V_3 = {0};
+	int32_t V_4 = 0;
+	List_1_t1765447871 * V_5 = {0};
+	int32_t V_6 = 0;
+	Nullable_1_t1438485399  V_7 = {0};
+	{
+		V_0 = (List_1_t1765447871 *)NULL;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		V_3 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_1 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		String_t* L_2 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendID_12;
+		if (!L_2)
+		{
+			goto IL_0079;
+		}
+	}
+	{
+		V_1 = _stringLiteral1845907012;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_3 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_4 = L_3;
+		String_t* L_4 = Int32_ToString_m1286526384((&V_4), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m1825781833(NULL /*static, unused*/, _stringLiteral4294072323, L_4, _stringLiteral2102474272, /*hidden argument*/NULL);
+		V_2 = L_5;
+		List_1_t1765447871 * L_6 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_6, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_5 = L_6;
+		List_1_t1765447871 * L_7 = V_5;
+		String_t* L_8 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendID_12;
+		NullCheck(L_7);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_7, L_8);
+		List_1_t1765447871 * L_9 = V_5;
+		V_0 = L_9;
+		int32_t L_10 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_6 = L_10;
+		String_t* L_11 = Int32_ToString_m1286526384((&V_6), /*hidden argument*/NULL);
+		String_t* L_12 = String_Concat_m1825781833(NULL /*static, unused*/, _stringLiteral2169501287, L_11, _stringLiteral125, /*hidden argument*/NULL);
+		V_3 = L_12;
+		goto IL_0085;
+	}
+
+IL_0079:
+	{
+		V_1 = _stringLiteral1555863273;
+		V_2 = _stringLiteral2454359880;
+	}
+
+IL_0085:
+	{
+		String_t* L_13 = V_2;
+		List_1_t1765447871 * L_14 = V_0;
+		Initobj (Nullable_1_t1438485399_il2cpp_TypeInfo_var, (&V_7));
+		Nullable_1_t1438485399  L_15 = V_7;
+		String_t* L_16 = V_3;
+		String_t* L_17 = V_1;
+		IntPtr_t L_18 = { (void*)FBRequest_AppRequestCallback_m3525577644_MethodInfo_var };
+		FacebookDelegate_1_t2757548155 * L_19 = (FacebookDelegate_1_t2757548155 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2757548155_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m963528547(L_19, NULL, L_18, /*hidden argument*/FacebookDelegate_1__ctor_m963528547_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_AppRequest_m3737494955(NULL /*static, unused*/, L_13, L_14, (Object_t*)NULL, (Object_t*)NULL, L_15, L_16, L_17, L_19, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBRequest::AppRequestCallback(Facebook.Unity.IAppRequestResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* IDictionary_2_t3650470111_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral936168371;
+extern Il2CppCodeGenString* _stringLiteral476588369;
+extern Il2CppCodeGenString* _stringLiteral1692588256;
+extern Il2CppCodeGenString* _stringLiteral1095692943;
+extern Il2CppCodeGenString* _stringLiteral1408423625;
+extern Il2CppCodeGenString* _stringLiteral1409376937;
+extern const uint32_t FBRequest_AppRequestCallback_m3525577644_MetadataUsageId;
+extern "C"  void FBRequest_AppRequestCallback_m3525577644 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBRequest_AppRequestCallback_m3525577644_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Object_t * V_0 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral936168371, /*hidden argument*/NULL);
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		Object_t * L_4 = ___result;
+		NullCheck(L_4);
+		String_t* L_5 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		Object_t * L_6 = ___result;
+		NullCheck(L_6);
+		Object_t* L_7 = InterfaceFuncInvoker0< Object_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.IResult::get_ResultDictionary() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_6);
+		NullCheck(L_7);
+		bool L_8 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_7, _stringLiteral476588369, (&V_0));
+		if (!L_8)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1692588256, /*hidden argument*/NULL);
+		goto IL_0083;
+	}
+
+IL_0052:
+	{
+		Object_t * L_9 = ___result;
+		NullCheck(L_9);
+		Object_t* L_10 = InterfaceFuncInvoker0< Object_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.IResult::get_ResultDictionary() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_9);
+		NullCheck(L_10);
+		bool L_11 = InterfaceFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(3 /* System.Boolean System.Collections.Generic.IDictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, IDictionary_2_t3650470111_il2cpp_TypeInfo_var, L_10, _stringLiteral1095692943, (&V_0));
+		if (!L_11)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		PopupScript_SetPopup_m4224439492(NULL /*static, unused*/, _stringLiteral1408423625, (3.0f), (Action_t437523947 *)NULL, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1409376937, /*hidden argument*/NULL);
+	}
+
+IL_0083:
+	{
+		return;
+	}
+}
+// System.Void FBShare::ShareBrag()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Uri_t2776692961_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t1384006650_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* FBShare_ShareCallback_m557221044_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3732646032_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral95237494;
+extern Il2CppCodeGenString* _stringLiteral38125769;
+extern Il2CppCodeGenString* _stringLiteral445057314;
+extern Il2CppCodeGenString* _stringLiteral4143491759;
+extern const uint32_t FBShare_ShareBrag_m2294311067_MetadataUsageId;
+extern "C"  void FBShare_ShareBrag_m2294311067 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBShare_ShareBrag_m2294311067_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	int32_t V_1 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		String_t* L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___ServerURL_6;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m138640077(NULL /*static, unused*/, L_0, _stringLiteral95237494, /*hidden argument*/NULL);
+		V_0 = L_1;
+		String_t* L_2 = V_0;
+		Uri_t2776692961 * L_3 = (Uri_t2776692961 *)il2cpp_codegen_object_new(Uri_t2776692961_il2cpp_TypeInfo_var);
+		Uri__ctor_m1721267859(L_3, L_2, /*hidden argument*/NULL);
+		int32_t L_4 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_1 = L_4;
+		String_t* L_5 = Int32_ToString_m1286526384((&V_1), /*hidden argument*/NULL);
+		String_t* L_6 = String_Concat_m1825781833(NULL /*static, unused*/, _stringLiteral445057314, L_5, _stringLiteral4143491759, /*hidden argument*/NULL);
+		IntPtr_t L_7 = { (void*)FBShare_ShareCallback_m557221044_MethodInfo_var };
+		FacebookDelegate_1_t1384006650 * L_8 = (FacebookDelegate_1_t1384006650 *)il2cpp_codegen_object_new(FacebookDelegate_1_t1384006650_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3732646032(L_8, NULL, L_7, /*hidden argument*/FacebookDelegate_1__ctor_m3732646032_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_ShareLink_m1620681588(NULL /*static, unused*/, L_3, _stringLiteral38125769, L_6, (Uri_t2776692961 *)NULL, L_8, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBShare::ShareCallback(Facebook.Unity.IShareResult)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral546878756;
+extern const uint32_t FBShare_ShareCallback_m557221044_MetadataUsageId;
+extern "C"  void FBShare_ShareCallback_m557221044 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBShare_ShareCallback_m557221044_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral546878756, /*hidden argument*/NULL);
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		Object_t * L_4 = ___result;
+		NullCheck(L_4);
+		String_t* L_5 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_4);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBShare::PostScore(System.Int32,System.Action)
+extern TypeInfo* U3CPostScoreU3Ec__AnonStorey28_t747449093_il2cpp_TypeInfo_var;
+extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t2606186806_il2cpp_TypeInfo_var;
+extern TypeInfo* FBShare_t3965086851_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_t437523947_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m640701813_MethodInfo_var;
+extern const MethodInfo* FBShare_U3CPostScoreU3Em__D_m1687393738_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern const MethodInfo* U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral109264530;
+extern Il2CppCodeGenString* _stringLiteral1990144297;
+extern const uint32_t FBShare_PostScore_m2060077696_MetadataUsageId;
+extern "C"  void FBShare_PostScore_m2060077696 (Object_t * __this /* static, unused */, int32_t ___score, Action_t437523947 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBShare_PostScore_m2060077696_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Dictionary_2_t2606186806 * V_0 = {0};
+	U3CPostScoreU3Ec__AnonStorey28_t747449093 * V_1 = {0};
+	int32_t G_B3_0 = 0;
+	String_t* G_B3_1 = {0};
+	int32_t G_B2_0 = 0;
+	String_t* G_B2_1 = {0};
+	{
+		U3CPostScoreU3Ec__AnonStorey28_t747449093 * L_0 = (U3CPostScoreU3Ec__AnonStorey28_t747449093 *)il2cpp_codegen_object_new(U3CPostScoreU3Ec__AnonStorey28_t747449093_il2cpp_TypeInfo_var);
+		U3CPostScoreU3Ec__AnonStorey28__ctor_m481442730(L_0, /*hidden argument*/NULL);
+		V_1 = L_0;
+		U3CPostScoreU3Ec__AnonStorey28_t747449093 * L_1 = V_1;
+		int32_t L_2 = ___score;
+		NullCheck(L_1);
+		L_1->___score_0 = L_2;
+		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
+		bool L_3 = FBLogin_get_HavePublishActions_m3353262161(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		Dictionary_2_t2606186806 * L_4 = (Dictionary_2_t2606186806 *)il2cpp_codegen_object_new(Dictionary_2_t2606186806_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m640701813(L_4, /*hidden argument*/Dictionary_2__ctor_m640701813_MethodInfo_var);
+		V_0 = L_4;
+		Dictionary_2_t2606186806 * L_5 = V_0;
+		U3CPostScoreU3Ec__AnonStorey28_t747449093 * L_6 = V_1;
+		NullCheck(L_6);
+		int32_t* L_7 = &(L_6->___score_0);
+		String_t* L_8 = Int32_ToString_m1286526384(L_7, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(23 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::set_Item(!0,!1) */, L_5, _stringLiteral109264530, L_8);
+		FacebookDelegate_1_t2979309097 * L_9 = ((FBShare_t3965086851_StaticFields*)FBShare_t3965086851_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0;
+		G_B2_0 = 1;
+		G_B2_1 = _stringLiteral1990144297;
+		if (L_9)
+		{
+			G_B3_0 = 1;
+			G_B3_1 = _stringLiteral1990144297;
+			goto IL_0051;
+		}
+	}
+	{
+		IntPtr_t L_10 = { (void*)FBShare_U3CPostScoreU3Em__D_m1687393738_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_11 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_11, NULL, L_10, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		((FBShare_t3965086851_StaticFields*)FBShare_t3965086851_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0 = L_11;
+		G_B3_0 = G_B2_0;
+		G_B3_1 = G_B2_1;
+	}
+
+IL_0051:
+	{
+		FacebookDelegate_1_t2979309097 * L_12 = ((FBShare_t3965086851_StaticFields*)FBShare_t3965086851_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0;
+		Dictionary_2_t2606186806 * L_13 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m2514225622(NULL /*static, unused*/, G_B3_1, G_B3_0, L_12, L_13, /*hidden argument*/NULL);
+		goto IL_0072;
+	}
+
+IL_0061:
+	{
+		U3CPostScoreU3Ec__AnonStorey28_t747449093 * L_14 = V_1;
+		IntPtr_t L_15 = { (void*)U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284_MethodInfo_var };
+		Action_t437523947 * L_16 = (Action_t437523947 *)il2cpp_codegen_object_new(Action_t437523947_il2cpp_TypeInfo_var);
+		Action__ctor_m2957240604(L_16, L_14, L_15, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
+		FBLogin_PromptForPublish_m3794860397(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+	}
+
+IL_0072:
+	{
+		return;
+	}
+}
+// System.Void FBShare::PostScore1()
+extern TypeInfo* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* FBShare_AuthCallback_m2364714820_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m1136555718_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1767771597;
+extern const uint32_t FBShare_PostScore1_m1607740059_MetadataUsageId;
+extern "C"  void FBShare_PostScore1_m1607740059 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBShare_PostScore1_m1607740059_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1765447871 * V_0 = {0};
+	{
+		List_1_t1765447871 * L_0 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_0, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_0 = L_0;
+		List_1_t1765447871 * L_1 = V_0;
+		NullCheck(L_1);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_1, _stringLiteral1767771597);
+		List_1_t1765447871 * L_2 = V_0;
+		IntPtr_t L_3 = { (void*)FBShare_AuthCallback_m2364714820_MethodInfo_var };
+		FacebookDelegate_1_t2634519556 * L_4 = (FacebookDelegate_1_t2634519556 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m1136555718(L_4, NULL, L_3, /*hidden argument*/FacebookDelegate_1__ctor_m1136555718_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_LogInWithPublishPermissions_m3160456444(NULL /*static, unused*/, L_2, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBShare::AuthCallback(Facebook.Unity.IResult)
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerable_1_t3840643258_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_1_t2451595350_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t287207039_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t2606186806_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m640701813_MethodInfo_var;
+extern const MethodInfo* FBShare_APICallback_m3565927648_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1821175764;
+extern Il2CppCodeGenString* _stringLiteral1400865799;
+extern Il2CppCodeGenString* _stringLiteral109264530;
+extern Il2CppCodeGenString* _stringLiteral1990144297;
+extern Il2CppCodeGenString* _stringLiteral2574304506;
+extern const uint32_t FBShare_AuthCallback_m2364714820_MetadataUsageId;
+extern "C"  void FBShare_AuthCallback_m2364714820 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBShare_AuthCallback_m2364714820_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	Object_t* V_1 = {0};
+	Dictionary_2_t2606186806 * V_2 = {0};
+	Dictionary_2_t2606186806 * V_3 = {0};
+	int32_t V_4 = 0;
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m138640077(NULL /*static, unused*/, L_3, _stringLiteral1821175764, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		goto IL_00cd;
+	}
+
+IL_0025:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_5 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_00c3;
+		}
+	}
+	{
+		AccessToken_t3144904884 * L_6 = AccessToken_get_CurrentAccessToken_m1256155595(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		Object_t* L_7 = AccessToken_get_Permissions_m382482404(L_6, /*hidden argument*/NULL);
+		NullCheck(L_7);
+		Object_t* L_8 = InterfaceFuncInvoker0< Object_t* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<System.String>::GetEnumerator() */, IEnumerable_1_t3840643258_il2cpp_TypeInfo_var, L_7);
+		V_1 = L_8;
+	}
+
+IL_003f:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0051;
+		}
+
+IL_0044:
+		{
+			Object_t* L_9 = V_1;
+			NullCheck(L_9);
+			String_t* L_10 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.String>::get_Current() */, IEnumerator_1_t2451595350_il2cpp_TypeInfo_var, L_9);
+			V_0 = L_10;
+			String_t* L_11 = V_0;
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+			Debug_Log_m1731103628(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
+		}
+
+IL_0051:
+		{
+			Object_t* L_12 = V_1;
+			NullCheck(L_12);
+			bool L_13 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t287207039_il2cpp_TypeInfo_var, L_12);
+			if (L_13)
+			{
+				goto IL_0044;
+			}
+		}
+
+IL_005c:
+		{
+			IL2CPP_LEAVE(0x6C, FINALLY_0061);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0061;
+	}
+
+FINALLY_0061:
+	{ // begin finally (depth: 1)
+		{
+			Object_t* L_14 = V_1;
+			if (L_14)
+			{
+				goto IL_0065;
+			}
+		}
+
+IL_0064:
+		{
+			IL2CPP_END_FINALLY(97)
+		}
+
+IL_0065:
+		{
+			Object_t* L_15 = V_1;
+			NullCheck(L_15);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, L_15);
+			IL2CPP_END_FINALLY(97)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(97)
+	{
+		IL2CPP_JUMP_TBL(0x6C, IL_006c)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_006c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1400865799, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_16 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		GameStateManager_Load_m1912361917(L_16, /*hidden argument*/NULL);
+		Dictionary_2_t2606186806 * L_17 = (Dictionary_2_t2606186806 *)il2cpp_codegen_object_new(Dictionary_2_t2606186806_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m640701813(L_17, /*hidden argument*/Dictionary_2__ctor_m640701813_MethodInfo_var);
+		V_3 = L_17;
+		Dictionary_2_t2606186806 * L_18 = V_3;
+		GameStateManager_t648042254 * L_19 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		int32_t L_20 = GameStateManager_get_BestScore_m3345504834(L_19, /*hidden argument*/NULL);
+		V_4 = L_20;
+		String_t* L_21 = Int32_ToString_m1286526384((&V_4), /*hidden argument*/NULL);
+		NullCheck(L_18);
+		VirtActionInvoker2< String_t*, String_t* >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,System.String>::Add(!0,!1) */, L_18, _stringLiteral109264530, L_21);
+		Dictionary_2_t2606186806 * L_22 = V_3;
+		V_2 = L_22;
+		IntPtr_t L_23 = { (void*)FBShare_APICallback_m3565927648_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_24 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_24, NULL, L_23, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		Dictionary_2_t2606186806 * L_25 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m2514225622(NULL /*static, unused*/, _stringLiteral1990144297, 1, L_24, L_25, /*hidden argument*/NULL);
+		goto IL_00cd;
+	}
+
+IL_00c3:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2574304506, /*hidden argument*/NULL);
+	}
+
+IL_00cd:
+	{
+		return;
+	}
+}
+// System.Void FBShare::APICallback(Facebook.Unity.IResult)
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2496072165;
+extern Il2CppCodeGenString* _stringLiteral170093970;
+extern const uint32_t FBShare_APICallback_m3565927648_MetadataUsageId;
+extern "C"  void FBShare_APICallback_m3565927648 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBShare_APICallback_m3565927648_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m138640077(NULL /*static, unused*/, L_3, _stringLiteral2496072165, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		goto IL_002f;
+	}
+
+IL_0025:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral170093970, /*hidden argument*/NULL);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+// System.Void FBShare::<PostScore>m__D(Facebook.Unity.IGraphResult)
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1744899793;
+extern const uint32_t FBShare_U3CPostScoreU3Em__D_m1687393738_MetadataUsageId;
+extern "C"  void FBShare_U3CPostScoreU3Em__D_m1687393738 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FBShare_U3CPostScoreU3Em__D_m1687393738_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1744899793, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		FBGraph_GetScores_m3802773806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBShare/<PostScore>c__AnonStorey28::.ctor()
+extern "C"  void U3CPostScoreU3Ec__AnonStorey28__ctor_m481442730 (U3CPostScoreU3Ec__AnonStorey28_t747449093 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FBShare/<PostScore>c__AnonStorey28::<>m__E()
+extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
+extern const uint32_t U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284_MetadataUsageId;
+extern "C"  void U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284 (U3CPostScoreU3Ec__AnonStorey28_t747449093 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
+		bool L_0 = FBLogin_get_HavePublishActions_m3353262161(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		int32_t L_1 = (__this->___score_0);
+		FBShare_PostScore_m2060077696(NULL /*static, unused*/, L_1, (Action_t437523947 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0016:
+	{
+		return;
+	}
+}
+// System.Void Flashing::.ctor()
+extern "C"  void Flashing__ctor_m338341065 (Flashing_t1690224146 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Flashing::Awake()
+extern const MethodInfo* GameObject_GetComponentInChildren_TisRenderer_t1092684080_m2582749319_MethodInfo_var;
+extern const uint32_t Flashing_Awake_m575946284_MetadataUsageId;
+extern "C"  void Flashing_Awake_m575946284 (Flashing_t1690224146 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Flashing_Awake_m575946284_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FlashingP_t857341054 * L_0 = &(__this->___flashingP_2);
+		GameObject_t4012695102 * L_1 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		Renderer_t1092684080 * L_2 = GameObject_GetComponentInChildren_TisRenderer_t1092684080_m2582749319(L_1, /*hidden argument*/GameObject_GetComponentInChildren_TisRenderer_t1092684080_m2582749319_MethodInfo_var);
+		L_0->___mesh_4 = L_2;
+		return;
+	}
+}
+// System.Void Flashing::Start()
+extern "C"  void Flashing_Start_m3580446153 (Flashing_t1690224146 * __this, const MethodInfo* method)
+{
+	{
+		FlashingP_t857341054 * L_0 = &(__this->___flashingP_2);
+		L_0->___timeFlashing_1 = (0.0f);
+		FlashingP_t857341054 * L_1 = &(__this->___flashingP_2);
+		L_1->___speedFlashing_2 = (1.0f);
+		return;
+	}
+}
+// System.Void Flashing::StartFlashing()
+extern "C"  void Flashing_StartFlashing_m2110097243 (Flashing_t1690224146 * __this, const MethodInfo* method)
+{
+	{
+		FlashingP_t857341054 * L_0 = &(__this->___flashingP_2);
+		L_0->___countFlashing_3 = 0;
+		FlashingP_t857341054 * L_1 = &(__this->___flashingP_2);
+		L_1->___isFlashing_0 = (bool)1;
+		FlashingP_t857341054 * L_2 = &(__this->___flashingP_2);
+		L_2->___timeFlashing_1 = (0.0f);
+		MonoBehaviour_StopAllCoroutines_m1437893335(__this, /*hidden argument*/NULL);
+		Object_t * L_3 = Flashing_FlashingCube_m2896300842(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator Flashing::FlashingCube()
+extern TypeInfo* U3CFlashingCubeU3Ec__Iterator21_t3584501237_il2cpp_TypeInfo_var;
+extern const uint32_t Flashing_FlashingCube_m2896300842_MetadataUsageId;
+extern "C"  Object_t * Flashing_FlashingCube_m2896300842 (Flashing_t1690224146 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Flashing_FlashingCube_m2896300842_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CFlashingCubeU3Ec__Iterator21_t3584501237 * V_0 = {0};
+	{
+		U3CFlashingCubeU3Ec__Iterator21_t3584501237 * L_0 = (U3CFlashingCubeU3Ec__Iterator21_t3584501237 *)il2cpp_codegen_object_new(U3CFlashingCubeU3Ec__Iterator21_t3584501237_il2cpp_TypeInfo_var);
+		U3CFlashingCubeU3Ec__Iterator21__ctor_m2513484323(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CFlashingCubeU3Ec__Iterator21_t3584501237 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3Ef__this_2 = __this;
+		U3CFlashingCubeU3Ec__Iterator21_t3584501237 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void Flashing/<FlashingCube>c__Iterator21::.ctor()
+extern "C"  void U3CFlashingCubeU3Ec__Iterator21__ctor_m2513484323 (U3CFlashingCubeU3Ec__Iterator21_t3584501237 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object Flashing/<FlashingCube>c__Iterator21::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CFlashingCubeU3Ec__Iterator21_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m846982425 (U3CFlashingCubeU3Ec__Iterator21_t3584501237 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_1);
+		return L_0;
+	}
+}
+// System.Object Flashing/<FlashingCube>c__Iterator21::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CFlashingCubeU3Ec__Iterator21_System_Collections_IEnumerator_get_Current_m3346350765 (U3CFlashingCubeU3Ec__Iterator21_t3584501237 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_1);
+		return L_0;
+	}
+}
+// System.Boolean Flashing/<FlashingCube>c__Iterator21::MoveNext()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1154796294;
+extern const uint32_t U3CFlashingCubeU3Ec__Iterator21_MoveNext_m3646675673_MetadataUsageId;
+extern "C"  bool U3CFlashingCubeU3Ec__Iterator21_MoveNext_m3646675673 (U3CFlashingCubeU3Ec__Iterator21_t3584501237 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CFlashingCubeU3Ec__Iterator21_MoveNext_m3646675673_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_0);
+		V_0 = L_0;
+		__this->___U24PC_0 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0296;
+		}
+	}
+	{
+		goto IL_02b2;
+	}
+
+IL_0021:
+	{
+		goto IL_0296;
+	}
+
+IL_0026:
+	{
+		Flashing_t1690224146 * L_2 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_2);
+		FlashingP_t857341054 * L_3 = &(L_2->___flashingP_2);
+		FlashingP_t857341054 * L_4 = L_3;
+		float L_5 = (L_4->___timeFlashing_1);
+		float L_6 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Flashing_t1690224146 * L_7 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_7);
+		FlashingP_t857341054 * L_8 = &(L_7->___flashingP_2);
+		float L_9 = (L_8->___speedFlashing_2);
+		L_4->___timeFlashing_1 = ((float)((float)L_5+(float)((float)((float)L_6*(float)L_9))));
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_10 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		int32_t L_11 = GameStateManager_get_SceneMaterialNum_m1026470881(L_10, /*hidden argument*/NULL);
+		if ((((int32_t)L_11) >= ((int32_t)2)))
+		{
+			goto IL_0173;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_12 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_12);
+		FlashingP_t857341054 * L_13 = &(L_12->___flashingP_2);
+		float L_14 = (L_13->___timeFlashing_1);
+		if ((!(((double)(((double)((double)L_14)))) < ((double)(0.4)))))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_15 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_15);
+		FlashingP_t857341054 * L_16 = &(L_15->___flashingP_2);
+		int32_t L_17 = (L_16->___countFlashing_3);
+		if ((((int32_t)L_17) >= ((int32_t)3)))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_18 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_18);
+		FlashingP_t857341054 * L_19 = &(L_18->___flashingP_2);
+		Renderer_t1092684080 * L_20 = (L_19->___mesh_4);
+		NullCheck(L_20);
+		Material_t1886596500 * L_21 = Renderer_get_material_m2720864603(L_20, /*hidden argument*/NULL);
+		Color_t1588175760  L_22 = {0};
+		Color__ctor_m2252924356(&L_22, (1.0f), (1.0f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		NullCheck(L_21);
+		Material_SetColor_m1918430019(L_21, _stringLiteral1154796294, L_22, /*hidden argument*/NULL);
+		goto IL_016e;
+	}
+
+IL_00d5:
+	{
+		Flashing_t1690224146 * L_23 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_23);
+		FlashingP_t857341054 * L_24 = &(L_23->___flashingP_2);
+		float L_25 = (L_24->___timeFlashing_1);
+		if ((!(((float)L_25) >= ((float)(0.4f)))))
+		{
+			goto IL_016e;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_26 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_26);
+		FlashingP_t857341054 * L_27 = &(L_26->___flashingP_2);
+		Renderer_t1092684080 * L_28 = (L_27->___mesh_4);
+		NullCheck(L_28);
+		Material_t1886596500 * L_29 = Renderer_get_material_m2720864603(L_28, /*hidden argument*/NULL);
+		Color_t1588175760  L_30 = {0};
+		Color__ctor_m2252924356(&L_30, (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_29);
+		Material_SetColor_m1918430019(L_29, _stringLiteral1154796294, L_30, /*hidden argument*/NULL);
+		Flashing_t1690224146 * L_31 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_31);
+		FlashingP_t857341054 * L_32 = &(L_31->___flashingP_2);
+		float L_33 = (L_32->___timeFlashing_1);
+		if ((!(((float)L_33) >= ((float)(1.0f)))))
+		{
+			goto IL_016e;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_34 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_34);
+		FlashingP_t857341054 * L_35 = &(L_34->___flashingP_2);
+		L_35->___timeFlashing_1 = (0.0f);
+		Flashing_t1690224146 * L_36 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_36);
+		FlashingP_t857341054 * L_37 = &(L_36->___flashingP_2);
+		FlashingP_t857341054 * L_38 = L_37;
+		int32_t L_39 = (L_38->___countFlashing_3);
+		L_38->___countFlashing_3 = ((int32_t)((int32_t)L_39+(int32_t)1));
+	}
+
+IL_016e:
+	{
+		goto IL_027e;
+	}
+
+IL_0173:
+	{
+		Flashing_t1690224146 * L_40 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_40);
+		FlashingP_t857341054 * L_41 = &(L_40->___flashingP_2);
+		float L_42 = (L_41->___timeFlashing_1);
+		if ((!(((double)(((double)((double)L_42)))) < ((double)(0.4)))))
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_43 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_43);
+		FlashingP_t857341054 * L_44 = &(L_43->___flashingP_2);
+		int32_t L_45 = (L_44->___countFlashing_3);
+		if ((((int32_t)L_45) >= ((int32_t)3)))
+		{
+			goto IL_01e5;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_46 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_46);
+		FlashingP_t857341054 * L_47 = &(L_46->___flashingP_2);
+		Renderer_t1092684080 * L_48 = (L_47->___mesh_4);
+		NullCheck(L_48);
+		Material_t1886596500 * L_49 = Renderer_get_material_m2720864603(L_48, /*hidden argument*/NULL);
+		Color_t1588175760  L_50 = {0};
+		Color__ctor_m2252924356(&L_50, (0.2f), (0.2f), (0.2f), (0.2f), /*hidden argument*/NULL);
+		NullCheck(L_49);
+		Material_SetColor_m1918430019(L_49, _stringLiteral1154796294, L_50, /*hidden argument*/NULL);
+		goto IL_027e;
+	}
+
+IL_01e5:
+	{
+		Flashing_t1690224146 * L_51 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_51);
+		FlashingP_t857341054 * L_52 = &(L_51->___flashingP_2);
+		float L_53 = (L_52->___timeFlashing_1);
+		if ((!(((float)L_53) >= ((float)(0.4f)))))
+		{
+			goto IL_027e;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_54 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_54);
+		FlashingP_t857341054 * L_55 = &(L_54->___flashingP_2);
+		Renderer_t1092684080 * L_56 = (L_55->___mesh_4);
+		NullCheck(L_56);
+		Material_t1886596500 * L_57 = Renderer_get_material_m2720864603(L_56, /*hidden argument*/NULL);
+		Color_t1588175760  L_58 = {0};
+		Color__ctor_m2252924356(&L_58, (0.0f), (0.0f), (0.0f), (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_57);
+		Material_SetColor_m1918430019(L_57, _stringLiteral1154796294, L_58, /*hidden argument*/NULL);
+		Flashing_t1690224146 * L_59 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_59);
+		FlashingP_t857341054 * L_60 = &(L_59->___flashingP_2);
+		float L_61 = (L_60->___timeFlashing_1);
+		if ((!(((float)L_61) >= ((float)(1.0f)))))
+		{
+			goto IL_027e;
+		}
+	}
+	{
+		Flashing_t1690224146 * L_62 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_62);
+		FlashingP_t857341054 * L_63 = &(L_62->___flashingP_2);
+		L_63->___timeFlashing_1 = (0.0f);
+		Flashing_t1690224146 * L_64 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_64);
+		FlashingP_t857341054 * L_65 = &(L_64->___flashingP_2);
+		FlashingP_t857341054 * L_66 = L_65;
+		int32_t L_67 = (L_66->___countFlashing_3);
+		L_66->___countFlashing_3 = ((int32_t)((int32_t)L_67+(int32_t)1));
+	}
+
+IL_027e:
+	{
+		int32_t L_68 = 0;
+		Object_t * L_69 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_68);
+		__this->___U24current_1 = L_69;
+		__this->___U24PC_0 = 1;
+		goto IL_02b4;
+	}
+
+IL_0296:
+	{
+		Flashing_t1690224146 * L_70 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_70);
+		FlashingP_t857341054 * L_71 = &(L_70->___flashingP_2);
+		bool L_72 = (L_71->___isFlashing_0);
+		if (L_72)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		__this->___U24PC_0 = (-1);
+	}
+
+IL_02b2:
+	{
+		return (bool)0;
+	}
+
+IL_02b4:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_02b6: ldloc.1
+}
+// System.Void Flashing/<FlashingCube>c__Iterator21::Dispose()
+extern "C"  void U3CFlashingCubeU3Ec__Iterator21_Dispose_m1585097120 (U3CFlashingCubeU3Ec__Iterator21_t3584501237 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_0 = (-1);
+		return;
+	}
+}
+// System.Void Flashing/<FlashingCube>c__Iterator21::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CFlashingCubeU3Ec__Iterator21_Reset_m159917264_MetadataUsageId;
+extern "C"  void U3CFlashingCubeU3Ec__Iterator21_Reset_m159917264 (U3CFlashingCubeU3Ec__Iterator21_t3584501237 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CFlashingCubeU3Ec__Iterator21_Reset_m159917264_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void FriendMarker::.ctor()
+extern "C"  void FriendMarker__ctor_m1587883267 (FriendMarker_t4012634264 * __this, const MethodInfo* method)
+{
+	{
+		__this->___FriendThreshold_4 = (0.5f);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FriendMarker::Start()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisMeshRenderer_t1217738301_m2686897910_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisGameResources_t3628012083_m1453302350_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3628012083;
+extern Il2CppCodeGenString* _stringLiteral2112550590;
+extern Il2CppCodeGenString* _stringLiteral67100520;
+extern const uint32_t FriendMarker_Start_m535021059_MetadataUsageId;
+extern "C"  void FriendMarker_Start_m535021059 (FriendMarker_t4012634264 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FriendMarker_Start_m535021059_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Material_t1886596500 * V_0 = {0};
+	GameObject_t4012695102 * V_1 = {0};
+	float V_2 = 0.0f;
+	int32_t V_3 = 0;
+	FriendMarker_t4012634264 * G_B2_0 = {0};
+	FriendMarker_t4012634264 * G_B1_0 = {0};
+	TextureU5BU5D_t3618347161* G_B3_0 = {0};
+	FriendMarker_t4012634264 * G_B3_1 = {0};
+	{
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		MeshRenderer_t1217738301 * L_1 = GameObject_GetComponent_TisMeshRenderer_t1217738301_m2686897910(L_0, /*hidden argument*/GameObject_GetComponent_TisMeshRenderer_t1217738301_m2686897910_MethodInfo_var);
+		NullCheck(L_1);
+		Material_t1886596500 * L_2 = Renderer_get_material_m2720864603(L_1, /*hidden argument*/NULL);
+		V_0 = L_2;
+		GameObject_t4012695102 * L_3 = GameObject_FindGameObjectWithTag_m2635560165(NULL /*static, unused*/, _stringLiteral3628012083, /*hidden argument*/NULL);
+		V_1 = L_3;
+		GameObject_t4012695102 * L_4 = V_1;
+		bool L_5 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		G_B1_0 = __this;
+		if (!L_5)
+		{
+			G_B2_0 = __this;
+			goto IL_0038;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_6 = V_1;
+		NullCheck(L_6);
+		GameResources_t3628012083 * L_7 = GameObject_GetComponent_TisGameResources_t3628012083_m1453302350(L_6, /*hidden argument*/GameObject_GetComponent_TisGameResources_t3628012083_m1453302350_MethodInfo_var);
+		NullCheck(L_7);
+		TextureU5BU5D_t3618347161* L_8 = (L_7->___CelebTextures_2);
+		G_B3_0 = L_8;
+		G_B3_1 = G_B1_0;
+		goto IL_0039;
+	}
+
+IL_0038:
+	{
+		G_B3_0 = ((TextureU5BU5D_t3618347161*)(NULL));
+		G_B3_1 = G_B2_0;
+	}
+
+IL_0039:
+	{
+		NullCheck(G_B3_1);
+		G_B3_1->___CelebTextures_5 = G_B3_0;
+		float L_9 = Random_get_value_m2402066692(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_2 = L_9;
+		float L_10 = V_2;
+		float L_11 = (__this->___FriendThreshold_4);
+		if ((!(((float)L_10) <= ((float)L_11))))
+		{
+			goto IL_00ae;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_12 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		GameObject_set_tag_m859036203(L_12, _stringLiteral2112550590, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_13 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CelebFriend_14;
+		if ((((int32_t)L_13) == ((int32_t)(-1))))
+		{
+			goto IL_0082;
+		}
+	}
+	{
+		TextureU5BU5D_t3618347161* L_14 = (__this->___CelebTextures_5);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_15 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CelebFriend_14;
+		NullCheck(L_14);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, L_15);
+		int32_t L_16 = L_15;
+		__this->___FriendTexture_2 = (*(Texture_t1769722184 **)(Texture_t1769722184 **)SZArrayLdElema(L_14, L_16, sizeof(Texture_t1769722184 *)));
+		goto IL_009d;
+	}
+
+IL_0082:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Texture_t1769722184 * L_17 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendTexture_13;
+		bool L_18 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_17, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_18)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Texture_t1769722184 * L_19 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendTexture_13;
+		__this->___FriendTexture_2 = L_19;
+	}
+
+IL_009d:
+	{
+		Material_t1886596500 * L_20 = V_0;
+		Texture_t1769722184 * L_21 = (__this->___FriendTexture_2);
+		NullCheck(L_20);
+		Material_set_mainTexture_m3116438437(L_20, L_21, /*hidden argument*/NULL);
+		goto IL_010a;
+	}
+
+IL_00ae:
+	{
+		GameObject_t4012695102 * L_22 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		GameObject_set_tag_m859036203(L_22, _stringLiteral67100520, /*hidden argument*/NULL);
+		TextureU5BU5D_t3618347161* L_23 = (__this->___CelebTextures_5);
+		if (!L_23)
+		{
+			goto IL_00fe;
+		}
+	}
+	{
+		TextureU5BU5D_t3618347161* L_24 = (__this->___CelebTextures_5);
+		NullCheck(L_24);
+		int32_t L_25 = Random_Range_m75452833(NULL /*static, unused*/, 1, ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_24)->max_length))))-(int32_t)1)), /*hidden argument*/NULL);
+		V_3 = L_25;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_26 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CelebFriend_14;
+		int32_t L_27 = V_3;
+		if ((!(((uint32_t)L_26) == ((uint32_t)L_27))))
+		{
+			goto IL_00f0;
+		}
+	}
+	{
+		TextureU5BU5D_t3618347161* L_28 = (__this->___CelebTextures_5);
+		NullCheck(L_28);
+		V_3 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_28)->max_length))))-(int32_t)1));
+	}
+
+IL_00f0:
+	{
+		TextureU5BU5D_t3618347161* L_29 = (__this->___CelebTextures_5);
+		int32_t L_30 = V_3;
+		NullCheck(L_29);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_29, L_30);
+		int32_t L_31 = L_30;
+		__this->___EnemyTexture_3 = (*(Texture_t1769722184 **)(Texture_t1769722184 **)SZArrayLdElema(L_29, L_31, sizeof(Texture_t1769722184 *)));
+	}
+
+IL_00fe:
+	{
+		Material_t1886596500 * L_32 = V_0;
+		Texture_t1769722184 * L_33 = (__this->___EnemyTexture_3);
+		NullCheck(L_32);
+		Material_set_mainTexture_m3116438437(L_32, L_33, /*hidden argument*/NULL);
+	}
+
+IL_010a:
+	{
+		return;
+	}
+}
+// System.Void FSPlayer::.ctor()
+extern "C"  void FSPlayer__ctor_m552348749 (FSPlayer_t484114958 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FSPlayer::Start()
+extern TypeInfo* ColorU5BU5D_t3477081137_il2cpp_TypeInfo_var;
+extern const uint32_t FSPlayer_Start_m3794453837_MetadataUsageId;
+extern "C"  void FSPlayer_Start_m3794453837 (FSPlayer_t484114958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FSPlayer_Start_m3794453837_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->___FogColorList_4 = ((ColorU5BU5D_t3477081137*)SZArrayNew(ColorU5BU5D_t3477081137_il2cpp_TypeInfo_var, (uint32_t)4));
+		ColorU5BU5D_t3477081137* L_0 = (__this->___FogColorList_4);
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		Color_t1588175760  L_1 = {0};
+		Color__ctor_m2252924356(&L_1, (0.117647059f), (0.196078435f), (0.392156869f), (1.0f), /*hidden argument*/NULL);
+		(*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_0, 0, sizeof(Color_t1588175760 )))) = L_1;
+		ColorU5BU5D_t3477081137* L_2 = (__this->___FogColorList_4);
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 1);
+		Color_t1588175760  L_3 = {0};
+		Color__ctor_m2252924356(&L_3, (0.0784313753f), (0.156862751f), (0.392156869f), (1.0f), /*hidden argument*/NULL);
+		(*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_2, 1, sizeof(Color_t1588175760 )))) = L_3;
+		ColorU5BU5D_t3477081137* L_4 = (__this->___FogColorList_4);
+		NullCheck(L_4);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_4, 2);
+		Color_t1588175760  L_5 = {0};
+		Color__ctor_m2252924356(&L_5, (0.431372553f), (0.7058824f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		(*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_4, 2, sizeof(Color_t1588175760 )))) = L_5;
+		ColorU5BU5D_t3477081137* L_6 = (__this->___FogColorList_4);
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 3);
+		Color_t1588175760  L_7 = {0};
+		Color__ctor_m2252924356(&L_7, (0.3529412f), (0.8235294f), (1.0f), (1.0f), /*hidden argument*/NULL);
+		(*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_6, 3, sizeof(Color_t1588175760 )))) = L_7;
+		__this->___AmbientLightList_5 = ((ColorU5BU5D_t3477081137*)SZArrayNew(ColorU5BU5D_t3477081137_il2cpp_TypeInfo_var, (uint32_t)4));
+		ColorU5BU5D_t3477081137* L_8 = (__this->___AmbientLightList_5);
+		NullCheck(L_8);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_8, 0);
+		Color_t1588175760  L_9 = {0};
+		Color__ctor_m2252924356(&L_9, (0.137254909f), (0.137254909f), (0.137254909f), (1.0f), /*hidden argument*/NULL);
+		(*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_8, 0, sizeof(Color_t1588175760 )))) = L_9;
+		ColorU5BU5D_t3477081137* L_10 = (__this->___AmbientLightList_5);
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 1);
+		Color_t1588175760  L_11 = {0};
+		Color__ctor_m2252924356(&L_11, (0.137254909f), (0.137254909f), (0.137254909f), (1.0f), /*hidden argument*/NULL);
+		(*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_10, 1, sizeof(Color_t1588175760 )))) = L_11;
+		ColorU5BU5D_t3477081137* L_12 = (__this->___AmbientLightList_5);
+		NullCheck(L_12);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_12, 2);
+		Color_t1588175760  L_13 = {0};
+		Color__ctor_m2252924356(&L_13, (0.627451f), (0.7058824f), (0.7058824f), (1.0f), /*hidden argument*/NULL);
+		(*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_12, 2, sizeof(Color_t1588175760 )))) = L_13;
+		ColorU5BU5D_t3477081137* L_14 = (__this->___AmbientLightList_5);
+		NullCheck(L_14);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_14, 3);
+		Color_t1588175760  L_15 = {0};
+		Color__ctor_m2252924356(&L_15, (0.7058824f), (0.7058824f), (0.7058824f), (1.0f), /*hidden argument*/NULL);
+		(*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_14, 3, sizeof(Color_t1588175760 )))) = L_15;
+		FSPlayer_SwitchSkyBox_m2758052070(__this, 0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FSPlayer::Update()
+extern TypeInfo* Input_t1593691127_il2cpp_TypeInfo_var;
+extern const uint32_t FSPlayer_Update_m1669804128_MetadataUsageId;
+extern "C"  void FSPlayer_Update_m1669804128 (FSPlayer_t484114958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FSPlayer_Update_m1669804128_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_0 = Input_GetKeyUp_m2739135306(NULL /*static, unused*/, ((int32_t)113), /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		FSPlayer_SwitchSkyBox_m2758052070(__this, (-1), /*hidden argument*/NULL);
+	}
+
+IL_0013:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_1 = Input_GetKeyUp_m2739135306(NULL /*static, unused*/, ((int32_t)101), /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		FSPlayer_SwitchSkyBox_m2758052070(__this, 1, /*hidden argument*/NULL);
+	}
+
+IL_0026:
+	{
+		return;
+	}
+}
+// System.Void FSPlayer::OnTriggerExit(UnityEngine.Collider)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1317228454;
+extern const uint32_t FSPlayer_OnTriggerExit_m1467068919_MetadataUsageId;
+extern "C"  void FSPlayer_OnTriggerExit_m1467068919 (FSPlayer_t484114958 * __this, Collider_t955670625 * ___other, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FSPlayer_OnTriggerExit_m1467068919_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Collider_t955670625 * L_0 = ___other;
+		NullCheck(L_0);
+		String_t* L_1 = Object_get_name_m3709440845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1317228454, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		Transform_t284553113 * L_3 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_4 = {0};
+		Vector3__ctor_m2926210380(&L_4, (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_set_localPosition_m3504330903(L_3, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FSPlayer::OnGUI()
+extern TypeInfo* WindowFunction_t999919624_il2cpp_TypeInfo_var;
+extern TypeInfo* GUI_t1522956648_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* FSPlayer_InfoWindow_m1603961702_MethodInfo_var;
+extern const MethodInfo* FSPlayer_HelpWindow_m4220905081_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2283726;
+extern Il2CppCodeGenString* _stringLiteral2761366896;
+extern Il2CppCodeGenString* _stringLiteral1032;
+extern Il2CppCodeGenString* _stringLiteral41;
+extern const uint32_t FSPlayer_OnGUI_m47747399_MetadataUsageId;
+extern "C"  void FSPlayer_OnGUI_m47747399 (FSPlayer_t484114958 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FSPlayer_OnGUI_m47747399_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_1 = {0};
+		Rect__ctor_m3291325233(&L_1, (((float)((float)((int32_t)((int32_t)L_0-(int32_t)((int32_t)220)))))), (5.0f), (210.0f), (80.0f), /*hidden argument*/NULL);
+		IntPtr_t L_2 = { (void*)FSPlayer_InfoWindow_m1603961702_MethodInfo_var };
+		WindowFunction_t999919624 * L_3 = (WindowFunction_t999919624 *)il2cpp_codegen_object_new(WindowFunction_t999919624_il2cpp_TypeInfo_var);
+		WindowFunction__ctor_m732638321(L_3, __this, L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_Window_m2314976695(NULL /*static, unused*/, 1, L_1, L_3, _stringLiteral2283726, /*hidden argument*/NULL);
+		int32_t L_4 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_5 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Rect_t1525428817  L_6 = {0};
+		Rect__ctor_m3291325233(&L_6, (((float)((float)((int32_t)((int32_t)L_4-(int32_t)((int32_t)220)))))), (((float)((float)((int32_t)((int32_t)L_5-(int32_t)((int32_t)85)))))), (210.0f), (80.0f), /*hidden argument*/NULL);
+		IntPtr_t L_7 = { (void*)FSPlayer_HelpWindow_m4220905081_MethodInfo_var };
+		WindowFunction_t999919624 * L_8 = (WindowFunction_t999919624 *)il2cpp_codegen_object_new(WindowFunction_t999919624_il2cpp_TypeInfo_var);
+		WindowFunction__ctor_m732638321(L_8, __this, L_7, /*hidden argument*/NULL);
+		int32_t L_9 = (__this->___m_CurrentSkyBox_6);
+		int32_t L_10 = ((int32_t)((int32_t)L_9+(int32_t)1));
+		Object_t * L_11 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_10);
+		MaterialU5BU5D_t3353847197* L_12 = (__this->___m_SkyboxList_3);
+		NullCheck(L_12);
+		int32_t L_13 = (((int32_t)((int32_t)(((Array_t *)L_12)->max_length))));
+		Object_t * L_14 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_13);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_15 = String_Format_m2398979370(NULL /*static, unused*/, _stringLiteral2761366896, L_11, L_14, /*hidden argument*/NULL);
+		MaterialU5BU5D_t3353847197* L_16 = (__this->___m_SkyboxList_3);
+		int32_t L_17 = (__this->___m_CurrentSkyBox_6);
+		NullCheck(L_16);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, L_17);
+		int32_t L_18 = L_17;
+		NullCheck((*(Material_t1886596500 **)(Material_t1886596500 **)SZArrayLdElema(L_16, L_18, sizeof(Material_t1886596500 *))));
+		String_t* L_19 = Object_get_name_m3709440845((*(Material_t1886596500 **)(Material_t1886596500 **)SZArrayLdElema(L_16, L_18, sizeof(Material_t1886596500 *))), /*hidden argument*/NULL);
+		String_t* L_20 = String_Concat_m2933632197(NULL /*static, unused*/, L_15, _stringLiteral1032, L_19, _stringLiteral41, /*hidden argument*/NULL);
+		GUI_Window_m2314976695(NULL /*static, unused*/, 2, L_6, L_8, L_20, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FSPlayer::SwitchSkyBox(System.Int32)
+extern "C"  void FSPlayer_SwitchSkyBox_m2758052070 (FSPlayer_t484114958 * __this, int32_t ___DiffNum, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = (__this->___m_CurrentSkyBox_6);
+		int32_t L_1 = ___DiffNum;
+		__this->___m_CurrentSkyBox_6 = ((int32_t)((int32_t)L_0+(int32_t)L_1));
+		int32_t L_2 = (__this->___m_CurrentSkyBox_6);
+		if ((((int32_t)L_2) >= ((int32_t)0)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		MaterialU5BU5D_t3353847197* L_3 = (__this->___m_SkyboxList_3);
+		NullCheck(L_3);
+		__this->___m_CurrentSkyBox_6 = ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_3)->max_length))))-(int32_t)1));
+	}
+
+IL_002a:
+	{
+		int32_t L_4 = (__this->___m_CurrentSkyBox_6);
+		MaterialU5BU5D_t3353847197* L_5 = (__this->___m_SkyboxList_3);
+		NullCheck(L_5);
+		if ((((int32_t)L_4) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_5)->max_length)))))))
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		__this->___m_CurrentSkyBox_6 = 0;
+	}
+
+IL_0044:
+	{
+		MaterialU5BU5D_t3353847197* L_6 = (__this->___m_SkyboxList_3);
+		int32_t L_7 = (__this->___m_CurrentSkyBox_6);
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, L_7);
+		int32_t L_8 = L_7;
+		RenderSettings_set_skybox_m3777670233(NULL /*static, unused*/, (*(Material_t1886596500 **)(Material_t1886596500 **)SZArrayLdElema(L_6, L_8, sizeof(Material_t1886596500 *))), /*hidden argument*/NULL);
+		V_0 = 0;
+		goto IL_0098;
+	}
+
+IL_005d:
+	{
+		int32_t L_9 = V_0;
+		int32_t L_10 = (__this->___m_CurrentSkyBox_6);
+		if ((!(((uint32_t)L_9) == ((uint32_t)L_10))))
+		{
+			goto IL_0081;
+		}
+	}
+	{
+		LightU5BU5D_t3653382738* L_11 = (__this->___m_LightList_2);
+		int32_t L_12 = V_0;
+		NullCheck(L_11);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_11, L_12);
+		int32_t L_13 = L_12;
+		NullCheck((*(Light_t1596303683 **)(Light_t1596303683 **)SZArrayLdElema(L_11, L_13, sizeof(Light_t1596303683 *))));
+		GameObject_t4012695102 * L_14 = Component_get_gameObject_m1170635899((*(Light_t1596303683 **)(Light_t1596303683 **)SZArrayLdElema(L_11, L_13, sizeof(Light_t1596303683 *))), /*hidden argument*/NULL);
+		NullCheck(L_14);
+		GameObject_SetActive_m3538205401(L_14, (bool)1, /*hidden argument*/NULL);
+		goto IL_0094;
+	}
+
+IL_0081:
+	{
+		LightU5BU5D_t3653382738* L_15 = (__this->___m_LightList_2);
+		int32_t L_16 = V_0;
+		NullCheck(L_15);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_15, L_16);
+		int32_t L_17 = L_16;
+		NullCheck((*(Light_t1596303683 **)(Light_t1596303683 **)SZArrayLdElema(L_15, L_17, sizeof(Light_t1596303683 *))));
+		GameObject_t4012695102 * L_18 = Component_get_gameObject_m1170635899((*(Light_t1596303683 **)(Light_t1596303683 **)SZArrayLdElema(L_15, L_17, sizeof(Light_t1596303683 *))), /*hidden argument*/NULL);
+		NullCheck(L_18);
+		GameObject_SetActive_m3538205401(L_18, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0094:
+	{
+		int32_t L_19 = V_0;
+		V_0 = ((int32_t)((int32_t)L_19+(int32_t)1));
+	}
+
+IL_0098:
+	{
+		int32_t L_20 = V_0;
+		LightU5BU5D_t3653382738* L_21 = (__this->___m_LightList_2);
+		NullCheck(L_21);
+		if ((((int32_t)L_20) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_21)->max_length)))))))
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		RenderSettings_set_fog_m1757489802(NULL /*static, unused*/, (bool)1, /*hidden argument*/NULL);
+		int32_t L_22 = (__this->___m_CurrentSkyBox_6);
+		if ((((int32_t)L_22) < ((int32_t)0)))
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		int32_t L_23 = (__this->___m_CurrentSkyBox_6);
+		ColorU5BU5D_t3477081137* L_24 = (__this->___FogColorList_4);
+		NullCheck(L_24);
+		if ((((int32_t)L_23) >= ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_24)->max_length)))))))
+		{
+			goto IL_00eb;
+		}
+	}
+	{
+		ColorU5BU5D_t3477081137* L_25 = (__this->___FogColorList_4);
+		int32_t L_26 = (__this->___m_CurrentSkyBox_6);
+		NullCheck(L_25);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_25, L_26);
+		RenderSettings_set_fogColor_m1507677940(NULL /*static, unused*/, (*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_25, L_26, sizeof(Color_t1588175760 )))), /*hidden argument*/NULL);
+		goto IL_00f5;
+	}
+
+IL_00eb:
+	{
+		Color_t1588175760  L_27 = Color_get_white_m3038282331(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RenderSettings_set_fogColor_m1507677940(NULL /*static, unused*/, L_27, /*hidden argument*/NULL);
+	}
+
+IL_00f5:
+	{
+		int32_t L_28 = (__this->___m_CurrentSkyBox_6);
+		if ((((int32_t)L_28) < ((int32_t)0)))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		int32_t L_29 = (__this->___m_CurrentSkyBox_6);
+		ColorU5BU5D_t3477081137* L_30 = (__this->___AmbientLightList_5);
+		NullCheck(L_30);
+		if ((((int32_t)L_29) >= ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_30)->max_length)))))))
+		{
+			goto IL_0134;
+		}
+	}
+	{
+		ColorU5BU5D_t3477081137* L_31 = (__this->___AmbientLightList_5);
+		int32_t L_32 = (__this->___m_CurrentSkyBox_6);
+		NullCheck(L_31);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_31, L_32);
+		RenderSettings_set_ambientLight_m791635003(NULL /*static, unused*/, (*(Color_t1588175760 *)((Color_t1588175760 *)(Color_t1588175760 *)SZArrayLdElema(L_31, L_32, sizeof(Color_t1588175760 )))), /*hidden argument*/NULL);
+		goto IL_013e;
+	}
+
+IL_0134:
+	{
+		Color_t1588175760  L_33 = Color_get_white_m3038282331(NULL /*static, unused*/, /*hidden argument*/NULL);
+		RenderSettings_set_ambientLight_m791635003(NULL /*static, unused*/, L_33, /*hidden argument*/NULL);
+	}
+
+IL_013e:
+	{
+		return;
+	}
+}
+// System.Void FSPlayer::HelpWindow(System.Int32)
+extern TypeInfo* GUI_t1522956648_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral854399944;
+extern Il2CppCodeGenString* _stringLiteral3400731945;
+extern const uint32_t FSPlayer_HelpWindow_m4220905081_MetadataUsageId;
+extern "C"  void FSPlayer_HelpWindow_m4220905081 (FSPlayer_t484114958 * __this, int32_t ___id, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FSPlayer_HelpWindow_m4220905081_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Rect_t1525428817  L_0 = {0};
+		Rect__ctor_m3291325233(&L_0, (12.0f), (25.0f), (240.0f), (20.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_0, _stringLiteral854399944, /*hidden argument*/NULL);
+		Rect_t1525428817  L_1 = {0};
+		Rect__ctor_m3291325233(&L_1, (12.0f), (50.0f), (240.0f), (20.0f), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_1, _stringLiteral3400731945, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void FSPlayer::InfoWindow(System.Int32)
+extern TypeInfo* GUI_t1522956648_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3552398109;
+extern Il2CppCodeGenString* _stringLiteral2532620189;
+extern const uint32_t FSPlayer_InfoWindow_m1603961702_MetadataUsageId;
+extern "C"  void FSPlayer_InfoWindow_m1603961702 (FSPlayer_t484114958 * __this, int32_t ___id, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (FSPlayer_InfoWindow_m1603961702_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Rect_t1525428817  L_0 = {0};
+		Rect__ctor_m3291325233(&L_0, (15.0f), (25.0f), (240.0f), (20.0f), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GUI_t1522956648_il2cpp_TypeInfo_var);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_0, _stringLiteral3552398109, /*hidden argument*/NULL);
+		Rect_t1525428817  L_1 = {0};
+		Rect__ctor_m3291325233(&L_1, (15.0f), (50.0f), (240.0f), (20.0f), /*hidden argument*/NULL);
+		GUI_Label_m1483857617(NULL /*static, unused*/, L_1, _stringLiteral2532620189, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameManager::.ctor()
+extern const MethodInfo* Singleton_1__ctor_m1874944728_MethodInfo_var;
+extern const uint32_t GameManager__ctor_m4112277136_MetadataUsageId;
+extern "C"  void GameManager__ctor_m4112277136 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameManager__ctor_m4112277136_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		__this->___testIndex_3 = 2;
+		__this->___clock_7 = (3.0f);
+		__this->___maxTime_11 = (300.0f);
+		Singleton_1__ctor_m1874944728(__this, /*hidden argument*/Singleton_1__ctor_m1874944728_MethodInfo_var);
+		return;
+	}
+}
+// System.Int32 GameManager::get_TestIndex()
+extern "C"  int32_t GameManager_get_TestIndex_m1587780531 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___testIndex_3);
+		return L_0;
+	}
+}
+// System.Void GameManager::set_TestIndex(System.Int32)
+extern "C"  void GameManager_set_TestIndex_m2341448066 (GameManager_t2369589051 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___testIndex_3 = L_0;
+		return;
+	}
+}
+// System.Int32 GameManager::get_Score()
+extern "C"  int32_t GameManager_get_Score_m3117698917 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___score_4);
+		return L_0;
+	}
+}
+// System.Void GameManager::set_Score(System.Int32)
+extern "C"  void GameManager_set_Score_m2107674932 (GameManager_t2369589051 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___score_4 = L_0;
+		return;
+	}
+}
+// System.Single GameManager::get_BallTimer()
+extern "C"  float GameManager_get_BallTimer_m3374347543 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = (__this->___ballTimer_6);
+		return L_0;
+	}
+}
+// System.Void GameManager::set_BallTimer(System.Single)
+extern "C"  void GameManager_set_BallTimer_m2325965236 (GameManager_t2369589051 * __this, float ___value, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value;
+		__this->___ballTimer_6 = L_0;
+		return;
+	}
+}
+// System.Single GameManager::get_TimeRemaining()
+extern "C"  float GameManager_get_TimeRemaining_m3368421754 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = (__this->____timeRemaining_8);
+		return L_0;
+	}
+}
+// System.Void GameManager::set_TimeRemaining(System.Single)
+extern "C"  void GameManager_set_TimeRemaining_m1293774385 (GameManager_t2369589051 * __this, float ___value, const MethodInfo* method)
+{
+	{
+		float L_0 = ___value;
+		__this->____timeRemaining_8 = L_0;
+		return;
+	}
+}
+// System.Int32 GameManager::get_NumCoins()
+extern "C"  int32_t GameManager_get_NumCoins_m1608652939 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___numCoins_9);
+		return L_0;
+	}
+}
+// System.Void GameManager::set_NumCoins(System.Int32)
+extern "C"  void GameManager_set_NumCoins_m1663201438 (GameManager_t2369589051 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___numCoins_9 = L_0;
+		return;
+	}
+}
+// System.Int32 GameManager::get_IndexMaterial()
+extern "C"  int32_t GameManager_get_IndexMaterial_m1431197996 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___indexMaterial_12);
+		return L_0;
+	}
+}
+// System.Void GameManager::set_IndexMaterial(System.Int32)
+extern "C"  void GameManager_set_IndexMaterial_m4150938235 (GameManager_t2369589051 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___indexMaterial_12 = L_0;
+		return;
+	}
+}
+// System.Void GameManager::OnEnable()
+extern "C"  void GameManager_OnEnable_m1272585974 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GameManager::OnDisable()
+extern "C"  void GameManager_OnDisable_m1236396791 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GameManager::Start()
+extern "C"  void GameManager_Start_m3059414928 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___startScore_5);
+		GameManager_set_Score_m2107674932(__this, L_0, /*hidden argument*/NULL);
+		float L_1 = (__this->___clock_7);
+		__this->___ballTimer_6 = L_1;
+		float L_2 = (__this->___maxTime_11);
+		GameManager_set_TimeRemaining_m1293774385(__this, L_2, /*hidden argument*/NULL);
+		int32_t L_3 = (__this->___startCoints_10);
+		GameManager_set_NumCoins_m1663201438(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameManager::Update()
+extern "C"  void GameManager_Update_m358434429 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		float L_0 = GameManager_get_TimeRemaining_m3368421754(__this, /*hidden argument*/NULL);
+		float L_1 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameManager_set_TimeRemaining_m1293774385(__this, ((float)((float)L_0-(float)L_1)), /*hidden argument*/NULL);
+		float L_2 = GameManager_get_TimeRemaining_m3368421754(__this, /*hidden argument*/NULL);
+		if ((!(((float)L_2) <= ((float)(0.0f)))))
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		float L_3 = (__this->___maxTime_11);
+		GameManager_set_TimeRemaining_m1293774385(__this, L_3, /*hidden argument*/NULL);
+	}
+
+IL_002e:
+	{
+		return;
+	}
+}
+// System.Void GameManager::Restart()
+extern "C"  void GameManager_Restart_m2612404925 (GameManager_t2369589051 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = GameManager_get_TestIndex_m1587780531(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_0) >= ((int32_t)4)))
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		int32_t L_1 = GameManager_get_TestIndex_m1587780531(__this, /*hidden argument*/NULL);
+		GameManager_set_TestIndex_m2341448066(__this, ((int32_t)((int32_t)L_1+(int32_t)1)), /*hidden argument*/NULL);
+		goto IL_0032;
+	}
+
+IL_001f:
+	{
+		int32_t L_2 = GameManager_get_TestIndex_m1587780531(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_2) < ((int32_t)4)))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		GameManager_set_TestIndex_m2341448066(__this, 0, /*hidden argument*/NULL);
+	}
+
+IL_0032:
+	{
+		float L_3 = (__this->___maxTime_11);
+		GameManager_set_TimeRemaining_m1293774385(__this, L_3, /*hidden argument*/NULL);
+		int32_t L_4 = (__this->___numCoins_9);
+		GameManager_set_NumCoins_m1663201438(__this, L_4, /*hidden argument*/NULL);
+		int32_t L_5 = GameManager_get_IndexMaterial_m1431197996(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_5) > ((int32_t)5)))
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		int32_t L_6 = GameManager_get_IndexMaterial_m1431197996(__this, /*hidden argument*/NULL);
+		GameManager_set_IndexMaterial_m4150938235(__this, ((int32_t)((int32_t)L_6+(int32_t)1)), /*hidden argument*/NULL);
+		goto IL_007c;
+	}
+
+IL_0069:
+	{
+		int32_t L_7 = GameManager_get_IndexMaterial_m1431197996(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_7) <= ((int32_t)5)))
+		{
+			goto IL_007c;
+		}
+	}
+	{
+		GameManager_set_IndexMaterial_m4150938235(__this, 0, /*hidden argument*/NULL);
+	}
+
+IL_007c:
+	{
+		return;
+	}
+}
+// System.Void GameMenu::.ctor()
+extern "C"  void GameMenu__ctor_m2770592042 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameMenu::Awake()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* InitDelegate_t1475272884_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameMenu_InitCallback_m3460982287_MethodInfo_var;
+extern const uint32_t GameMenu_Awake_m3008197261_MetadataUsageId;
+extern "C"  void GameMenu_Awake_m3008197261 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_Awake_m3008197261_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsInitialized_m24459329(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_001d;
+		}
+	}
+	{
+		IntPtr_t L_1 = { (void*)GameMenu_InitCallback_m3460982287_MethodInfo_var };
+		InitDelegate_t1475272884 * L_2 = (InitDelegate_t1475272884 *)il2cpp_codegen_object_new(InitDelegate_t1475272884_il2cpp_TypeInfo_var);
+		InitDelegate__ctor_m1407180717(L_2, __this, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_Init_m2331630741(NULL /*static, unused*/, L_2, (HideUnityDelegate_t2364798903 *)NULL, (String_t*)NULL, /*hidden argument*/NULL);
+	}
+
+IL_001d:
+	{
+		return;
+	}
+}
+// System.Void GameMenu::OnApplicationPause(System.Boolean)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* FBAppEvents_t1786942782_il2cpp_TypeInfo_var;
+extern TypeInfo* InitDelegate_t1475272884_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameMenu_InitCallback_m3460982287_MethodInfo_var;
+extern const uint32_t GameMenu_OnApplicationPause_m1906154390_MetadataUsageId;
+extern "C"  void GameMenu_OnApplicationPause_m1906154390 (GameMenu_t2590240913 * __this, bool ___pauseStatus, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_OnApplicationPause_m1906154390_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		bool L_0 = Application_get_isEditor_m1279348309(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return;
+	}
+
+IL_000b:
+	{
+		bool L_1 = ___pauseStatus;
+		if (L_1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_2 = FB_get_IsInitialized_m24459329(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FBAppEvents_t1786942782_il2cpp_TypeInfo_var);
+		FBAppEvents_LaunchEvent_m2944092786(NULL /*static, unused*/, /*hidden argument*/NULL);
+		goto IL_0038;
+	}
+
+IL_0025:
+	{
+		IntPtr_t L_3 = { (void*)GameMenu_InitCallback_m3460982287_MethodInfo_var };
+		InitDelegate_t1475272884 * L_4 = (InitDelegate_t1475272884 *)il2cpp_codegen_object_new(InitDelegate_t1475272884_il2cpp_TypeInfo_var);
+		InitDelegate__ctor_m1407180717(L_4, __this, L_3, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_Init_m2331630741(NULL /*static, unused*/, L_4, (HideUnityDelegate_t2364798903 *)NULL, (String_t*)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0038:
+	{
+		return;
+	}
+}
+// System.Void GameMenu::OnLevelWasLoaded(System.Int32)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3286726921;
+extern Il2CppCodeGenString* _stringLiteral1292159634;
+extern const uint32_t GameMenu_OnLevelWasLoaded_m3887818964_MetadataUsageId;
+extern "C"  void GameMenu_OnLevelWasLoaded_m3887818964 (GameMenu_t2590240913 * __this, int32_t ___level, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_OnLevelWasLoaded_m3887818964_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3286726921, /*hidden argument*/NULL);
+		int32_t L_0 = ___level;
+		if (L_0)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_1 = FB_get_IsInitialized_m24459329(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1292159634, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_2 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		GameMenu_RedrawUI_m356529765(__this, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		bool L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___highScorePending_28;
+		if (!L_3)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___highScorePending_28 = (bool)0;
+		int32_t L_4 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FBShare_PostScore_m2060077696(NULL /*static, unused*/, L_4, (Action_t437523947 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_004f:
+	{
+		return;
+	}
+}
+// System.Void GameMenu::InitCallback()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FBAppEvents_t1786942782_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2258972053;
+extern Il2CppCodeGenString* _stringLiteral2765426331;
+extern const uint32_t GameMenu_InitCallback_m3460982287_MetadataUsageId;
+extern "C"  void GameMenu_InitCallback_m3460982287 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_InitCallback_m3460982287_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2258972053, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FBAppEvents_t1786942782_il2cpp_TypeInfo_var);
+		FBAppEvents_LaunchEvent_m2944092786(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2765426331, /*hidden argument*/NULL);
+		GameMenu_OnLoginComplete_m2106789099(__this, /*hidden argument*/NULL);
+	}
+
+IL_0029:
+	{
+		return;
+	}
+}
+// System.Void GameMenu::OnLoginClick()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_t437523947_il2cpp_TypeInfo_var;
+extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameMenu_OnLoginComplete_m2106789099_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1731187454;
+extern const uint32_t GameMenu_OnLoginClick_m3066123576_MetadataUsageId;
+extern "C"  void GameMenu_OnLoginClick_m3066123576 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_OnLoginClick_m3066123576_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1731187454, /*hidden argument*/NULL);
+		Button_t990034267 * L_0 = (__this->___LoginButton_5);
+		NullCheck(L_0);
+		Selectable_set_interactable_m2686686419(L_0, (bool)0, /*hidden argument*/NULL);
+		IntPtr_t L_1 = { (void*)GameMenu_OnLoginComplete_m2106789099_MethodInfo_var };
+		Action_t437523947 * L_2 = (Action_t437523947 *)il2cpp_codegen_object_new(Action_t437523947_il2cpp_TypeInfo_var);
+		Action__ctor_m2957240604(L_2, __this, L_1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
+		FBLogin_PromptForLogin_m911439827(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameMenu::OnLoginComplete()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2627315715;
+extern const uint32_t GameMenu_OnLoginComplete_m2106789099_MetadataUsageId;
+extern "C"  void GameMenu_OnLoginComplete_m2106789099 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_OnLoginComplete_m2106789099_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2627315715, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		Button_t990034267 * L_1 = (__this->___LoginButton_5);
+		NullCheck(L_1);
+		Selectable_set_interactable_m2686686419(L_1, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_0021:
+	{
+		GameObject_t4012695102 * L_2 = (__this->___LoadingText_4);
+		NullCheck(L_2);
+		GameObject_SetActive_m3538205401(L_2, (bool)1, /*hidden argument*/NULL);
+		FBGraph_GetPlayerInfo_m1977855676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FBGraph_GetFriends_m2921996938(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FBGraph_GetInvitableFriends_m4117510924(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FBGraph_GetScores_m3802773806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameMenu::RedrawUI()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisTransform_t284553113_m3176567175_MethodInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t4012695102_m3917608929_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisLeaderBoardElement_t3363596543_m2072448510_MethodInfo_var;
+extern const uint32_t GameMenu_RedrawUI_m356529765_MetadataUsageId;
+extern "C"  void GameMenu_RedrawUI_m356529765 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_RedrawUI_m356529765_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1634065389 * V_0 = {0};
+	TransformU5BU5D_t3681339876* V_1 = {0};
+	Transform_t284553113 * V_2 = {0};
+	TransformU5BU5D_t3681339876* V_3 = {0};
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	GameObject_t4012695102 * V_6 = {0};
+	LeaderBoardElement_t3363596543 * V_7 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		List_1_t1634065389 * L_0 = GameStateManager_get_Scores_m1522763744(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		bool L_1 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___ScoresReady_20;
+		if (!L_1)
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		List_1_t1634065389 * L_2 = V_0;
+		NullCheck(L_2);
+		int32_t L_3 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count() */, L_2);
+		if ((((int32_t)L_3) <= ((int32_t)0)))
+		{
+			goto IL_00d9;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_4 = (__this->___LeaderboardPanel_11);
+		NullCheck(L_4);
+		TransformU5BU5D_t3681339876* L_5 = GameObject_GetComponentsInChildren_TisTransform_t284553113_m3176567175(L_4, /*hidden argument*/GameObject_GetComponentsInChildren_TisTransform_t284553113_m3176567175_MethodInfo_var);
+		V_1 = L_5;
+		TransformU5BU5D_t3681339876* L_6 = V_1;
+		V_3 = L_6;
+		V_4 = 0;
+		goto IL_0063;
+	}
+
+IL_0032:
+	{
+		TransformU5BU5D_t3681339876* L_7 = V_3;
+		int32_t L_8 = V_4;
+		NullCheck(L_7);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, L_8);
+		int32_t L_9 = L_8;
+		V_2 = (*(Transform_t284553113 **)(Transform_t284553113 **)SZArrayLdElema(L_7, L_9, sizeof(Transform_t284553113 *)));
+		GameObject_t4012695102 * L_10 = (__this->___LeaderboardPanel_11);
+		NullCheck(L_10);
+		Transform_t284553113 * L_11 = GameObject_get_transform_m1278640159(L_10, /*hidden argument*/NULL);
+		Transform_t284553113 * L_12 = V_2;
+		NullCheck(L_12);
+		Transform_t284553113 * L_13 = Component_get_transform_m4257140443(L_12, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		bool L_14 = Transform_IsChildOf_m3321648579(L_11, L_13, /*hidden argument*/NULL);
+		if (L_14)
+		{
+			goto IL_005d;
+		}
+	}
+	{
+		Transform_t284553113 * L_15 = V_2;
+		NullCheck(L_15);
+		GameObject_t4012695102 * L_16 = Component_get_gameObject_m1170635899(L_15, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_16, /*hidden argument*/NULL);
+	}
+
+IL_005d:
+	{
+		int32_t L_17 = V_4;
+		V_4 = ((int32_t)((int32_t)L_17+(int32_t)1));
+	}
+
+IL_0063:
+	{
+		int32_t L_18 = V_4;
+		TransformU5BU5D_t3681339876* L_19 = V_3;
+		NullCheck(L_19);
+		if ((((int32_t)L_18) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_19)->max_length)))))))
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		V_5 = 0;
+		goto IL_00bc;
+	}
+
+IL_0075:
+	{
+		GameObject_t4012695102 * L_20 = (__this->___LeaderboardItemPrefab_12);
+		GameObject_t4012695102 * L_21 = Object_Instantiate_TisGameObject_t4012695102_m3917608929(NULL /*static, unused*/, L_20, /*hidden argument*/Object_Instantiate_TisGameObject_t4012695102_m3917608929_MethodInfo_var);
+		V_6 = L_21;
+		GameObject_t4012695102 * L_22 = V_6;
+		NullCheck(L_22);
+		LeaderBoardElement_t3363596543 * L_23 = GameObject_GetComponent_TisLeaderBoardElement_t3363596543_m2072448510(L_22, /*hidden argument*/GameObject_GetComponent_TisLeaderBoardElement_t3363596543_m2072448510_MethodInfo_var);
+		V_7 = L_23;
+		LeaderBoardElement_t3363596543 * L_24 = V_7;
+		int32_t L_25 = V_5;
+		List_1_t1634065389 * L_26 = V_0;
+		int32_t L_27 = V_5;
+		NullCheck(L_26);
+		Object_t * L_28 = VirtFuncInvoker1< Object_t *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32) */, L_26, L_27);
+		NullCheck(L_24);
+		LeaderBoardElement_SetupElement_m2142971366(L_24, ((int32_t)((int32_t)L_25+(int32_t)1)), L_28, /*hidden argument*/NULL);
+		LeaderBoardElement_t3363596543 * L_29 = V_7;
+		NullCheck(L_29);
+		Transform_t284553113 * L_30 = Component_get_transform_m4257140443(L_29, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_31 = (__this->___LeaderboardPanel_11);
+		NullCheck(L_31);
+		Transform_t284553113 * L_32 = GameObject_get_transform_m1278640159(L_31, /*hidden argument*/NULL);
+		NullCheck(L_30);
+		Transform_SetParent_m263985879(L_30, L_32, (bool)0, /*hidden argument*/NULL);
+		int32_t L_33 = V_5;
+		V_5 = ((int32_t)((int32_t)L_33+(int32_t)1));
+	}
+
+IL_00bc:
+	{
+		int32_t L_34 = V_5;
+		List_1_t1634065389 * L_35 = V_0;
+		NullCheck(L_35);
+		int32_t L_36 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count() */, L_35);
+		if ((((int32_t)L_34) < ((int32_t)L_36)))
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		ScrollRect_t1048578170 * L_37 = (__this->___LeaderboardScrollRect_13);
+		NullCheck(L_37);
+		ScrollRect_set_verticalNormalizedPosition_m2636032814(L_37, (1.0f), /*hidden argument*/NULL);
+	}
+
+IL_00d9:
+	{
+		return;
+	}
+}
+// System.Void GameMenu::OnPlayClicked()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* GameMenu_t2590240913_il2cpp_TypeInfo_var;
+extern TypeInfo* Action_1_t1918174889_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameMenu_U3COnPlayClickedU3Em__F_m376187047_MethodInfo_var;
+extern const MethodInfo* Action_1__ctor_m3349086711_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1561793236;
+extern Il2CppCodeGenString* _stringLiteral4133981882;
+extern Il2CppCodeGenString* _stringLiteral3355;
+extern Il2CppCodeGenString* _stringLiteral2994032140;
+extern const uint32_t GameMenu_OnPlayClicked_m2662073660_MetadataUsageId;
+extern "C"  void GameMenu_OnPlayClicked_m2662073660 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_OnPlayClicked_m2662073660_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	Dictionary_2_t2474804324 * V_1 = {0};
+	String_t* V_2 = {0};
+	String_t* G_B6_0 = {0};
+	String_t* G_B5_0 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1561793236, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		List_1_t1634065389 * L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Friends_17;
+		if (!L_0)
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		List_1_t1634065389 * L_1 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Friends_17;
+		NullCheck(L_1);
+		int32_t L_2 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count() */, L_1);
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_00d2;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		List_1_t1634065389 * L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Friends_17;
+		NullCheck(L_3);
+		int32_t L_4 = VirtFuncInvoker0< int32_t >::Invoke(20 /* System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count() */, L_3);
+		int32_t L_5 = Random_Range_m75452833(NULL /*static, unused*/, 0, L_4, /*hidden argument*/NULL);
+		V_0 = L_5;
+		List_1_t1634065389 * L_6 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___Friends_17;
+		int32_t L_7 = V_0;
+		NullCheck(L_6);
+		Object_t * L_8 = VirtFuncInvoker1< Object_t *, int32_t >::Invoke(31 /* !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32) */, L_6, L_7);
+		V_1 = ((Dictionary_2_t2474804324 *)IsInstClass(L_8, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+		Dictionary_2_t2474804324 * L_9 = V_1;
+		NullCheck(L_9);
+		Object_t * L_10 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_9, _stringLiteral4133981882);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendName_11 = ((String_t*)IsInstSealed(L_10, String_t_il2cpp_TypeInfo_var));
+		Dictionary_2_t2474804324 * L_11 = V_1;
+		NullCheck(L_11);
+		Object_t * L_12 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_11, _stringLiteral3355);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendID_12 = ((String_t*)IsInstSealed(L_12, String_t_il2cpp_TypeInfo_var));
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CelebFriend_14 = (-1);
+		Dictionary_2_t3407420088 * L_13 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendImages_18;
+		String_t* L_14 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendID_12;
+		NullCheck(L_13);
+		bool L_15 = VirtFuncInvoker1< bool, String_t* >::Invoke(19 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture>::ContainsKey(!0) */, L_13, L_14);
+		if (!L_15)
+		{
+			goto IL_00a3;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Dictionary_2_t3407420088 * L_16 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendImages_18;
+		String_t* L_17 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendID_12;
+		NullCheck(L_16);
+		Texture_t1769722184 * L_18 = VirtFuncInvoker1< Texture_t1769722184 *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture>::get_Item(!0) */, L_16, L_17);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendTexture_13 = L_18;
+		goto IL_00cd;
+	}
+
+IL_00a3:
+	{
+		Dictionary_2_t2474804324 * L_19 = V_1;
+		String_t* L_20 = GraphUtil_DeserializePictureURL_m1884610824(NULL /*static, unused*/, L_19, /*hidden argument*/NULL);
+		V_2 = L_20;
+		String_t* L_21 = V_2;
+		Action_1_t1918174889 * L_22 = ((GameMenu_t2590240913_StaticFields*)GameMenu_t2590240913_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_16;
+		G_B5_0 = L_21;
+		if (L_22)
+		{
+			G_B6_0 = L_21;
+			goto IL_00c3;
+		}
+	}
+	{
+		IntPtr_t L_23 = { (void*)GameMenu_U3COnPlayClickedU3Em__F_m376187047_MethodInfo_var };
+		Action_1_t1918174889 * L_24 = (Action_1_t1918174889 *)il2cpp_codegen_object_new(Action_1_t1918174889_il2cpp_TypeInfo_var);
+		Action_1__ctor_m3349086711(L_24, NULL, L_23, /*hidden argument*/Action_1__ctor_m3349086711_MethodInfo_var);
+		((GameMenu_t2590240913_StaticFields*)GameMenu_t2590240913_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_16 = L_24;
+		G_B6_0 = G_B5_0;
+	}
+
+IL_00c3:
+	{
+		Action_1_t1918174889 * L_25 = ((GameMenu_t2590240913_StaticFields*)GameMenu_t2590240913_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_16;
+		GraphUtil_LoadImgFromURL_m1031304485(NULL /*static, unused*/, G_B6_0, L_25, /*hidden argument*/NULL);
+	}
+
+IL_00cd:
+	{
+		goto IL_0118;
+	}
+
+IL_00d2:
+	{
+		GameResources_t3628012083 * L_26 = (__this->___gResources_15);
+		NullCheck(L_26);
+		TextureU5BU5D_t3618347161* L_27 = (L_26->___CelebTextures_2);
+		NullCheck(L_27);
+		int32_t L_28 = Random_Range_m75452833(NULL /*static, unused*/, 0, ((int32_t)((int32_t)(((int32_t)((int32_t)(((Array_t *)L_27)->max_length))))-(int32_t)1)), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CelebFriend_14 = L_28;
+		GameResources_t3628012083 * L_29 = (__this->___gResources_15);
+		NullCheck(L_29);
+		StringU5BU5D_t2956870243* L_30 = (L_29->___CelebNames_3);
+		int32_t L_31 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CelebFriend_14;
+		NullCheck(L_30);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_30, L_31);
+		int32_t L_32 = L_31;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendName_11 = (*(String_t**)(String_t**)SZArrayLdElema(L_30, L_32, sizeof(String_t*)));
+		GameResources_t3628012083 * L_33 = (__this->___gResources_15);
+		NullCheck(L_33);
+		TextureU5BU5D_t3618347161* L_34 = (L_33->___CelebTextures_2);
+		int32_t L_35 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CelebFriend_14;
+		NullCheck(L_34);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_34, L_35);
+		int32_t L_36 = L_35;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendTexture_13 = (*(Texture_t1769722184 **)(Texture_t1769722184 **)SZArrayLdElema(L_34, L_36, sizeof(Texture_t1769722184 *)));
+	}
+
+IL_0118:
+	{
+		Application_LoadLevel_m2722573885(NULL /*static, unused*/, _stringLiteral2994032140, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_37 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_37);
+		GameStateManager_StartGame_m3277387231(L_37, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameMenu::OnBragClicked()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2759379794;
+extern const uint32_t GameMenu_OnBragClicked_m2491520570_MetadataUsageId;
+extern "C"  void GameMenu_OnBragClicked_m2491520570 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_OnBragClicked_m2491520570_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2759379794, /*hidden argument*/NULL);
+		FBShare_ShareBrag_m2294311067(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameMenu::OnChallengeClicked()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1061156451;
+extern const uint32_t GameMenu_OnChallengeClicked_m2582906013_MetadataUsageId;
+extern "C"  void GameMenu_OnChallengeClicked_m2582906013 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_OnChallengeClicked_m2582906013_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1061156451, /*hidden argument*/NULL);
+		FBRequest_RequestChallenge_m2768989888(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameMenu::OnStoreClicked()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2862806949;
+extern const uint32_t GameMenu_OnStoreClicked_m3296698847_MetadataUsageId;
+extern "C"  void GameMenu_OnStoreClicked_m3296698847 (GameMenu_t2590240913 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_OnStoreClicked_m3296698847_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2862806949, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_0 = (__this->___PaymentPanel_14);
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameMenu::<OnPlayClicked>m__F(UnityEngine.Texture)
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GameMenu_U3COnPlayClickedU3Em__F_m376187047_MetadataUsageId;
+extern "C"  void GameMenu_U3COnPlayClickedU3Em__F_m376187047 (Object_t * __this /* static, unused */, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameMenu_U3COnPlayClickedU3Em__F_m376187047_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Texture_t1769722184 * L_0 = ___pictureTexture;
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Dictionary_2_t3407420088 * L_2 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendImages_18;
+		String_t* L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendID_12;
+		Texture_t1769722184 * L_4 = ___pictureTexture;
+		NullCheck(L_2);
+		VirtActionInvoker2< String_t*, Texture_t1769722184 * >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture>::Add(!0,!1) */, L_2, L_3, L_4);
+		Texture_t1769722184 * L_5 = ___pictureTexture;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendTexture_13 = L_5;
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+// System.Void GameResources::.ctor()
+extern "C"  void GameResources__ctor_m3119585432 (GameResources_t3628012083 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameResources::Awake()
+extern "C"  void GameResources_Awake_m3357190651 (GameResources_t3628012083 * __this, const MethodInfo* method)
+{
+	{
+		Object_DontDestroyOnLoad_m4064482788(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		Type_t * L_0 = Object_GetType_m2022236990(__this, /*hidden argument*/NULL);
+		ObjectU5BU5D_t3051965477* L_1 = Object_FindObjectsOfType_m975740280(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		if ((((int32_t)(((int32_t)((int32_t)(((Array_t *)L_1)->max_length))))) <= ((int32_t)1)))
+		{
+			goto IL_0024;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_2 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+	}
+
+IL_0024:
+	{
+		return;
+	}
+}
+// System.Void GameStateManager::.ctor()
+extern "C"  void GameStateManager__ctor_m2267733837 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		__this->___ballTimer_30 = ((int32_t)10);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameStateManager::.cctor()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* InstanceStep_t3721597217_il2cpp_TypeInfo_var;
+extern TypeInfo* Dictionary_2_t3407420088_il2cpp_TypeInfo_var;
+extern TypeInfo* List_1_t1634065389_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameStateManager_U3CinitU3Em__10_m2564355830_MethodInfo_var;
+extern const MethodInfo* GameStateManager_U3CfinalU3Em__11_m3495785487_MethodInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3389523296_MethodInfo_var;
+extern const MethodInfo* List_1__ctor_m574172797_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral90025095;
+extern Il2CppCodeGenString* _stringLiteral3866393733;
+extern const uint32_t GameStateManager__cctor_m1098176000_MetadataUsageId;
+extern "C"  void GameStateManager__cctor_m1098176000 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager__cctor_m1098176000_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		InstanceStep_t3721597217 * L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache22_36;
+		if (L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		IntPtr_t L_1 = { (void*)GameStateManager_U3CinitU3Em__10_m2564355830_MethodInfo_var };
+		InstanceStep_t3721597217 * L_2 = (InstanceStep_t3721597217 *)il2cpp_codegen_object_new(InstanceStep_t3721597217_il2cpp_TypeInfo_var);
+		InstanceStep__ctor_m1886435673(L_2, NULL, L_1, /*hidden argument*/NULL);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache22_36 = L_2;
+	}
+
+IL_0018:
+	{
+		InstanceStep_t3721597217 * L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache22_36;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___init_3 = L_3;
+		InstanceStep_t3721597217 * L_4 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache23_37;
+		if (L_4)
+		{
+			goto IL_003a;
+		}
+	}
+	{
+		IntPtr_t L_5 = { (void*)GameStateManager_U3CfinalU3Em__11_m3495785487_MethodInfo_var };
+		InstanceStep_t3721597217 * L_6 = (InstanceStep_t3721597217 *)il2cpp_codegen_object_new(InstanceStep_t3721597217_il2cpp_TypeInfo_var);
+		InstanceStep__ctor_m1886435673(L_6, NULL, L_5, /*hidden argument*/NULL);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache23_37 = L_6;
+	}
+
+IL_003a:
+	{
+		InstanceStep_t3721597217 * L_7 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache23_37;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___final_4 = L_7;
+		InstanceStep_t3721597217 * L_8 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___init_3;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___current_5 = L_8;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___ServerURL_6 = _stringLiteral90025095;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___StartingLives_7 = 3;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendName_11 = _stringLiteral3866393733;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendID_12 = (String_t*)NULL;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendTexture_13 = (Texture_t1769722184 *)NULL;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CelebFriend_14 = (-1);
+		Dictionary_2_t3407420088 * L_9 = (Dictionary_2_t3407420088 *)il2cpp_codegen_object_new(Dictionary_2_t3407420088_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3389523296(L_9, /*hidden argument*/Dictionary_2__ctor_m3389523296_MethodInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendImages_18 = L_9;
+		List_1_t1634065389 * L_10 = (List_1_t1634065389 *)il2cpp_codegen_object_new(List_1_t1634065389_il2cpp_TypeInfo_var);
+		List_1__ctor_m574172797(L_10, /*hidden argument*/List_1__ctor_m574172797_MethodInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___InvitableFriends_19 = L_10;
+		return;
+	}
+}
+// GameStateManager GameStateManager::get_Instance()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GameStateManager_get_Instance_m2805704868_MetadataUsageId;
+extern "C"  GameStateManager_t648042254 * GameStateManager_get_Instance_m2805704868 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_get_Instance_m2805704868_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		InstanceStep_t3721597217 * L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___current_5;
+		NullCheck(L_0);
+		GameStateManager_t648042254 * L_1 = InstanceStep_Invoke_m955855268(L_0, /*hidden argument*/NULL);
+		return L_1;
+	}
+}
+// System.Void GameStateManager::Awake()
+extern "C"  void GameStateManager_Awake_m2505339056 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		Object_DontDestroyOnLoad_m4064482788(NULL /*static, unused*/, __this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Int32 GameStateManager::get_LivesRemaining()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GameStateManager_get_LivesRemaining_m1860578333_MetadataUsageId;
+extern "C"  int32_t GameStateManager_get_LivesRemaining_m1860578333 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_get_LivesRemaining_m1860578333_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = (L_0->___lives_8);
+		return L_1;
+	}
+}
+// System.Collections.Generic.List`1<System.Object> GameStateManager::get_Scores()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GameStateManager_get_Scores_m1522763744_MetadataUsageId;
+extern "C"  List_1_t1634065389 * GameStateManager_get_Scores_m1522763744 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_get_Scores_m1522763744_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		List_1_t1634065389 * L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___scores_21;
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_Scores(System.Collections.Generic.List`1<System.Object>)
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GameStateManager_set_Scores_m662854871_MetadataUsageId;
+extern "C"  void GameStateManager_set_Scores_m662854871 (Object_t * __this /* static, unused */, List_1_t1634065389 * ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_set_Scores_m662854871_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		List_1_t1634065389 * L_0 = ___value;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___scores_21 = L_0;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___ScoresReady_20 = (bool)1;
+		return;
+	}
+}
+// System.Int32 GameStateManager::get_NumBerOfGame()
+extern "C"  int32_t GameStateManager_get_NumBerOfGame_m3132017888 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___numberOfGame_22);
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_NumBerOfGame(System.Int32)
+extern "C"  void GameStateManager_set_NumBerOfGame_m4062883735 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___numberOfGame_22 = L_0;
+		return;
+	}
+}
+// System.Int32 GameStateManager::get_SceneMaterialNum()
+extern "C"  int32_t GameStateManager_get_SceneMaterialNum_m1026470881 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___sceneMaterialNum_23);
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_SceneMaterialNum(System.Int32)
+extern "C"  void GameStateManager_set_SceneMaterialNum_m564263448 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___sceneMaterialNum_23 = L_0;
+		return;
+	}
+}
+// System.Int32 GameStateManager::get_Score()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GameStateManager_get_Score_m1514295878_MetadataUsageId;
+extern "C"  int32_t GameStateManager_get_Score_m1514295878 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_get_Score_m1514295878_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = (L_0->___score_24);
+		return L_1;
+	}
+}
+// System.Int32 GameStateManager::get_HighScore()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m1686547625_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m844974555_MethodInfo_var;
+extern const uint32_t GameStateManager_get_HighScore_m1143406788_MetadataUsageId;
+extern "C"  int32_t GameStateManager_get_HighScore_m1143406788 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_get_HighScore_m1143406788_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t G_B3_0 = 0;
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Nullable_1_t1438485399 * L_1 = &(L_0->___highScore_26);
+		bool L_2 = Nullable_1_get_HasValue_m1686547625(L_1, /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_3 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Nullable_1_t1438485399 * L_4 = &(L_3->___highScore_26);
+		int32_t L_5 = Nullable_1_get_Value_m844974555(L_4, /*hidden argument*/Nullable_1_get_Value_m844974555_MethodInfo_var);
+		G_B3_0 = L_5;
+		goto IL_0029;
+	}
+
+IL_0028:
+	{
+		G_B3_0 = 0;
+	}
+
+IL_0029:
+	{
+		return G_B3_0;
+	}
+}
+// System.Void GameStateManager::set_HighScore(System.Int32)
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m944559736_MethodInfo_var;
+extern const uint32_t GameStateManager_set_HighScore_m1444715631_MetadataUsageId;
+extern "C"  void GameStateManager_set_HighScore_m1444715631 (Object_t * __this /* static, unused */, int32_t ___value, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_set_HighScore_m1444715631_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_1 = ___value;
+		Nullable_1_t1438485399  L_2 = {0};
+		Nullable_1__ctor_m944559736(&L_2, L_1, /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
+		NullCheck(L_0);
+		L_0->___highScore_26 = L_2;
+		return;
+	}
+}
+// System.Int32 GameStateManager::get_BestScore()
+extern "C"  int32_t GameStateManager_get_BestScore_m3345504834 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___bestScore_29);
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_BestScore(System.Int32)
+extern "C"  void GameStateManager_set_BestScore_m4053641453 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___bestScore_29 = L_0;
+		return;
+	}
+}
+// System.Int32 GameStateManager::get_BallTimer()
+extern "C"  int32_t GameStateManager_get_BallTimer_m3898314170 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___ballTimer_30);
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_BallTimer(System.Int32)
+extern "C"  void GameStateManager_set_BallTimer_m633825381 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___ballTimer_30 = L_0;
+		return;
+	}
+}
+// System.Int32 GameStateManager::get_NumCoins()
+extern "C"  int32_t GameStateManager_get_NumCoins_m3254984202 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___numCoins_31);
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_NumCoins(System.Int32)
+extern "C"  void GameStateManager_set_NumCoins_m939472065 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___numCoins_31 = L_0;
+		return;
+	}
+}
+// System.Int32 GameStateManager::get_IndexMaterial()
+extern "C"  int32_t GameStateManager_get_IndexMaterial_m2160061197 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___indexMaterial_33);
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_IndexMaterial(System.Int32)
+extern "C"  void GameStateManager_set_IndexMaterial_m2107745336 (GameStateManager_t648042254 * __this, int32_t ___value, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = ___value;
+		__this->___indexMaterial_33 = L_0;
+		return;
+	}
+}
+// System.Boolean GameStateManager::get_IsStarted()
+extern "C"  bool GameStateManager_get_IsStarted_m545514757 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		bool L_0 = (__this->___isStarted_35);
+		return L_0;
+	}
+}
+// System.Void GameStateManager::set_IsStarted(System.Boolean)
+extern "C"  void GameStateManager_set_IsStarted_m1939308796 (GameStateManager_t648042254 * __this, bool ___value, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___value;
+		__this->___isStarted_35 = L_0;
+		return;
+	}
+}
+// System.Void GameStateManager::StartGame()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GameStateManager_StartGame_m3277387231_MetadataUsageId;
+extern "C"  void GameStateManager_StartGame_m3277387231 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_StartGame_m3277387231_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = (__this->___StartingScore_25);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_set_HighScore_m1444715631(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = (__this->___ballTimer_30);
+		GameStateManager_set_BallTimer_m633825381(__this, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = (__this->___startCoints_32);
+		GameStateManager_set_NumCoins_m939472065(__this, L_2, /*hidden argument*/NULL);
+		int32_t L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___StartingLives_7;
+		__this->___lives_8 = L_3;
+		int32_t L_4 = (__this->___StartingScore_25);
+		__this->___score_24 = L_4;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___ScoringLockout_27 = (bool)0;
+		Time_set_timeScale_m1848691981(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameStateManager::Restart()
+extern "C"  void GameStateManager_Restart_m3827787834 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	{
+		int32_t L_0 = (__this->___numCoins_31);
+		GameStateManager_set_NumCoins_m939472065(__this, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = GameStateManager_get_IndexMaterial_m2160061197(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_1) > ((int32_t)5)))
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		int32_t L_2 = GameStateManager_get_IndexMaterial_m2160061197(__this, /*hidden argument*/NULL);
+		GameStateManager_set_IndexMaterial_m2107745336(__this, ((int32_t)((int32_t)L_2+(int32_t)1)), /*hidden argument*/NULL);
+		goto IL_003e;
+	}
+
+IL_002b:
+	{
+		int32_t L_3 = GameStateManager_get_IndexMaterial_m2160061197(__this, /*hidden argument*/NULL);
+		if ((((int32_t)L_3) <= ((int32_t)5)))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		GameStateManager_set_IndexMaterial_m2107745336(__this, 0, /*hidden argument*/NULL);
+	}
+
+IL_003e:
+	{
+		return;
+	}
+}
+// System.Void GameStateManager::EndGame()
+extern TypeInfo* ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t1438485399_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FBAppEvents_t1786942782_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m1686547625_MethodInfo_var;
+extern const MethodInfo* Nullable_1_get_Value_m844974555_MethodInfo_var;
+extern const MethodInfo* Nullable_1__ctor_m944559736_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1686259609;
+extern Il2CppCodeGenString* _stringLiteral2074126880;
+extern Il2CppCodeGenString* _stringLiteral1664819379;
+extern Il2CppCodeGenString* _stringLiteral55996120;
+extern const uint32_t GameStateManager_EndGame_m2639154712_MetadataUsageId;
+extern "C"  void GameStateManager_EndGame_m2639154712 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_EndGame_m2639154712_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Nullable_1_t1438485399  V_0 = {0};
+	int32_t G_B5_0 = 0;
+	{
+		ObjectU5BU5D_t11523773* L_0 = ((ObjectU5BU5D_t11523773*)SZArrayNew(ObjectU5BU5D_t11523773_il2cpp_TypeInfo_var, (uint32_t)4));
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, _stringLiteral1686259609);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_0, 0, sizeof(Object_t *))) = (Object_t *)_stringLiteral1686259609;
+		ObjectU5BU5D_t11523773* L_1 = L_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_2 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		Nullable_1_t1438485399  L_3 = (L_2->___highScore_26);
+		Nullable_1_t1438485399  L_4 = L_3;
+		Object_t * L_5 = Box(Nullable_1_t1438485399_il2cpp_TypeInfo_var, &L_4);
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 1);
+		ArrayElementTypeCheck (L_1, L_5);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_1, 1, sizeof(Object_t *))) = (Object_t *)L_5;
+		ObjectU5BU5D_t11523773* L_6 = L_1;
+		NullCheck(L_6);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_6, 2);
+		ArrayElementTypeCheck (L_6, _stringLiteral2074126880);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_6, 2, sizeof(Object_t *))) = (Object_t *)_stringLiteral2074126880;
+		ObjectU5BU5D_t11523773* L_7 = L_6;
+		GameStateManager_t648042254 * L_8 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		int32_t L_9 = (L_8->___score_24);
+		int32_t L_10 = L_9;
+		Object_t * L_11 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_10);
+		NullCheck(L_7);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_7, 3);
+		ArrayElementTypeCheck (L_7, L_11);
+		*((Object_t **)(Object_t **)SZArrayLdElema(L_7, 3, sizeof(Object_t *))) = (Object_t *)L_11;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_12 = String_Concat_m3016520001(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_12, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_13 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		int32_t L_14 = (L_13->___score_24);
+		IL2CPP_RUNTIME_CLASS_INIT(FBAppEvents_t1786942782_il2cpp_TypeInfo_var);
+		FBAppEvents_GameComplete_m4263675027(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_15 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_15)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_16 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Nullable_1_t1438485399 * L_17 = &(L_16->___highScore_26);
+		bool L_18 = Nullable_1_get_HasValue_m1686547625(L_17, /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		if (!L_18)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_19 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		Nullable_1_t1438485399  L_20 = (L_19->___highScore_26);
+		V_0 = L_20;
+		bool L_21 = Nullable_1_get_HasValue_m1686547625((&V_0), /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		if (!L_21)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		int32_t L_22 = Nullable_1_get_Value_m844974555((&V_0), /*hidden argument*/Nullable_1_get_Value_m844974555_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_23 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_23);
+		int32_t L_24 = (L_23->___score_24);
+		G_B5_0 = ((((int32_t)L_22) < ((int32_t)L_24))? 1 : 0);
+		goto IL_009e;
+	}
+
+IL_009d:
+	{
+		G_B5_0 = 0;
+	}
+
+IL_009e:
+	{
+		if (!G_B5_0)
+		{
+			goto IL_00e0;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_25 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		int32_t L_26 = (L_25->___score_24);
+		int32_t L_27 = L_26;
+		Object_t * L_28 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_27);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_29 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral1664819379, L_28, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_29, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_30 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_31 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		int32_t L_32 = (L_31->___score_24);
+		Nullable_1_t1438485399  L_33 = {0};
+		Nullable_1__ctor_m944559736(&L_33, L_32, /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
+		NullCheck(L_30);
+		L_30->___highScore_26 = L_33;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___highScorePending_28 = (bool)1;
+	}
+
+IL_00e0:
+	{
+		Application_LoadLevel_m2722573885(NULL /*static, unused*/, _stringLiteral55996120, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameStateManager::CallUIRedraw()
+extern const MethodInfo* GameObject_GetComponent_TisGameMenu_t2590240913_m90002092_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2590240913;
+extern const uint32_t GameStateManager_CallUIRedraw_m2882927136_MetadataUsageId;
+extern "C"  void GameStateManager_CallUIRedraw_m2882927136 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_CallUIRedraw_m2882927136_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t4012695102 * V_0 = {0};
+	{
+		GameObject_t4012695102 * L_0 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral2590240913, /*hidden argument*/NULL);
+		V_0 = L_0;
+		GameObject_t4012695102 * L_1 = V_0;
+		bool L_2 = Object_op_Implicit_m2106766291(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0021;
+		}
+	}
+	{
+		GameObject_t4012695102 * L_3 = V_0;
+		NullCheck(L_3);
+		GameMenu_t2590240913 * L_4 = GameObject_GetComponent_TisGameMenu_t2590240913_m90002092(L_3, /*hidden argument*/GameObject_GetComponent_TisGameMenu_t2590240913_m90002092_MethodInfo_var);
+		NullCheck(L_4);
+		GameMenu_RedrawUI_m356529765(L_4, /*hidden argument*/NULL);
+	}
+
+IL_0021:
+	{
+		return;
+	}
+}
+// System.Void GameStateManager::Save()
+extern TypeInfo* BinaryFormatter_t341659722_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* PlayerData_t4088824395_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2950093383;
+extern const uint32_t GameStateManager_Save_m2100463252_MetadataUsageId;
+extern "C"  void GameStateManager_Save_m2100463252 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_Save_m2100463252_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	BinaryFormatter_t341659722 * V_0 = {0};
+	FileStream_t1527309539 * V_1 = {0};
+	PlayerData_t4088824395 * V_2 = {0};
+	{
+		BinaryFormatter_t341659722 * L_0 = (BinaryFormatter_t341659722 *)il2cpp_codegen_object_new(BinaryFormatter_t341659722_il2cpp_TypeInfo_var);
+		BinaryFormatter__ctor_m1913171908(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		String_t* L_1 = Application_get_persistentDataPath_m2554537447(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_2 = String_Concat_m138640077(NULL /*static, unused*/, L_1, _stringLiteral2950093383, /*hidden argument*/NULL);
+		FileStream_t1527309539 * L_3 = File_Create_m3497726217(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		V_1 = L_3;
+		PlayerData_t4088824395 * L_4 = (PlayerData_t4088824395 *)il2cpp_codegen_object_new(PlayerData_t4088824395_il2cpp_TypeInfo_var);
+		PlayerData__ctor_m1780991(L_4, /*hidden argument*/NULL);
+		V_2 = L_4;
+		PlayerData_t4088824395 * L_5 = V_2;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_6 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_6);
+		int32_t L_7 = GameStateManager_get_BestScore_m3345504834(L_6, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		L_5->___playerScore_0 = L_7;
+		BinaryFormatter_t341659722 * L_8 = V_0;
+		FileStream_t1527309539 * L_9 = V_1;
+		PlayerData_t4088824395 * L_10 = V_2;
+		NullCheck(L_8);
+		BinaryFormatter_Serialize_m2138605799(L_8, L_9, L_10, /*hidden argument*/NULL);
+		FileStream_t1527309539 * L_11 = V_1;
+		NullCheck(L_11);
+		VirtActionInvoker0::Invoke(12 /* System.Void System.IO.Stream::Close() */, L_11);
+		return;
+	}
+}
+// System.Void GameStateManager::Load()
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* BinaryFormatter_t341659722_il2cpp_TypeInfo_var;
+extern TypeInfo* PlayerData_t4088824395_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2950093383;
+extern const uint32_t GameStateManager_Load_m1912361917_MetadataUsageId;
+extern "C"  void GameStateManager_Load_m1912361917 (GameStateManager_t648042254 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_Load_m1912361917_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	BinaryFormatter_t341659722 * V_0 = {0};
+	FileStream_t1527309539 * V_1 = {0};
+	PlayerData_t4088824395 * V_2 = {0};
+	{
+		String_t* L_0 = Application_get_persistentDataPath_m2554537447(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m138640077(NULL /*static, unused*/, L_0, _stringLiteral2950093383, /*hidden argument*/NULL);
+		bool L_2 = File_Exists_m1326262381(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0058;
+		}
+	}
+	{
+		BinaryFormatter_t341659722 * L_3 = (BinaryFormatter_t341659722 *)il2cpp_codegen_object_new(BinaryFormatter_t341659722_il2cpp_TypeInfo_var);
+		BinaryFormatter__ctor_m1913171908(L_3, /*hidden argument*/NULL);
+		V_0 = L_3;
+		String_t* L_4 = Application_get_persistentDataPath_m2554537447(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m138640077(NULL /*static, unused*/, L_4, _stringLiteral2950093383, /*hidden argument*/NULL);
+		FileStream_t1527309539 * L_6 = File_Open_m1918038371(NULL /*static, unused*/, L_5, 3, /*hidden argument*/NULL);
+		V_1 = L_6;
+		BinaryFormatter_t341659722 * L_7 = V_0;
+		FileStream_t1527309539 * L_8 = V_1;
+		NullCheck(L_7);
+		Object_t * L_9 = BinaryFormatter_Deserialize_m3942088227(L_7, L_8, /*hidden argument*/NULL);
+		V_2 = ((PlayerData_t4088824395 *)CastclassClass(L_9, PlayerData_t4088824395_il2cpp_TypeInfo_var));
+		FileStream_t1527309539 * L_10 = V_1;
+		NullCheck(L_10);
+		VirtActionInvoker0::Invoke(12 /* System.Void System.IO.Stream::Close() */, L_10);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_11 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___instance_2;
+		PlayerData_t4088824395 * L_12 = V_2;
+		NullCheck(L_12);
+		int32_t L_13 = (L_12->___playerScore_0);
+		NullCheck(L_11);
+		GameStateManager_set_BestScore_m4053641453(L_11, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0058:
+	{
+		return;
+	}
+}
+// GameStateManager GameStateManager::<init>m__10()
+extern TypeInfo* GameObject_t4012695102_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* Nullable_1_t1438485399_il2cpp_TypeInfo_var;
+extern const MethodInfo* GameObject_AddComponent_TisGameStateManager_t648042254_m2479685540_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4008830143;
+extern const uint32_t GameStateManager_U3CinitU3Em__10_m2564355830_MetadataUsageId;
+extern "C"  GameStateManager_t648042254 * GameStateManager_U3CinitU3Em__10_m2564355830 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_U3CinitU3Em__10_m2564355830_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t4012695102 * V_0 = {0};
+	Nullable_1_t1438485399  V_1 = {0};
+	{
+		GameObject_t4012695102 * L_0 = (GameObject_t4012695102 *)il2cpp_codegen_object_new(GameObject_t4012695102_il2cpp_TypeInfo_var);
+		GameObject__ctor_m3920833606(L_0, _stringLiteral4008830143, /*hidden argument*/NULL);
+		V_0 = L_0;
+		GameObject_t4012695102 * L_1 = V_0;
+		NullCheck(L_1);
+		GameStateManager_t648042254 * L_2 = GameObject_AddComponent_TisGameStateManager_t648042254_m2479685540(L_1, /*hidden argument*/GameObject_AddComponent_TisGameStateManager_t648042254_m2479685540_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___instance_2 = L_2;
+		GameStateManager_t648042254 * L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___instance_2;
+		Initobj (Nullable_1_t1438485399_il2cpp_TypeInfo_var, (&V_1));
+		Nullable_1_t1438485399  L_4 = V_1;
+		NullCheck(L_3);
+		L_3->___highScore_26 = L_4;
+		InstanceStep_t3721597217 * L_5 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___final_4;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___current_5 = L_5;
+		GameStateManager_t648042254 * L_6 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___instance_2;
+		return L_6;
+	}
+}
+// GameStateManager GameStateManager::<final>m__11()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GameStateManager_U3CfinalU3Em__11_m3495785487_MetadataUsageId;
+extern "C"  GameStateManager_t648042254 * GameStateManager_U3CfinalU3Em__11_m3495785487 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameStateManager_U3CfinalU3Em__11_m3495785487_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_0 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___instance_2;
+		return L_0;
+	}
+}
+// System.Void GameStateManager/InstanceStep::.ctor(System.Object,System.IntPtr)
+extern "C"  void InstanceStep__ctor_m1886435673 (InstanceStep_t3721597217 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method)
+{
+	__this->___method_ptr_0 = (methodPointerType)((MethodInfo*)___method.___m_value_0)->method;
+	__this->___method_3 = ___method;
+	__this->___m_target_2 = ___object;
+}
+// GameStateManager GameStateManager/InstanceStep::Invoke()
+extern "C"  GameStateManager_t648042254 * InstanceStep_Invoke_m955855268 (InstanceStep_t3721597217 * __this, const MethodInfo* method)
+{
+	if(__this->___prev_9 != NULL)
+	{
+		InstanceStep_Invoke_m955855268((InstanceStep_t3721597217 *)__this->___prev_9, method);
+	}
+	il2cpp_codegen_raise_execution_engine_exception_if_method_is_not_found((MethodInfo*)(__this->___method_3.___m_value_0));
+	bool ___methodIsStatic = MethodIsStatic((MethodInfo*)(__this->___method_3.___m_value_0));
+	if ((__this->___m_target_2 != NULL || MethodHasParameters((MethodInfo*)(__this->___method_3.___m_value_0))) && ___methodIsStatic)
+	{
+		typedef GameStateManager_t648042254 * (*FunctionPointerType) (Object_t *, void* __this, const MethodInfo* method);
+		return ((FunctionPointerType)__this->___method_ptr_0)(NULL,il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+	else
+	{
+		typedef GameStateManager_t648042254 * (*FunctionPointerType) (void* __this, const MethodInfo* method);
+		return ((FunctionPointerType)__this->___method_ptr_0)(il2cpp_codegen_get_delegate_this(__this),(MethodInfo*)(__this->___method_3.___m_value_0));
+	}
+}
+extern "C" GameStateManager_t648042254 * pinvoke_delegate_wrapper_InstanceStep_t3721597217(Il2CppObject* delegate)
+{
+	typedef GameStateManager_t648042254 * (STDCALL *native_function_ptr_type)();
+	native_function_ptr_type _il2cpp_pinvoke_func = ((native_function_ptr_type)((Il2CppDelegate*)delegate)->method->method);
+	// Native function invocation and marshaling of return value back from native representation
+	GameStateManager_t648042254 * _return_value = _il2cpp_pinvoke_func();
+	GameStateManager_t648042254 * __return_value_unmarshaled = { 0 };
+	IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_not_supported_exception("Cannot marshal type 'GameStateManager'."));
+
+	return __return_value_unmarshaled;
+}
+// System.IAsyncResult GameStateManager/InstanceStep::BeginInvoke(System.AsyncCallback,System.Object)
+extern "C"  Object_t * InstanceStep_BeginInvoke_m3001398840 (InstanceStep_t3721597217 * __this, AsyncCallback_t1363551830 * ___callback, Object_t * ___object, const MethodInfo* method)
+{
+	void *__d_args[1] = {0};
+	return (Object_t *)il2cpp_delegate_begin_invoke((Il2CppDelegate*)__this, __d_args, (Il2CppDelegate*)___callback, (Il2CppObject*)___object);
+}
+// GameStateManager GameStateManager/InstanceStep::EndInvoke(System.IAsyncResult)
+extern "C"  GameStateManager_t648042254 * InstanceStep_EndInvoke_m2397602778 (InstanceStep_t3721597217 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	Il2CppObject *__result = il2cpp_delegate_end_invoke((Il2CppAsyncResult*) ___result, 0);
+	return (GameStateManager_t648042254 *)__result;
+}
+// System.Void GameStateManager/PlayerData::.ctor()
+extern "C"  void PlayerData__ctor_m1780991 (PlayerData_t4088824395 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameUI::.ctor()
+extern "C"  void GameUI__ctor_m2095833397 (GameUI_t2125598246 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GameUI::Start()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3588653336;
+extern Il2CppCodeGenString* _stringLiteral2479886820;
+extern const uint32_t GameUI_Start_m1042971189_MetadataUsageId;
+extern "C"  void GameUI_Start_m1042971189 (GameUI_t2125598246 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameUI_Start_m1042971189_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		Text_t3286458198 * L_0 = (__this->___ScoreText_3);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_1 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		String_t* L_2 = Int32_ToString_m1286526384((&V_0), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_3 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3588653336, L_2, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_3);
+		Text_t3286458198 * L_4 = (__this->___SmashText_4);
+		String_t* L_5 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendName_11;
+		String_t* L_6 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2479886820, L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_4, L_6);
+		int32_t L_7 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___StartingLives_7;
+		__this->___lastLifeCount_6 = L_7;
+		return;
+	}
+}
+// System.Void GameUI::Update()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3588653336;
+extern const uint32_t GameUI_Update_m2273187960_MetadataUsageId;
+extern "C"  void GameUI_Update_m2273187960 (GameUI_t2125598246 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GameUI_Update_m2273187960_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		RawImage_t3831555132 * L_0 = (__this->___FriendImage_5);
+		NullCheck(L_0);
+		Texture_t1769722184 * L_1 = RawImage_get_texture_m2545896727(L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Texture_t1769722184 * L_2 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendTexture_13;
+		bool L_3 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_1, L_2, /*hidden argument*/NULL);
+		if (!L_3)
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		RawImage_t3831555132 * L_4 = (__this->___FriendImage_5);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Texture_t1769722184 * L_5 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendTexture_13;
+		NullCheck(L_4);
+		RawImage_set_texture_m153141914(L_4, L_5, /*hidden argument*/NULL);
+	}
+
+IL_002a:
+	{
+		int32_t L_6 = (__this->___lastScoreCount_7);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_7 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_6) == ((int32_t)L_7)))
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_8 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->___lastScoreCount_7 = L_8;
+		Text_t3286458198 * L_9 = (__this->___ScoreText_3);
+		int32_t* L_10 = &(__this->___lastScoreCount_7);
+		String_t* L_11 = Int32_ToString_m1286526384(L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_12 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3588653336, L_11, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_9, L_12);
+	}
+
+IL_0065:
+	{
+		int32_t L_13 = (__this->___lastLifeCount_6);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_14 = GameStateManager_get_LivesRemaining_m1860578333(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_13) == ((int32_t)L_14)))
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_15 = GameStateManager_get_LivesRemaining_m1860578333(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_15) >= ((int32_t)3)))
+		{
+			goto IL_0092;
+		}
+	}
+	{
+		GameObjectU5BU5D_t3499186955* L_16 = (__this->___Hearts_2);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_17 = GameStateManager_get_LivesRemaining_m1860578333(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_16, L_17);
+		int32_t L_18 = L_17;
+		NullCheck((*(GameObject_t4012695102 **)(GameObject_t4012695102 **)SZArrayLdElema(L_16, L_18, sizeof(GameObject_t4012695102 *))));
+		GameObject_SetActive_m3538205401((*(GameObject_t4012695102 **)(GameObject_t4012695102 **)SZArrayLdElema(L_16, L_18, sizeof(GameObject_t4012695102 *))), (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0092:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_19 = GameStateManager_get_LivesRemaining_m1860578333(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->___lastLifeCount_6 = L_19;
+	}
+
+IL_009d:
+	{
+		return;
+	}
+}
+// System.Void GetIndexCube::.ctor()
+extern "C"  void GetIndexCube__ctor_m308033578 (GetIndexCube_t3641666961 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GetIndexCube::Awake()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t GetIndexCube_Awake_m545638797_MetadataUsageId;
+extern "C"  void GetIndexCube_Awake_m545638797 (GetIndexCube_t3641666961 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GetIndexCube_Awake_m545638797_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_0 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		int32_t L_1 = GameStateManager_get_IndexMaterial_m2160061197(L_0, /*hidden argument*/NULL);
+		__this->___index_2 = L_1;
+		return;
+	}
+}
+// System.Void GraphUtil::.ctor()
+extern "C"  void GraphUtil__ctor_m1180451099 (GraphUtil_t830336592 * __this, const MethodInfo* method)
+{
+	{
+		ScriptableObject__ctor_m1827087273(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.String GraphUtil::GetPictureQuery(System.String,System.Nullable`1<System.Int32>,System.Nullable`1<System.Int32>,System.String,System.Boolean)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Nullable_1_get_HasValue_m1686547625_MethodInfo_var;
+extern const MethodInfo* Nullable_1_ToString_m4119235462_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral378946152;
+extern Il2CppCodeGenString* _stringLiteral2872334045;
+extern Il2CppCodeGenString* _stringLiteral2605071632;
+extern Il2CppCodeGenString* _stringLiteral1198751709;
+extern Il2CppCodeGenString* _stringLiteral4063698824;
+extern Il2CppCodeGenString* _stringLiteral2056;
+extern const uint32_t GraphUtil_GetPictureQuery_m2437608875_MetadataUsageId;
+extern "C"  String_t* GraphUtil_GetPictureQuery_m2437608875 (Object_t * __this /* static, unused */, String_t* ___facebookID, Nullable_1_t1438485399  ___width, Nullable_1_t1438485399  ___height, String_t* ___type, bool ___onlyURL, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GraphUtil_GetPictureQuery_m2437608875_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	String_t* V_0 = {0};
+	String_t* V_1 = {0};
+	String_t* G_B3_0 = {0};
+	String_t* G_B5_0 = {0};
+	String_t* G_B4_0 = {0};
+	String_t* G_B6_0 = {0};
+	String_t* G_B6_1 = {0};
+	String_t* G_B8_0 = {0};
+	String_t* G_B7_0 = {0};
+	String_t* G_B9_0 = {0};
+	String_t* G_B9_1 = {0};
+	{
+		String_t* L_0 = ___facebookID;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Format_m2471250780(NULL /*static, unused*/, _stringLiteral378946152, L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		bool L_2 = Nullable_1_get_HasValue_m1686547625((&___width), /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		if (!L_2)
+		{
+			goto IL_002e;
+		}
+	}
+	{
+		String_t* L_3 = Nullable_1_ToString_m4119235462((&___width), /*hidden argument*/Nullable_1_ToString_m4119235462_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2872334045, L_3, /*hidden argument*/NULL);
+		G_B3_0 = L_4;
+		goto IL_0033;
+	}
+
+IL_002e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B3_0 = L_5;
+	}
+
+IL_0033:
+	{
+		V_1 = G_B3_0;
+		String_t* L_6 = V_1;
+		bool L_7 = Nullable_1_get_HasValue_m1686547625((&___height), /*hidden argument*/Nullable_1_get_HasValue_m1686547625_MethodInfo_var);
+		G_B4_0 = L_6;
+		if (!L_7)
+		{
+			G_B5_0 = L_6;
+			goto IL_0057;
+		}
+	}
+	{
+		String_t* L_8 = Nullable_1_ToString_m4119235462((&___height), /*hidden argument*/Nullable_1_ToString_m4119235462_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_9 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral2605071632, L_8, /*hidden argument*/NULL);
+		G_B6_0 = L_9;
+		G_B6_1 = G_B4_0;
+		goto IL_005c;
+	}
+
+IL_0057:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_10 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B6_0 = L_10;
+		G_B6_1 = G_B5_0;
+	}
+
+IL_005c:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_11 = String_Concat_m138640077(NULL /*static, unused*/, G_B6_1, G_B6_0, /*hidden argument*/NULL);
+		V_1 = L_11;
+		String_t* L_12 = V_1;
+		String_t* L_13 = ___type;
+		G_B7_0 = L_12;
+		if (!L_13)
+		{
+			G_B8_0 = L_12;
+			goto IL_0079;
+		}
+	}
+	{
+		String_t* L_14 = ___type;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_15 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1198751709, L_14, /*hidden argument*/NULL);
+		G_B9_0 = L_15;
+		G_B9_1 = G_B7_0;
+		goto IL_007e;
+	}
+
+IL_0079:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_16 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		G_B9_0 = L_16;
+		G_B9_1 = G_B8_0;
+	}
+
+IL_007e:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_17 = String_Concat_m138640077(NULL /*static, unused*/, G_B9_1, G_B9_0, /*hidden argument*/NULL);
+		V_1 = L_17;
+		bool L_18 = ___onlyURL;
+		if (!L_18)
+		{
+			goto IL_0097;
+		}
+	}
+	{
+		String_t* L_19 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_20 = String_Concat_m138640077(NULL /*static, unused*/, L_19, _stringLiteral4063698824, /*hidden argument*/NULL);
+		V_1 = L_20;
+	}
+
+IL_0097:
+	{
+		String_t* L_21 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = ((String_t_StaticFields*)String_t_il2cpp_TypeInfo_var->static_fields)->___Empty_2;
+		bool L_23 = String_op_Inequality_m2125462205(NULL /*static, unused*/, L_21, L_22, /*hidden argument*/NULL);
+		if (!L_23)
+		{
+			goto IL_00b4;
+		}
+	}
+	{
+		String_t* L_24 = V_0;
+		String_t* L_25 = V_1;
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_26 = String_Concat_m1825781833(NULL /*static, unused*/, L_24, _stringLiteral2056, L_25, /*hidden argument*/NULL);
+		V_0 = L_26;
+	}
+
+IL_00b4:
+	{
+		String_t* L_27 = V_0;
+		return L_27;
+	}
+}
+// System.Void GraphUtil::LoadImgFromURL(System.String,System.Action`1<UnityEngine.Texture>)
+extern "C"  void GraphUtil_LoadImgFromURL_m1031304485 (Object_t * __this /* static, unused */, String_t* ___imgURL, Action_1_t1918174889 * ___callback, const MethodInfo* method)
+{
+	{
+		String_t* L_0 = ___imgURL;
+		Action_1_t1918174889 * L_1 = ___callback;
+		Object_t * L_2 = GraphUtil_LoadImgEnumerator_m3634134870(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Coroutiner_StartCoroutine_m4230250454(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator GraphUtil::LoadImgEnumerator(System.String,System.Action`1<UnityEngine.Texture>)
+extern TypeInfo* U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066_il2cpp_TypeInfo_var;
+extern const uint32_t GraphUtil_LoadImgEnumerator_m3634134870_MetadataUsageId;
+extern "C"  Object_t * GraphUtil_LoadImgEnumerator_m3634134870 (Object_t * __this /* static, unused */, String_t* ___imgURL, Action_1_t1918174889 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GraphUtil_LoadImgEnumerator_m3634134870_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * V_0 = {0};
+	{
+		U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * L_0 = (U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 *)il2cpp_codegen_object_new(U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066_il2cpp_TypeInfo_var);
+		U3CLoadImgEnumeratorU3Ec__Iterator2__ctor_m1582439088(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * L_1 = V_0;
+		String_t* L_2 = ___imgURL;
+		NullCheck(L_1);
+		L_1->___imgURL_0 = L_2;
+		U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * L_3 = V_0;
+		Action_1_t1918174889 * L_4 = ___callback;
+		NullCheck(L_3);
+		L_3->___callback_2 = L_4;
+		U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * L_5 = V_0;
+		String_t* L_6 = ___imgURL;
+		NullCheck(L_5);
+		L_5->___U3CU24U3EimgURL_5 = L_6;
+		U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * L_7 = V_0;
+		Action_1_t1918174889 * L_8 = ___callback;
+		NullCheck(L_7);
+		L_7->___U3CU24U3Ecallback_6 = L_8;
+		U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * L_9 = V_0;
+		return L_9;
+	}
+}
+// System.String GraphUtil::DeserializePictureURL(System.Object)
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3717225726;
+extern Il2CppCodeGenString* _stringLiteral3076010;
+extern Il2CppCodeGenString* _stringLiteral116079;
+extern const uint32_t GraphUtil_DeserializePictureURL_m1884610824_MetadataUsageId;
+extern "C"  String_t* GraphUtil_DeserializePictureURL_m1884610824 (Object_t * __this /* static, unused */, Object_t * ___userObject, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GraphUtil_DeserializePictureURL_m1884610824_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Dictionary_2_t2474804324 * V_0 = {0};
+	Object_t * V_1 = {0};
+	Dictionary_2_t2474804324 * V_2 = {0};
+	{
+		Object_t * L_0 = ___userObject;
+		V_0 = ((Dictionary_2_t2474804324 *)IsInstClass(L_0, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+		Dictionary_2_t2474804324 * L_1 = V_0;
+		NullCheck(L_1);
+		bool L_2 = VirtFuncInvoker2< bool, String_t*, Object_t ** >::Invoke(21 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,System.Object>::TryGetValue(!0,!1&) */, L_1, _stringLiteral3717225726, (&V_1));
+		if (!L_2)
+		{
+			goto IL_0040;
+		}
+	}
+	{
+		Object_t * L_3 = V_1;
+		NullCheck(((Dictionary_2_t2474804324 *)CastclassClass(L_3, Dictionary_2_t2474804324_il2cpp_TypeInfo_var)));
+		Object_t * L_4 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, ((Dictionary_2_t2474804324 *)CastclassClass(L_3, Dictionary_2_t2474804324_il2cpp_TypeInfo_var)), _stringLiteral3076010);
+		V_2 = ((Dictionary_2_t2474804324 *)CastclassClass(L_4, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+		Dictionary_2_t2474804324 * L_5 = V_2;
+		NullCheck(L_5);
+		Object_t * L_6 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_5, _stringLiteral116079);
+		return ((String_t*)CastclassSealed(L_6, String_t_il2cpp_TypeInfo_var));
+	}
+
+IL_0040:
+	{
+		return (String_t*)NULL;
+	}
+}
+// System.Int32 GraphUtil::GetScoreFromEntry(System.Object)
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern TypeInfo* Convert_t1097883944_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral109264530;
+extern const uint32_t GraphUtil_GetScoreFromEntry_m886342209_MetadataUsageId;
+extern "C"  int32_t GraphUtil_GetScoreFromEntry_m886342209 (Object_t * __this /* static, unused */, Object_t * ___obj, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GraphUtil_GetScoreFromEntry_m886342209_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Dictionary_2_t2474804324 * V_0 = {0};
+	{
+		Object_t * L_0 = ___obj;
+		V_0 = ((Dictionary_2_t2474804324 *)CastclassClass(L_0, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+		Dictionary_2_t2474804324 * L_1 = V_0;
+		NullCheck(L_1);
+		Object_t * L_2 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_1, _stringLiteral109264530);
+		IL2CPP_RUNTIME_CLASS_INIT(Convert_t1097883944_il2cpp_TypeInfo_var);
+		int32_t L_3 = Convert_ToInt32_m12524065(NULL /*static, unused*/, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+// System.Void GraphUtil/<LoadImgEnumerator>c__Iterator2::.ctor()
+extern "C"  void U3CLoadImgEnumeratorU3Ec__Iterator2__ctor_m1582439088 (U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object GraphUtil/<LoadImgEnumerator>c__Iterator2::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CLoadImgEnumeratorU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1338776802 (U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_4);
+		return L_0;
+	}
+}
+// System.Object GraphUtil/<LoadImgEnumerator>c__Iterator2::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CLoadImgEnumeratorU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m659039350 (U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_4);
+		return L_0;
+	}
+}
+// System.Boolean GraphUtil/<LoadImgEnumerator>c__Iterator2::MoveNext()
+extern TypeInfo* WWW_t1522972100_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern const MethodInfo* Action_1_Invoke_m908434626_MethodInfo_var;
+extern const uint32_t U3CLoadImgEnumeratorU3Ec__Iterator2_MoveNext_m226244164_MetadataUsageId;
+extern "C"  bool U3CLoadImgEnumeratorU3Ec__Iterator2_MoveNext_m226244164 (U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CLoadImgEnumeratorU3Ec__Iterator2_MoveNext_m226244164_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_3);
+		V_0 = L_0;
+		__this->___U24PC_3 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_004a;
+		}
+	}
+	{
+		goto IL_008c;
+	}
+
+IL_0021:
+	{
+		String_t* L_2 = (__this->___imgURL_0);
+		WWW_t1522972100 * L_3 = (WWW_t1522972100 *)il2cpp_codegen_object_new(WWW_t1522972100_il2cpp_TypeInfo_var);
+		WWW__ctor_m1985874080(L_3, L_2, /*hidden argument*/NULL);
+		__this->___U3CwwwU3E__0_1 = L_3;
+		WWW_t1522972100 * L_4 = (__this->___U3CwwwU3E__0_1);
+		__this->___U24current_4 = L_4;
+		__this->___U24PC_3 = 1;
+		goto IL_008e;
+	}
+
+IL_004a:
+	{
+		WWW_t1522972100 * L_5 = (__this->___U3CwwwU3E__0_1);
+		NullCheck(L_5);
+		String_t* L_6 = WWW_get_error_m1787423074(L_5, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_006f;
+		}
+	}
+	{
+		WWW_t1522972100 * L_7 = (__this->___U3CwwwU3E__0_1);
+		NullCheck(L_7);
+		String_t* L_8 = WWW_get_error_m1787423074(L_7, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_LogError_m4127342994(NULL /*static, unused*/, L_8, /*hidden argument*/NULL);
+		goto IL_008c;
+	}
+
+IL_006f:
+	{
+		Action_1_t1918174889 * L_9 = (__this->___callback_2);
+		WWW_t1522972100 * L_10 = (__this->___U3CwwwU3E__0_1);
+		NullCheck(L_10);
+		Texture2D_t2509538522 * L_11 = WWW_get_texture_m2854732303(L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Action_1_Invoke_m908434626(L_9, L_11, /*hidden argument*/Action_1_Invoke_m908434626_MethodInfo_var);
+		__this->___U24PC_3 = (-1);
+	}
+
+IL_008c:
+	{
+		return (bool)0;
+	}
+
+IL_008e:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0090: ldloc.1
+}
+// System.Void GraphUtil/<LoadImgEnumerator>c__Iterator2::Dispose()
+extern "C"  void U3CLoadImgEnumeratorU3Ec__Iterator2_Dispose_m203823853 (U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_3 = (-1);
+		return;
+	}
+}
+// System.Void GraphUtil/<LoadImgEnumerator>c__Iterator2::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CLoadImgEnumeratorU3Ec__Iterator2_Reset_m3523839325_MetadataUsageId;
+extern "C"  void U3CLoadImgEnumeratorU3Ec__Iterator2_Reset_m3523839325 (U3CLoadImgEnumeratorU3Ec__Iterator2_t2914255066 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CLoadImgEnumeratorU3Ec__Iterator2_Reset_m3523839325_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void GravityTest::.ctor()
+extern "C"  void GravityTest__ctor_m2930563979 (GravityTest_t2735471584 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GravityTest::Start()
+extern "C"  void GravityTest_Start_m1877701771 (GravityTest_t2735471584 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GravityTest::Update()
+extern TypeInfo* Input_t1593691127_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral67887260;
+extern const uint32_t GravityTest_Update_m2380032226_MetadataUsageId;
+extern "C"  void GravityTest_Update_m2380032226 (GravityTest_t2735471584 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GravityTest_Update_m2380032226_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_0 = Input_GetButton_m4226175975(NULL /*static, unused*/, _stringLiteral67887260, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		GravityTest_ChangeGravity_m2822857127(__this, /*hidden argument*/NULL);
+	}
+
+IL_0015:
+	{
+		return;
+	}
+}
+// System.Void GravityTest::ChangeGravity()
+extern "C"  void GravityTest_ChangeGravity_m2822857127 (GravityTest_t2735471584 * __this, const MethodInfo* method)
+{
+	{
+		Vector3_t3525329789  L_0 = {0};
+		Vector3__ctor_m2926210380(&L_0, (0.0f), (-3.0f), (0.0f), /*hidden argument*/NULL);
+		Physics_set_gravity_m2814881048(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GravityTest::AddForceToPlayer()
+extern "C"  void GravityTest_AddForceToPlayer_m3965740287 (GravityTest_t2735471584 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GroundEffect::.ctor()
+extern "C"  void GroundEffect__ctor_m2203024259 (GroundEffect_t3883356696 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GroundEffect::Awake()
+extern "C"  void GroundEffect_Awake_m2440629478 (GroundEffect_t3883356696 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void GroundEffect::Start()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* GameObject_t4012695102_il2cpp_TypeInfo_var;
+extern const uint32_t GroundEffect_Start_m1150162051_MetadataUsageId;
+extern "C"  void GroundEffect_Start_m1150162051 (GroundEffect_t3883356696 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (GroundEffect_Start_m1150162051_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t4012695102 * V_0 = {0};
+	{
+		GameObjectU5BU5D_t3499186955* L_0 = (__this->___ground_2);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_1 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		int32_t L_2 = GameStateManager_get_SceneMaterialNum_m1026470881(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, L_2);
+		int32_t L_3 = L_2;
+		Transform_t284553113 * L_4 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Vector3_t3525329789  L_5 = Transform_get_position_m2211398607(L_4, /*hidden argument*/NULL);
+		Quaternion_t1891715979  L_6 = Quaternion_get_identity_m1743882806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Object_t3878351788 * L_7 = Object_Instantiate_m2255090103(NULL /*static, unused*/, (*(GameObject_t4012695102 **)(GameObject_t4012695102 **)SZArrayLdElema(L_0, L_3, sizeof(GameObject_t4012695102 *))), L_5, L_6, /*hidden argument*/NULL);
+		V_0 = ((GameObject_t4012695102 *)IsInstSealed(L_7, GameObject_t4012695102_il2cpp_TypeInfo_var));
+		GameObject_t4012695102 * L_8 = V_0;
+		NullCheck(L_8);
+		Transform_t284553113 * L_9 = GameObject_get_transform_m1278640159(L_8, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_10 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Transform_t284553113 * L_11 = GameObject_get_transform_m1278640159(L_10, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Transform_SetParent_m3449663462(L_9, L_11, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void GroundEffect::Update()
+extern "C"  void GroundEffect_Update_m1301137386 (GroundEffect_t3883356696 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Ideas::.ctor()
+extern "C"  void Ideas__ctor_m3961429167 (Ideas_t70496316 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Ideas::Start()
+extern "C"  void Ideas_Start_m2908566959 (Ideas_t70496316 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void Ideas::Update()
+extern "C"  void Ideas_Update_m4272081982 (Ideas_t70496316 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void LeaderBoardElement::.ctor()
+extern "C"  void LeaderBoardElement__ctor_m105268860 (LeaderBoardElement_t3363596543 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LeaderBoardElement::SetupElement(System.Int32,System.Object)
+extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* CharU5BU5D_t3416858730_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3599307;
+extern Il2CppCodeGenString* _stringLiteral46;
+extern Il2CppCodeGenString* _stringLiteral3373707;
+extern Il2CppCodeGenString* _stringLiteral3874112216;
+extern Il2CppCodeGenString* _stringLiteral3355;
+extern const uint32_t LeaderBoardElement_SetupElement_m2142971366_MetadataUsageId;
+extern "C"  void LeaderBoardElement_SetupElement_m2142971366 (LeaderBoardElement_t3363596543 * __this, int32_t ___rank, Object_t * ___entryObj, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LeaderBoardElement_SetupElement_m2142971366_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Dictionary_2_t2474804324 * V_0 = {0};
+	Dictionary_2_t2474804324 * V_1 = {0};
+	Texture_t1769722184 * V_2 = {0};
+	int32_t V_3 = 0;
+	{
+		Object_t * L_0 = ___entryObj;
+		V_0 = ((Dictionary_2_t2474804324 *)CastclassClass(L_0, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+		Dictionary_2_t2474804324 * L_1 = V_0;
+		NullCheck(L_1);
+		Object_t * L_2 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_1, _stringLiteral3599307);
+		V_1 = ((Dictionary_2_t2474804324 *)CastclassClass(L_2, Dictionary_2_t2474804324_il2cpp_TypeInfo_var));
+		Text_t3286458198 * L_3 = (__this->___Rank_4);
+		String_t* L_4 = Int32_ToString_m1286526384((&___rank), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_5 = String_Concat_m138640077(NULL /*static, unused*/, L_4, _stringLiteral46, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_3, L_5);
+		Text_t3286458198 * L_6 = (__this->___Name_5);
+		Dictionary_2_t2474804324 * L_7 = V_1;
+		NullCheck(L_7);
+		Object_t * L_8 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_7, _stringLiteral3373707);
+		CharU5BU5D_t3416858730* L_9 = ((CharU5BU5D_t3416858730*)SZArrayNew(CharU5BU5D_t3416858730_il2cpp_TypeInfo_var, (uint32_t)1));
+		NullCheck(L_9);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_9, 0);
+		*((uint16_t*)(uint16_t*)SZArrayLdElema(L_9, 0, sizeof(uint16_t))) = (uint16_t)((int32_t)32);
+		NullCheck(((String_t*)CastclassSealed(L_8, String_t_il2cpp_TypeInfo_var)));
+		StringU5BU5D_t2956870243* L_10 = String_Split_m290179486(((String_t*)CastclassSealed(L_8, String_t_il2cpp_TypeInfo_var)), L_9, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_10, 0);
+		int32_t L_11 = 0;
+		NullCheck(L_6);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_6, (*(String_t**)(String_t**)SZArrayLdElema(L_10, L_11, sizeof(String_t*))));
+		Text_t3286458198 * L_12 = (__this->___Score_6);
+		Dictionary_2_t2474804324 * L_13 = V_0;
+		int32_t L_14 = GraphUtil_GetScoreFromEntry_m886342209(NULL /*static, unused*/, L_13, /*hidden argument*/NULL);
+		V_3 = L_14;
+		String_t* L_15 = Int32_ToString_m1286526384((&V_3), /*hidden argument*/NULL);
+		String_t* L_16 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3874112216, L_15, /*hidden argument*/NULL);
+		NullCheck(L_12);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_12, L_16);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Dictionary_2_t3407420088 * L_17 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___FriendImages_18;
+		Dictionary_2_t2474804324 * L_18 = V_1;
+		NullCheck(L_18);
+		Object_t * L_19 = VirtFuncInvoker1< Object_t *, String_t* >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<System.String,System.Object>::get_Item(!0) */, L_18, _stringLiteral3355);
+		NullCheck(L_17);
+		bool L_20 = VirtFuncInvoker2< bool, String_t*, Texture_t1769722184 ** >::Invoke(21 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture>::TryGetValue(!0,!1&) */, L_17, ((String_t*)CastclassSealed(L_19, String_t_il2cpp_TypeInfo_var)), (&V_2));
+		if (!L_20)
+		{
+			goto IL_00b1;
+		}
+	}
+	{
+		RawImage_t3831555132 * L_21 = (__this->___ProfilePicture_3);
+		Texture_t1769722184 * L_22 = V_2;
+		NullCheck(L_21);
+		RawImage_set_texture_m153141914(L_21, L_22, /*hidden argument*/NULL);
+	}
+
+IL_00b1:
+	{
+		return;
+	}
+}
+// System.Void LoadingTextAnimation::.ctor()
+extern "C"  void LoadingTextAnimation__ctor_m572394464 (LoadingTextAnimation_t1922161947 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LoadingTextAnimation::Awake()
+extern TypeInfo* StringU5BU5D_t2956870243_il2cpp_TypeInfo_var;
+extern TypeInfo* Queue_1_t2676576442_il2cpp_TypeInfo_var;
+extern const MethodInfo* Queue_1__ctor_m363866414_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1910876818;
+extern Il2CppCodeGenString* _stringLiteral3402606556;
+extern Il2CppCodeGenString* _stringLiteral2401588178;
+extern const uint32_t LoadingTextAnimation_Awake_m809999683_MetadataUsageId;
+extern "C"  void LoadingTextAnimation_Awake_m809999683 (LoadingTextAnimation_t1922161947 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LoadingTextAnimation_Awake_m809999683_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		StringU5BU5D_t2956870243* L_0 = ((StringU5BU5D_t2956870243*)SZArrayNew(StringU5BU5D_t2956870243_il2cpp_TypeInfo_var, (uint32_t)4));
+		NullCheck(L_0);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_0, 0);
+		ArrayElementTypeCheck (L_0, _stringLiteral1910876818);
+		*((String_t**)(String_t**)SZArrayLdElema(L_0, 0, sizeof(String_t*))) = (String_t*)_stringLiteral1910876818;
+		StringU5BU5D_t2956870243* L_1 = L_0;
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, 1);
+		ArrayElementTypeCheck (L_1, _stringLiteral3402606556);
+		*((String_t**)(String_t**)SZArrayLdElema(L_1, 1, sizeof(String_t*))) = (String_t*)_stringLiteral3402606556;
+		StringU5BU5D_t2956870243* L_2 = L_1;
+		NullCheck(L_2);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_2, 2);
+		ArrayElementTypeCheck (L_2, _stringLiteral2401588178);
+		*((String_t**)(String_t**)SZArrayLdElema(L_2, 2, sizeof(String_t*))) = (String_t*)_stringLiteral2401588178;
+		StringU5BU5D_t2956870243* L_3 = L_2;
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, 3);
+		ArrayElementTypeCheck (L_3, _stringLiteral3402606556);
+		*((String_t**)(String_t**)SZArrayLdElema(L_3, 3, sizeof(String_t*))) = (String_t*)_stringLiteral3402606556;
+		Queue_1_t2676576442 * L_4 = (Queue_1_t2676576442 *)il2cpp_codegen_object_new(Queue_1_t2676576442_il2cpp_TypeInfo_var);
+		Queue_1__ctor_m363866414(L_4, (Object_t*)(Object_t*)L_3, /*hidden argument*/Queue_1__ctor_m363866414_MethodInfo_var);
+		__this->___loadingTextStates_4 = L_4;
+		return;
+	}
+}
+// System.Void LoadingTextAnimation::OnEnable()
+extern "C"  void LoadingTextAnimation_OnEnable_m3254890406 (LoadingTextAnimation_t1922161947 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = LoadingTextAnimation_RotateText_m3628941972(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LoadingTextAnimation::OnDisable()
+extern "C"  void LoadingTextAnimation_OnDisable_m2558292039 (LoadingTextAnimation_t1922161947 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour_StopAllCoroutines_m1437893335(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator LoadingTextAnimation::RotateText()
+extern TypeInfo* U3CRotateTextU3Ec__Iterator3_t4098359420_il2cpp_TypeInfo_var;
+extern const uint32_t LoadingTextAnimation_RotateText_m3628941972_MetadataUsageId;
+extern "C"  Object_t * LoadingTextAnimation_RotateText_m3628941972 (LoadingTextAnimation_t1922161947 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LoadingTextAnimation_RotateText_m3628941972_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CRotateTextU3Ec__Iterator3_t4098359420 * V_0 = {0};
+	{
+		U3CRotateTextU3Ec__Iterator3_t4098359420 * L_0 = (U3CRotateTextU3Ec__Iterator3_t4098359420 *)il2cpp_codegen_object_new(U3CRotateTextU3Ec__Iterator3_t4098359420_il2cpp_TypeInfo_var);
+		U3CRotateTextU3Ec__Iterator3__ctor_m1790141563(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CRotateTextU3Ec__Iterator3_t4098359420 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3Ef__this_2 = __this;
+		U3CRotateTextU3Ec__Iterator3_t4098359420 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void LoadingTextAnimation/<RotateText>c__Iterator3::.ctor()
+extern "C"  void U3CRotateTextU3Ec__Iterator3__ctor_m1790141563 (U3CRotateTextU3Ec__Iterator3_t4098359420 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object LoadingTextAnimation/<RotateText>c__Iterator3::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CRotateTextU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1739132535 (U3CRotateTextU3Ec__Iterator3_t4098359420 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_1);
+		return L_0;
+	}
+}
+// System.Object LoadingTextAnimation/<RotateText>c__Iterator3::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CRotateTextU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m1595727883 (U3CRotateTextU3Ec__Iterator3_t4098359420 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_1);
+		return L_0;
+	}
+}
+// System.Boolean LoadingTextAnimation/<RotateText>c__Iterator3::MoveNext()
+extern TypeInfo* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const MethodInfo* Queue_1_Dequeue_m629860304_MethodInfo_var;
+extern const MethodInfo* Queue_1_Enqueue_m4014673643_MethodInfo_var;
+extern const uint32_t U3CRotateTextU3Ec__Iterator3_MoveNext_m1118621337_MetadataUsageId;
+extern "C"  bool U3CRotateTextU3Ec__Iterator3_MoveNext_m1118621337 (U3CRotateTextU3Ec__Iterator3_t4098359420 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CRotateTextU3Ec__Iterator3_MoveNext_m1118621337_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	{
+		int32_t L_0 = (__this->___U24PC_0);
+		V_0 = L_0;
+		__this->___U24PC_0 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_003d;
+		}
+	}
+	{
+		goto IL_0089;
+	}
+
+IL_0021:
+	{
+		WaitForSeconds_t1291133240 * L_2 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_2, (0.1f), /*hidden argument*/NULL);
+		__this->___U24current_1 = L_2;
+		__this->___U24PC_0 = 1;
+		goto IL_008b;
+	}
+
+IL_003d:
+	{
+		LoadingTextAnimation_t1922161947 * L_3 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_3);
+		Text_t3286458198 * L_4 = (L_3->___loadingText_3);
+		LoadingTextAnimation_t1922161947 * L_5 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_5);
+		Queue_1_t2676576442 * L_6 = (L_5->___loadingTextStates_4);
+		NullCheck(L_6);
+		String_t* L_7 = Queue_1_Dequeue_m629860304(L_6, /*hidden argument*/Queue_1_Dequeue_m629860304_MethodInfo_var);
+		NullCheck(L_4);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_4, L_7);
+		LoadingTextAnimation_t1922161947 * L_8 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_8);
+		Queue_1_t2676576442 * L_9 = (L_8->___loadingTextStates_4);
+		LoadingTextAnimation_t1922161947 * L_10 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_10);
+		Text_t3286458198 * L_11 = (L_10->___loadingText_3);
+		NullCheck(L_11);
+		String_t* L_12 = VirtFuncInvoker0< String_t* >::Invoke(64 /* System.String UnityEngine.UI.Text::get_text() */, L_11);
+		NullCheck(L_9);
+		Queue_1_Enqueue_m4014673643(L_9, L_12, /*hidden argument*/Queue_1_Enqueue_m4014673643_MethodInfo_var);
+		goto IL_0021;
+	}
+	// Dead block : IL_0082: ldarg.0
+
+IL_0089:
+	{
+		return (bool)0;
+	}
+
+IL_008b:
+	{
+		return (bool)1;
+	}
+}
+// System.Void LoadingTextAnimation/<RotateText>c__Iterator3::Dispose()
+extern "C"  void U3CRotateTextU3Ec__Iterator3_Dispose_m2237406712 (U3CRotateTextU3Ec__Iterator3_t4098359420 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_0 = (-1);
+		return;
+	}
+}
+// System.Void LoadingTextAnimation/<RotateText>c__Iterator3::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CRotateTextU3Ec__Iterator3_Reset_m3731541800_MetadataUsageId;
+extern "C"  void U3CRotateTextU3Ec__Iterator3_Reset_m3731541800 (U3CRotateTextU3Ec__Iterator3_t4098359420 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CRotateTextU3Ec__Iterator3_Reset_m3731541800_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void LoginFB::AskToLogin()
+extern TypeInfo* List_1_t1765447871_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* List_1__ctor_m459821414_MethodInfo_var;
+extern const MethodInfo* LoginFB_AuthCallback_m279091974_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m1136555718_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2551933395;
+extern Il2CppCodeGenString* _stringLiteral96619420;
+extern Il2CppCodeGenString* _stringLiteral925557025;
+extern const uint32_t LoginFB_AskToLogin_m2482419507_MetadataUsageId;
+extern "C"  void LoginFB_AskToLogin_m2482419507 (Object_t * __this /* static, unused */, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LoginFB_AskToLogin_m2482419507_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	List_1_t1765447871 * V_0 = {0};
+	List_1_t1765447871 * V_1 = {0};
+	{
+		List_1_t1765447871 * L_0 = (List_1_t1765447871 *)il2cpp_codegen_object_new(List_1_t1765447871_il2cpp_TypeInfo_var);
+		List_1__ctor_m459821414(L_0, /*hidden argument*/List_1__ctor_m459821414_MethodInfo_var);
+		V_1 = L_0;
+		List_1_t1765447871 * L_1 = V_1;
+		NullCheck(L_1);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_1, _stringLiteral2551933395);
+		List_1_t1765447871 * L_2 = V_1;
+		NullCheck(L_2);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_2, _stringLiteral96619420);
+		List_1_t1765447871 * L_3 = V_1;
+		NullCheck(L_3);
+		VirtActionInvoker1< String_t* >::Invoke(22 /* System.Void System.Collections.Generic.List`1<System.String>::Add(!0) */, L_3, _stringLiteral925557025);
+		List_1_t1765447871 * L_4 = V_1;
+		V_0 = L_4;
+		List_1_t1765447871 * L_5 = V_0;
+		IntPtr_t L_6 = { (void*)LoginFB_AuthCallback_m279091974_MethodInfo_var };
+		FacebookDelegate_1_t2634519556 * L_7 = (FacebookDelegate_1_t2634519556 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m1136555718(L_7, NULL, L_6, /*hidden argument*/FacebookDelegate_1__ctor_m1136555718_MethodInfo_var);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_LogInWithReadPermissions_m3440569185(NULL /*static, unused*/, L_5, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void LoginFB::AuthCallback(Facebook.Unity.IResult)
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerable_1_t3840643258_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_1_t2451595350_il2cpp_TypeInfo_var;
+extern TypeInfo* IEnumerator_t287207039_il2cpp_TypeInfo_var;
+extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4281602469;
+extern const uint32_t LoginFB_AuthCallback_m279091974_MetadataUsageId;
+extern "C"  void LoginFB_AuthCallback_m279091974 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (LoginFB_AuthCallback_m279091974_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	AccessToken_t3144904884 * V_0 = {0};
+	String_t* V_1 = {0};
+	Object_t* V_2 = {0};
+	Exception_t1967233988 * __last_unhandled_exception = 0;
+	NO_UNUSED_WARNING (__last_unhandled_exception);
+	Exception_t1967233988 * __exception_local = 0;
+	NO_UNUSED_WARNING (__exception_local);
+	int32_t __leave_target = 0;
+	NO_UNUSED_WARNING (__leave_target);
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0059;
+		}
+	}
+	{
+		AccessToken_t3144904884 * L_1 = AccessToken_get_CurrentAccessToken_m1256155595(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_1;
+		AccessToken_t3144904884 * L_2 = V_0;
+		NullCheck(L_2);
+		String_t* L_3 = AccessToken_get_UserId_m951892911(L_2, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_3, /*hidden argument*/NULL);
+		AccessToken_t3144904884 * L_4 = V_0;
+		NullCheck(L_4);
+		Object_t* L_5 = AccessToken_get_Permissions_m382482404(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Object_t* L_6 = InterfaceFuncInvoker0< Object_t* >::Invoke(0 /* System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<System.String>::GetEnumerator() */, IEnumerable_1_t3840643258_il2cpp_TypeInfo_var, L_5);
+		V_2 = L_6;
+	}
+
+IL_0027:
+	try
+	{ // begin try (depth: 1)
+		{
+			goto IL_0039;
+		}
+
+IL_002c:
+		{
+			Object_t* L_7 = V_2;
+			NullCheck(L_7);
+			String_t* L_8 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* !0 System.Collections.Generic.IEnumerator`1<System.String>::get_Current() */, IEnumerator_1_t2451595350_il2cpp_TypeInfo_var, L_7);
+			V_1 = L_8;
+			String_t* L_9 = V_1;
+			IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+			Debug_Log_m1731103628(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		}
+
+IL_0039:
+		{
+			Object_t* L_10 = V_2;
+			NullCheck(L_10);
+			bool L_11 = InterfaceFuncInvoker0< bool >::Invoke(1 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t287207039_il2cpp_TypeInfo_var, L_10);
+			if (L_11)
+			{
+				goto IL_002c;
+			}
+		}
+
+IL_0044:
+		{
+			IL2CPP_LEAVE(0x54, FINALLY_0049);
+		}
+	} // end try (depth: 1)
+	catch(Il2CppExceptionWrapper& e)
+	{
+		__last_unhandled_exception = (Exception_t1967233988 *)e.ex;
+		goto FINALLY_0049;
+	}
+
+FINALLY_0049:
+	{ // begin finally (depth: 1)
+		{
+			Object_t* L_12 = V_2;
+			if (L_12)
+			{
+				goto IL_004d;
+			}
+		}
+
+IL_004c:
+		{
+			IL2CPP_END_FINALLY(73)
+		}
+
+IL_004d:
+		{
+			Object_t* L_13 = V_2;
+			NullCheck(L_13);
+			InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t1628921374_il2cpp_TypeInfo_var, L_13);
+			IL2CPP_END_FINALLY(73)
+		}
+	} // end finally (depth: 1)
+	IL2CPP_CLEANUP(73)
+	{
+		IL2CPP_JUMP_TBL(0x54, IL_0054)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1967233988 *)
+	}
+
+IL_0054:
+	{
+		goto IL_0063;
+	}
+
+IL_0059:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral4281602469, /*hidden argument*/NULL);
+	}
+
+IL_0063:
+	{
+		return;
+	}
+}
+// System.Void MainCube::.ctor()
+extern "C"  void MainCube__ctor_m4247397549 (MainCube_t55713198 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MainCube::Start()
+extern "C"  void MainCube_Start_m3194535341 (MainCube_t55713198 * __this, const MethodInfo* method)
+{
+	{
+		MainCubeP_t1727109218 * L_0 = &(__this->___cubeP_2);
+		L_0->___rotateSpeed_0 = (30.0f);
+		MainCubeP_t1727109218 * L_1 = &(__this->___cubeP_2);
+		L_1->___isRotating_1 = (bool)1;
+		MainCubeP_t1727109218 * L_2 = &(__this->___cubeP_2);
+		L_2->___movingSpeed_3 = (20.0f);
+		return;
+	}
+}
+// System.Void MainCube::RotateCube(System.Single)
+extern "C"  void MainCube_RotateCube_m2728080996 (MainCube_t55713198 * __this, float ___dirToRotate, const MethodInfo* method)
+{
+	{
+		MonoBehaviour_StopAllCoroutines_m1437893335(__this, /*hidden argument*/NULL);
+		MainCubeP_t1727109218 * L_0 = &(__this->___cubeP_2);
+		L_0->___startTime_2 = (0.0f);
+		float L_1 = ___dirToRotate;
+		Object_t * L_2 = MainCube_StartToRotate_m271908560(__this, L_1, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_2, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator MainCube::StartToRotate(System.Single)
+extern TypeInfo* U3CStartToRotateU3Ec__Iterator11_t702441935_il2cpp_TypeInfo_var;
+extern const uint32_t MainCube_StartToRotate_m271908560_MetadataUsageId;
+extern "C"  Object_t * MainCube_StartToRotate_m271908560 (MainCube_t55713198 * __this, float ___dirToRotate, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MainCube_StartToRotate_m271908560_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CStartToRotateU3Ec__Iterator11_t702441935 * V_0 = {0};
+	{
+		U3CStartToRotateU3Ec__Iterator11_t702441935 * L_0 = (U3CStartToRotateU3Ec__Iterator11_t702441935 *)il2cpp_codegen_object_new(U3CStartToRotateU3Ec__Iterator11_t702441935_il2cpp_TypeInfo_var);
+		U3CStartToRotateU3Ec__Iterator11__ctor_m2076804315(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CStartToRotateU3Ec__Iterator11_t702441935 * L_1 = V_0;
+		float L_2 = ___dirToRotate;
+		NullCheck(L_1);
+		L_1->___dirToRotate_0 = L_2;
+		U3CStartToRotateU3Ec__Iterator11_t702441935 * L_3 = V_0;
+		float L_4 = ___dirToRotate;
+		NullCheck(L_3);
+		L_3->___U3CU24U3EdirToRotate_3 = L_4;
+		U3CStartToRotateU3Ec__Iterator11_t702441935 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_4 = __this;
+		U3CStartToRotateU3Ec__Iterator11_t702441935 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void MainCube::MoveCube(UnityEngine.Vector3)
+extern "C"  void MainCube_MoveCube_m719983260 (MainCube_t55713198 * __this, Vector3_t3525329789  ___targetPos, const MethodInfo* method)
+{
+	{
+		Vector3_t3525329789  L_0 = ___targetPos;
+		Object_t * L_1 = MainCube_StartToMove_m2971734216(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator MainCube::StartToMove(UnityEngine.Vector3)
+extern TypeInfo* U3CStartToMoveU3Ec__Iterator12_t64970246_il2cpp_TypeInfo_var;
+extern const uint32_t MainCube_StartToMove_m2971734216_MetadataUsageId;
+extern "C"  Object_t * MainCube_StartToMove_m2971734216 (MainCube_t55713198 * __this, Vector3_t3525329789  ___targetPos, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MainCube_StartToMove_m2971734216_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CStartToMoveU3Ec__Iterator12_t64970246 * V_0 = {0};
+	{
+		U3CStartToMoveU3Ec__Iterator12_t64970246 * L_0 = (U3CStartToMoveU3Ec__Iterator12_t64970246 *)il2cpp_codegen_object_new(U3CStartToMoveU3Ec__Iterator12_t64970246_il2cpp_TypeInfo_var);
+		U3CStartToMoveU3Ec__Iterator12__ctor_m418579524(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CStartToMoveU3Ec__Iterator12_t64970246 * L_1 = V_0;
+		Vector3_t3525329789  L_2 = ___targetPos;
+		NullCheck(L_1);
+		L_1->___targetPos_0 = L_2;
+		U3CStartToMoveU3Ec__Iterator12_t64970246 * L_3 = V_0;
+		Vector3_t3525329789  L_4 = ___targetPos;
+		NullCheck(L_3);
+		L_3->___U3CU24U3EtargetPos_3 = L_4;
+		U3CStartToMoveU3Ec__Iterator12_t64970246 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_4 = __this;
+		U3CStartToMoveU3Ec__Iterator12_t64970246 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void MainCube/<StartToMove>c__Iterator12::.ctor()
+extern "C"  void U3CStartToMoveU3Ec__Iterator12__ctor_m418579524 (U3CStartToMoveU3Ec__Iterator12_t64970246 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object MainCube/<StartToMove>c__Iterator12::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CStartToMoveU3Ec__Iterator12_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4188234766 (U3CStartToMoveU3Ec__Iterator12_t64970246 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Object MainCube/<StartToMove>c__Iterator12::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CStartToMoveU3Ec__Iterator12_System_Collections_IEnumerator_get_Current_m1208697762 (U3CStartToMoveU3Ec__Iterator12_t64970246 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Boolean MainCube/<StartToMove>c__Iterator12::MoveNext()
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartToMoveU3Ec__Iterator12_MoveNext_m1916026160_MetadataUsageId;
+extern "C"  bool U3CStartToMoveU3Ec__Iterator12_MoveNext_m1916026160 (U3CStartToMoveU3Ec__Iterator12_t64970246 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartToMoveU3Ec__Iterator12_MoveNext_m1916026160_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_1);
+		V_0 = L_0;
+		__this->___U24PC_1 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		goto IL_00a6;
+	}
+
+IL_0021:
+	{
+		goto IL_007f;
+	}
+
+IL_0026:
+	{
+		MainCube_t55713198 * L_2 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_2);
+		Transform_t284553113 * L_3 = Component_get_transform_m4257140443(L_2, /*hidden argument*/NULL);
+		MainCube_t55713198 * L_4 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_4);
+		Transform_t284553113 * L_5 = Component_get_transform_m4257140443(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t3525329789  L_6 = Transform_get_position_m2211398607(L_5, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_7 = (__this->___targetPos_0);
+		MainCube_t55713198 * L_8 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_8);
+		MainCubeP_t1727109218 * L_9 = &(L_8->___cubeP_2);
+		float L_10 = (L_9->___movingSpeed_3);
+		float L_11 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_12 = Vector3_MoveTowards_m2405650085(NULL /*static, unused*/, L_6, L_7, ((float)((float)L_10*(float)L_11)), /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_set_position_m3111394108(L_3, L_12, /*hidden argument*/NULL);
+		int32_t L_13 = 0;
+		Object_t * L_14 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_13);
+		__this->___U24current_2 = L_14;
+		__this->___U24PC_1 = 1;
+		goto IL_00a8;
+	}
+
+IL_007f:
+	{
+		MainCube_t55713198 * L_15 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_15);
+		Transform_t284553113 * L_16 = Component_get_transform_m4257140443(L_15, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		Vector3_t3525329789  L_17 = Transform_get_position_m2211398607(L_16, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_18 = (__this->___targetPos_0);
+		bool L_19 = Vector3_op_Inequality_m231387234(NULL /*static, unused*/, L_17, L_18, /*hidden argument*/NULL);
+		if (L_19)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		__this->___U24PC_1 = (-1);
+	}
+
+IL_00a6:
+	{
+		return (bool)0;
+	}
+
+IL_00a8:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00aa: ldloc.1
+}
+// System.Void MainCube/<StartToMove>c__Iterator12::Dispose()
+extern "C"  void U3CStartToMoveU3Ec__Iterator12_Dispose_m2721247105 (U3CStartToMoveU3Ec__Iterator12_t64970246 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_1 = (-1);
+		return;
+	}
+}
+// System.Void MainCube/<StartToMove>c__Iterator12::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartToMoveU3Ec__Iterator12_Reset_m2359979761_MetadataUsageId;
+extern "C"  void U3CStartToMoveU3Ec__Iterator12_Reset_m2359979761 (U3CStartToMoveU3Ec__Iterator12_t64970246 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartToMoveU3Ec__Iterator12_Reset_m2359979761_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void MainCube/<StartToRotate>c__Iterator11::.ctor()
+extern "C"  void U3CStartToRotateU3Ec__Iterator11__ctor_m2076804315 (U3CStartToRotateU3Ec__Iterator11_t702441935 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object MainCube/<StartToRotate>c__Iterator11::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CStartToRotateU3Ec__Iterator11_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3113141527 (U3CStartToRotateU3Ec__Iterator11_t702441935 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Object MainCube/<StartToRotate>c__Iterator11::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CStartToRotateU3Ec__Iterator11_System_Collections_IEnumerator_get_Current_m2541999787 (U3CStartToRotateU3Ec__Iterator11_t702441935 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Boolean MainCube/<StartToRotate>c__Iterator11::MoveNext()
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartToRotateU3Ec__Iterator11_MoveNext_m2702499385_MetadataUsageId;
+extern "C"  bool U3CStartToRotateU3Ec__Iterator11_MoveNext_m2702499385 (U3CStartToRotateU3Ec__Iterator11_t702441935 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartToRotateU3Ec__Iterator11_MoveNext_m2702499385_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_1);
+		V_0 = L_0;
+		__this->___U24PC_1 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00ed;
+		}
+	}
+	{
+		goto IL_012c;
+	}
+
+IL_0021:
+	{
+		goto IL_00ed;
+	}
+
+IL_0026:
+	{
+		MainCube_t55713198 * L_2 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_2);
+		Transform_t284553113 * L_3 = Component_get_transform_m4257140443(L_2, /*hidden argument*/NULL);
+		MainCube_t55713198 * L_4 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_4);
+		Transform_t284553113 * L_5 = Component_get_transform_m4257140443(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t3525329789  L_6 = Transform_get_forward_m877665793(L_5, /*hidden argument*/NULL);
+		float L_7 = (__this->___dirToRotate_0);
+		Vector3_t3525329789  L_8 = Vector3_op_Multiply_m973638459(NULL /*static, unused*/, L_6, L_7, /*hidden argument*/NULL);
+		float L_9 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		MainCube_t55713198 * L_10 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_10);
+		MainCubeP_t1727109218 * L_11 = &(L_10->___cubeP_2);
+		float L_12 = (L_11->___rotateSpeed_0);
+		NullCheck(L_3);
+		Transform_Rotate_m4229389705(L_3, L_8, ((float)((float)L_9*(float)L_12)), 0, /*hidden argument*/NULL);
+		MainCube_t55713198 * L_13 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_13);
+		MainCubeP_t1727109218 * L_14 = &(L_13->___cubeP_2);
+		MainCubeP_t1727109218 * L_15 = L_14;
+		float L_16 = (L_15->___startTime_2);
+		float L_17 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		MainCube_t55713198 * L_18 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_18);
+		MainCubeP_t1727109218 * L_19 = &(L_18->___cubeP_2);
+		float L_20 = (L_19->___rotateSpeed_0);
+		L_15->___startTime_2 = ((float)((float)L_16+(float)((float)((float)L_17*(float)L_20))));
+		MainCube_t55713198 * L_21 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_21);
+		MainCubeP_t1727109218 * L_22 = &(L_21->___cubeP_2);
+		float L_23 = (L_22->___startTime_2);
+		if ((!(((float)L_23) >= ((float)(30.0f)))))
+		{
+			goto IL_00d5;
+		}
+	}
+	{
+		MainCube_t55713198 * L_24 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_24);
+		MainCubeP_t1727109218 * L_25 = &(L_24->___cubeP_2);
+		L_25->___isRotating_1 = (bool)0;
+		MainCube_t55713198 * L_26 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_26);
+		MainCubeP_t1727109218 * L_27 = &(L_26->___cubeP_2);
+		L_27->___startTime_2 = (0.0f);
+	}
+
+IL_00d5:
+	{
+		int32_t L_28 = 0;
+		Object_t * L_29 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_28);
+		__this->___U24current_2 = L_29;
+		__this->___U24PC_1 = 1;
+		goto IL_012e;
+	}
+
+IL_00ed:
+	{
+		MainCube_t55713198 * L_30 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_30);
+		MainCubeP_t1727109218 * L_31 = &(L_30->___cubeP_2);
+		bool L_32 = (L_31->___isRotating_1);
+		if (L_32)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		MainCube_t55713198 * L_33 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_33);
+		MainCubeP_t1727109218 * L_34 = &(L_33->___cubeP_2);
+		MainCube_t55713198 * L_35 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_35);
+		MainCubeP_t1727109218 * L_36 = &(L_35->___cubeP_2);
+		bool L_37 = (L_36->___isRotating_1);
+		L_34->___isRotating_1 = (bool)((((int32_t)L_37) == ((int32_t)0))? 1 : 0);
+		__this->___U24PC_1 = (-1);
+	}
+
+IL_012c:
+	{
+		return (bool)0;
+	}
+
+IL_012e:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0130: ldloc.1
+}
+// System.Void MainCube/<StartToRotate>c__Iterator11::Dispose()
+extern "C"  void U3CStartToRotateU3Ec__Iterator11_Dispose_m2842404440 (U3CStartToRotateU3Ec__Iterator11_t702441935 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_1 = (-1);
+		return;
+	}
+}
+// System.Void MainCube/<StartToRotate>c__Iterator11::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CStartToRotateU3Ec__Iterator11_Reset_m4018204552_MetadataUsageId;
+extern "C"  void U3CStartToRotateU3Ec__Iterator11_Reset_m4018204552 (U3CStartToRotateU3Ec__Iterator11_t702441935 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CStartToRotateU3Ec__Iterator11_Reset_m4018204552_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// Conversion methods for marshalling of: MainCubeP
+extern "C" void MainCubeP_t1727109218_marshal(const MainCubeP_t1727109218& unmarshaled, MainCubeP_t1727109218_marshaled& marshaled)
+{
+	marshaled.___rotateSpeed_0 = unmarshaled.___rotateSpeed_0;
+	marshaled.___isRotating_1 = unmarshaled.___isRotating_1;
+	marshaled.___startTime_2 = unmarshaled.___startTime_2;
+	marshaled.___movingSpeed_3 = unmarshaled.___movingSpeed_3;
+}
+extern "C" void MainCubeP_t1727109218_marshal_back(const MainCubeP_t1727109218_marshaled& marshaled, MainCubeP_t1727109218& unmarshaled)
+{
+	unmarshaled.___rotateSpeed_0 = marshaled.___rotateSpeed_0;
+	unmarshaled.___isRotating_1 = marshaled.___isRotating_1;
+	unmarshaled.___startTime_2 = marshaled.___startTime_2;
+	unmarshaled.___movingSpeed_3 = marshaled.___movingSpeed_3;
+}
+// Conversion method for clean up from marshalling of: MainCubeP
+extern "C" void MainCubeP_t1727109218_marshal_cleanup(MainCubeP_t1727109218_marshaled& marshaled)
+{
+}
+// System.Void ManagerFB::.ctor()
+extern "C"  void ManagerFB__ctor_m1051405954 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	{
+		__this->___scoreHigh_4 = ((int32_t)10001);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ManagerFB::Awake()
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern TypeInfo* InitDelegate_t1475272884_il2cpp_TypeInfo_var;
+extern TypeInfo* HideUnityDelegate_t2364798903_il2cpp_TypeInfo_var;
+extern const MethodInfo* ManagerFB_InitCallback_m784983479_MethodInfo_var;
+extern const MethodInfo* ManagerFB_OnHideUnity_m3623831051_MethodInfo_var;
+extern const uint32_t ManagerFB_Awake_m1289011173_MetadataUsageId;
+extern "C"  void ManagerFB_Awake_m1289011173 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_Awake_m1289011173_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		GameObject_t4012695102 * L_0 = (__this->___boardCanvas_2);
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_1 = FB_get_IsInitialized_m24459329(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_1)
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		IntPtr_t L_2 = { (void*)ManagerFB_InitCallback_m784983479_MethodInfo_var };
+		InitDelegate_t1475272884 * L_3 = (InitDelegate_t1475272884 *)il2cpp_codegen_object_new(InitDelegate_t1475272884_il2cpp_TypeInfo_var);
+		InitDelegate__ctor_m1407180717(L_3, __this, L_2, /*hidden argument*/NULL);
+		IntPtr_t L_4 = { (void*)ManagerFB_OnHideUnity_m3623831051_MethodInfo_var };
+		HideUnityDelegate_t2364798903 * L_5 = (HideUnityDelegate_t2364798903 *)il2cpp_codegen_object_new(HideUnityDelegate_t2364798903_il2cpp_TypeInfo_var);
+		HideUnityDelegate__ctor_m2462696862(L_5, __this, L_4, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_Init_m2331630741(NULL /*static, unused*/, L_3, L_5, (String_t*)NULL, /*hidden argument*/NULL);
+	}
+
+IL_0034:
+	{
+		return;
+	}
+}
+// System.Void ManagerFB::InitCallback()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2258972053;
+extern Il2CppCodeGenString* _stringLiteral2765426331;
+extern Il2CppCodeGenString* _stringLiteral2574304506;
+extern const uint32_t ManagerFB_InitCallback_m784983479_MetadataUsageId;
+extern "C"  void ManagerFB_InitCallback_m784983479 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_InitCallback_m784983479_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2258972053, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2765426331, /*hidden argument*/NULL);
+		goto IL_002d;
+	}
+
+IL_0023:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2574304506, /*hidden argument*/NULL);
+	}
+
+IL_002d:
+	{
+		return;
+	}
+}
+// System.Void ManagerFB::OnHideUnity(System.Boolean)
+extern "C"  void ManagerFB_OnHideUnity_m3623831051 (ManagerFB_t1530265865 * __this, bool ___isGameShown, const MethodInfo* method)
+{
+	{
+		bool L_0 = ___isGameShown;
+		if (L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		Time_set_timeScale_m1848691981(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		goto IL_001f;
+	}
+
+IL_0015:
+	{
+		Time_set_timeScale_m1848691981(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void ManagerFB::SetLeaderBoardInactive()
+extern "C"  void ManagerFB_SetLeaderBoardInactive_m2212929000 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = (__this->___boardCanvas_2);
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ManagerFB::GetReadPermission()
+extern TypeInfo* Action_t437523947_il2cpp_TypeInfo_var;
+extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
+extern const MethodInfo* ManagerFB_OnLoginComplete_m314281027_MethodInfo_var;
+extern const uint32_t ManagerFB_GetReadPermission_m1009225563_MetadataUsageId;
+extern "C"  void ManagerFB_GetReadPermission_m1009225563 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_GetReadPermission_m1009225563_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		FBShare_PostScore1_m1607740059(NULL /*static, unused*/, /*hidden argument*/NULL);
+		IntPtr_t L_0 = { (void*)ManagerFB_OnLoginComplete_m314281027_MethodInfo_var };
+		Action_t437523947 * L_1 = (Action_t437523947 *)il2cpp_codegen_object_new(Action_t437523947_il2cpp_TypeInfo_var);
+		Action__ctor_m2957240604(L_1, __this, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
+		FBLogin_PromptForLogin_m911439827(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_2 = (__this->___boardCanvas_2);
+		NullCheck(L_2);
+		GameObject_SetActive_m3538205401(L_2, (bool)1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ManagerFB::OnLoginComplete()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2627315715;
+extern Il2CppCodeGenString* _stringLiteral3496625027;
+extern const uint32_t ManagerFB_OnLoginComplete_m314281027_MetadataUsageId;
+extern "C"  void ManagerFB_OnLoginComplete_m314281027 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_OnLoginComplete_m314281027_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2627315715, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3496625027, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001f:
+	{
+		FBGraph_GetPlayerInfo_m1977855676(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FBGraph_GetFriends_m2921996938(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FBGraph_GetScores_m3802773806(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ManagerFB::SetShareLink()
+extern "C"  void ManagerFB_SetShareLink_m3900932601 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	{
+		FBShare_ShareBrag_m2294311067(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ManagerFB::GetPublicPermission()
+extern TypeInfo* Action_t437523947_il2cpp_TypeInfo_var;
+extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
+extern const MethodInfo* ManagerFB_OnGetPublicComplete_m994178745_MethodInfo_var;
+extern const uint32_t ManagerFB_GetPublicPermission_m2905125486_MetadataUsageId;
+extern "C"  void ManagerFB_GetPublicPermission_m2905125486 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_GetPublicPermission_m2905125486_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IntPtr_t L_0 = { (void*)ManagerFB_OnGetPublicComplete_m994178745_MethodInfo_var };
+		Action_t437523947 * L_1 = (Action_t437523947 *)il2cpp_codegen_object_new(Action_t437523947_il2cpp_TypeInfo_var);
+		Action__ctor_m2957240604(L_1, __this, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
+		FBLogin_PromptForPublish_m3794860397(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ManagerFB::OnGetPublicComplete()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3317444473;
+extern Il2CppCodeGenString* _stringLiteral3939243602;
+extern const uint32_t ManagerFB_OnGetPublicComplete_m994178745_MetadataUsageId;
+extern "C"  void ManagerFB_OnGetPublicComplete_m994178745 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_OnGetPublicComplete_m994178745_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3317444473, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3939243602, /*hidden argument*/NULL);
+		return;
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void ManagerFB::SetShareScore()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t ManagerFB_SetShareScore_m2416800597_MetadataUsageId;
+extern "C"  void ManagerFB_SetShareScore_m2416800597 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_SetShareScore_m2416800597_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ManagerFB_GetPublicPermission_m2905125486(__this, /*hidden argument*/NULL);
+		int32_t L_0 = (__this->___scoreHigh_4);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_set_HighScore_m1444715631(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
+		int32_t L_1 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
+		FBShare_PostScore_m2060077696(NULL /*static, unused*/, L_1, (Action_t437523947 *)NULL, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ManagerFB::ShareScreenshotTest()
+extern "C"  void ManagerFB_ShareScreenshotTest_m2441526391 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	{
+		ManagerFB_GetPublicPermission_m2905125486(__this, /*hidden argument*/NULL);
+		Object_t * L_0 = ManagerFB_TakeScreenshot_m3377137671(__this, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator ManagerFB::TakeScreenshot()
+extern TypeInfo* U3CTakeScreenshotU3Ec__Iterator7_t564136571_il2cpp_TypeInfo_var;
+extern const uint32_t ManagerFB_TakeScreenshot_m3377137671_MetadataUsageId;
+extern "C"  Object_t * ManagerFB_TakeScreenshot_m3377137671 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_TakeScreenshot_m3377137671_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CTakeScreenshotU3Ec__Iterator7_t564136571 * V_0 = {0};
+	{
+		U3CTakeScreenshotU3Ec__Iterator7_t564136571 * L_0 = (U3CTakeScreenshotU3Ec__Iterator7_t564136571 *)il2cpp_codegen_object_new(U3CTakeScreenshotU3Ec__Iterator7_t564136571_il2cpp_TypeInfo_var);
+		U3CTakeScreenshotU3Ec__Iterator7__ctor_m822495226(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CTakeScreenshotU3Ec__Iterator7_t564136571 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3Ef__this_7 = __this;
+		U3CTakeScreenshotU3Ec__Iterator7_t564136571 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void ManagerFB::APICallback(Facebook.Unity.IResult)
+extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3926826897;
+extern Il2CppCodeGenString* _stringLiteral1507423;
+extern Il2CppCodeGenString* _stringLiteral2007880620;
+extern Il2CppCodeGenString* _stringLiteral3803448126;
+extern const uint32_t ManagerFB_APICallback_m4153641498_MetadataUsageId;
+extern "C"  void ManagerFB_APICallback_m4153641498 (ManagerFB_t1530265865 * __this, Object_t * ___result, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_APICallback_m4153641498_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Object_t * L_0 = ___result;
+		NullCheck(L_0);
+		String_t* L_1 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_0);
+		if (!L_1)
+		{
+			goto IL_0025;
+		}
+	}
+	{
+		Object_t * L_2 = ___result;
+		NullCheck(L_2);
+		String_t* L_3 = InterfaceFuncInvoker0< String_t* >::Invoke(0 /* System.String Facebook.Unity.IResult::get_Error() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_2);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_4 = String_Concat_m138640077(NULL /*static, unused*/, L_3, _stringLiteral3926826897, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_4, /*hidden argument*/NULL);
+		goto IL_004e;
+	}
+
+IL_0025:
+	{
+		Object_t * L_5 = ___result;
+		NullCheck(L_5);
+		String_t* L_6 = InterfaceFuncInvoker0< String_t* >::Invoke(2 /* System.String Facebook.Unity.IResult::get_RawResult() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_5);
+		NullCheck(L_6);
+		bool L_7 = String_Contains_m3032019141(L_6, _stringLiteral1507423, /*hidden argument*/NULL);
+		if (!L_7)
+		{
+			goto IL_0044;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2007880620, /*hidden argument*/NULL);
+	}
+
+IL_0044:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3803448126, /*hidden argument*/NULL);
+	}
+
+IL_004e:
+	{
+		return;
+	}
+}
+// System.Void ManagerFB::OnChallengeClicked()
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1061156451;
+extern const uint32_t ManagerFB_OnChallengeClicked_m1303324229_MetadataUsageId;
+extern "C"  void ManagerFB_OnChallengeClicked_m1303324229 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ManagerFB_OnChallengeClicked_m1303324229_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1061156451, /*hidden argument*/NULL);
+		FBRequest_RequestChallenge_m2768989888(NULL /*static, unused*/, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ManagerFB/<TakeScreenshot>c__Iterator7::.ctor()
+extern "C"  void U3CTakeScreenshotU3Ec__Iterator7__ctor_m822495226 (U3CTakeScreenshotU3Ec__Iterator7_t564136571 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object ManagerFB/<TakeScreenshot>c__Iterator7::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CTakeScreenshotU3Ec__Iterator7_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m1275580002 (U3CTakeScreenshotU3Ec__Iterator7_t564136571 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_6);
+		return L_0;
+	}
+}
+// System.Object ManagerFB/<TakeScreenshot>c__Iterator7::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CTakeScreenshotU3Ec__Iterator7_System_Collections_IEnumerator_get_Current_m3088504310 (U3CTakeScreenshotU3Ec__Iterator7_t564136571 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_6);
+		return L_0;
+	}
+}
+// System.Boolean ManagerFB/<TakeScreenshot>c__Iterator7::MoveNext()
+extern TypeInfo* WaitForEndOfFrame_t1917318876_il2cpp_TypeInfo_var;
+extern TypeInfo* Texture2D_t2509538522_il2cpp_TypeInfo_var;
+extern TypeInfo* WWWForm_t3999572776_il2cpp_TypeInfo_var;
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
+extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
+extern const MethodInfo* ManagerFB_APICallback_m4153641498_MethodInfo_var;
+extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral100313435;
+extern Il2CppCodeGenString* _stringLiteral2765998529;
+extern Il2CppCodeGenString* _stringLiteral3373707;
+extern Il2CppCodeGenString* _stringLiteral2891913162;
+extern Il2CppCodeGenString* _stringLiteral2555076824;
+extern const uint32_t U3CTakeScreenshotU3Ec__Iterator7_MoveNext_m1204685986_MetadataUsageId;
+extern "C"  bool U3CTakeScreenshotU3Ec__Iterator7_MoveNext_m1204685986 (U3CTakeScreenshotU3Ec__Iterator7_t564136571 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CTakeScreenshotU3Ec__Iterator7_MoveNext_m1204685986_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_5);
+		V_0 = L_0;
+		__this->___U24PC_5 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		goto IL_0120;
+	}
+
+IL_0021:
+	{
+		WaitForEndOfFrame_t1917318876 * L_2 = (WaitForEndOfFrame_t1917318876 *)il2cpp_codegen_object_new(WaitForEndOfFrame_t1917318876_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m4124201226(L_2, /*hidden argument*/NULL);
+		__this->___U24current_6 = L_2;
+		__this->___U24PC_5 = 1;
+		goto IL_0122;
+	}
+
+IL_0038:
+	{
+		int32_t L_3 = Screen_get_width_m3080333084(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->___U3CwidthU3E__0_0 = L_3;
+		int32_t L_4 = Screen_get_height_m1504859443(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->___U3CheightU3E__1_1 = L_4;
+		int32_t L_5 = (__this->___U3CwidthU3E__0_0);
+		int32_t L_6 = (__this->___U3CheightU3E__1_1);
+		Texture2D_t2509538522 * L_7 = (Texture2D_t2509538522 *)il2cpp_codegen_object_new(Texture2D_t2509538522_il2cpp_TypeInfo_var);
+		Texture2D__ctor_m3705883154(L_7, L_5, L_6, 3, (bool)0, /*hidden argument*/NULL);
+		__this->___U3CtexU3E__2_2 = L_7;
+		Texture2D_t2509538522 * L_8 = (__this->___U3CtexU3E__2_2);
+		int32_t L_9 = (__this->___U3CwidthU3E__0_0);
+		int32_t L_10 = (__this->___U3CheightU3E__1_1);
+		Rect_t1525428817  L_11 = {0};
+		Rect__ctor_m3291325233(&L_11, (0.0f), (0.0f), (((float)((float)L_9))), (((float)((float)L_10))), /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Texture2D_ReadPixels_m1334301696(L_8, L_11, 0, 0, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_12 = (__this->___U3CtexU3E__2_2);
+		NullCheck(L_12);
+		Texture2D_Apply_m1364130776(L_12, /*hidden argument*/NULL);
+		Texture2D_t2509538522 * L_13 = (__this->___U3CtexU3E__2_2);
+		NullCheck(L_13);
+		ByteU5BU5D_t58506160* L_14 = Texture2D_EncodeToPNG_m2464495756(L_13, /*hidden argument*/NULL);
+		__this->___U3CscreenshotU3E__3_3 = L_14;
+		WWWForm_t3999572776 * L_15 = (WWWForm_t3999572776 *)il2cpp_codegen_object_new(WWWForm_t3999572776_il2cpp_TypeInfo_var);
+		WWWForm__ctor_m1417930174(L_15, /*hidden argument*/NULL);
+		__this->___U3CwwwFormU3E__4_4 = L_15;
+		WWWForm_t3999572776 * L_16 = (__this->___U3CwwwFormU3E__4_4);
+		ByteU5BU5D_t58506160* L_17 = (__this->___U3CscreenshotU3E__3_3);
+		NullCheck(L_16);
+		WWWForm_AddBinaryData_m3460911449(L_16, _stringLiteral100313435, L_17, _stringLiteral2765998529, /*hidden argument*/NULL);
+		WWWForm_t3999572776 * L_18 = (__this->___U3CwwwFormU3E__4_4);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_19 = GameStateManager_get_Score_m1514295878(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_20 = L_19;
+		Object_t * L_21 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_20);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_22 = String_Concat_m389863537(NULL /*static, unused*/, _stringLiteral2891913162, L_21, /*hidden argument*/NULL);
+		NullCheck(L_18);
+		WWWForm_AddField_m2890504319(L_18, _stringLiteral3373707, L_22, /*hidden argument*/NULL);
+		ManagerFB_t1530265865 * L_23 = (__this->___U3CU3Ef__this_7);
+		IntPtr_t L_24 = { (void*)ManagerFB_APICallback_m4153641498_MethodInfo_var };
+		FacebookDelegate_1_t2979309097 * L_25 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
+		FacebookDelegate_1__ctor_m3544532929(L_25, L_23, L_24, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
+		WWWForm_t3999572776 * L_26 = (__this->___U3CwwwFormU3E__4_4);
+		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
+		FB_API_m3866078070(NULL /*static, unused*/, _stringLiteral2555076824, 1, L_25, L_26, /*hidden argument*/NULL);
+		__this->___U24PC_5 = (-1);
+	}
+
+IL_0120:
+	{
+		return (bool)0;
+	}
+
+IL_0122:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0124: ldloc.1
+}
+// System.Void ManagerFB/<TakeScreenshot>c__Iterator7::Dispose()
+extern "C"  void U3CTakeScreenshotU3Ec__Iterator7_Dispose_m42212791 (U3CTakeScreenshotU3Ec__Iterator7_t564136571 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_5 = (-1);
+		return;
+	}
+}
+// System.Void ManagerFB/<TakeScreenshot>c__Iterator7::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CTakeScreenshotU3Ec__Iterator7_Reset_m2763895463_MetadataUsageId;
+extern "C"  void U3CTakeScreenshotU3Ec__Iterator7_Reset_m2763895463 (U3CTakeScreenshotU3Ec__Iterator7_t564136571 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CTakeScreenshotU3Ec__Iterator7_Reset_m2763895463_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void MoveTowadsTest::.ctor()
+extern "C"  void MoveTowadsTest__ctor_m1529541412 (MoveTowadsTest_t477145943 * __this, const MethodInfo* method)
+{
+	{
+		__this->___speed_3 = (50.0f);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void MoveTowadsTest::Start()
+extern "C"  void MoveTowadsTest_Start_m476679204 (MoveTowadsTest_t477145943 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void MoveTowadsTest::Update()
+extern TypeInfo* Input_t1593691127_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral67887259;
+extern Il2CppCodeGenString* _stringLiteral1194520330;
+extern const uint32_t MoveTowadsTest_Update_m1898005609_MetadataUsageId;
+extern "C"  void MoveTowadsTest_Update_m1898005609 (MoveTowadsTest_t477145943 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MoveTowadsTest_Update_m1898005609_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_0 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, _stringLiteral67887259, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_001f;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1194520330, /*hidden argument*/NULL);
+		MoveTowadsTest_moveCube_m3477951526(__this, /*hidden argument*/NULL);
+	}
+
+IL_001f:
+	{
+		return;
+	}
+}
+// System.Void MoveTowadsTest::moveCube()
+extern "C"  void MoveTowadsTest_moveCube_m3477951526 (MoveTowadsTest_t477145943 * __this, const MethodInfo* method)
+{
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Vector3_t3525329789  L_1 = Transform_get_position_m2211398607(L_0, /*hidden argument*/NULL);
+		__this->___currentPos_2 = L_1;
+		Vector3_t3525329789  L_2 = (__this->___currentPos_2);
+		Vector3_t3525329789  L_3 = {0};
+		Vector3__ctor_m2926210380(&L_3, (0.0f), (1.0f), (0.0f), /*hidden argument*/NULL);
+		Object_t * L_4 = MoveTowadsTest_Move_m1675067219(__this, L_2, L_3, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator MoveTowadsTest::Move(UnityEngine.Vector3,UnityEngine.Vector3)
+extern TypeInfo* U3CMoveU3Ec__Iterator1D_t3571380979_il2cpp_TypeInfo_var;
+extern const uint32_t MoveTowadsTest_Move_m1675067219_MetadataUsageId;
+extern "C"  Object_t * MoveTowadsTest_Move_m1675067219 (MoveTowadsTest_t477145943 * __this, Vector3_t3525329789  ___currentPos, Vector3_t3525329789  ___targetPos, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (MoveTowadsTest_Move_m1675067219_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CMoveU3Ec__Iterator1D_t3571380979 * V_0 = {0};
+	{
+		U3CMoveU3Ec__Iterator1D_t3571380979 * L_0 = (U3CMoveU3Ec__Iterator1D_t3571380979 *)il2cpp_codegen_object_new(U3CMoveU3Ec__Iterator1D_t3571380979_il2cpp_TypeInfo_var);
+		U3CMoveU3Ec__Iterator1D__ctor_m3862362816(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CMoveU3Ec__Iterator1D_t3571380979 * L_1 = V_0;
+		Vector3_t3525329789  L_2 = ___targetPos;
+		NullCheck(L_1);
+		L_1->___targetPos_0 = L_2;
+		U3CMoveU3Ec__Iterator1D_t3571380979 * L_3 = V_0;
+		Vector3_t3525329789  L_4 = ___targetPos;
+		NullCheck(L_3);
+		L_3->___U3CU24U3EtargetPos_3 = L_4;
+		U3CMoveU3Ec__Iterator1D_t3571380979 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_4 = __this;
+		U3CMoveU3Ec__Iterator1D_t3571380979 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void MoveTowadsTest/<Move>c__Iterator1D::.ctor()
+extern "C"  void U3CMoveU3Ec__Iterator1D__ctor_m3862362816 (U3CMoveU3Ec__Iterator1D_t3571380979 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object MoveTowadsTest/<Move>c__Iterator1D::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CMoveU3Ec__Iterator1D_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m545238492 (U3CMoveU3Ec__Iterator1D_t3571380979 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Object MoveTowadsTest/<Move>c__Iterator1D::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CMoveU3Ec__Iterator1D_System_Collections_IEnumerator_get_Current_m3558926704 (U3CMoveU3Ec__Iterator1D_t3571380979 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Boolean MoveTowadsTest/<Move>c__Iterator1D::MoveNext()
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1994880802;
+extern const uint32_t U3CMoveU3Ec__Iterator1D_MoveNext_m1281037852_MetadataUsageId;
+extern "C"  bool U3CMoveU3Ec__Iterator1D_MoveNext_m1281037852 (U3CMoveU3Ec__Iterator1D_t3571380979 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CMoveU3Ec__Iterator1D_MoveNext_m1281037852_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_1);
+		V_0 = L_0;
+		__this->___U24PC_1 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_007a;
+		}
+	}
+	{
+		goto IL_00ab;
+	}
+
+IL_0021:
+	{
+		goto IL_0084;
+	}
+
+IL_0026:
+	{
+		MoveTowadsTest_t477145943 * L_2 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_2);
+		Transform_t284553113 * L_3 = Component_get_transform_m4257140443(L_2, /*hidden argument*/NULL);
+		MoveTowadsTest_t477145943 * L_4 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_4);
+		Transform_t284553113 * L_5 = Component_get_transform_m4257140443(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t3525329789  L_6 = Transform_get_position_m2211398607(L_5, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_7 = (__this->___targetPos_0);
+		MoveTowadsTest_t477145943 * L_8 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_8);
+		float L_9 = (L_8->___speed_3);
+		float L_10 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_11 = Vector3_MoveTowards_m2405650085(NULL /*static, unused*/, L_6, L_7, ((float)((float)L_9*(float)L_10)), /*hidden argument*/NULL);
+		NullCheck(L_3);
+		Transform_set_position_m3111394108(L_3, L_11, /*hidden argument*/NULL);
+		int32_t L_12 = 0;
+		Object_t * L_13 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_12);
+		__this->___U24current_2 = L_13;
+		__this->___U24PC_1 = 1;
+		goto IL_00ad;
+	}
+
+IL_007a:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1994880802, /*hidden argument*/NULL);
+	}
+
+IL_0084:
+	{
+		MoveTowadsTest_t477145943 * L_14 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_14);
+		Transform_t284553113 * L_15 = Component_get_transform_m4257140443(L_14, /*hidden argument*/NULL);
+		NullCheck(L_15);
+		Vector3_t3525329789  L_16 = Transform_get_position_m2211398607(L_15, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_17 = (__this->___targetPos_0);
+		bool L_18 = Vector3_op_Inequality_m231387234(NULL /*static, unused*/, L_16, L_17, /*hidden argument*/NULL);
+		if (L_18)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		__this->___U24PC_1 = (-1);
+	}
+
+IL_00ab:
+	{
+		return (bool)0;
+	}
+
+IL_00ad:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00af: ldloc.1
+}
+// System.Void MoveTowadsTest/<Move>c__Iterator1D::Dispose()
+extern "C"  void U3CMoveU3Ec__Iterator1D_Dispose_m777205501 (U3CMoveU3Ec__Iterator1D_t3571380979 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_1 = (-1);
+		return;
+	}
+}
+// System.Void MoveTowadsTest/<Move>c__Iterator1D::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CMoveU3Ec__Iterator1D_Reset_m1508795757_MetadataUsageId;
+extern "C"  void U3CMoveU3Ec__Iterator1D_Reset_m1508795757 (U3CMoveU3Ec__Iterator1D_t3571380979 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CMoveU3Ec__Iterator1D_Reset_m1508795757_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void Orbit::.ctor()
+extern "C"  void Orbit__ctor_m3335899265 (Orbit_t76451882 * __this, const MethodInfo* method)
+{
+	{
+		__this->___degreesPerSecond_2 = (10.0f);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Orbit::Update()
+extern "C"  void Orbit_Update_m2060524204 (Orbit_t76451882 * __this, const MethodInfo* method)
+{
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_1 = Vector3_get_zero_m2017759730(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_2 = Vector3_get_up_m4046647141(NULL /*static, unused*/, /*hidden argument*/NULL);
+		float L_3 = (__this->___degreesPerSecond_2);
+		float L_4 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_RotateAround_m2745906802(L_0, L_1, L_2, ((float)((float)L_3*(float)L_4)), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PanelManager::.ctor()
+extern "C"  void PanelManager__ctor_m565332882 (PanelManager_t2965005609 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PanelManager::OnEnable()
+extern Il2CppCodeGenString* _stringLiteral2464362;
+extern const uint32_t PanelManager_OnEnable_m3336698548_MetadataUsageId;
+extern "C"  void PanelManager_OnEnable_m3336698548 (PanelManager_t2965005609 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PanelManager_OnEnable_m3336698548_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		int32_t L_0 = Animator_StringToHash_m4020897098(NULL /*static, unused*/, _stringLiteral2464362, /*hidden argument*/NULL);
+		__this->___m_OpenParameterId_5 = L_0;
+		Animator_t792326996 * L_1 = (__this->___initiallyOpen_4);
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_1, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0022:
+	{
+		Animator_t792326996 * L_3 = (__this->___initiallyOpen_4);
+		PanelManager_OpenPanel_m3425902764(__this, L_3, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PanelManager::OpenPanel(UnityEngine.Animator)
+extern TypeInfo* EventSystem_t409518532_il2cpp_TypeInfo_var;
+extern const uint32_t PanelManager_OpenPanel_m3425902764_MetadataUsageId;
+extern "C"  void PanelManager_OpenPanel_m3425902764 (PanelManager_t2965005609 * __this, Animator_t792326996 * ___anim, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PanelManager_OpenPanel_m3425902764_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t4012695102 * V_0 = {0};
+	GameObject_t4012695102 * V_1 = {0};
+	{
+		Animator_t792326996 * L_0 = (__this->___m_Open_6);
+		Animator_t792326996 * L_1 = ___anim;
+		bool L_2 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		if (!L_2)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t792326996 * L_3 = ___anim;
+		NullCheck(L_3);
+		GameObject_t4012695102 * L_4 = Component_get_gameObject_m1170635899(L_3, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		GameObject_SetActive_m3538205401(L_4, (bool)1, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
+		EventSystem_t409518532 * L_5 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		GameObject_t4012695102 * L_6 = EventSystem_get_currentSelectedGameObject_m4236083783(L_5, /*hidden argument*/NULL);
+		V_0 = L_6;
+		Animator_t792326996 * L_7 = ___anim;
+		NullCheck(L_7);
+		Transform_t284553113 * L_8 = Component_get_transform_m4257140443(L_7, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		Transform_SetAsLastSibling_m3507604527(L_8, /*hidden argument*/NULL);
+		PanelManager_CloseCurrent_m2830000787(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_9 = V_0;
+		__this->___m_PreviouslySelected_7 = L_9;
+		Animator_t792326996 * L_10 = ___anim;
+		__this->___m_Open_6 = L_10;
+		Animator_t792326996 * L_11 = (__this->___m_Open_6);
+		int32_t L_12 = (__this->___m_OpenParameterId_5);
+		NullCheck(L_11);
+		Animator_SetBool_m1802007004(L_11, L_12, (bool)1, /*hidden argument*/NULL);
+		Animator_t792326996 * L_13 = ___anim;
+		NullCheck(L_13);
+		GameObject_t4012695102 * L_14 = Component_get_gameObject_m1170635899(L_13, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_15 = PanelManager_FindFirstEnabledSelectable_m3666196511(NULL /*static, unused*/, L_14, /*hidden argument*/NULL);
+		V_1 = L_15;
+		GameObject_t4012695102 * L_16 = V_1;
+		PanelManager_SetSelected_m413726469(__this, L_16, /*hidden argument*/NULL);
+		return;
+	}
+}
+// UnityEngine.GameObject PanelManager::FindFirstEnabledSelectable(UnityEngine.GameObject)
+extern const MethodInfo* GameObject_GetComponentsInChildren_TisSelectable_t3621744255_m3873478778_MethodInfo_var;
+extern const uint32_t PanelManager_FindFirstEnabledSelectable_m3666196511_MetadataUsageId;
+extern "C"  GameObject_t4012695102 * PanelManager_FindFirstEnabledSelectable_m3666196511 (Object_t * __this /* static, unused */, GameObject_t4012695102 * ___gameObject, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PanelManager_FindFirstEnabledSelectable_m3666196511_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t4012695102 * V_0 = {0};
+	SelectableU5BU5D_t3692422310* V_1 = {0};
+	Selectable_t3621744255 * V_2 = {0};
+	SelectableU5BU5D_t3692422310* V_3 = {0};
+	int32_t V_4 = 0;
+	{
+		V_0 = (GameObject_t4012695102 *)NULL;
+		GameObject_t4012695102 * L_0 = ___gameObject;
+		NullCheck(L_0);
+		SelectableU5BU5D_t3692422310* L_1 = GameObject_GetComponentsInChildren_TisSelectable_t3621744255_m3873478778(L_0, (bool)1, /*hidden argument*/GameObject_GetComponentsInChildren_TisSelectable_t3621744255_m3873478778_MethodInfo_var);
+		V_1 = L_1;
+		SelectableU5BU5D_t3692422310* L_2 = V_1;
+		V_3 = L_2;
+		V_4 = 0;
+		goto IL_0041;
+	}
+
+IL_0014:
+	{
+		SelectableU5BU5D_t3692422310* L_3 = V_3;
+		int32_t L_4 = V_4;
+		NullCheck(L_3);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_3, L_4);
+		int32_t L_5 = L_4;
+		V_2 = (*(Selectable_t3621744255 **)(Selectable_t3621744255 **)SZArrayLdElema(L_3, L_5, sizeof(Selectable_t3621744255 *)));
+		Selectable_t3621744255 * L_6 = V_2;
+		NullCheck(L_6);
+		bool L_7 = VirtFuncInvoker0< bool >::Invoke(9 /* System.Boolean UnityEngine.EventSystems.UIBehaviour::IsActive() */, L_6);
+		if (!L_7)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		Selectable_t3621744255 * L_8 = V_2;
+		NullCheck(L_8);
+		bool L_9 = VirtFuncInvoker0< bool >::Invoke(23 /* System.Boolean UnityEngine.UI.Selectable::IsInteractable() */, L_8);
+		if (!L_9)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		Selectable_t3621744255 * L_10 = V_2;
+		NullCheck(L_10);
+		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1170635899(L_10, /*hidden argument*/NULL);
+		V_0 = L_11;
+		goto IL_004b;
+	}
+
+IL_003b:
+	{
+		int32_t L_12 = V_4;
+		V_4 = ((int32_t)((int32_t)L_12+(int32_t)1));
+	}
+
+IL_0041:
+	{
+		int32_t L_13 = V_4;
+		SelectableU5BU5D_t3692422310* L_14 = V_3;
+		NullCheck(L_14);
+		if ((((int32_t)L_13) < ((int32_t)(((int32_t)((int32_t)(((Array_t *)L_14)->max_length)))))))
+		{
+			goto IL_0014;
+		}
+	}
+
+IL_004b:
+	{
+		GameObject_t4012695102 * L_15 = V_0;
+		return L_15;
+	}
+}
+// System.Void PanelManager::CloseCurrent()
+extern "C"  void PanelManager_CloseCurrent_m2830000787 (PanelManager_t2965005609 * __this, const MethodInfo* method)
+{
+	{
+		Animator_t792326996 * L_0 = (__this->___m_Open_6);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		Animator_t792326996 * L_2 = (__this->___m_Open_6);
+		int32_t L_3 = (__this->___m_OpenParameterId_5);
+		NullCheck(L_2);
+		Animator_SetBool_m1802007004(L_2, L_3, (bool)0, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_4 = (__this->___m_PreviouslySelected_7);
+		PanelManager_SetSelected_m413726469(__this, L_4, /*hidden argument*/NULL);
+		Animator_t792326996 * L_5 = (__this->___m_Open_6);
+		Object_t * L_6 = PanelManager_DisablePanelDeleyed_m3121132044(__this, L_5, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_6, /*hidden argument*/NULL);
+		__this->___m_Open_6 = (Animator_t792326996 *)NULL;
+		return;
+	}
+}
+// System.Collections.IEnumerator PanelManager::DisablePanelDeleyed(UnityEngine.Animator)
+extern TypeInfo* U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687_il2cpp_TypeInfo_var;
+extern const uint32_t PanelManager_DisablePanelDeleyed_m3121132044_MetadataUsageId;
+extern "C"  Object_t * PanelManager_DisablePanelDeleyed_m3121132044 (PanelManager_t2965005609 * __this, Animator_t792326996 * ___anim, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PanelManager_DisablePanelDeleyed_m3121132044_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * V_0 = {0};
+	{
+		U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * L_0 = (U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 *)il2cpp_codegen_object_new(U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687_il2cpp_TypeInfo_var);
+		U3CDisablePanelDeleyedU3Ec__Iterator8__ctor_m1526094658(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * L_1 = V_0;
+		Animator_t792326996 * L_2 = ___anim;
+		NullCheck(L_1);
+		L_1->___anim_2 = L_2;
+		U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * L_3 = V_0;
+		Animator_t792326996 * L_4 = ___anim;
+		NullCheck(L_3);
+		L_3->___U3CU24U3Eanim_5 = L_4;
+		U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_6 = __this;
+		U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Void PanelManager::SetSelected(UnityEngine.GameObject)
+extern TypeInfo* EventSystem_t409518532_il2cpp_TypeInfo_var;
+extern const uint32_t PanelManager_SetSelected_m413726469_MetadataUsageId;
+extern "C"  void PanelManager_SetSelected_m413726469 (PanelManager_t2965005609 * __this, GameObject_t4012695102 * ___go, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PanelManager_SetSelected_m413726469_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(EventSystem_t409518532_il2cpp_TypeInfo_var);
+		EventSystem_t409518532 * L_0 = EventSystem_get_current_m3483537871(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_1 = ___go;
+		NullCheck(L_0);
+		EventSystem_SetSelectedGameObject_m1869236832(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PanelManager/<DisablePanelDeleyed>c__Iterator8::.ctor()
+extern "C"  void U3CDisablePanelDeleyedU3Ec__Iterator8__ctor_m1526094658 (U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object PanelManager/<DisablePanelDeleyed>c__Iterator8::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CDisablePanelDeleyedU3Ec__Iterator8_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m2655400730 (U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_4);
+		return L_0;
+	}
+}
+// System.Object PanelManager/<DisablePanelDeleyed>c__Iterator8::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CDisablePanelDeleyedU3Ec__Iterator8_System_Collections_IEnumerator_get_Current_m3227888302 (U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_4);
+		return L_0;
+	}
+}
+// System.Boolean PanelManager/<DisablePanelDeleyed>c__Iterator8::MoveNext()
+extern TypeInfo* WaitForEndOfFrame_t1917318876_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2021313932;
+extern const uint32_t U3CDisablePanelDeleyedU3Ec__Iterator8_MoveNext_m2421612634_MetadataUsageId;
+extern "C"  bool U3CDisablePanelDeleyedU3Ec__Iterator8_MoveNext_m2421612634 (U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CDisablePanelDeleyedU3Ec__Iterator8_MoveNext_m2421612634_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	AnimatorStateInfo_t4162640357  V_1 = {0};
+	bool V_2 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_3);
+		V_0 = L_0;
+		__this->___U24PC_3 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_009a;
+		}
+	}
+	{
+		goto IL_00d3;
+	}
+
+IL_0021:
+	{
+		__this->___U3CclosedStateReachedU3E__0_0 = (bool)0;
+		__this->___U3CwantToCloseU3E__1_1 = (bool)1;
+		goto IL_009a;
+	}
+
+IL_0034:
+	{
+		Animator_t792326996 * L_2 = (__this->___anim_2);
+		NullCheck(L_2);
+		bool L_3 = Animator_IsInTransition_m2609196857(L_2, 0, /*hidden argument*/NULL);
+		if (L_3)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		Animator_t792326996 * L_4 = (__this->___anim_2);
+		NullCheck(L_4);
+		AnimatorStateInfo_t4162640357  L_5 = Animator_GetCurrentAnimatorStateInfo_m3061859448(L_4, 0, /*hidden argument*/NULL);
+		V_1 = L_5;
+		bool L_6 = AnimatorStateInfo_IsName_m1653922768((&V_1), _stringLiteral2021313932, /*hidden argument*/NULL);
+		__this->___U3CclosedStateReachedU3E__0_0 = L_6;
+	}
+
+IL_0064:
+	{
+		Animator_t792326996 * L_7 = (__this->___anim_2);
+		PanelManager_t2965005609 * L_8 = (__this->___U3CU3Ef__this_6);
+		NullCheck(L_8);
+		int32_t L_9 = (L_8->___m_OpenParameterId_5);
+		NullCheck(L_7);
+		bool L_10 = Animator_GetBool_m1246282447(L_7, L_9, /*hidden argument*/NULL);
+		__this->___U3CwantToCloseU3E__1_1 = (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
+		WaitForEndOfFrame_t1917318876 * L_11 = (WaitForEndOfFrame_t1917318876 *)il2cpp_codegen_object_new(WaitForEndOfFrame_t1917318876_il2cpp_TypeInfo_var);
+		WaitForEndOfFrame__ctor_m4124201226(L_11, /*hidden argument*/NULL);
+		__this->___U24current_4 = L_11;
+		__this->___U24PC_3 = 1;
+		goto IL_00d5;
+	}
+
+IL_009a:
+	{
+		bool L_12 = (__this->___U3CclosedStateReachedU3E__0_0);
+		if (L_12)
+		{
+			goto IL_00b0;
+		}
+	}
+	{
+		bool L_13 = (__this->___U3CwantToCloseU3E__1_1);
+		if (L_13)
+		{
+			goto IL_0034;
+		}
+	}
+
+IL_00b0:
+	{
+		bool L_14 = (__this->___U3CwantToCloseU3E__1_1);
+		if (!L_14)
+		{
+			goto IL_00cc;
+		}
+	}
+	{
+		Animator_t792326996 * L_15 = (__this->___anim_2);
+		NullCheck(L_15);
+		GameObject_t4012695102 * L_16 = Component_get_gameObject_m1170635899(L_15, /*hidden argument*/NULL);
+		NullCheck(L_16);
+		GameObject_SetActive_m3538205401(L_16, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_00cc:
+	{
+		__this->___U24PC_3 = (-1);
+	}
+
+IL_00d3:
+	{
+		return (bool)0;
+	}
+
+IL_00d5:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00d7: ldloc.2
+}
+// System.Void PanelManager/<DisablePanelDeleyed>c__Iterator8::Dispose()
+extern "C"  void U3CDisablePanelDeleyedU3Ec__Iterator8_Dispose_m1891401471 (U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_3 = (-1);
+		return;
+	}
+}
+// System.Void PanelManager/<DisablePanelDeleyed>c__Iterator8::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CDisablePanelDeleyedU3Ec__Iterator8_Reset_m3467494895_MetadataUsageId;
+extern "C"  void U3CDisablePanelDeleyedU3Ec__Iterator8_Reset_m3467494895 (U3CDisablePanelDeleyedU3Ec__Iterator8_t3135294687 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CDisablePanelDeleyedU3Ec__Iterator8_Reset_m3467494895_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void ParticeDeactivate::.ctor()
+extern "C"  void ParticeDeactivate__ctor_m2438540991 (ParticeDeactivate_t2500325420 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ParticeDeactivate::Start()
+extern "C"  void ParticeDeactivate_Start_m1385678783 (ParticeDeactivate_t2500325420 * __this, const MethodInfo* method)
+{
+	{
+		ParticleP_t203653738 * L_0 = &(__this->___particleP_2);
+		L_0->___startTime_0 = (0.0f);
+		ParticleP_t203653738 * L_1 = &(__this->___particleP_2);
+		L_1->___speedTime_1 = (1.0f);
+		return;
+	}
+}
+// System.Void ParticeDeactivate::Update()
+extern "C"  void ParticeDeactivate_Update_m12221486 (ParticeDeactivate_t2500325420 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		bool L_1 = GameObject_get_activeInHierarchy_m612450965(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		ParticleP_t203653738 * L_2 = &(__this->___particleP_2);
+		ParticleP_t203653738 * L_3 = L_2;
+		float L_4 = (L_3->___startTime_0);
+		float L_5 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		ParticleP_t203653738 * L_6 = &(__this->___particleP_2);
+		float L_7 = (L_6->___speedTime_1);
+		L_3->___startTime_0 = ((float)((float)L_4+(float)((float)((float)L_5*(float)L_7))));
+		ParticleP_t203653738 * L_8 = &(__this->___particleP_2);
+		float L_9 = (L_8->___startTime_0);
+		if ((!(((float)L_9) >= ((float)(3.0f)))))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		ParticleP_t203653738 * L_10 = &(__this->___particleP_2);
+		L_10->___startTime_0 = (0.0f);
+		GameObject_t4012695102 * L_11 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		GameObject_SetActive_m3538205401(L_11, (bool)0, /*hidden argument*/NULL);
+	}
+
+IL_0064:
+	{
+		return;
+	}
+}
+// System.Void Pause::.ctor()
+extern "C"  void Pause__ctor_m3838886997 (Pause_t76887510 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Pause::Awake()
+extern const MethodInfo* Component_GetComponent_TisShowPanels_t2673010796_m873919769_MethodInfo_var;
+extern const MethodInfo* Component_GetComponent_TisStartOptions_t3075365884_m1307270665_MethodInfo_var;
+extern const uint32_t Pause_Awake_m4076492216_MetadataUsageId;
+extern "C"  void Pause_Awake_m4076492216 (Pause_t76887510 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Pause_Awake_m4076492216_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ShowPanels_t2673010796 * L_0 = Component_GetComponent_TisShowPanels_t2673010796_m873919769(__this, /*hidden argument*/Component_GetComponent_TisShowPanels_t2673010796_m873919769_MethodInfo_var);
+		__this->___showPanels_2 = L_0;
+		StartOptions_t3075365884 * L_1 = Component_GetComponent_TisStartOptions_t3075365884_m1307270665(__this, /*hidden argument*/Component_GetComponent_TisStartOptions_t3075365884_m1307270665_MethodInfo_var);
+		__this->___startScript_4 = L_1;
+		return;
+	}
+}
+// System.Void Pause::Update()
+extern TypeInfo* Input_t1593691127_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2011110042;
+extern const uint32_t Pause_Update_m473274712_MetadataUsageId;
+extern "C"  void Pause_Update_m473274712 (Pause_t76887510 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (Pause_Update_m473274712_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_0 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, _stringLiteral2011110042, /*hidden argument*/NULL);
+		if (!L_0)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		bool L_1 = (__this->___isPaused_3);
+		if (L_1)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		StartOptions_t3075365884 * L_2 = (__this->___startScript_4);
+		NullCheck(L_2);
+		bool L_3 = (L_2->___inMainMenu_5);
+		if (L_3)
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		Pause_DoPause_m136953438(__this, /*hidden argument*/NULL);
+		goto IL_0065;
+	}
+
+IL_0035:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Input_t1593691127_il2cpp_TypeInfo_var);
+		bool L_4 = Input_GetButtonDown_m1879002085(NULL /*static, unused*/, _stringLiteral2011110042, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		bool L_5 = (__this->___isPaused_3);
+		if (!L_5)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		StartOptions_t3075365884 * L_6 = (__this->___startScript_4);
+		NullCheck(L_6);
+		bool L_7 = (L_6->___inMainMenu_5);
+		if (L_7)
+		{
+			goto IL_0065;
+		}
+	}
+	{
+		Pause_UnPause_m2027155600(__this, /*hidden argument*/NULL);
+	}
+
+IL_0065:
+	{
+		return;
+	}
+}
+// System.Void Pause::DoPause()
+extern "C"  void Pause_DoPause_m136953438 (Pause_t76887510 * __this, const MethodInfo* method)
+{
+	{
+		__this->___isPaused_3 = (bool)1;
+		Time_set_timeScale_m1848691981(NULL /*static, unused*/, (0.0f), /*hidden argument*/NULL);
+		ShowPanels_t2673010796 * L_0 = (__this->___showPanels_2);
+		NullCheck(L_0);
+		ShowPanels_ShowPausePanel_m789489280(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void Pause::UnPause()
+extern "C"  void Pause_UnPause_m2027155600 (Pause_t76887510 * __this, const MethodInfo* method)
+{
+	{
+		__this->___isPaused_3 = (bool)0;
+		Time_set_timeScale_m1848691981(NULL /*static, unused*/, (1.0f), /*hidden argument*/NULL);
+		ShowPanels_t2673010796 * L_0 = (__this->___showPanels_2);
+		NullCheck(L_0);
+		ShowPanels_HidePausePanel_m1575446853(L_0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PaymentDialog::.ctor()
+extern TypeInfo* Dictionary_2_t2319142109_il2cpp_TypeInfo_var;
+extern const MethodInfo* Dictionary_2__ctor_m3877032778_MethodInfo_var;
+extern const uint32_t PaymentDialog__ctor_m699726429_MetadataUsageId;
+extern "C"  void PaymentDialog__ctor_m699726429 (PaymentDialog_t1790062286 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PaymentDialog__ctor_m699726429_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Dictionary_2_t2319142109 * V_0 = {0};
+	{
+		Dictionary_2_t2319142109 * L_0 = (Dictionary_2_t2319142109 *)il2cpp_codegen_object_new(Dictionary_2_t2319142109_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m3877032778(L_0, /*hidden argument*/Dictionary_2__ctor_m3877032778_MethodInfo_var);
+		V_0 = L_0;
+		Dictionary_2_t2319142109 * L_1 = V_0;
+		NullCheck(L_1);
+		VirtActionInvoker2< int32_t, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<PaymentDialog/BombPackage,System.Int32>::Add(!0,!1) */, L_1, ((int32_t)15), 5);
+		Dictionary_2_t2319142109 * L_2 = V_0;
+		NullCheck(L_2);
+		VirtActionInvoker2< int32_t, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<PaymentDialog/BombPackage,System.Int32>::Add(!0,!1) */, L_2, ((int32_t)20), ((int32_t)12));
+		Dictionary_2_t2319142109 * L_3 = V_0;
+		NullCheck(L_3);
+		VirtActionInvoker2< int32_t, int32_t >::Invoke(18 /* System.Void System.Collections.Generic.Dictionary`2<PaymentDialog/BombPackage,System.Int32>::Add(!0,!1) */, L_3, ((int32_t)40), ((int32_t)25));
+		Dictionary_2_t2319142109 * L_4 = V_0;
+		__this->___BombPackageCost_4 = L_4;
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PaymentDialog::OnEnable()
+extern "C"  void PaymentDialog_OnEnable_m4145337353 (PaymentDialog_t1790062286 * __this, const MethodInfo* method)
+{
+	{
+		PaymentDialog_UpdateUI_m3732226596(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PaymentDialog::UpdateUI()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t PaymentDialog_UpdateUI_m3732226596_MetadataUsageId;
+extern "C"  void PaymentDialog_UpdateUI_m3732226596 (PaymentDialog_t1790062286 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PaymentDialog_UpdateUI_m3732226596_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Text_t3286458198 * L_0 = (__this->___CoinText_2);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		String_t* L_1 = Int32_ToString_m1286526384((&((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CoinBalance_9), /*hidden argument*/NULL);
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
+		Text_t3286458198 * L_2 = (__this->___BombText_3);
+		String_t* L_3 = Int32_ToString_m1286526384((&((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___NumBombs_10), /*hidden argument*/NULL);
+		NullCheck(L_2);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_2, L_3);
+		return;
+	}
+}
+// System.Void PaymentDialog::CloseDialog()
+extern "C"  void PaymentDialog_CloseDialog_m2571350363 (PaymentDialog_t1790062286 * __this, const MethodInfo* method)
+{
+	{
+		GameObject_t4012695102 * L_0 = Component_get_gameObject_m1170635899(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PaymentDialog::PurchaseBombs(System.Int32)
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral1235375272;
+extern const uint32_t PaymentDialog_PurchaseBombs_m446675932_MetadataUsageId;
+extern "C"  void PaymentDialog_PurchaseBombs_m446675932 (PaymentDialog_t1790062286 * __this, int32_t ___buttonIndex, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PaymentDialog_PurchaseBombs_m446675932_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		String_t* L_0 = Int32_ToString_m1286526384((&___buttonIndex), /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_1 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral1235375272, L_0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		int32_t L_2 = ___buttonIndex;
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		if (L_3 == 0)
+		{
+			goto IL_002f;
+		}
+		if (L_3 == 1)
+		{
+			goto IL_003c;
+		}
+		if (L_3 == 2)
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		goto IL_0056;
+	}
+
+IL_002f:
+	{
+		PaymentDialog_OnBombBuy_m845005903(__this, ((int32_t)15), /*hidden argument*/NULL);
+		goto IL_005b;
+	}
+
+IL_003c:
+	{
+		PaymentDialog_OnBombBuy_m845005903(__this, ((int32_t)20), /*hidden argument*/NULL);
+		goto IL_005b;
+	}
+
+IL_0049:
+	{
+		PaymentDialog_OnBombBuy_m845005903(__this, ((int32_t)40), /*hidden argument*/NULL);
+		goto IL_005b;
+	}
+
+IL_0056:
+	{
+		goto IL_005b;
+	}
+
+IL_005b:
+	{
+		return;
+	}
+}
+// System.Void PaymentDialog::OnBombBuy(PaymentDialog/BombPackage)
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* BombPackage_t1732402980_il2cpp_TypeInfo_var;
+extern TypeInfo* FBAppEvents_t1786942782_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral623362424;
+extern Il2CppCodeGenString* _stringLiteral290588063;
+extern const uint32_t PaymentDialog_OnBombBuy_m845005903_MetadataUsageId;
+extern "C"  void PaymentDialog_OnBombBuy_m845005903 (PaymentDialog_t1790062286 * __this, int32_t ___bPackage, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PaymentDialog_OnBombBuy_m845005903_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	int32_t V_0 = 0;
+	{
+		Dictionary_2_t2319142109 * L_0 = (__this->___BombPackageCost_4);
+		int32_t L_1 = ___bPackage;
+		NullCheck(L_0);
+		int32_t L_2 = VirtFuncInvoker1< int32_t, int32_t >::Invoke(22 /* !1 System.Collections.Generic.Dictionary`2<PaymentDialog/BombPackage,System.Int32>::get_Item(!0) */, L_0, L_1);
+		V_0 = L_2;
+		int32_t L_3 = V_0;
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_4 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CoinBalance_9;
+		if ((((int32_t)L_3) > ((int32_t)L_4)))
+		{
+			goto IL_005b;
+		}
+	}
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		int32_t L_5 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CoinBalance_9;
+		int32_t L_6 = V_0;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___CoinBalance_9 = ((int32_t)((int32_t)L_5-(int32_t)L_6));
+		int32_t L_7 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___NumBombs_10;
+		int32_t L_8 = ___bPackage;
+		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___NumBombs_10 = ((int32_t)((int32_t)L_7+(int32_t)L_8));
+		GameStateManager_CallUIRedraw_m2882927136(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PopupScript_SetPopup_m4224439492(NULL /*static, unused*/, _stringLiteral623362424, (1.0f), (Action_t437523947 *)NULL, /*hidden argument*/NULL);
+		int32_t L_9 = V_0;
+		int32_t L_10 = ___bPackage;
+		int32_t L_11 = L_10;
+		Object_t * L_12 = Box(BombPackage_t1732402980_il2cpp_TypeInfo_var, &L_11);
+		NullCheck((Enum_t2778772662 *)L_12);
+		String_t* L_13 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Enum::ToString() */, (Enum_t2778772662 *)L_12);
+		IL2CPP_RUNTIME_CLASS_INIT(FBAppEvents_t1786942782_il2cpp_TypeInfo_var);
+		FBAppEvents_SpentCoins_m2043024760(NULL /*static, unused*/, L_9, L_13, /*hidden argument*/NULL);
+		goto IL_006b;
+	}
+
+IL_005b:
+	{
+		PopupScript_SetPopup_m4224439492(NULL /*static, unused*/, _stringLiteral290588063, (1.0f), (Action_t437523947 *)NULL, /*hidden argument*/NULL);
+	}
+
+IL_006b:
+	{
+		return;
+	}
+}
+// System.Void PlayerMaterials::.ctor()
+extern "C"  void PlayerMaterials__ctor_m4285783456 (PlayerMaterials_t2277059115 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayerMaterials::Awake()
+extern const MethodInfo* Component_GetComponent_TisRenderer_t1092684080_m2901511552_MethodInfo_var;
+extern const uint32_t PlayerMaterials_Awake_m228421379_MetadataUsageId;
+extern "C"  void PlayerMaterials_Awake_m228421379 (PlayerMaterials_t2277059115 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayerMaterials_Awake_m228421379_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Renderer_t1092684080 * L_0 = Component_GetComponent_TisRenderer_t1092684080_m2901511552(__this, /*hidden argument*/Component_GetComponent_TisRenderer_t1092684080_m2901511552_MethodInfo_var);
+		__this->___renderMaterial_3 = L_0;
+		return;
+	}
+}
+// System.Void PlayerMaterials::Start()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern const uint32_t PlayerMaterials_Start_m3232921248_MetadataUsageId;
+extern "C"  void PlayerMaterials_Start_m3232921248 (PlayerMaterials_t2277059115 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayerMaterials_Start_m3232921248_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Renderer_t1092684080 * L_0 = (__this->___renderMaterial_3);
+		MaterialU5BU5D_t3353847197* L_1 = (__this->___materials_2);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_2 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_2);
+		int32_t L_3 = GameStateManager_get_SceneMaterialNum_m1026470881(L_2, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		IL2CPP_ARRAY_BOUNDS_CHECK(L_1, L_3);
+		int32_t L_4 = L_3;
+		NullCheck(L_0);
+		Renderer_set_material_m1012580896(L_0, (*(Material_t1886596500 **)(Material_t1886596500 **)SZArrayLdElema(L_1, L_4, sizeof(Material_t1886596500 *))), /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayerScaler::.ctor()
+extern "C"  void PlayerScaler__ctor_m3972396530 (PlayerScaler_t4190867145 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayerScaler::OnEnable()
+extern TypeInfo* ActionScaling_t4098096209_il2cpp_TypeInfo_var;
+extern const MethodInfo* PlayerScaler_StartScaling_m2044494799_MethodInfo_var;
+extern const uint32_t PlayerScaler_OnEnable_m207729748_MetadataUsageId;
+extern "C"  void PlayerScaler_OnEnable_m207729748 (PlayerScaler_t4190867145 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayerScaler_OnEnable_m207729748_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IntPtr_t L_0 = { (void*)PlayerScaler_StartScaling_m2044494799_MethodInfo_var };
+		ActionScaling_t4098096209 * L_1 = (ActionScaling_t4098096209 *)il2cpp_codegen_object_new(ActionScaling_t4098096209_il2cpp_TypeInfo_var);
+		ActionScaling__ctor_m3332738696(L_1, __this, L_0, /*hidden argument*/NULL);
+		Ball_add_Scalling_m2164337334(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayerScaler::OnDisable()
+extern TypeInfo* ActionScaling_t4098096209_il2cpp_TypeInfo_var;
+extern const MethodInfo* PlayerScaler_StartScaling_m2044494799_MethodInfo_var;
+extern const uint32_t PlayerScaler_OnDisable_m2585592153_MetadataUsageId;
+extern "C"  void PlayerScaler_OnDisable_m2585592153 (PlayerScaler_t4190867145 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayerScaler_OnDisable_m2585592153_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		IntPtr_t L_0 = { (void*)PlayerScaler_StartScaling_m2044494799_MethodInfo_var };
+		ActionScaling_t4098096209 * L_1 = (ActionScaling_t4098096209 *)il2cpp_codegen_object_new(ActionScaling_t4098096209_il2cpp_TypeInfo_var);
+		ActionScaling__ctor_m3332738696(L_1, __this, L_0, /*hidden argument*/NULL);
+		Ball_remove_Scalling_m3859665733(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayerScaler::Awake()
+extern const MethodInfo* GameObject_GetComponent_TisShowPanels_t2673010796_m3807132017_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisUpdateScore_t1082839849_m3827381784_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2709;
+extern const uint32_t PlayerScaler_Awake_m4210001749_MetadataUsageId;
+extern "C"  void PlayerScaler_Awake_m4210001749 (PlayerScaler_t4190867145 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayerScaler_Awake_m4210001749_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		ScallerP_t3467974258 * L_0 = &(__this->___scallerP_2);
+		GameObject_t4012695102 * L_1 = GameObject_FindWithTag_m3162815092(NULL /*static, unused*/, _stringLiteral2709, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		ShowPanels_t2673010796 * L_2 = GameObject_GetComponent_TisShowPanels_t2673010796_m3807132017(L_1, /*hidden argument*/GameObject_GetComponent_TisShowPanels_t2673010796_m3807132017_MethodInfo_var);
+		L_0->___showPanels_1 = L_2;
+		ScallerP_t3467974258 * L_3 = &(__this->___scallerP_2);
+		GameObject_t4012695102 * L_4 = GameObject_FindWithTag_m3162815092(NULL /*static, unused*/, _stringLiteral2709, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		UpdateScore_t1082839849 * L_5 = GameObject_GetComponent_TisUpdateScore_t1082839849_m3827381784(L_4, /*hidden argument*/GameObject_GetComponent_TisUpdateScore_t1082839849_m3827381784_MethodInfo_var);
+		L_3->___updateScore_0 = L_5;
+		return;
+	}
+}
+// System.Void PlayerScaler::Start()
+extern "C"  void PlayerScaler_Start_m2919534322 (PlayerScaler_t4190867145 * __this, const MethodInfo* method)
+{
+	{
+		ScallerP_t3467974258 * L_0 = &(__this->___scallerP_2);
+		L_0->___ballTime_2 = ((int32_t)10);
+		ScallerP_t3467974258 * L_1 = &(__this->___scallerP_2);
+		L_1->___scalingSpeed_3 = (1.0f);
+		ScallerP_t3467974258 * L_2 = &(__this->___scallerP_2);
+		L_2->___doubleSize_4 = (2.0f);
+		ScallerP_t3467974258 * L_3 = &(__this->___scallerP_2);
+		L_3->___oneHalf_5 = (1.5f);
+		return;
+	}
+}
+// System.Void PlayerScaler::StartScaling(UnityEngine.GameObject)
+extern "C"  void PlayerScaler_StartScaling_m2044494799 (PlayerScaler_t4190867145 * __this, GameObject_t4012695102 * ___other, const MethodInfo* method)
+{
+	{
+		MonoBehaviour_StopAllCoroutines_m1437893335(__this, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_0 = ___other;
+		Object_t * L_1 = PlayerScaler_ScalePlayer_m2570387915(__this, L_0, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator PlayerScaler::ScalePlayer(UnityEngine.GameObject)
+extern TypeInfo* U3CScalePlayerU3Ec__Iterator13_t1940037668_il2cpp_TypeInfo_var;
+extern const uint32_t PlayerScaler_ScalePlayer_m2570387915_MetadataUsageId;
+extern "C"  Object_t * PlayerScaler_ScalePlayer_m2570387915 (PlayerScaler_t4190867145 * __this, GameObject_t4012695102 * ___other, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayerScaler_ScalePlayer_m2570387915_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CScalePlayerU3Ec__Iterator13_t1940037668 * V_0 = {0};
+	{
+		U3CScalePlayerU3Ec__Iterator13_t1940037668 * L_0 = (U3CScalePlayerU3Ec__Iterator13_t1940037668 *)il2cpp_codegen_object_new(U3CScalePlayerU3Ec__Iterator13_t1940037668_il2cpp_TypeInfo_var);
+		U3CScalePlayerU3Ec__Iterator13__ctor_m4214607745(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CScalePlayerU3Ec__Iterator13_t1940037668 * L_1 = V_0;
+		GameObject_t4012695102 * L_2 = ___other;
+		NullCheck(L_1);
+		L_1->___other_0 = L_2;
+		U3CScalePlayerU3Ec__Iterator13_t1940037668 * L_3 = V_0;
+		GameObject_t4012695102 * L_4 = ___other;
+		NullCheck(L_3);
+		L_3->___U3CU24U3Eother_3 = L_4;
+		U3CScalePlayerU3Ec__Iterator13_t1940037668 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_4 = __this;
+		U3CScalePlayerU3Ec__Iterator13_t1940037668 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Collections.IEnumerator PlayerScaler::TimeCounter(UnityEngine.GameObject)
+extern TypeInfo* U3CTimeCounterU3Ec__Iterator14_t2950974153_il2cpp_TypeInfo_var;
+extern const uint32_t PlayerScaler_TimeCounter_m2037165935_MetadataUsageId;
+extern "C"  Object_t * PlayerScaler_TimeCounter_m2037165935 (PlayerScaler_t4190867145 * __this, GameObject_t4012695102 * ___other, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayerScaler_TimeCounter_m2037165935_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CTimeCounterU3Ec__Iterator14_t2950974153 * V_0 = {0};
+	{
+		U3CTimeCounterU3Ec__Iterator14_t2950974153 * L_0 = (U3CTimeCounterU3Ec__Iterator14_t2950974153 *)il2cpp_codegen_object_new(U3CTimeCounterU3Ec__Iterator14_t2950974153_il2cpp_TypeInfo_var);
+		U3CTimeCounterU3Ec__Iterator14__ctor_m814304892(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CTimeCounterU3Ec__Iterator14_t2950974153 * L_1 = V_0;
+		GameObject_t4012695102 * L_2 = ___other;
+		NullCheck(L_1);
+		L_1->___other_0 = L_2;
+		U3CTimeCounterU3Ec__Iterator14_t2950974153 * L_3 = V_0;
+		GameObject_t4012695102 * L_4 = ___other;
+		NullCheck(L_3);
+		L_3->___U3CU24U3Eother_3 = L_4;
+		U3CTimeCounterU3Ec__Iterator14_t2950974153 * L_5 = V_0;
+		NullCheck(L_5);
+		L_5->___U3CU3Ef__this_4 = __this;
+		U3CTimeCounterU3Ec__Iterator14_t2950974153 * L_6 = V_0;
+		return L_6;
+	}
+}
+// System.Collections.IEnumerator PlayerScaler::ScaleBack(UnityEngine.GameObject)
+extern TypeInfo* U3CScaleBackU3Ec__Iterator15_t3914306348_il2cpp_TypeInfo_var;
+extern const uint32_t PlayerScaler_ScaleBack_m2139591185_MetadataUsageId;
+extern "C"  Object_t * PlayerScaler_ScaleBack_m2139591185 (PlayerScaler_t4190867145 * __this, GameObject_t4012695102 * ___other, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayerScaler_ScaleBack_m2139591185_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CScaleBackU3Ec__Iterator15_t3914306348 * V_0 = {0};
+	{
+		U3CScaleBackU3Ec__Iterator15_t3914306348 * L_0 = (U3CScaleBackU3Ec__Iterator15_t3914306348 *)il2cpp_codegen_object_new(U3CScaleBackU3Ec__Iterator15_t3914306348_il2cpp_TypeInfo_var);
+		U3CScaleBackU3Ec__Iterator15__ctor_m2030634489(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CScaleBackU3Ec__Iterator15_t3914306348 * L_1 = V_0;
+		NullCheck(L_1);
+		L_1->___U3CU3Ef__this_2 = __this;
+		U3CScaleBackU3Ec__Iterator15_t3914306348 * L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Void PlayerScaler/<ScaleBack>c__Iterator15::.ctor()
+extern "C"  void U3CScaleBackU3Ec__Iterator15__ctor_m2030634489 (U3CScaleBackU3Ec__Iterator15_t3914306348 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object PlayerScaler/<ScaleBack>c__Iterator15::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CScaleBackU3Ec__Iterator15_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m4021729977 (U3CScaleBackU3Ec__Iterator15_t3914306348 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_1);
+		return L_0;
+	}
+}
+// System.Object PlayerScaler/<ScaleBack>c__Iterator15::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CScaleBackU3Ec__Iterator15_System_Collections_IEnumerator_get_Current_m1312772173 (U3CScaleBackU3Ec__Iterator15_t3914306348 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_1);
+		return L_0;
+	}
+}
+// System.Boolean PlayerScaler/<ScaleBack>c__Iterator15::MoveNext()
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern const uint32_t U3CScaleBackU3Ec__Iterator15_MoveNext_m1646747739_MetadataUsageId;
+extern "C"  bool U3CScaleBackU3Ec__Iterator15_MoveNext_m1646747739 (U3CScaleBackU3Ec__Iterator15_t3914306348 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CScaleBackU3Ec__Iterator15_MoveNext_m1646747739_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	Vector3_t3525329789  V_1 = {0};
+	Vector3_t3525329789  V_2 = {0};
+	bool V_3 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_0);
+		V_0 = L_0;
+		__this->___U24PC_0 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		goto IL_00eb;
+	}
+
+IL_0021:
+	{
+		goto IL_00c2;
+	}
+
+IL_0026:
+	{
+		PlayerScaler_t4190867145 * L_2 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_2);
+		ScallerP_t3467974258 * L_3 = &(L_2->___scallerP_2);
+		PlayerScaler_t4190867145 * L_4 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_4);
+		Transform_t284553113 * L_5 = Component_get_transform_m4257140443(L_4, /*hidden argument*/NULL);
+		NullCheck(L_5);
+		Vector3_t3525329789  L_6 = Transform_get_localScale_m3886572677(L_5, /*hidden argument*/NULL);
+		V_1 = L_6;
+		float L_7 = ((&V_1)->___x_1);
+		float L_8 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerScaler_t4190867145 * L_9 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_9);
+		ScallerP_t3467974258 * L_10 = &(L_9->___scallerP_2);
+		float L_11 = (L_10->___scalingSpeed_3);
+		L_3->___newScale_6 = ((float)((float)L_7-(float)((float)((float)L_8*(float)L_11))));
+		PlayerScaler_t4190867145 * L_12 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_12);
+		Transform_t284553113 * L_13 = Component_get_transform_m4257140443(L_12, /*hidden argument*/NULL);
+		PlayerScaler_t4190867145 * L_14 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_14);
+		ScallerP_t3467974258 * L_15 = &(L_14->___scallerP_2);
+		float L_16 = (L_15->___newScale_6);
+		PlayerScaler_t4190867145 * L_17 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_17);
+		ScallerP_t3467974258 * L_18 = &(L_17->___scallerP_2);
+		float L_19 = (L_18->___newScale_6);
+		PlayerScaler_t4190867145 * L_20 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_20);
+		ScallerP_t3467974258 * L_21 = &(L_20->___scallerP_2);
+		float L_22 = (L_21->___newScale_6);
+		Vector3_t3525329789  L_23 = {0};
+		Vector3__ctor_m2926210380(&L_23, L_16, L_19, L_22, /*hidden argument*/NULL);
+		NullCheck(L_13);
+		Transform_set_localScale_m310756934(L_13, L_23, /*hidden argument*/NULL);
+		int32_t L_24 = 0;
+		Object_t * L_25 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_24);
+		__this->___U24current_1 = L_25;
+		__this->___U24PC_0 = 1;
+		goto IL_00ed;
+	}
+
+IL_00c2:
+	{
+		PlayerScaler_t4190867145 * L_26 = (__this->___U3CU3Ef__this_2);
+		NullCheck(L_26);
+		Transform_t284553113 * L_27 = Component_get_transform_m4257140443(L_26, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		Vector3_t3525329789  L_28 = Transform_get_localScale_m3886572677(L_27, /*hidden argument*/NULL);
+		V_2 = L_28;
+		float L_29 = ((&V_2)->___x_1);
+		if ((((float)L_29) > ((float)(1.0f))))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		__this->___U24PC_0 = (-1);
+	}
+
+IL_00eb:
+	{
+		return (bool)0;
+	}
+
+IL_00ed:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00ef: ldloc.3
+}
+// System.Void PlayerScaler/<ScaleBack>c__Iterator15::Dispose()
+extern "C"  void U3CScaleBackU3Ec__Iterator15_Dispose_m1422874614 (U3CScaleBackU3Ec__Iterator15_t3914306348 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_0 = (-1);
+		return;
+	}
+}
+// System.Void PlayerScaler/<ScaleBack>c__Iterator15::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CScaleBackU3Ec__Iterator15_Reset_m3972034726_MetadataUsageId;
+extern "C"  void U3CScaleBackU3Ec__Iterator15_Reset_m3972034726 (U3CScaleBackU3Ec__Iterator15_t3914306348 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CScaleBackU3Ec__Iterator15_Reset_m3972034726_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void PlayerScaler/<ScalePlayer>c__Iterator13::.ctor()
+extern "C"  void U3CScalePlayerU3Ec__Iterator13__ctor_m4214607745 (U3CScalePlayerU3Ec__Iterator13_t1940037668 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object PlayerScaler/<ScalePlayer>c__Iterator13::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CScalePlayerU3Ec__Iterator13_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3552819057 (U3CScalePlayerU3Ec__Iterator13_t1940037668 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Object PlayerScaler/<ScalePlayer>c__Iterator13::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CScalePlayerU3Ec__Iterator13_System_Collections_IEnumerator_get_Current_m3364666629 (U3CScalePlayerU3Ec__Iterator13_t1940037668 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Boolean PlayerScaler/<ScalePlayer>c__Iterator13::MoveNext()
+extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral2772196242;
+extern const uint32_t U3CScalePlayerU3Ec__Iterator13_MoveNext_m2490304211_MetadataUsageId;
+extern "C"  bool U3CScalePlayerU3Ec__Iterator13_MoveNext_m2490304211 (U3CScalePlayerU3Ec__Iterator13_t1940037668 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CScalePlayerU3Ec__Iterator13_MoveNext_m2490304211_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	Vector3_t3525329789  V_1 = {0};
+	Vector3_t3525329789  V_2 = {0};
+	bool V_3 = false;
+	float G_B6_0 = 0.0f;
+	float G_B5_0 = 0.0f;
+	float G_B7_0 = 0.0f;
+	float G_B7_1 = 0.0f;
+	{
+		int32_t L_0 = (__this->___U24PC_1);
+		V_0 = L_0;
+		__this->___U24PC_1 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_00dd;
+		}
+	}
+	{
+		goto IL_015d;
+	}
+
+IL_0021:
+	{
+		PlayerScaler_t4190867145 * L_2 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_2);
+		ScallerP_t3467974258 * L_3 = &(L_2->___scallerP_2);
+		ShowPanels_t2673010796 * L_4 = (L_3->___showPanels_1);
+		NullCheck(L_4);
+		GameObject_t4012695102 * L_5 = (L_4->___scaleText_13);
+		NullCheck(L_5);
+		GameObject_SetActive_m3538205401(L_5, (bool)1, /*hidden argument*/NULL);
+		goto IL_00dd;
+	}
+
+IL_0041:
+	{
+		PlayerScaler_t4190867145 * L_6 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_6);
+		ScallerP_t3467974258 * L_7 = &(L_6->___scallerP_2);
+		PlayerScaler_t4190867145 * L_8 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_8);
+		Transform_t284553113 * L_9 = Component_get_transform_m4257140443(L_8, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Vector3_t3525329789  L_10 = Transform_get_localScale_m3886572677(L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		float L_11 = ((&V_1)->___x_1);
+		float L_12 = Time_get_deltaTime_m2741110510(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerScaler_t4190867145 * L_13 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_13);
+		ScallerP_t3467974258 * L_14 = &(L_13->___scallerP_2);
+		float L_15 = (L_14->___scalingSpeed_3);
+		L_7->___newScale_6 = ((float)((float)L_11+(float)((float)((float)L_12*(float)L_15))));
+		PlayerScaler_t4190867145 * L_16 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_16);
+		Transform_t284553113 * L_17 = Component_get_transform_m4257140443(L_16, /*hidden argument*/NULL);
+		PlayerScaler_t4190867145 * L_18 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_18);
+		ScallerP_t3467974258 * L_19 = &(L_18->___scallerP_2);
+		float L_20 = (L_19->___newScale_6);
+		PlayerScaler_t4190867145 * L_21 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_21);
+		ScallerP_t3467974258 * L_22 = &(L_21->___scallerP_2);
+		float L_23 = (L_22->___newScale_6);
+		PlayerScaler_t4190867145 * L_24 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_24);
+		ScallerP_t3467974258 * L_25 = &(L_24->___scallerP_2);
+		float L_26 = (L_25->___newScale_6);
+		Vector3_t3525329789  L_27 = {0};
+		Vector3__ctor_m2926210380(&L_27, L_20, L_23, L_26, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		Transform_set_localScale_m310756934(L_17, L_27, /*hidden argument*/NULL);
+		int32_t L_28 = 0;
+		Object_t * L_29 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_28);
+		__this->___U24current_2 = L_29;
+		__this->___U24PC_1 = 1;
+		goto IL_015f;
+	}
+
+IL_00dd:
+	{
+		PlayerScaler_t4190867145 * L_30 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_30);
+		Transform_t284553113 * L_31 = Component_get_transform_m4257140443(L_30, /*hidden argument*/NULL);
+		NullCheck(L_31);
+		Vector3_t3525329789  L_32 = Transform_get_localScale_m3886572677(L_31, /*hidden argument*/NULL);
+		V_2 = L_32;
+		float L_33 = ((&V_2)->___x_1);
+		GameObject_t4012695102 * L_34 = (__this->___other_0);
+		NullCheck(L_34);
+		GameObject_t4012695102 * L_35 = GameObject_get_gameObject_m1966529385(L_34, /*hidden argument*/NULL);
+		NullCheck(L_35);
+		bool L_36 = GameObject_CompareTag_m3153977471(L_35, _stringLiteral2772196242, /*hidden argument*/NULL);
+		G_B5_0 = L_33;
+		if (!L_36)
+		{
+			G_B6_0 = L_33;
+			goto IL_0124;
+		}
+	}
+	{
+		PlayerScaler_t4190867145 * L_37 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_37);
+		ScallerP_t3467974258 * L_38 = &(L_37->___scallerP_2);
+		float L_39 = (L_38->___doubleSize_4);
+		G_B7_0 = L_39;
+		G_B7_1 = G_B5_0;
+		goto IL_0134;
+	}
+
+IL_0124:
+	{
+		PlayerScaler_t4190867145 * L_40 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_40);
+		ScallerP_t3467974258 * L_41 = &(L_40->___scallerP_2);
+		float L_42 = (L_41->___oneHalf_5);
+		G_B7_0 = L_42;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_0134:
+	{
+		if ((((float)G_B7_1) < ((float)G_B7_0)))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		PlayerScaler_t4190867145 * L_43 = (__this->___U3CU3Ef__this_4);
+		PlayerScaler_t4190867145 * L_44 = (__this->___U3CU3Ef__this_4);
+		GameObject_t4012695102 * L_45 = (__this->___other_0);
+		NullCheck(L_44);
+		Object_t * L_46 = PlayerScaler_TimeCounter_m2037165935(L_44, L_45, /*hidden argument*/NULL);
+		NullCheck(L_43);
+		MonoBehaviour_StartCoroutine_m2135303124(L_43, L_46, /*hidden argument*/NULL);
+		__this->___U24PC_1 = (-1);
+	}
+
+IL_015d:
+	{
+		return (bool)0;
+	}
+
+IL_015f:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_0161: ldloc.3
+}
+// System.Void PlayerScaler/<ScalePlayer>c__Iterator13::Dispose()
+extern "C"  void U3CScalePlayerU3Ec__Iterator13_Dispose_m4277133182 (U3CScalePlayerU3Ec__Iterator13_t1940037668 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_1 = (-1);
+		return;
+	}
+}
+// System.Void PlayerScaler/<ScalePlayer>c__Iterator13::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CScalePlayerU3Ec__Iterator13_Reset_m1861040686_MetadataUsageId;
+extern "C"  void U3CScalePlayerU3Ec__Iterator13_Reset_m1861040686 (U3CScalePlayerU3Ec__Iterator13_t1940037668 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CScalePlayerU3Ec__Iterator13_Reset_m1861040686_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void PlayerScaler/<TimeCounter>c__Iterator14::.ctor()
+extern "C"  void U3CTimeCounterU3Ec__Iterator14__ctor_m814304892 (U3CTimeCounterU3Ec__Iterator14_t2950974153 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object PlayerScaler/<TimeCounter>c__Iterator14::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CTimeCounterU3Ec__Iterator14_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m3986169686 (U3CTimeCounterU3Ec__Iterator14_t2950974153 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Object PlayerScaler/<TimeCounter>c__Iterator14::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CTimeCounterU3Ec__Iterator14_System_Collections_IEnumerator_get_Current_m2419035882 (U3CTimeCounterU3Ec__Iterator14_t2950974153 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_2);
+		return L_0;
+	}
+}
+// System.Boolean PlayerScaler/<TimeCounter>c__Iterator14::MoveNext()
+extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
+extern TypeInfo* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const uint32_t U3CTimeCounterU3Ec__Iterator14_MoveNext_m871686648_MetadataUsageId;
+extern "C"  bool U3CTimeCounterU3Ec__Iterator14_MoveNext_m871686648 (U3CTimeCounterU3Ec__Iterator14_t2950974153 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CTimeCounterU3Ec__Iterator14_MoveNext_m871686648_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_1);
+		V_0 = L_0;
+		__this->___U24PC_1 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_0069;
+		}
+	}
+	{
+		goto IL_00e7;
+	}
+
+IL_0021:
+	{
+		goto IL_0069;
+	}
+
+IL_0026:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_2 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_3 = L_2;
+		NullCheck(L_3);
+		int32_t L_4 = GameStateManager_get_BallTimer_m3898314170(L_3, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		GameStateManager_set_BallTimer_m633825381(L_3, ((int32_t)((int32_t)L_4-(int32_t)1)), /*hidden argument*/NULL);
+		PlayerScaler_t4190867145 * L_5 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_5);
+		ScallerP_t3467974258 * L_6 = &(L_5->___scallerP_2);
+		UpdateScore_t1082839849 * L_7 = (L_6->___updateScore_0);
+		NullCheck(L_7);
+		UpdateScore_LiveTime_m762218939(L_7, /*hidden argument*/NULL);
+		WaitForSeconds_t1291133240 * L_8 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_8, (1.0f), /*hidden argument*/NULL);
+		__this->___U24current_2 = L_8;
+		__this->___U24PC_1 = 1;
+		goto IL_00e9;
+	}
+
+IL_0069:
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_9 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		int32_t L_10 = GameStateManager_get_BallTimer_m3898314170(L_9, /*hidden argument*/NULL);
+		if ((((int32_t)L_10) > ((int32_t)0)))
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		PlayerScaler_t4190867145 * L_11 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_11);
+		ScallerP_t3467974258 * L_12 = &(L_11->___scallerP_2);
+		ShowPanels_t2673010796 * L_13 = (L_12->___showPanels_1);
+		NullCheck(L_13);
+		GameObject_t4012695102 * L_14 = (L_13->___scaleText_13);
+		NullCheck(L_14);
+		GameObject_SetActive_m3538205401(L_14, (bool)0, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		GameStateManager_t648042254 * L_15 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		PlayerScaler_t4190867145 * L_16 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_16);
+		ScallerP_t3467974258 * L_17 = &(L_16->___scallerP_2);
+		int32_t L_18 = (L_17->___ballTime_2);
+		NullCheck(L_15);
+		GameStateManager_set_BallTimer_m633825381(L_15, L_18, /*hidden argument*/NULL);
+		PlayerScaler_t4190867145 * L_19 = (__this->___U3CU3Ef__this_4);
+		NullCheck(L_19);
+		ScallerP_t3467974258 * L_20 = &(L_19->___scallerP_2);
+		UpdateScore_t1082839849 * L_21 = (L_20->___updateScore_0);
+		NullCheck(L_21);
+		UpdateScore_LiveTime_m762218939(L_21, /*hidden argument*/NULL);
+		PlayerScaler_t4190867145 * L_22 = (__this->___U3CU3Ef__this_4);
+		PlayerScaler_t4190867145 * L_23 = (__this->___U3CU3Ef__this_4);
+		GameObject_t4012695102 * L_24 = (__this->___other_0);
+		NullCheck(L_23);
+		Object_t * L_25 = PlayerScaler_ScaleBack_m2139591185(L_23, L_24, /*hidden argument*/NULL);
+		NullCheck(L_22);
+		MonoBehaviour_StartCoroutine_m2135303124(L_22, L_25, /*hidden argument*/NULL);
+		__this->___U24PC_1 = (-1);
+	}
+
+IL_00e7:
+	{
+		return (bool)0;
+	}
+
+IL_00e9:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_00eb: ldloc.1
+}
+// System.Void PlayerScaler/<TimeCounter>c__Iterator14::Dispose()
+extern "C"  void U3CTimeCounterU3Ec__Iterator14_Dispose_m761236409 (U3CTimeCounterU3Ec__Iterator14_t2950974153 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_1 = (-1);
+		return;
+	}
+}
+// System.Void PlayerScaler/<TimeCounter>c__Iterator14::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CTimeCounterU3Ec__Iterator14_Reset_m2755705129_MetadataUsageId;
+extern "C"  void U3CTimeCounterU3Ec__Iterator14_Reset_m2755705129 (U3CTimeCounterU3Ec__Iterator14_t2950974153 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CTimeCounterU3Ec__Iterator14_Reset_m2755705129_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void PlayMusic::.ctor()
+extern "C"  void PlayMusic__ctor_m3555633498 (PlayMusic_t109867825 * __this, const MethodInfo* method)
+{
+	{
+		__this->___resetTime_7 = (0.01f);
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayMusic::Awake()
+extern const MethodInfo* Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var;
+extern const uint32_t PlayMusic_Awake_m3793238717_MetadataUsageId;
+extern "C"  void PlayMusic_Awake_m3793238717 (PlayMusic_t109867825 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PlayMusic_Awake_m3793238717_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		AudioSource_t3628549054 * L_0 = Component_GetComponent_TisAudioSource_t3628549054_m3821406207(__this, /*hidden argument*/Component_GetComponent_TisAudioSource_t3628549054_m3821406207_MethodInfo_var);
+		__this->___musicSource_6 = L_0;
+		return;
+	}
+}
+// System.Void PlayMusic::PlayLevelMusic()
+extern "C"  void PlayMusic_PlayLevelMusic_m2595363711 (PlayMusic_t109867825 * __this, const MethodInfo* method)
+{
+	Scene_t2772977204  V_0 = {0};
+	int32_t V_1 = 0;
+	{
+		Scene_t2772977204  L_0 = SceneManager_GetActiveScene_m3062973092(NULL /*static, unused*/, /*hidden argument*/NULL);
+		V_0 = L_0;
+		int32_t L_1 = Scene_get_buildIndex_m3533090789((&V_0), /*hidden argument*/NULL);
+		V_1 = L_1;
+		int32_t L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0020;
+		}
+	}
+	{
+		int32_t L_3 = V_1;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		goto IL_004c;
+	}
+
+IL_0020:
+	{
+		AudioSource_t3628549054 * L_4 = (__this->___musicSource_6);
+		AudioClip_t3714538611 * L_5 = (__this->___titleMusic_2);
+		NullCheck(L_4);
+		AudioSource_set_clip_m19502010(L_4, L_5, /*hidden argument*/NULL);
+		goto IL_004c;
+	}
+
+IL_0036:
+	{
+		AudioSource_t3628549054 * L_6 = (__this->___musicSource_6);
+		AudioClip_t3714538611 * L_7 = (__this->___mainMusic_3);
+		NullCheck(L_6);
+		AudioSource_set_clip_m19502010(L_6, L_7, /*hidden argument*/NULL);
+		goto IL_004c;
+	}
+
+IL_004c:
+	{
+		float L_8 = (__this->___resetTime_7);
+		PlayMusic_FadeUp_m2252721258(__this, L_8, /*hidden argument*/NULL);
+		AudioSource_t3628549054 * L_9 = (__this->___musicSource_6);
+		NullCheck(L_9);
+		AudioSource_Play_m1360558992(L_9, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayMusic::PlaySelectedMusic(System.Int32)
+extern "C"  void PlayMusic_PlaySelectedMusic_m1352809535 (PlayMusic_t109867825 * __this, int32_t ___musicChoice, const MethodInfo* method)
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = ___musicChoice;
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0014;
+		}
+	}
+	{
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) == ((int32_t)1)))
+		{
+			goto IL_002a;
+		}
+	}
+	{
+		goto IL_0040;
+	}
+
+IL_0014:
+	{
+		AudioSource_t3628549054 * L_3 = (__this->___musicSource_6);
+		AudioClip_t3714538611 * L_4 = (__this->___titleMusic_2);
+		NullCheck(L_3);
+		AudioSource_set_clip_m19502010(L_3, L_4, /*hidden argument*/NULL);
+		goto IL_0040;
+	}
+
+IL_002a:
+	{
+		AudioSource_t3628549054 * L_5 = (__this->___musicSource_6);
+		AudioClip_t3714538611 * L_6 = (__this->___mainMusic_3);
+		NullCheck(L_5);
+		AudioSource_set_clip_m19502010(L_5, L_6, /*hidden argument*/NULL);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		AudioSource_t3628549054 * L_7 = (__this->___musicSource_6);
+		NullCheck(L_7);
+		AudioSource_Play_m1360558992(L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayMusic::FadeUp(System.Single)
+extern "C"  void PlayMusic_FadeUp_m2252721258 (PlayMusic_t109867825 * __this, float ___fadeTime, const MethodInfo* method)
+{
+	{
+		AudioMixerSnapshot_t3013571836 * L_0 = (__this->___volumeUp_5);
+		float L_1 = ___fadeTime;
+		NullCheck(L_0);
+		AudioMixerSnapshot_TransitionTo_m4093767317(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PlayMusic::FadeDown(System.Single)
+extern "C"  void PlayMusic_FadeDown_m3546672323 (PlayMusic_t109867825 * __this, float ___fadeTime, const MethodInfo* method)
+{
+	{
+		AudioMixerSnapshot_t3013571836 * L_0 = (__this->___volumeDown_4);
+		float L_1 = ___fadeTime;
+		NullCheck(L_0);
+		AudioMixerSnapshot_TransitionTo_m4093767317(L_0, L_1, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PopupScript::.ctor()
+extern "C"  void PopupScript__ctor_m509144276 (PopupScript_t2200872055 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PopupScript::SetPopup(System.String,System.Single,System.Action)
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
+extern TypeInfo* GameObject_t4012695102_il2cpp_TypeInfo_var;
+extern const MethodInfo* Object_Instantiate_TisGameObject_t4012695102_m3917608929_MethodInfo_var;
+extern const MethodInfo* GameObject_GetComponent_TisPopupScript_t2200872055_m3653450250_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3754763625;
+extern Il2CppCodeGenString* _stringLiteral1748985649;
+extern Il2CppCodeGenString* _stringLiteral205977297;
+extern Il2CppCodeGenString* _stringLiteral2842806613;
+extern const uint32_t PopupScript_SetPopup_m4224439492_MetadataUsageId;
+extern "C"  void PopupScript_SetPopup_m4224439492 (Object_t * __this /* static, unused */, String_t* ___message, float ___delay, Action_t437523947 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PopupScript_SetPopup_m4224439492_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	GameObject_t4012695102 * V_0 = {0};
+	GameObject_t4012695102 * V_1 = {0};
+	PopupScript_t2200872055 * V_2 = {0};
+	{
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3754763625, /*hidden argument*/NULL);
+		Object_t3878351788 * L_0 = Resources_Load_m2187391845(NULL /*static, unused*/, _stringLiteral1748985649, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_1 = Object_Instantiate_TisGameObject_t4012695102_m3917608929(NULL /*static, unused*/, ((GameObject_t4012695102 *)IsInstSealed(L_0, GameObject_t4012695102_il2cpp_TypeInfo_var)), /*hidden argument*/Object_Instantiate_TisGameObject_t4012695102_m3917608929_MethodInfo_var);
+		V_0 = L_1;
+		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral205977297, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_2 = GameObject_Find_m332785498(NULL /*static, unused*/, _stringLiteral2842806613, /*hidden argument*/NULL);
+		V_1 = L_2;
+		GameObject_t4012695102 * L_3 = V_0;
+		NullCheck(L_3);
+		Transform_t284553113 * L_4 = GameObject_get_transform_m1278640159(L_3, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_5 = V_1;
+		NullCheck(L_5);
+		Transform_t284553113 * L_6 = GameObject_get_transform_m1278640159(L_5, /*hidden argument*/NULL);
+		NullCheck(L_4);
+		Transform_SetParent_m3449663462(L_4, L_6, /*hidden argument*/NULL);
+		GameObject_t4012695102 * L_7 = V_0;
+		NullCheck(L_7);
+		PopupScript_t2200872055 * L_8 = GameObject_GetComponent_TisPopupScript_t2200872055_m3653450250(L_7, /*hidden argument*/GameObject_GetComponent_TisPopupScript_t2200872055_m3653450250_MethodInfo_var);
+		V_2 = L_8;
+		PopupScript_t2200872055 * L_9 = V_2;
+		String_t* L_10 = ___message;
+		float L_11 = ___delay;
+		Action_t437523947 * L_12 = ___callback;
+		NullCheck(L_9);
+		PopupScript_ConfigurePopup_m1297992328(L_9, L_10, L_11, L_12, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void PopupScript::ConfigurePopup(System.String,System.Single,System.Action)
+extern "C"  void PopupScript_ConfigurePopup_m1297992328 (PopupScript_t2200872055 * __this, String_t* ___message, float ___delay, Action_t437523947 * ___callback, const MethodInfo* method)
+{
+	{
+		Text_t3286458198 * L_0 = (__this->___popupText_3);
+		String_t* L_1 = ___message;
+		NullCheck(L_0);
+		VirtActionInvoker1< String_t* >::Invoke(65 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_0, L_1);
+		float L_2 = ___delay;
+		Action_t437523947 * L_3 = ___callback;
+		Object_t * L_4 = PopupScript_ClearPopup_m2590104763(__this, L_2, L_3, /*hidden argument*/NULL);
+		MonoBehaviour_StartCoroutine_m2135303124(__this, L_4, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Collections.IEnumerator PopupScript::ClearPopup(System.Single,System.Action)
+extern TypeInfo* U3CClearPopupU3Ec__Iterator4_t766619814_il2cpp_TypeInfo_var;
+extern const uint32_t PopupScript_ClearPopup_m2590104763_MetadataUsageId;
+extern "C"  Object_t * PopupScript_ClearPopup_m2590104763 (PopupScript_t2200872055 * __this, float ___delay, Action_t437523947 * ___callback, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (PopupScript_ClearPopup_m2590104763_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	U3CClearPopupU3Ec__Iterator4_t766619814 * V_0 = {0};
+	{
+		U3CClearPopupU3Ec__Iterator4_t766619814 * L_0 = (U3CClearPopupU3Ec__Iterator4_t766619814 *)il2cpp_codegen_object_new(U3CClearPopupU3Ec__Iterator4_t766619814_il2cpp_TypeInfo_var);
+		U3CClearPopupU3Ec__Iterator4__ctor_m2384502045(L_0, /*hidden argument*/NULL);
+		V_0 = L_0;
+		U3CClearPopupU3Ec__Iterator4_t766619814 * L_1 = V_0;
+		float L_2 = ___delay;
+		NullCheck(L_1);
+		L_1->___delay_0 = L_2;
+		U3CClearPopupU3Ec__Iterator4_t766619814 * L_3 = V_0;
+		Action_t437523947 * L_4 = ___callback;
+		NullCheck(L_3);
+		L_3->___callback_1 = L_4;
+		U3CClearPopupU3Ec__Iterator4_t766619814 * L_5 = V_0;
+		float L_6 = ___delay;
+		NullCheck(L_5);
+		L_5->___U3CU24U3Edelay_4 = L_6;
+		U3CClearPopupU3Ec__Iterator4_t766619814 * L_7 = V_0;
+		Action_t437523947 * L_8 = ___callback;
+		NullCheck(L_7);
+		L_7->___U3CU24U3Ecallback_5 = L_8;
+		U3CClearPopupU3Ec__Iterator4_t766619814 * L_9 = V_0;
+		NullCheck(L_9);
+		L_9->___U3CU3Ef__this_6 = __this;
+		U3CClearPopupU3Ec__Iterator4_t766619814 * L_10 = V_0;
+		return L_10;
+	}
+}
+// System.Void PopupScript/<ClearPopup>c__Iterator4::.ctor()
+extern "C"  void U3CClearPopupU3Ec__Iterator4__ctor_m2384502045 (U3CClearPopupU3Ec__Iterator4_t766619814 * __this, const MethodInfo* method)
+{
+	{
+		Object__ctor_m1772956182(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Object PopupScript/<ClearPopup>c__Iterator4::System.Collections.Generic.IEnumerator<object>.get_Current()
+extern "C"  Object_t * U3CClearPopupU3Ec__Iterator4_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m305066591 (U3CClearPopupU3Ec__Iterator4_t766619814 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_3);
+		return L_0;
+	}
+}
+// System.Object PopupScript/<ClearPopup>c__Iterator4::System.Collections.IEnumerator.get_Current()
+extern "C"  Object_t * U3CClearPopupU3Ec__Iterator4_System_Collections_IEnumerator_get_Current_m494375923 (U3CClearPopupU3Ec__Iterator4_t766619814 * __this, const MethodInfo* method)
+{
+	{
+		Object_t * L_0 = (__this->___U24current_3);
+		return L_0;
+	}
+}
+// System.Boolean PopupScript/<ClearPopup>c__Iterator4::MoveNext()
+extern TypeInfo* WaitForSeconds_t1291133240_il2cpp_TypeInfo_var;
+extern const uint32_t U3CClearPopupU3Ec__Iterator4_MoveNext_m836394399_MetadataUsageId;
+extern "C"  bool U3CClearPopupU3Ec__Iterator4_MoveNext_m836394399 (U3CClearPopupU3Ec__Iterator4_t766619814 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CClearPopupU3Ec__Iterator4_MoveNext_m836394399_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	uint32_t V_0 = 0;
+	bool V_1 = false;
+	{
+		int32_t L_0 = (__this->___U24PC_2);
+		V_0 = L_0;
+		__this->___U24PC_2 = (-1);
+		uint32_t L_1 = V_0;
+		if (L_1 == 0)
+		{
+			goto IL_0021;
+		}
+		if (L_1 == 1)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		goto IL_006b;
+	}
+
+IL_0021:
+	{
+		float L_2 = (__this->___delay_0);
+		WaitForSeconds_t1291133240 * L_3 = (WaitForSeconds_t1291133240 *)il2cpp_codegen_object_new(WaitForSeconds_t1291133240_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m3184996201(L_3, L_2, /*hidden argument*/NULL);
+		__this->___U24current_3 = L_3;
+		__this->___U24PC_2 = 1;
+		goto IL_006d;
+	}
+
+IL_003e:
+	{
+		Action_t437523947 * L_4 = (__this->___callback_1);
+		if (!L_4)
+		{
+			goto IL_0054;
+		}
+	}
+	{
+		Action_t437523947 * L_5 = (__this->___callback_1);
+		NullCheck(L_5);
+		Action_Invoke_m1445970038(L_5, /*hidden argument*/NULL);
+	}
+
+IL_0054:
+	{
+		PopupScript_t2200872055 * L_6 = (__this->___U3CU3Ef__this_6);
+		NullCheck(L_6);
+		GameObject_t4012695102 * L_7 = Component_get_gameObject_m1170635899(L_6, /*hidden argument*/NULL);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_7, /*hidden argument*/NULL);
+		__this->___U24PC_2 = (-1);
+	}
+
+IL_006b:
+	{
+		return (bool)0;
+	}
+
+IL_006d:
+	{
+		return (bool)1;
+	}
+	// Dead block : IL_006f: ldloc.1
+}
+// System.Void PopupScript/<ClearPopup>c__Iterator4::Dispose()
+extern "C"  void U3CClearPopupU3Ec__Iterator4_Dispose_m2187179546 (U3CClearPopupU3Ec__Iterator4_t766619814 * __this, const MethodInfo* method)
+{
+	{
+		__this->___U24PC_2 = (-1);
+		return;
+	}
+}
+// System.Void PopupScript/<ClearPopup>c__Iterator4::Reset()
+extern TypeInfo* NotSupportedException_t1374155497_il2cpp_TypeInfo_var;
+extern const uint32_t U3CClearPopupU3Ec__Iterator4_Reset_m30934986_MetadataUsageId;
+extern "C"  void U3CClearPopupU3Ec__Iterator4_Reset_m30934986 (U3CClearPopupU3Ec__Iterator4_t766619814 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (U3CClearPopupU3Ec__Iterator4_Reset_m30934986_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
+		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
+	}
+}
+// System.Void QuitApplication::.ctor()
+extern "C"  void QuitApplication__ctor_m3343120682 (QuitApplication_t3105098593 * __this, const MethodInfo* method)
+{
+	{
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void QuitApplication::Quit()
+extern "C"  void QuitApplication_Quit_m2927276393 (QuitApplication_t3105098593 * __this, const MethodInfo* method)
+{
+	{
+		return;
+	}
+}
+// System.Void ResizePanel::.ctor()
+extern "C"  void ResizePanel__ctor_m268683227 (ResizePanel_t788198800 * __this, const MethodInfo* method)
+{
+	{
+		Vector2_t3525329788  L_0 = {0};
+		Vector2__ctor_m1517109030(&L_0, (100.0f), (100.0f), /*hidden argument*/NULL);
+		__this->___minSize_2 = L_0;
+		Vector2_t3525329788  L_1 = {0};
+		Vector2__ctor_m1517109030(&L_1, (400.0f), (400.0f), /*hidden argument*/NULL);
+		__this->___maxSize_3 = L_1;
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ResizePanel::Awake()
+extern const MethodInfo* Component_GetComponent_TisRectTransform_t3317474837_m1940403147_MethodInfo_var;
+extern const uint32_t ResizePanel_Awake_m506288446_MetadataUsageId;
+extern "C"  void ResizePanel_Awake_m506288446 (ResizePanel_t788198800 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ResizePanel_Awake_m506288446_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Transform_t284553113 * L_0 = Component_get_transform_m4257140443(__this, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		Transform_t284553113 * L_1 = Transform_get_parent_m2236876972(L_0, /*hidden argument*/NULL);
+		NullCheck(L_1);
+		RectTransform_t3317474837 * L_2 = Component_GetComponent_TisRectTransform_t3317474837_m1940403147(L_1, /*hidden argument*/Component_GetComponent_TisRectTransform_t3317474837_m1940403147_MethodInfo_var);
+		__this->___panelRectTransform_4 = L_2;
+		return;
+	}
+}
+// System.Void ResizePanel::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+extern TypeInfo* RectTransformUtility_t2895919825_il2cpp_TypeInfo_var;
+extern const uint32_t ResizePanel_OnPointerDown_m1183833989_MetadataUsageId;
+extern "C"  void ResizePanel_OnPointerDown_m1183833989 (ResizePanel_t788198800 * __this, PointerEventData_t3205101634 * ___data, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ResizePanel_OnPointerDown_m1183833989_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		RectTransform_t3317474837 * L_0 = (__this->___panelRectTransform_4);
+		NullCheck(L_0);
+		Vector2_t3525329788  L_1 = RectTransform_get_sizeDelta_m4279424984(L_0, /*hidden argument*/NULL);
+		__this->___originalSizeDelta_6 = L_1;
+		RectTransform_t3317474837 * L_2 = (__this->___panelRectTransform_4);
+		PointerEventData_t3205101634 * L_3 = ___data;
+		NullCheck(L_3);
+		Vector2_t3525329788  L_4 = PointerEventData_get_position_m2263123361(L_3, /*hidden argument*/NULL);
+		PointerEventData_t3205101634 * L_5 = ___data;
+		NullCheck(L_5);
+		Camera_t3533968274 * L_6 = PointerEventData_get_pressEventCamera_m2764092724(L_5, /*hidden argument*/NULL);
+		Vector2_t3525329788 * L_7 = &(__this->___originalLocalPointerPosition_5);
+		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m666650172(NULL /*static, unused*/, L_2, L_4, L_6, L_7, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ResizePanel::OnDrag(UnityEngine.EventSystems.PointerEventData)
+extern TypeInfo* RectTransformUtility_t2895919825_il2cpp_TypeInfo_var;
+extern TypeInfo* Mathf_t1597001355_il2cpp_TypeInfo_var;
+extern const uint32_t ResizePanel_OnDrag_m4097506818_MetadataUsageId;
+extern "C"  void ResizePanel_OnDrag_m4097506818 (ResizePanel_t788198800 * __this, PointerEventData_t3205101634 * ___data, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ResizePanel_OnDrag_m4097506818_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Vector2_t3525329788  V_0 = {0};
+	Vector3_t3525329789  V_1 = {0};
+	Vector2_t3525329788  V_2 = {0};
+	{
+		RectTransform_t3317474837 * L_0 = (__this->___panelRectTransform_4);
+		bool L_1 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		return;
+	}
+
+IL_0012:
+	{
+		RectTransform_t3317474837 * L_2 = (__this->___panelRectTransform_4);
+		PointerEventData_t3205101634 * L_3 = ___data;
+		NullCheck(L_3);
+		Vector2_t3525329788  L_4 = PointerEventData_get_position_m2263123361(L_3, /*hidden argument*/NULL);
+		PointerEventData_t3205101634 * L_5 = ___data;
+		NullCheck(L_5);
+		Camera_t3533968274 * L_6 = PointerEventData_get_pressEventCamera_m2764092724(L_5, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(RectTransformUtility_t2895919825_il2cpp_TypeInfo_var);
+		RectTransformUtility_ScreenPointToLocalPointInRectangle_m666650172(NULL /*static, unused*/, L_2, L_4, L_6, (&V_0), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_7 = V_0;
+		Vector2_t3525329788  L_8 = (__this->___originalLocalPointerPosition_5);
+		Vector2_t3525329788  L_9 = Vector2_op_Subtraction_m2097149401(NULL /*static, unused*/, L_7, L_8, /*hidden argument*/NULL);
+		Vector3_t3525329789  L_10 = Vector2_op_Implicit_m482286037(NULL /*static, unused*/, L_9, /*hidden argument*/NULL);
+		V_1 = L_10;
+		Vector2_t3525329788  L_11 = (__this->___originalSizeDelta_6);
+		float L_12 = ((&V_1)->___x_1);
+		float L_13 = ((&V_1)->___y_2);
+		Vector2_t3525329788  L_14 = {0};
+		Vector2__ctor_m1517109030(&L_14, L_12, ((-L_13)), /*hidden argument*/NULL);
+		Vector2_t3525329788  L_15 = Vector2_op_Addition_m1173049553(NULL /*static, unused*/, L_11, L_14, /*hidden argument*/NULL);
+		V_2 = L_15;
+		float L_16 = ((&V_2)->___x_1);
+		Vector2_t3525329788 * L_17 = &(__this->___minSize_2);
+		float L_18 = (L_17->___x_1);
+		Vector2_t3525329788 * L_19 = &(__this->___maxSize_3);
+		float L_20 = (L_19->___x_1);
+		IL2CPP_RUNTIME_CLASS_INIT(Mathf_t1597001355_il2cpp_TypeInfo_var);
+		float L_21 = Mathf_Clamp_m3872743893(NULL /*static, unused*/, L_16, L_18, L_20, /*hidden argument*/NULL);
+		float L_22 = ((&V_2)->___y_2);
+		Vector2_t3525329788 * L_23 = &(__this->___minSize_2);
+		float L_24 = (L_23->___y_2);
+		Vector2_t3525329788 * L_25 = &(__this->___maxSize_3);
+		float L_26 = (L_25->___y_2);
+		float L_27 = Mathf_Clamp_m3872743893(NULL /*static, unused*/, L_22, L_24, L_26, /*hidden argument*/NULL);
+		Vector2__ctor_m1517109030((&V_2), L_21, L_27, /*hidden argument*/NULL);
+		RectTransform_t3317474837 * L_28 = (__this->___panelRectTransform_4);
+		Vector2_t3525329788  L_29 = V_2;
+		NullCheck(L_28);
+		RectTransform_set_sizeDelta_m1223846609(L_28, L_29, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ScrollDetailTexture::.ctor()
+extern "C"  void ScrollDetailTexture__ctor_m2106672750 (ScrollDetailTexture_t3150826909 * __this, const MethodInfo* method)
+{
+	{
+		Vector2_t3525329788  L_0 = Vector2_get_zero_m199872368(NULL /*static, unused*/, /*hidden argument*/NULL);
+		__this->___scrollPerSecond_3 = L_0;
+		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+// System.Void ScrollDetailTexture::OnEnable()
+extern TypeInfo* Material_t1886596500_il2cpp_TypeInfo_var;
+extern TypeInfo* String_t_il2cpp_TypeInfo_var;
+extern const MethodInfo* Component_GetComponent_TisImage_t3354615620_m3706520426_MethodInfo_var;
+extern Il2CppCodeGenString* _stringLiteral3852110366;
+extern const uint32_t ScrollDetailTexture_OnEnable_m3897344600_MetadataUsageId;
+extern "C"  void ScrollDetailTexture_OnEnable_m3897344600 (ScrollDetailTexture_t3150826909 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ScrollDetailTexture_OnEnable_m3897344600_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	{
+		Image_t3354615620 * L_0 = Component_GetComponent_TisImage_t3354615620_m3706520426(__this, /*hidden argument*/Component_GetComponent_TisImage_t3354615620_m3706520426_MethodInfo_var);
+		__this->___mSprite_7 = L_0;
+		Image_t3354615620 * L_1 = (__this->___mSprite_7);
+		NullCheck(L_1);
+		Material_t1886596500 * L_2 = VirtFuncInvoker0< Material_t1886596500 * >::Invoke(26 /* UnityEngine.Material UnityEngine.UI.Graphic::get_material() */, L_1);
+		__this->___mOriginal_6 = L_2;
+		bool L_3 = (__this->___uniqueMaterial_2);
+		if (!L_3)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		Image_t3354615620 * L_4 = (__this->___mSprite_7);
+		NullCheck(L_4);
+		Material_t1886596500 * L_5 = VirtFuncInvoker0< Material_t1886596500 * >::Invoke(26 /* UnityEngine.Material UnityEngine.UI.Graphic::get_material() */, L_4);
+		bool L_6 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_5, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_6)
+		{
+			goto IL_008d;
+		}
+	}
+	{
+		Material_t1886596500 * L_7 = (__this->___mOriginal_6);
+		Material_t1886596500 * L_8 = (Material_t1886596500 *)il2cpp_codegen_object_new(Material_t1886596500_il2cpp_TypeInfo_var);
+		Material__ctor_m2546967560(L_8, L_7, /*hidden argument*/NULL);
+		__this->___mCopy_5 = L_8;
+		Material_t1886596500 * L_9 = (__this->___mCopy_5);
+		Material_t1886596500 * L_10 = (__this->___mOriginal_6);
+		NullCheck(L_10);
+		String_t* L_11 = Object_get_name_m3709440845(L_10, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(String_t_il2cpp_TypeInfo_var);
+		String_t* L_12 = String_Concat_m138640077(NULL /*static, unused*/, _stringLiteral3852110366, L_11, /*hidden argument*/NULL);
+		NullCheck(L_9);
+		Object_set_name_m1123518500(L_9, L_12, /*hidden argument*/NULL);
+		Material_t1886596500 * L_13 = (__this->___mCopy_5);
+		NullCheck(L_13);
+		Object_set_hideFlags_m41317712(L_13, ((int32_t)52), /*hidden argument*/NULL);
+		Image_t3354615620 * L_14 = (__this->___mSprite_7);
+		Material_t1886596500 * L_15 = (__this->___mCopy_5);
+		NullCheck(L_14);
+		VirtActionInvoker1< Material_t1886596500 * >::Invoke(27 /* System.Void UnityEngine.UI.Graphic::set_material(UnityEngine.Material) */, L_14, L_15);
+	}
+
+IL_008d:
+	{
+		return;
+	}
+}
+// System.Void ScrollDetailTexture::OnDisable()
+extern "C"  void ScrollDetailTexture_OnDisable_m999535573 (ScrollDetailTexture_t3150826909 * __this, const MethodInfo* method)
+{
+	{
+		Material_t1886596500 * L_0 = (__this->___mCopy_5);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_004e;
+		}
+	}
+	{
+		Image_t3354615620 * L_2 = (__this->___mSprite_7);
+		Material_t1886596500 * L_3 = (__this->___mOriginal_6);
+		NullCheck(L_2);
+		VirtActionInvoker1< Material_t1886596500 * >::Invoke(27 /* System.Void UnityEngine.UI.Graphic::set_material(UnityEngine.Material) */, L_2, L_3);
+		bool L_4 = Application_get_isEditor_m1279348309(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if (!L_4)
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		Material_t1886596500 * L_5 = (__this->___mCopy_5);
+		Object_DestroyImmediate_m349958679(NULL /*static, unused*/, L_5, /*hidden argument*/NULL);
+		goto IL_0047;
+	}
+
+IL_003c:
+	{
+		Material_t1886596500 * L_6 = (__this->___mCopy_5);
+		Object_Destroy_m176400816(NULL /*static, unused*/, L_6, /*hidden argument*/NULL);
+	}
+
+IL_0047:
+	{
+		__this->___mCopy_5 = (Material_t1886596500 *)NULL;
+	}
+
+IL_004e:
+	{
+		__this->___mOriginal_6 = (Material_t1886596500 *)NULL;
+		return;
+	}
+}
+// System.Void ScrollDetailTexture::Update()
+extern Il2CppCodeGenString* _stringLiteral2836929655;
+extern const uint32_t ScrollDetailTexture_Update_m2609207903_MetadataUsageId;
+extern "C"  void ScrollDetailTexture_Update_m2609207903 (ScrollDetailTexture_t3150826909 * __this, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodIntialized;
+	if (!s_Il2CppMethodIntialized)
+	{
+		il2cpp_codegen_initialize_method (ScrollDetailTexture_Update_m2609207903_MetadataUsageId);
+		s_Il2CppMethodIntialized = true;
+	}
+	Material_t1886596500 * V_0 = {0};
+	Texture_t1769722184 * V_1 = {0};
+	Material_t1886596500 * G_B3_0 = {0};
+	{
+		Material_t1886596500 * L_0 = (__this->___mCopy_5);
+		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		Material_t1886596500 * L_2 = (__this->___mCopy_5);
+		G_B3_0 = L_2;
+		goto IL_0022;
+	}
+
+IL_001c:
+	{
+		Material_t1886596500 * L_3 = (__this->___mOriginal_6);
+		G_B3_0 = L_3;
+	}
+
+IL_0022:
+	{
+		V_0 = G_B3_0;
+		Material_t1886596500 * L_4 = V_0;
+		bool L_5 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_4, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_5)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		Material_t1886596500 * L_6 = V_0;
+		NullCheck(L_6);
+		Texture_t1769722184 * L_7 = Material_GetTexture_m1284113328(L_6, _stringLiteral2836929655, /*hidden argument*/NULL);
+		V_1 = L_7;
+		Texture_t1769722184 * L_8 = V_1;
+		bool L_9 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_8, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_9)
+		{
+			goto IL_0062;
+		}
+	}
+	{
+		Material_t1886596500 * L_10 = V_0;
+		Vector2_t3525329788  L_11 = (__this->___scrollPerSecond_3);
+		float L_12 = Time_get_time_m342192902(NULL /*static, unused*/, /*hidden argument*/NULL);
+		Vector2_t3525329788  L_13 = Vector2_op_Multiply_m1738245082(NULL /*static, unused*/, L_11, L_12, /*hidden argument*/NULL);
+		NullCheck(L_10);
+		Material_SetTextureOffset_m1301408396(L_10, _stringLiteral2836929655, L_13, /*hidden argument*/NULL);
+	}
+
+IL_0062:
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif

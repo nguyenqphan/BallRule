@@ -6,19 +6,19 @@ using Facebook.Unity;
 
 public class ManagerFB : MonoBehaviour {
 
-	public GameObject boardCanvas;
-	public GameObject mainCanvas;
+	public GameObject LeaderBoardPanel;
+//	public GameObject mainCanvas;
 
 	private int scoreHigh = 10001; 
 
 	void Awake()
 	{
-		boardCanvas.SetActive(false);
+		LeaderBoardPanel.SetActive(false);
 		// Initialize FB SDK
-		if (!FB.IsInitialized)
-		{
-			FB.Init(InitCallback, OnHideUnity);
-		}
+//		if (!FB.IsInitialized)
+//		{
+//			FB.Init(InitCallback, OnHideUnity);
+//		}
 	}
 
 	private void InitCallback()
@@ -54,14 +54,14 @@ public class ManagerFB : MonoBehaviour {
 
 	public void SetLeaderBoardInactive()
 	{
-		boardCanvas.SetActive(false);
+		LeaderBoardPanel.SetActive(false);
 	}
 
 	public void GetReadPermission()
 	{
 		FBShare.PostScore1();
 		FBLogin.PromptForLogin(OnLoginComplete);
-		boardCanvas.SetActive(true);
+		LeaderBoardPanel.SetActive(true);
 //		mainCanvas.SetActive(false);
 	}
 

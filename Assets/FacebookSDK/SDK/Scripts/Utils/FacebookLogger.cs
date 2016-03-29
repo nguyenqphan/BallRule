@@ -102,8 +102,8 @@ namespace Facebook.Unity
 
             public void Info(string msg)
             {
-                Debug.Log(msg);
-                this.logger.Info(msg);
+//                Debug.Log(msg);
+//                this.logger.Info(msg);
             }
 
             public void Warn(string msg)
