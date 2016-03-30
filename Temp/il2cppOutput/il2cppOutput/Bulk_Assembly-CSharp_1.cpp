@@ -12742,74 +12742,10 @@ IL_0038:
 		return;
 	}
 }
-// System.Void GameMenu::OnLevelWasLoaded(System.Int32)
-extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
-extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
-extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral3286726921;
-extern Il2CppCodeGenString* _stringLiteral1292159634;
-extern const uint32_t GameMenu_OnLevelWasLoaded_m3887818964_MetadataUsageId;
-extern "C"  void GameMenu_OnLevelWasLoaded_m3887818964 (GameMenu_t2590240913 * __this, int32_t ___level, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (GameMenu_OnLevelWasLoaded_m3887818964_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3286726921, /*hidden argument*/NULL);
-		int32_t L_0 = ___level;
-		if (L_0)
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
-		bool L_1 = FB_get_IsInitialized_m24459329(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral1292159634, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
-		bool L_2 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (!L_2)
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		GameMenu_RedrawUI_m356529765(__this, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		bool L_3 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___highScorePending_28;
-		if (!L_3)
-		{
-			goto IL_004f;
-		}
-	}
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___highScorePending_28 = (bool)0;
-		int32_t L_4 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
-		FBShare_PostScore_m2060077696(NULL /*static, unused*/, L_4, (Action_t437523947 *)NULL, /*hidden argument*/NULL);
-	}
-
-IL_004f:
-	{
-		return;
-	}
-}
 // System.Void GameMenu::InitCallback()
-extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern TypeInfo* FBAppEvents_t1786942782_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
-extern Il2CppCodeGenString* _stringLiteral2258972053;
+extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2765426331;
 extern const uint32_t GameMenu_InitCallback_m3460982287_MetadataUsageId;
 extern "C"  void GameMenu_InitCallback_m3460982287 (GameMenu_t2590240913 * __this, const MethodInfo* method)
@@ -12821,15 +12757,13 @@ extern "C"  void GameMenu_InitCallback_m3460982287 (GameMenu_t2590240913 * __thi
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2258972053, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FBAppEvents_t1786942782_il2cpp_TypeInfo_var);
 		FBAppEvents_LaunchEvent_m2944092786(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
 		bool L_0 = FB_get_IsLoggedIn_m2733743004(NULL /*static, unused*/, /*hidden argument*/NULL);
 		if (!L_0)
 		{
-			goto IL_0029;
+			goto IL_001f;
 		}
 	}
 	{
@@ -12838,7 +12772,7 @@ extern "C"  void GameMenu_InitCallback_m3460982287 (GameMenu_t2590240913 * __thi
 		GameMenu_OnLoginComplete_m2106789099(__this, /*hidden argument*/NULL);
 	}
 
-IL_0029:
+IL_001f:
 	{
 		return;
 	}
@@ -15849,50 +15783,18 @@ extern "C" void MainCubeP_t1727109218_marshal_cleanup(MainCubeP_t1727109218_mars
 extern "C"  void ManagerFB__ctor_m1051405954 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
 {
 	{
-		__this->___scoreHigh_4 = ((int32_t)10001);
+		__this->___scoreHigh_3 = ((int32_t)10001);
 		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void ManagerFB::Awake()
-extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
-extern TypeInfo* InitDelegate_t1475272884_il2cpp_TypeInfo_var;
-extern TypeInfo* HideUnityDelegate_t2364798903_il2cpp_TypeInfo_var;
-extern const MethodInfo* ManagerFB_InitCallback_m784983479_MethodInfo_var;
-extern const MethodInfo* ManagerFB_OnHideUnity_m3623831051_MethodInfo_var;
-extern const uint32_t ManagerFB_Awake_m1289011173_MetadataUsageId;
 extern "C"  void ManagerFB_Awake_m1289011173 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
 {
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (ManagerFB_Awake_m1289011173_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		GameObject_t4012695102 * L_0 = (__this->___boardCanvas_2);
+		GameObject_t4012695102 * L_0 = (__this->___LeaderBoardPanel_2);
 		NullCheck(L_0);
 		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
-		bool L_1 = FB_get_IsInitialized_m24459329(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if (L_1)
-		{
-			goto IL_0034;
-		}
-	}
-	{
-		IntPtr_t L_2 = { (void*)ManagerFB_InitCallback_m784983479_MethodInfo_var };
-		InitDelegate_t1475272884 * L_3 = (InitDelegate_t1475272884 *)il2cpp_codegen_object_new(InitDelegate_t1475272884_il2cpp_TypeInfo_var);
-		InitDelegate__ctor_m1407180717(L_3, __this, L_2, /*hidden argument*/NULL);
-		IntPtr_t L_4 = { (void*)ManagerFB_OnHideUnity_m3623831051_MethodInfo_var };
-		HideUnityDelegate_t2364798903 * L_5 = (HideUnityDelegate_t2364798903 *)il2cpp_codegen_object_new(HideUnityDelegate_t2364798903_il2cpp_TypeInfo_var);
-		HideUnityDelegate__ctor_m2462696862(L_5, __this, L_4, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
-		FB_Init_m2331630741(NULL /*static, unused*/, L_3, L_5, (String_t*)NULL, /*hidden argument*/NULL);
-	}
-
-IL_0034:
-	{
 		return;
 	}
 }
@@ -15967,7 +15869,7 @@ IL_001f:
 extern "C"  void ManagerFB_SetLeaderBoardInactive_m2212929000 (ManagerFB_t1530265865 * __this, const MethodInfo* method)
 {
 	{
-		GameObject_t4012695102 * L_0 = (__this->___boardCanvas_2);
+		GameObject_t4012695102 * L_0 = (__this->___LeaderBoardPanel_2);
 		NullCheck(L_0);
 		GameObject_SetActive_m3538205401(L_0, (bool)0, /*hidden argument*/NULL);
 		return;
@@ -15993,7 +15895,7 @@ extern "C"  void ManagerFB_GetReadPermission_m1009225563 (ManagerFB_t1530265865 
 		Action__ctor_m2957240604(L_1, __this, L_0, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
 		FBLogin_PromptForLogin_m911439827(NULL /*static, unused*/, L_1, /*hidden argument*/NULL);
-		GameObject_t4012695102 * L_2 = (__this->___boardCanvas_2);
+		GameObject_t4012695102 * L_2 = (__this->___LeaderBoardPanel_2);
 		NullCheck(L_2);
 		GameObject_SetActive_m3538205401(L_2, (bool)1, /*hidden argument*/NULL);
 		return;
@@ -16115,7 +16017,7 @@ extern "C"  void ManagerFB_SetShareScore_m2416800597 (ManagerFB_t1530265865 * __
 	}
 	{
 		ManagerFB_GetPublicPermission_m2905125486(__this, /*hidden argument*/NULL);
-		int32_t L_0 = (__this->___scoreHigh_4);
+		int32_t L_0 = (__this->___scoreHigh_3);
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
 		GameStateManager_set_HighScore_m1444715631(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
 		int32_t L_1 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);

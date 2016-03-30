@@ -26,8 +26,6 @@ extern "C"  void GameMenu__ctor_m2770592042 (GameMenu_t2590240913 * __this, cons
 extern "C"  void GameMenu_Awake_m3008197261 (GameMenu_t2590240913 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameMenu::OnApplicationPause(System.Boolean)
 extern "C"  void GameMenu_OnApplicationPause_m1906154390 (GameMenu_t2590240913 * __this, bool ___pauseStatus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void GameMenu::OnLevelWasLoaded(System.Int32)
-extern "C"  void GameMenu_OnLevelWasLoaded_m3887818964 (GameMenu_t2590240913 * __this, int32_t ___level, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameMenu::InitCallback()
 extern "C"  void GameMenu_InitCallback_m3460982287 (GameMenu_t2590240913 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameMenu::OnLoginClick()

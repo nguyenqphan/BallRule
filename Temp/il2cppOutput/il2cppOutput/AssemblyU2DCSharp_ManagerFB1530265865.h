@@ -18,10 +18,8 @@ struct GameObject_t4012695102;
 // ManagerFB
 struct  ManagerFB_t1530265865  : public MonoBehaviour_t3012272455
 {
-	// UnityEngine.GameObject ManagerFB::boardCanvas
-	GameObject_t4012695102 * ___boardCanvas_2;
-	// UnityEngine.GameObject ManagerFB::mainCanvas
-	GameObject_t4012695102 * ___mainCanvas_3;
+	// UnityEngine.GameObject ManagerFB::LeaderBoardPanel
+	GameObject_t4012695102 * ___LeaderBoardPanel_2;
 	// System.Int32 ManagerFB::scoreHigh
-	int32_t ___scoreHigh_4;
+	int32_t ___scoreHigh_3;
 };

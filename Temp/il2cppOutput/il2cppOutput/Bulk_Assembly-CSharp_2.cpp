@@ -67,10 +67,6 @@ struct U3CInstantiateDiamondBreakingU3Ec__Iterator19_t2380724420;
 struct U3CInstantiateDiamondEmissiveU3Ec__Iterator17_t1952760214;
 // SpawnerManager/<InstantiateEffect>c__Iterator16
 struct U3CInstantiateEffectU3Ec__Iterator16_t1005504887;
-// SphereController
-struct SphereController_t372985705;
-// UnityEngine.Collision
-struct Collision_t1119538015;
 // StartOptions
 struct StartOptions_t3075365884;
 // PlayMusic
@@ -210,9 +206,6 @@ struct U3CdeactivateWeatherDetectorU3Ec__Iterator1E_t3524863505;
 #include "AssemblyU2DCSharp_Cube2111573.h"
 #include "AssemblyU2DCSharp_Diamond3319707956.h"
 #include "AssemblyU2DCSharp_SpawnerP2130838536MethodDeclarations.h"
-#include "AssemblyU2DCSharp_SphereController372985705.h"
-#include "AssemblyU2DCSharp_SphereController372985705MethodDeclarations.h"
-#include "UnityEngine_UnityEngine_Collision1119538015.h"
 #include "AssemblyU2DCSharp_StartOptions3075365884.h"
 #include "AssemblyU2DCSharp_StartOptions3075365884MethodDeclarations.h"
 #include "AssemblyU2DCSharp_PlayMusic109867825.h"
@@ -283,8 +276,6 @@ extern "C"  Object_t * GameObject_GetComponentInChildren_TisObject_t_m782999868_
 #define GameObject_GetComponentInChildren_TisCube_t2111573_m2983726412(__this, method) ((  Cube_t2111573 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponentInChildren_TisObject_t_m782999868_gshared)(__this, method)
 // !!0 UnityEngine.GameObject::GetComponent<Diamond>()
 #define GameObject_GetComponent_TisDiamond_t3319707956_m178647341(__this, method) ((  Diamond_t3319707956 * (*) (GameObject_t4012695102 *, const MethodInfo*))GameObject_GetComponent_TisObject_t_m2447772384_gshared)(__this, method)
-// !!0 UnityEngine.Component::GetComponent<UnityEngine.Rigidbody>()
-#define Component_GetComponent_TisRigidbody_t1972007546_m2174365699(__this, method) ((  Rigidbody_t1972007546 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<ShowPanels>()
 #define Component_GetComponent_TisShowPanels_t2673010796_m873919769(__this, method) ((  ShowPanels_t2673010796 * (*) (Component_t2126946602 *, const MethodInfo*))Component_GetComponent_TisObject_t_m267839954_gshared)(__this, method)
 // !!0 UnityEngine.Component::GetComponent<PlayMusic>()
@@ -4182,46 +4173,6 @@ extern "C"  void U3CInstantiateEffectU3Ec__Iterator16_Reset_m4077312567 (U3CInst
 		NotSupportedException_t1374155497 * L_0 = (NotSupportedException_t1374155497 *)il2cpp_codegen_object_new(NotSupportedException_t1374155497_il2cpp_TypeInfo_var);
 		NotSupportedException__ctor_m149930845(L_0, /*hidden argument*/NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0);
-	}
-}
-// System.Void SphereController::.ctor()
-extern "C"  void SphereController__ctor_m2156010834 (SphereController_t372985705 * __this, const MethodInfo* method)
-{
-	{
-		__this->___check_3 = (bool)1;
-		MonoBehaviour__ctor_m2022291967(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void SphereController::Start()
-extern const MethodInfo* Component_GetComponent_TisRigidbody_t1972007546_m2174365699_MethodInfo_var;
-extern const uint32_t SphereController_Start_m1103148626_MetadataUsageId;
-extern "C"  void SphereController_Start_m1103148626 (SphereController_t372985705 * __this, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (SphereController_Start_m1103148626_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		Rigidbody_t1972007546 * L_0 = Component_GetComponent_TisRigidbody_t1972007546_m2174365699(__this, /*hidden argument*/Component_GetComponent_TisRigidbody_t1972007546_m2174365699_MethodInfo_var);
-		__this->___rb_2 = L_0;
-		return;
-	}
-}
-// System.Void SphereController::Update()
-extern "C"  void SphereController_Update_m4138688507 (SphereController_t372985705 * __this, const MethodInfo* method)
-{
-	{
-		return;
-	}
-}
-// System.Void SphereController::OnCollisionEnter(UnityEngine.Collision)
-extern "C"  void SphereController_OnCollisionEnter_m2077300512 (SphereController_t372985705 * __this, Collision_t1119538015 * ___col, const MethodInfo* method)
-{
-	{
-		return;
 	}
 }
 // System.Void StartOptions::.ctor()

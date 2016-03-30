@@ -12423,7 +12423,6 @@ extern "C" void GameManager_Restart_m2612404925 ();
 extern "C" void GameMenu__ctor_m2770592042 ();
 extern "C" void GameMenu_Awake_m3008197261 ();
 extern "C" void GameMenu_OnApplicationPause_m1906154390 ();
-extern "C" void GameMenu_OnLevelWasLoaded_m3887818964 ();
 extern "C" void GameMenu_InitCallback_m3460982287 ();
 extern "C" void GameMenu_OnLoginClick_m3066123576 ();
 extern "C" void GameMenu_OnLoginComplete_m2106789099 ();
@@ -12759,10 +12758,6 @@ extern "C" void U3CInstantiateEffectU3Ec__Iterator16_System_Collections_IEnumera
 extern "C" void U3CInstantiateEffectU3Ec__Iterator16_MoveNext_m1029829162 ();
 extern "C" void U3CInstantiateEffectU3Ec__Iterator16_Dispose_m3810632007 ();
 extern "C" void U3CInstantiateEffectU3Ec__Iterator16_Reset_m4077312567 ();
-extern "C" void SphereController__ctor_m2156010834 ();
-extern "C" void SphereController_Start_m1103148626 ();
-extern "C" void SphereController_Update_m4138688507 ();
-extern "C" void SphereController_OnCollisionEnter_m2077300512 ();
 extern "C" void StartOptions__ctor_m3149615647 ();
 extern "C" void StartOptions_Awake_m3387220866 ();
 extern "C" void StartOptions_StartButtonClicked_m1487358680 ();
@@ -13138,7 +13133,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[13127] = 
+extern const methodPointerType g_MethodPointers[13122] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -25552,7 +25547,6 @@ extern const methodPointerType g_MethodPointers[13127] =
 	GameMenu__ctor_m2770592042,
 	GameMenu_Awake_m3008197261,
 	GameMenu_OnApplicationPause_m1906154390,
-	GameMenu_OnLevelWasLoaded_m3887818964,
 	GameMenu_InitCallback_m3460982287,
 	GameMenu_OnLoginClick_m3066123576,
 	GameMenu_OnLoginComplete_m2106789099,
@@ -25888,10 +25882,6 @@ extern const methodPointerType g_MethodPointers[13127] =
 	U3CInstantiateEffectU3Ec__Iterator16_MoveNext_m1029829162,
 	U3CInstantiateEffectU3Ec__Iterator16_Dispose_m3810632007,
 	U3CInstantiateEffectU3Ec__Iterator16_Reset_m4077312567,
-	SphereController__ctor_m2156010834,
-	SphereController_Start_m1103148626,
-	SphereController_Update_m4138688507,
-	SphereController_OnCollisionEnter_m2077300512,
 	StartOptions__ctor_m3149615647,
 	StartOptions_Awake_m3387220866,
 	StartOptions_StartButtonClicked_m1487358680,

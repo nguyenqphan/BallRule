@@ -1229,7 +1229,6 @@
 #include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateCub1100421286.h"
 #include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateDia2257946986.h"
 #include "AssemblyU2DCSharp_SpawnerManager_U3CInstantiateBal1953657074.h"
-#include "AssemblyU2DCSharp_SphereController372985705.h"
 #include "AssemblyU2DCSharp_AddTorgueTest2215257235.h"
 #include "AssemblyU2DCSharp_MoveTowadsTest477145943.h"
 #include "AssemblyU2DCSharp_MoveTowadsTest_U3CMoveU3Ec__Iter3571380979.h"
@@ -1826,7 +1825,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7974] = 
+extern const int32_t g_FieldOffsetTable[7971] = 
 {
 	0,
 	0,
@@ -9041,9 +9040,8 @@ extern const int32_t g_FieldOffsetTable[7974] =
 	offsetof(GameManager_t2369589051, ___maxTime_11),
 	offsetof(GameManager_t2369589051, ___indexMaterial_12),
 	offsetof(GameManager_t2369589051, ___cube_13),
-	offsetof(ManagerFB_t1530265865, ___boardCanvas_2),
-	offsetof(ManagerFB_t1530265865, ___mainCanvas_3),
-	offsetof(ManagerFB_t1530265865, ___scoreHigh_4),
+	offsetof(ManagerFB_t1530265865, ___LeaderBoardPanel_2),
+	offsetof(ManagerFB_t1530265865, ___scoreHigh_3),
 	offsetof(U3CTakeScreenshotU3Ec__Iterator7_t564136571, ___U3CwidthU3E__0_0),
 	offsetof(U3CTakeScreenshotU3Ec__Iterator7_t564136571, ___U3CheightU3E__1_1),
 	offsetof(U3CTakeScreenshotU3Ec__Iterator7_t564136571, ___U3CtexU3E__2_2),
@@ -9387,8 +9385,6 @@ extern const int32_t g_FieldOffsetTable[7974] =
 	offsetof(U3CInstantiateBallU3Ec__Iterator1C_t1953657074, ___U24PC_1),
 	offsetof(U3CInstantiateBallU3Ec__Iterator1C_t1953657074, ___U24current_2),
 	offsetof(U3CInstantiateBallU3Ec__Iterator1C_t1953657074, ___U3CU3Ef__this_3),
-	offsetof(SphereController_t372985705, ___rb_2),
-	offsetof(SphereController_t372985705, ___check_3),
 	offsetof(AddTorgueTest_t2215257235, ___torque_2),
 	offsetof(AddTorgueTest_t2215257235, ___rb_3),
 	offsetof(AddTorgueTest_t2215257235, ___hit_4),
@@ -9806,7 +9802,7 @@ extern const int32_t g_FieldOffsetTable[7974] =
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[2053] = 
+extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[2052] = 
 {
 	sizeof (U3CModuleU3E_t86524790), -1, 0, 0,
 	sizeof (Object_t), -1, 0, 0,
@@ -11756,7 +11752,6 @@ extern const Il2CppTypeDefinitionSizes g_Il2CppTypeDefinitionSizesTable[2053] =
 	sizeof (U3CInstantiateCubeU3Ec__Iterator1A_t1100421286), -1, 0, 0,
 	sizeof (U3CInstantiateDiamondU3Ec__Iterator1B_t2257946986), -1, 0, 0,
 	sizeof (U3CInstantiateBallU3Ec__Iterator1C_t1953657074), -1, 0, 0,
-	sizeof (SphereController_t372985705), -1, 0, 0,
 	sizeof (AddTorgueTest_t2215257235), -1, 0, 0,
 	sizeof (EventListenerTest_t4216845056), -1, 0, 0,
 	sizeof (GravityTest_t2735471584), -1, 0, 0,

@@ -4312,7 +4312,6 @@ extern "C"  void Destroyer_Awake_m3396716711 (Destroyer_t3990730247 * __this, co
 // System.Void Destroyer::OnTriggerEnter(UnityEngine.Collider)
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
-extern TypeInfo* Int32_t2847414787_il2cpp_TypeInfo_var;
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2393081601;
 extern Il2CppCodeGenString* _stringLiteral3180882363;
@@ -4335,7 +4334,7 @@ extern "C"  void Destroyer_OnTriggerEnter_m596421300 (Destroyer_t3990730247 * __
 		bool L_3 = String_op_Equality_m1260523650(NULL /*static, unused*/, L_2, _stringLiteral2393081601, /*hidden argument*/NULL);
 		if (!L_3)
 		{
-			goto IL_00ea;
+			goto IL_00d6;
 		}
 	}
 	{
@@ -4355,7 +4354,7 @@ extern "C"  void Destroyer_OnTriggerEnter_m596421300 (Destroyer_t3990730247 * __
 		bool L_9 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_8, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
 		if (!L_9)
 		{
-			goto IL_00c4;
+			goto IL_00b0;
 		}
 	}
 	{
@@ -4374,56 +4373,49 @@ extern "C"  void Destroyer_OnTriggerEnter_m596421300 (Destroyer_t3990730247 * __
 		GameStateManager_t648042254 * L_14 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
 		NullCheck(L_14);
 		int32_t L_15 = GameStateManager_get_BestScore_m3345504834(L_14, /*hidden argument*/NULL);
-		int32_t L_16 = L_15;
-		Object_t * L_17 = Box(Int32_t2847414787_il2cpp_TypeInfo_var, &L_16);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_Log_m1731103628(NULL /*static, unused*/, L_17, /*hidden argument*/NULL);
-		GameStateManager_t648042254 * L_18 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_18);
-		int32_t L_19 = GameStateManager_get_BestScore_m3345504834(L_18, /*hidden argument*/NULL);
-		int32_t L_20 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
-		if ((((int32_t)L_19) >= ((int32_t)L_20)))
+		int32_t L_16 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
+		if ((((int32_t)L_15) >= ((int32_t)L_16)))
 		{
-			goto IL_00b4;
+			goto IL_00a0;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_t648042254 * L_21 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		int32_t L_22 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_21);
-		GameStateManager_set_BestScore_m4053641453(L_21, L_22, /*hidden argument*/NULL);
-		GameStateManager_t648042254 * L_23 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
-		NullCheck(L_23);
-		GameStateManager_Save_m2100463252(L_23, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_17 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		int32_t L_18 = GameStateManager_get_HighScore_m1143406788(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_17);
+		GameStateManager_set_BestScore_m4053641453(L_17, L_18, /*hidden argument*/NULL);
+		GameStateManager_t648042254 * L_19 = GameStateManager_get_Instance_m2805704868(NULL /*static, unused*/, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		GameStateManager_Save_m2100463252(L_19, /*hidden argument*/NULL);
 	}
 
-IL_00b4:
+IL_00a0:
 	{
-		UpdateScore_t1082839849 * L_24 = (__this->___updateScore_4);
-		NullCheck(L_24);
-		UpdateScore_EndGameScore_m64082823(L_24, /*hidden argument*/NULL);
-		goto IL_00ea;
+		UpdateScore_t1082839849 * L_20 = (__this->___updateScore_4);
+		NullCheck(L_20);
+		UpdateScore_EndGameScore_m64082823(L_20, /*hidden argument*/NULL);
+		goto IL_00d6;
 	}
 
-IL_00c4:
+IL_00b0:
 	{
-		ShowPanels_t2673010796 * L_25 = (__this->___showUI_2);
-		bool L_26 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_25, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
-		if (!L_26)
+		ShowPanels_t2673010796 * L_21 = (__this->___showUI_2);
+		bool L_22 = Object_op_Equality_m3964590952(NULL /*static, unused*/, L_21, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
+		if (!L_22)
 		{
-			goto IL_00ea;
+			goto IL_00d6;
 		}
 	}
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
 		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral3180882363, /*hidden argument*/NULL);
-		ShowPanels_t2673010796 * L_27 = (__this->___showUI_2);
-		NullCheck(L_27);
-		ShowPanels_ShowMenu_m994731697(L_27, /*hidden argument*/NULL);
+		ShowPanels_t2673010796 * L_23 = (__this->___showUI_2);
+		NullCheck(L_23);
+		ShowPanels_ShowMenu_m994731697(L_23, /*hidden argument*/NULL);
 	}
 
-IL_00ea:
+IL_00d6:
 	{
 		return;
 	}
@@ -20568,25 +20560,9 @@ IL_001c:
 	}
 }
 // System.Void Facebook.Unity.FacebookLogger/CustomLogger::Info(System.String)
-extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
-extern TypeInfo* IFacebookLogger_t2359090814_il2cpp_TypeInfo_var;
-extern const uint32_t CustomLogger_Info_m3290595794_MetadataUsageId;
 extern "C"  void CustomLogger_Info_m3290595794 (CustomLogger_t346728577 * __this, String_t* ___msg, const MethodInfo* method)
 {
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (CustomLogger_Info_m3290595794_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		String_t* L_0 = ___msg;
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
-		Debug_Log_m1731103628(NULL /*static, unused*/, L_0, /*hidden argument*/NULL);
-		Object_t * L_1 = (__this->___logger_0);
-		String_t* L_2 = ___msg;
-		NullCheck(L_1);
-		InterfaceActionInvoker1< String_t* >::Invoke(1 /* System.Void Facebook.Unity.IFacebookLogger::Info(System.String) */, IFacebookLogger_t2359090814_il2cpp_TypeInfo_var, L_1, L_2);
 		return;
 	}
 }
