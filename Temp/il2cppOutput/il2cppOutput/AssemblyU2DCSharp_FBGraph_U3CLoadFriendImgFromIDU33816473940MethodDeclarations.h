@@ -21,5 +21,5 @@ struct IGraphResult_t2342947041;
 
 // System.Void FBGraph/<LoadFriendImgFromID>c__AnonStorey25::.ctor()
 extern "C"  void U3CLoadFriendImgFromIDU3Ec__AnonStorey25__ctor_m2972177002 (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void FBGraph/<LoadFriendImgFromID>c__AnonStorey25::<>m__A(Facebook.Unity.IGraphResult)
-extern "C"  void U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527 (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void FBGraph/<LoadFriendImgFromID>c__AnonStorey25::<>m__9(Facebook.Unity.IGraphResult)
+extern "C"  void U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__9_m3999965511 (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -22,5 +22,5 @@ struct Texture_t1769722184;
 
 // System.Void FBGraph/<HandleScoresData>c__AnonStorey24::.ctor()
 extern "C"  void U3CHandleScoresDataU3Ec__AnonStorey24__ctor_m1613874894 (U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void FBGraph/<HandleScoresData>c__AnonStorey24::<>m__9(UnityEngine.Texture)
-extern "C"  void U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714 (U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * __this, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void FBGraph/<HandleScoresData>c__AnonStorey24::<>m__8(UnityEngine.Texture)
+extern "C"  void U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__8_m1739601707 (U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * __this, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method) IL2CPP_METHOD_ATTR;

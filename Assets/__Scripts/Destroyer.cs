@@ -19,7 +19,7 @@ public class Destroyer : MonoBehaviour {
 
 	void OnTriggerEnter(Collider collider)
 	{
-		if(collider.gameObject.tag == "Player")
+		if(collider.gameObject.CompareTag("Player"))
 		{
 			soundBallDrop.PlayWaterSound();
 			GameStateManager.Instance.IsStarted = true;

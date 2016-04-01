@@ -21,5 +21,5 @@ struct ILoginResult_t1998157500;
 
 // System.Void FBLogin/<PromptForPublish>c__AnonStorey27::.ctor()
 extern "C"  void U3CPromptForPublishU3Ec__AnonStorey27__ctor_m1209345081 (U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void FBLogin/<PromptForPublish>c__AnonStorey27::<>m__C(Facebook.Unity.ILoginResult)
-extern "C"  void U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945 (U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void FBLogin/<PromptForPublish>c__AnonStorey27::<>m__B(Facebook.Unity.ILoginResult)
+extern "C"  void U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__B_m1203440818 (U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

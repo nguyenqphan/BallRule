@@ -44,7 +44,7 @@ public static class FBGraph
     // See: https://developers.facebook.com/docs/graph-api/reference/user/
     public static void GetPlayerInfo()
     {
-        string queryString = "/me?fields=id,first_name,picture.width(120).height(120)";
+        string queryString = "/me?fields=id,first_name,picture.width(80).height(80)";
         FB.API(queryString, HttpMethod.GET, GetPlayerInfoCallback);
     }
 
@@ -65,20 +65,23 @@ public static class FBGraph
             GameStateManager.Username = name;
         }
 
+		GetPlayerPicture();
+
         //Fetch player profile picture from the URL returned
-        string playerImgUrl = GraphUtil.DeserializePictureURL(result.ResultDictionary);
-        GraphUtil.LoadImgFromURL(playerImgUrl, delegate(Texture pictureTexture)
-        {
-            // Setup the User's profile picture
-            if (pictureTexture != null)
-            {
-                GameStateManager.UserTexture = pictureTexture;
-            }
-
-            // Redraw the UI
-            GameStateManager.CallUIRedraw();
-        });
-
+//        string playerImgUrl = GraphUtil.DeserializePictureURL(result.ResultDictionary);
+//        GraphUtil.LoadImgFromURL(playerImgUrl, delegate(Texture pictureTexture)
+//        {
+//            // Setup the User's profile picture
+//            if (pictureTexture != null)
+//            {
+//                GameStateManager.UserTexture = pictureTexture;
+//            }
+//
+//           
+//        });
+//
+//		// Redraw the UI
+//		GameStateManager.CallUIRedraw();
     }
 
     // In the above request it takes two network calls to fetch the player's profile picture.

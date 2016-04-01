@@ -59,7 +59,7 @@ public class ManagerFB : MonoBehaviour {
 
 	public void GetReadPermission()
 	{
-		FBShare.PostScore1();
+		
 		FBLogin.PromptForLogin(OnLoginComplete);
 		LeaderBoardPanel.SetActive(true);
 //		mainCanvas.SetActive(false);
@@ -86,6 +86,7 @@ public class ManagerFB : MonoBehaviour {
 		FBGraph.GetFriends();
 		//FBGraph.GetInvitableFriends();
 //		FBShare.PostScore(GameStateManager.HighScore);
+//		FBShare.PostScore1();
 		FBGraph.GetScores();
 	}
 

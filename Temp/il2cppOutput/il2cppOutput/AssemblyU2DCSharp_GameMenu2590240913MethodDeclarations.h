@@ -42,5 +42,5 @@ extern "C"  void GameMenu_OnBragClicked_m2491520570 (GameMenu_t2590240913 * __th
 extern "C"  void GameMenu_OnChallengeClicked_m2582906013 (GameMenu_t2590240913 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void GameMenu::OnStoreClicked()
 extern "C"  void GameMenu_OnStoreClicked_m3296698847 (GameMenu_t2590240913 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void GameMenu::<OnPlayClicked>m__F(UnityEngine.Texture)
-extern "C"  void GameMenu_U3COnPlayClickedU3Em__F_m376187047 (Object_t * __this /* static, unused */, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void GameMenu::<OnPlayClicked>m__E(UnityEngine.Texture)
+extern "C"  void GameMenu_U3COnPlayClickedU3Em__E_m2414243336 (Object_t * __this /* static, unused */, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method) IL2CPP_METHOD_ATTR;

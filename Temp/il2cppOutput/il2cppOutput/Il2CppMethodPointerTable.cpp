@@ -12350,21 +12350,20 @@ extern "C" void FBGraph_GetScores_m3802773806 ();
 extern "C" void FBGraph_GetScoresCallback_m213755420 ();
 extern "C" void FBGraph_HandleScoresData_m1482114112 ();
 extern "C" void FBGraph_LoadFriendImgFromID_m1067899055 ();
-extern "C" void FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061 ();
-extern "C" void FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838 ();
+extern "C" void FBGraph_U3CGetPlayerPictureU3Em__7_m3959599711 ();
 extern "C" void U3CHandleScoresDataU3Ec__AnonStorey24__ctor_m1613874894 ();
-extern "C" void U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714 ();
+extern "C" void U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__8_m1739601707 ();
 extern "C" void U3CLoadFriendImgFromIDU3Ec__AnonStorey25__ctor_m2972177002 ();
-extern "C" void U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527 ();
+extern "C" void U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__9_m3999965511 ();
 extern "C" void FBLogin__cctor_m1635101039 ();
 extern "C" void FBLogin_PromptForLogin_m911439827 ();
 extern "C" void FBLogin_PromptForPublish_m3794860397 ();
 extern "C" void FBLogin_get_HavePublishActions_m3353262161 ();
 extern "C" void FBLogin_set_HavePublishActions_m1531527344 ();
 extern "C" void U3CPromptForLoginU3Ec__AnonStorey26__ctor_m3068611264 ();
-extern "C" void U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825 ();
+extern "C" void U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__A_m3421308698 ();
 extern "C" void U3CPromptForPublishU3Ec__AnonStorey27__ctor_m1209345081 ();
-extern "C" void U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945 ();
+extern "C" void U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__B_m1203440818 ();
 extern "C" void FBManager__ctor_m4196904250 ();
 extern "C" void FBManager_Awake_m139542173 ();
 extern "C" void FBManager_InitCallback_m1304160255 ();
@@ -12378,9 +12377,9 @@ extern "C" void FBShare_PostScore_m2060077696 ();
 extern "C" void FBShare_PostScore1_m1607740059 ();
 extern "C" void FBShare_AuthCallback_m2364714820 ();
 extern "C" void FBShare_APICallback_m3565927648 ();
-extern "C" void FBShare_U3CPostScoreU3Em__D_m1687393738 ();
+extern "C" void FBShare_U3CPostScoreU3Em__C_m1676077611 ();
 extern "C" void U3CPostScoreU3Ec__AnonStorey28__ctor_m481442730 ();
-extern "C" void U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284 ();
+extern "C" void U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__D_m1975746323 ();
 extern "C" void Flashing__ctor_m338341065 ();
 extern "C" void Flashing_Awake_m575946284 ();
 extern "C" void Flashing_Start_m3580446153 ();
@@ -12431,7 +12430,7 @@ extern "C" void GameMenu_OnPlayClicked_m2662073660 ();
 extern "C" void GameMenu_OnBragClicked_m2491520570 ();
 extern "C" void GameMenu_OnChallengeClicked_m2582906013 ();
 extern "C" void GameMenu_OnStoreClicked_m3296698847 ();
-extern "C" void GameMenu_U3COnPlayClickedU3Em__F_m376187047 ();
+extern "C" void GameMenu_U3COnPlayClickedU3Em__E_m2414243336 ();
 extern "C" void GameResources__ctor_m3119585432 ();
 extern "C" void GameResources_Awake_m3357190651 ();
 extern "C" void GameStateManager__ctor_m2267733837 ();
@@ -12464,8 +12463,8 @@ extern "C" void GameStateManager_EndGame_m2639154712 ();
 extern "C" void GameStateManager_CallUIRedraw_m2882927136 ();
 extern "C" void GameStateManager_Save_m2100463252 ();
 extern "C" void GameStateManager_Load_m1912361917 ();
-extern "C" void GameStateManager_U3CinitU3Em__10_m2564355830 ();
-extern "C" void GameStateManager_U3CfinalU3Em__11_m3495785487 ();
+extern "C" void GameStateManager_U3CinitU3Em__F_m636930417 ();
+extern "C" void GameStateManager_U3CfinalU3Em__10_m3495784526 ();
 extern "C" void InstanceStep__ctor_m1886435673 ();
 extern "C" void InstanceStep_Invoke_m955855268 ();
 extern "C" void InstanceStep_BeginInvoke_m3001398840 ();
@@ -13133,7 +13132,7 @@ extern "C" void WaterTile__ctor_m3254941794 ();
 extern "C" void WaterTile_Start_m2202079586 ();
 extern "C" void WaterTile_AcquireComponents_m393236620 ();
 extern "C" void WaterTile_OnWillRenderObject_m3418736328 ();
-extern const methodPointerType g_MethodPointers[13122] = 
+extern const methodPointerType g_MethodPointers[13121] = 
 {
 	Locale_GetText_m2389348044,
 	Locale_GetText_m2218462520,
@@ -25474,21 +25473,20 @@ extern const methodPointerType g_MethodPointers[13122] =
 	FBGraph_GetScoresCallback_m213755420,
 	FBGraph_HandleScoresData_m1482114112,
 	FBGraph_LoadFriendImgFromID_m1067899055,
-	FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061,
-	FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838,
+	FBGraph_U3CGetPlayerPictureU3Em__7_m3959599711,
 	U3CHandleScoresDataU3Ec__AnonStorey24__ctor_m1613874894,
-	U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714,
+	U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__8_m1739601707,
 	U3CLoadFriendImgFromIDU3Ec__AnonStorey25__ctor_m2972177002,
-	U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527,
+	U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__9_m3999965511,
 	FBLogin__cctor_m1635101039,
 	FBLogin_PromptForLogin_m911439827,
 	FBLogin_PromptForPublish_m3794860397,
 	FBLogin_get_HavePublishActions_m3353262161,
 	FBLogin_set_HavePublishActions_m1531527344,
 	U3CPromptForLoginU3Ec__AnonStorey26__ctor_m3068611264,
-	U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825,
+	U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__A_m3421308698,
 	U3CPromptForPublishU3Ec__AnonStorey27__ctor_m1209345081,
-	U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945,
+	U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__B_m1203440818,
 	FBManager__ctor_m4196904250,
 	FBManager_Awake_m139542173,
 	FBManager_InitCallback_m1304160255,
@@ -25502,9 +25500,9 @@ extern const methodPointerType g_MethodPointers[13122] =
 	FBShare_PostScore1_m1607740059,
 	FBShare_AuthCallback_m2364714820,
 	FBShare_APICallback_m3565927648,
-	FBShare_U3CPostScoreU3Em__D_m1687393738,
+	FBShare_U3CPostScoreU3Em__C_m1676077611,
 	U3CPostScoreU3Ec__AnonStorey28__ctor_m481442730,
-	U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284,
+	U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__D_m1975746323,
 	Flashing__ctor_m338341065,
 	Flashing_Awake_m575946284,
 	Flashing_Start_m3580446153,
@@ -25555,7 +25553,7 @@ extern const methodPointerType g_MethodPointers[13122] =
 	GameMenu_OnBragClicked_m2491520570,
 	GameMenu_OnChallengeClicked_m2582906013,
 	GameMenu_OnStoreClicked_m3296698847,
-	GameMenu_U3COnPlayClickedU3Em__F_m376187047,
+	GameMenu_U3COnPlayClickedU3Em__E_m2414243336,
 	GameResources__ctor_m3119585432,
 	GameResources_Awake_m3357190651,
 	GameStateManager__ctor_m2267733837,
@@ -25588,8 +25586,8 @@ extern const methodPointerType g_MethodPointers[13122] =
 	GameStateManager_CallUIRedraw_m2882927136,
 	GameStateManager_Save_m2100463252,
 	GameStateManager_Load_m1912361917,
-	GameStateManager_U3CinitU3Em__10_m2564355830,
-	GameStateManager_U3CfinalU3Em__11_m3495785487,
+	GameStateManager_U3CinitU3Em__F_m636930417,
+	GameStateManager_U3CfinalU3Em__10_m3495784526,
 	InstanceStep__ctor_m1886435673,
 	InstanceStep_Invoke_m955855268,
 	InstanceStep_BeginInvoke_m3001398840,

@@ -1796,7 +1796,6 @@ extern Il2CppGenericClass JavaMethodCall_1_t447599154_GenericClass;
 extern Il2CppGenericClass MethodCall_1_t3070447047_GenericClass;
 extern Il2CppGenericClass Nullable_1_t3097043249_GenericClass;
 extern Il2CppGenericClass Func_2_t2267165834_GenericClass;
-extern Il2CppGenericClass Action_1_t1918174889_GenericClass;
 extern Il2CppGenericClass Dictionary_2_t3407420088_GenericClass;
 extern Il2CppGenericClass Transform_1_t1742911974_GenericClass;
 extern Il2CppGenericClass KeyValuePair_2_t2895951386_GenericClass;
@@ -1804,6 +1803,7 @@ extern Il2CppGenericClass IEnumerator_1_t84090538_GenericClass;
 extern Il2CppGenericClass KeyCollection_t1435728072_GenericClass;
 extern Il2CppGenericClass ValueCollection_t1034589886_GenericClass;
 extern Il2CppGenericClass Enumerator_t3174448029_GenericClass;
+extern Il2CppGenericClass Action_1_t1918174889_GenericClass;
 extern Il2CppGenericClass InternalEnumerator_1_t3920185605_GenericClass;
 extern Il2CppGenericClass Queue_1_t2676576442_GenericClass;
 extern Il2CppGenericClass Enumerator_t4146198161_GenericClass;
@@ -3982,7 +3982,6 @@ extern Il2CppGenericClass* const s_Il2CppGenericTypes[2184] =
 	&MethodCall_1_t3070447047_GenericClass,
 	&Nullable_1_t3097043249_GenericClass,
 	&Func_2_t2267165834_GenericClass,
-	&Action_1_t1918174889_GenericClass,
 	&Dictionary_2_t3407420088_GenericClass,
 	&Transform_1_t1742911974_GenericClass,
 	&KeyValuePair_2_t2895951386_GenericClass,
@@ -3990,6 +3989,7 @@ extern Il2CppGenericClass* const s_Il2CppGenericTypes[2184] =
 	&KeyCollection_t1435728072_GenericClass,
 	&ValueCollection_t1034589886_GenericClass,
 	&Enumerator_t3174448029_GenericClass,
+	&Action_1_t1918174889_GenericClass,
 	&InternalEnumerator_1_t3920185605_GenericClass,
 	&Queue_1_t2676576442_GenericClass,
 	&Enumerator_t4146198161_GenericClass,

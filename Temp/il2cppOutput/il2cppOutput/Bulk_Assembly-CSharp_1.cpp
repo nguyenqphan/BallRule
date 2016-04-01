@@ -173,10 +173,10 @@ struct List_1_t1634065389;
 struct IGraphResult_t2342947041;
 // System.Action`1<UnityEngine.Texture>
 struct Action_1_t1918174889;
-// UnityEngine.Texture
-struct Texture_t1769722184;
 // FBGraph/<HandleScoresData>c__AnonStorey24
 struct U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338;
+// UnityEngine.Texture
+struct Texture_t1769722184;
 // FBGraph/<LoadFriendImgFromID>c__AnonStorey25
 struct U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940;
 // System.Action
@@ -544,20 +544,20 @@ struct Image_t3354615620;
 #include "AssemblyU2DCSharp_FBGraph3954302450MethodDeclarations.h"
 #include "AssemblyU2DCSharp_Facebook_Unity_FacebookDelegate_2979309097MethodDeclarations.h"
 #include "UnityEngine_UnityEngine_Debug1588791936MethodDeclarations.h"
-#include "AssemblyU2DCSharp_GraphUtil830336592MethodDeclarations.h"
-#include "mscorlib_System_Action_1_gen1918174889MethodDeclarations.h"
 #include "AssemblyU2DCSharp_GameStateManager648042254.h"
 #include "AssemblyU2DCSharp_GameStateManager648042254MethodDeclarations.h"
-#include "mscorlib_System_Action_1_gen1918174889.h"
-#include "UnityEngine_UnityEngine_Texture1769722184.h"
+#include "AssemblyU2DCSharp_GraphUtil830336592MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen1634065389.h"
 #include "mscorlib_System_Collections_Generic_List_1_gen1634065389MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_List_1_Enumera4014815677MethodDeclarations.h"
 #include "AssemblyU2DCSharp_FBGraph_U3CHandleScoresDataU3Ec_3812237338MethodDeclarations.h"
+#include "mscorlib_System_Action_1_gen1918174889MethodDeclarations.h"
 #include "mscorlib_System_Collections_Generic_List_1_Enumera4014815677.h"
 #include "AssemblyU2DCSharp_FBGraph_U3CHandleScoresDataU3Ec_3812237338.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g3407420088.h"
 #include "mscorlib_System_Collections_Generic_Dictionary_2_g3407420088MethodDeclarations.h"
+#include "UnityEngine_UnityEngine_Texture1769722184.h"
+#include "mscorlib_System_Action_1_gen1918174889.h"
 #include "AssemblyU2DCSharp_FBGraph_U3CLoadFriendImgFromIDU33816473940MethodDeclarations.h"
 #include "AssemblyU2DCSharp_FBGraph_U3CLoadFriendImgFromIDU33816473940.h"
 #include "AssemblyU2DCSharp_FBLogin3958836237.h"
@@ -9254,7 +9254,7 @@ extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
 extern const MethodInfo* FBGraph_GetPlayerInfoCallback_m585684430_MethodInfo_var;
 extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
-extern Il2CppCodeGenString* _stringLiteral406891430;
+extern Il2CppCodeGenString* _stringLiteral4094217932;
 extern const uint32_t FBGraph_GetPlayerInfo_m1977855676_MetadataUsageId;
 extern "C"  void FBGraph_GetPlayerInfo_m1977855676 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
@@ -9266,7 +9266,7 @@ extern "C"  void FBGraph_GetPlayerInfo_m1977855676 (Object_t * __this /* static,
 	}
 	String_t* V_0 = {0};
 	{
-		V_0 = _stringLiteral406891430;
+		V_0 = _stringLiteral4094217932;
 		String_t* L_0 = V_0;
 		IntPtr_t L_1 = { (void*)FBGraph_GetPlayerInfoCallback_m585684430_MethodInfo_var };
 		FacebookDelegate_1_t2979309097 * L_2 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
@@ -9280,11 +9280,7 @@ extern "C"  void FBGraph_GetPlayerInfo_m1977855676 (Object_t * __this /* static,
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
-extern TypeInfo* FBGraph_t3954302450_il2cpp_TypeInfo_var;
-extern TypeInfo* Action_1_t1918174889_il2cpp_TypeInfo_var;
 extern const MethodInfo* Utilities_TryGetValue_TisString_t_m1193705746_MethodInfo_var;
-extern const MethodInfo* FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061_MethodInfo_var;
-extern const MethodInfo* Action_1__ctor_m3349086711_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2415964778;
 extern Il2CppCodeGenString* _stringLiteral4133981882;
 extern const uint32_t FBGraph_GetPlayerInfoCallback_m585684430_MetadataUsageId;
@@ -9297,9 +9293,6 @@ extern "C"  void FBGraph_GetPlayerInfoCallback_m585684430 (Object_t * __this /* 
 		s_Il2CppMethodIntialized = true;
 	}
 	String_t* V_0 = {0};
-	String_t* V_1 = {0};
-	String_t* G_B6_0 = {0};
-	String_t* G_B5_0 = {0};
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_t1588791936_il2cpp_TypeInfo_var);
 		Debug_Log_m1731103628(NULL /*static, unused*/, _stringLiteral2415964778, /*hidden argument*/NULL);
@@ -9344,32 +9337,7 @@ IL_0021:
 
 IL_0049:
 	{
-		Object_t * L_10 = ___result;
-		NullCheck(L_10);
-		Object_t* L_11 = InterfaceFuncInvoker0< Object_t* >::Invoke(1 /* System.Collections.Generic.IDictionary`2<System.String,System.Object> Facebook.Unity.IResult::get_ResultDictionary() */, IResult_t1032425381_il2cpp_TypeInfo_var, L_10);
-		String_t* L_12 = GraphUtil_DeserializePictureURL_m1884610824(NULL /*static, unused*/, L_11, /*hidden argument*/NULL);
-		V_1 = L_12;
-		String_t* L_13 = V_1;
-		Action_1_t1918174889 * L_14 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0;
-		G_B5_0 = L_13;
-		if (L_14)
-		{
-			G_B6_0 = L_13;
-			goto IL_006e;
-		}
-	}
-	{
-		IntPtr_t L_15 = { (void*)FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061_MethodInfo_var };
-		Action_1_t1918174889 * L_16 = (Action_1_t1918174889 *)il2cpp_codegen_object_new(Action_1_t1918174889_il2cpp_TypeInfo_var);
-		Action_1__ctor_m3349086711(L_16, NULL, L_15, /*hidden argument*/Action_1__ctor_m3349086711_MethodInfo_var);
-		((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0 = L_16;
-		G_B6_0 = G_B5_0;
-	}
-
-IL_006e:
-	{
-		Action_1_t1918174889 * L_17 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0;
-		GraphUtil_LoadImgFromURL_m1031304485(NULL /*static, unused*/, G_B6_0, L_17, /*hidden argument*/NULL);
+		FBGraph_GetPlayerPicture_m1599699666(NULL /*static, unused*/, /*hidden argument*/NULL);
 		return;
 	}
 }
@@ -9378,7 +9346,7 @@ extern TypeInfo* FBGraph_t3954302450_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
 extern const MethodInfo* Nullable_1__ctor_m944559736_MethodInfo_var;
-extern const MethodInfo* FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838_MethodInfo_var;
+extern const MethodInfo* FBGraph_U3CGetPlayerPictureU3Em__7_m3959599711_MethodInfo_var;
 extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral3480;
 extern const uint32_t FBGraph_GetPlayerPicture_m1599699666_MetadataUsageId;
@@ -9400,7 +9368,7 @@ extern "C"  void FBGraph_GetPlayerPicture_m1599699666 (Object_t * __this /* stat
 		Nullable_1_t1438485399  L_1 = {0};
 		Nullable_1__ctor_m944559736(&L_1, ((int32_t)128), /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
 		String_t* L_2 = GraphUtil_GetPictureQuery_m2437608875(NULL /*static, unused*/, _stringLiteral3480, L_0, L_1, (String_t*)NULL, (bool)0, /*hidden argument*/NULL);
-		FacebookDelegate_1_t2979309097 * L_3 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_1;
+		FacebookDelegate_1_t2979309097 * L_3 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0;
 		G_B1_0 = 0;
 		G_B1_1 = L_2;
 		if (L_3)
@@ -9411,17 +9379,17 @@ extern "C"  void FBGraph_GetPlayerPicture_m1599699666 (Object_t * __this /* stat
 		}
 	}
 	{
-		IntPtr_t L_4 = { (void*)FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838_MethodInfo_var };
+		IntPtr_t L_4 = { (void*)FBGraph_U3CGetPlayerPictureU3Em__7_m3959599711_MethodInfo_var };
 		FacebookDelegate_1_t2979309097 * L_5 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
 		FacebookDelegate_1__ctor_m3544532929(L_5, NULL, L_4, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
-		((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_1 = L_5;
+		((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0 = L_5;
 		G_B2_0 = G_B1_0;
 		G_B2_1 = G_B1_1;
 	}
 
 IL_0039:
 	{
-		FacebookDelegate_1_t2979309097 * L_6 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache1_1;
+		FacebookDelegate_1_t2979309097 * L_6 = ((FBGraph_t3954302450_StaticFields*)FBGraph_t3954302450_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0;
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
 		FB_API_m2514225622(NULL /*static, unused*/, G_B2_1, G_B2_0, L_6, (Object_t*)NULL, /*hidden argument*/NULL);
 		return;
@@ -9781,7 +9749,7 @@ extern TypeInfo* IDisposable_t1628921374_il2cpp_TypeInfo_var;
 extern const MethodInfo* List_1__ctor_m574172797_MethodInfo_var;
 extern const MethodInfo* List_1_GetEnumerator_m1919240000_MethodInfo_var;
 extern const MethodInfo* Enumerator_get_Current_m396252160_MethodInfo_var;
-extern const MethodInfo* U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714_MethodInfo_var;
+extern const MethodInfo* U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__8_m1739601707_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m3349086711_MethodInfo_var;
 extern const MethodInfo* Enumerator_MoveNext_m4284703760_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2212419370;
@@ -9935,7 +9903,7 @@ IL_00f7:
 			NullCheck(L_38);
 			String_t* L_39 = (L_38->___userId_0);
 			U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * L_40 = V_6;
-			IntPtr_t L_41 = { (void*)U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714_MethodInfo_var };
+			IntPtr_t L_41 = { (void*)U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__8_m1739601707_MethodInfo_var };
 			Action_1_t1918174889 * L_42 = (Action_1_t1918174889 *)il2cpp_codegen_object_new(Action_1_t1918174889_il2cpp_TypeInfo_var);
 			Action_1__ctor_m3349086711(L_42, L_40, L_41, /*hidden argument*/Action_1__ctor_m3349086711_MethodInfo_var);
 			FBGraph_LoadFriendImgFromID_m1067899055(NULL /*static, unused*/, L_39, L_42, /*hidden argument*/NULL);
@@ -9989,7 +9957,7 @@ extern TypeInfo* U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940_il2cpp_Typ
 extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
 extern const MethodInfo* Nullable_1__ctor_m944559736_MethodInfo_var;
-extern const MethodInfo* U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527_MethodInfo_var;
+extern const MethodInfo* U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__9_m3999965511_MethodInfo_var;
 extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
 extern const uint32_t FBGraph_LoadFriendImgFromID_m1067899055_MetadataUsageId;
 extern "C"  void FBGraph_LoadFriendImgFromID_m1067899055 (Object_t * __this /* static, unused */, String_t* ___userID, Action_1_t1918174889 * ___callback, const MethodInfo* method)
@@ -10022,7 +9990,7 @@ extern "C"  void FBGraph_LoadFriendImgFromID_m1067899055 (Object_t * __this /* s
 		Nullable_1__ctor_m944559736(&L_8, ((int32_t)128), /*hidden argument*/Nullable_1__ctor_m944559736_MethodInfo_var);
 		String_t* L_9 = GraphUtil_GetPictureQuery_m2437608875(NULL /*static, unused*/, L_6, L_7, L_8, (String_t*)NULL, (bool)0, /*hidden argument*/NULL);
 		U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * L_10 = V_0;
-		IntPtr_t L_11 = { (void*)U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527_MethodInfo_var };
+		IntPtr_t L_11 = { (void*)U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__9_m3999965511_MethodInfo_var };
 		FacebookDelegate_1_t2979309097 * L_12 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
 		FacebookDelegate_1__ctor_m3544532929(L_12, L_10, L_11, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
@@ -10030,52 +9998,20 @@ extern "C"  void FBGraph_LoadFriendImgFromID_m1067899055 (Object_t * __this /* s
 		return;
 	}
 }
-// System.Void FBGraph::<GetPlayerInfoCallback>m__7(UnityEngine.Texture)
-extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
-extern const uint32_t FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061_MetadataUsageId;
-extern "C"  void FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061 (Object_t * __this /* static, unused */, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method)
-{
-	static bool s_Il2CppMethodIntialized;
-	if (!s_Il2CppMethodIntialized)
-	{
-		il2cpp_codegen_initialize_method (FBGraph_U3CGetPlayerInfoCallbackU3Em__7_m3494480061_MetadataUsageId);
-		s_Il2CppMethodIntialized = true;
-	}
-	{
-		Texture_t1769722184 * L_0 = ___pictureTexture;
-		bool L_1 = Object_op_Inequality_m1296218211(NULL /*static, unused*/, L_0, (Object_t3878351788 *)NULL, /*hidden argument*/NULL);
-		if (!L_1)
-		{
-			goto IL_0012;
-		}
-	}
-	{
-		Texture_t1769722184 * L_2 = ___pictureTexture;
-		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___UserTexture_16 = L_2;
-	}
-
-IL_0012:
-	{
-		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
-		GameStateManager_CallUIRedraw_m2882927136(NULL /*static, unused*/, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void FBGraph::<GetPlayerPicture>m__8(Facebook.Unity.IGraphResult)
+// System.Void FBGraph::<GetPlayerPicture>m__7(Facebook.Unity.IGraphResult)
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
 extern TypeInfo* IGraphResult_t2342947041_il2cpp_TypeInfo_var;
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral2215850530;
 extern Il2CppCodeGenString* _stringLiteral2941415915;
-extern const uint32_t FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838_MetadataUsageId;
-extern "C"  void FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+extern const uint32_t FBGraph_U3CGetPlayerPictureU3Em__7_m3959599711_MetadataUsageId;
+extern "C"  void FBGraph_U3CGetPlayerPictureU3Em__7_m3959599711 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (FBGraph_U3CGetPlayerPictureU3Em__8_m3970915838_MetadataUsageId);
+		il2cpp_codegen_initialize_method (FBGraph_U3CGetPlayerPictureU3Em__7_m3959599711_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -10134,15 +10070,15 @@ extern "C"  void U3CHandleScoresDataU3Ec__AnonStorey24__ctor_m1613874894 (U3CHan
 		return;
 	}
 }
-// System.Void FBGraph/<HandleScoresData>c__AnonStorey24::<>m__9(UnityEngine.Texture)
+// System.Void FBGraph/<HandleScoresData>c__AnonStorey24::<>m__8(UnityEngine.Texture)
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
-extern const uint32_t U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714_MetadataUsageId;
-extern "C"  void U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714 (U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * __this, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method)
+extern const uint32_t U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__8_m1739601707_MetadataUsageId;
+extern "C"  void U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__8_m1739601707 (U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338 * __this, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__9_m3996512714_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CHandleScoresDataU3Ec__AnonStorey24_U3CU3Em__8_m1739601707_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -10176,7 +10112,7 @@ extern "C"  void U3CLoadFriendImgFromIDU3Ec__AnonStorey25__ctor_m2972177002 (U3C
 		return;
 	}
 }
-// System.Void FBGraph/<LoadFriendImgFromID>c__AnonStorey25::<>m__A(Facebook.Unity.IGraphResult)
+// System.Void FBGraph/<LoadFriendImgFromID>c__AnonStorey25::<>m__9(Facebook.Unity.IGraphResult)
 extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
@@ -10184,13 +10120,13 @@ extern TypeInfo* IGraphResult_t2342947041_il2cpp_TypeInfo_var;
 extern const MethodInfo* Action_1_Invoke_m908434626_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral498449925;
 extern Il2CppCodeGenString* _stringLiteral1369372238;
-extern const uint32_t U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527_MetadataUsageId;
-extern "C"  void U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527 (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * __this, Object_t * ___result, const MethodInfo* method)
+extern const uint32_t U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__9_m3999965511_MetadataUsageId;
+extern "C"  void U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__9_m3999965511 (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__A_m4090494527_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CLoadFriendImgFromIDU3Ec__AnonStorey25_U3CU3Em__9_m3999965511_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -10287,7 +10223,7 @@ extern TypeInfo* U3CPromptForLoginU3Ec__AnonStorey26_t3902140173_il2cpp_TypeInfo
 extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
-extern const MethodInfo* U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825_MethodInfo_var;
+extern const MethodInfo* U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__A_m3421308698_MethodInfo_var;
 extern const MethodInfo* FacebookDelegate_1__ctor_m1136555718_MethodInfo_var;
 extern const uint32_t FBLogin_PromptForLogin_m911439827_MetadataUsageId;
 extern "C"  void FBLogin_PromptForLogin_m911439827 (Object_t * __this /* static, unused */, Action_t437523947 * ___callback, const MethodInfo* method)
@@ -10310,7 +10246,7 @@ extern "C"  void FBLogin_PromptForLogin_m911439827 (Object_t * __this /* static,
 		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
 		List_1_t1765447871 * L_3 = ((FBLogin_t3958836237_StaticFields*)FBLogin_t3958836237_il2cpp_TypeInfo_var->static_fields)->___readPermissions_0;
 		U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * L_4 = V_0;
-		IntPtr_t L_5 = { (void*)U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825_MethodInfo_var };
+		IntPtr_t L_5 = { (void*)U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__A_m3421308698_MethodInfo_var };
 		FacebookDelegate_1_t2634519556 * L_6 = (FacebookDelegate_1_t2634519556 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var);
 		FacebookDelegate_1__ctor_m1136555718(L_6, L_4, L_5, /*hidden argument*/FacebookDelegate_1__ctor_m1136555718_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
@@ -10323,7 +10259,7 @@ extern TypeInfo* U3CPromptForPublishU3Ec__AnonStorey27_t4030531316_il2cpp_TypeIn
 extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
 extern TypeInfo* FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
-extern const MethodInfo* U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945_MethodInfo_var;
+extern const MethodInfo* U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__B_m1203440818_MethodInfo_var;
 extern const MethodInfo* FacebookDelegate_1__ctor_m1136555718_MethodInfo_var;
 extern const uint32_t FBLogin_PromptForPublish_m3794860397_MetadataUsageId;
 extern "C"  void FBLogin_PromptForPublish_m3794860397 (Object_t * __this /* static, unused */, Action_t437523947 * ___callback, const MethodInfo* method)
@@ -10346,7 +10282,7 @@ extern "C"  void FBLogin_PromptForPublish_m3794860397 (Object_t * __this /* stat
 		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
 		List_1_t1765447871 * L_3 = ((FBLogin_t3958836237_StaticFields*)FBLogin_t3958836237_il2cpp_TypeInfo_var->static_fields)->___publishPermissions_1;
 		U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * L_4 = V_0;
-		IntPtr_t L_5 = { (void*)U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945_MethodInfo_var };
+		IntPtr_t L_5 = { (void*)U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__B_m1203440818_MethodInfo_var };
 		FacebookDelegate_1_t2634519556 * L_6 = (FacebookDelegate_1_t2634519556 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2634519556_il2cpp_TypeInfo_var);
 		FacebookDelegate_1__ctor_m1136555718(L_6, L_4, L_5, /*hidden argument*/FacebookDelegate_1__ctor_m1136555718_MethodInfo_var);
 		IL2CPP_RUNTIME_CLASS_INIT(FB_t2519727771_il2cpp_TypeInfo_var);
@@ -10417,7 +10353,7 @@ extern "C"  void U3CPromptForLoginU3Ec__AnonStorey26__ctor_m3068611264 (U3CPromp
 		return;
 	}
 }
-// System.Void FBLogin/<PromptForLogin>c__AnonStorey26::<>m__B(Facebook.Unity.ILoginResult)
+// System.Void FBLogin/<PromptForLogin>c__AnonStorey26::<>m__A(Facebook.Unity.ILoginResult)
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
@@ -10426,13 +10362,13 @@ extern Il2CppCodeGenString* _stringLiteral3993905838;
 extern Il2CppCodeGenString* _stringLiteral3701337374;
 extern Il2CppCodeGenString* _stringLiteral87030779;
 extern Il2CppCodeGenString* _stringLiteral265779030;
-extern const uint32_t U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825_MetadataUsageId;
-extern "C"  void U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825 (U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * __this, Object_t * ___result, const MethodInfo* method)
+extern const uint32_t U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__A_m3421308698_MetadataUsageId;
+extern "C"  void U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__A_m3421308698 (U3CPromptForLoginU3Ec__AnonStorey26_t3902140173 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__B_m3432624825_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CPromptForLoginU3Ec__AnonStorey26_U3CU3Em__A_m3421308698_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -10511,7 +10447,7 @@ extern "C"  void U3CPromptForPublishU3Ec__AnonStorey27__ctor_m1209345081 (U3CPro
 		return;
 	}
 }
-// System.Void FBLogin/<PromptForPublish>c__AnonStorey27::<>m__C(Facebook.Unity.ILoginResult)
+// System.Void FBLogin/<PromptForPublish>c__AnonStorey27::<>m__B(Facebook.Unity.ILoginResult)
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
@@ -10520,13 +10456,13 @@ extern Il2CppCodeGenString* _stringLiteral3993905838;
 extern Il2CppCodeGenString* _stringLiteral3701337374;
 extern Il2CppCodeGenString* _stringLiteral87030779;
 extern Il2CppCodeGenString* _stringLiteral265779030;
-extern const uint32_t U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945_MetadataUsageId;
-extern "C"  void U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945 (U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * __this, Object_t * ___result, const MethodInfo* method)
+extern const uint32_t U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__B_m1203440818_MetadataUsageId;
+extern "C"  void U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__B_m1203440818 (U3CPromptForPublishU3Ec__AnonStorey27_t4030531316 * __this, Object_t * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__C_m1214756945_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CPromptForPublishU3Ec__AnonStorey27_U3CU3Em__B_m1203440818_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -11003,9 +10939,9 @@ extern TypeInfo* FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var;
 extern TypeInfo* FB_t2519727771_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_t437523947_il2cpp_TypeInfo_var;
 extern const MethodInfo* Dictionary_2__ctor_m640701813_MethodInfo_var;
-extern const MethodInfo* FBShare_U3CPostScoreU3Em__D_m1687393738_MethodInfo_var;
+extern const MethodInfo* FBShare_U3CPostScoreU3Em__C_m1676077611_MethodInfo_var;
 extern const MethodInfo* FacebookDelegate_1__ctor_m3544532929_MethodInfo_var;
-extern const MethodInfo* U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284_MethodInfo_var;
+extern const MethodInfo* U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__D_m1975746323_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral109264530;
 extern Il2CppCodeGenString* _stringLiteral1990144297;
 extern const uint32_t FBShare_PostScore_m2060077696_MetadataUsageId;
@@ -11060,7 +10996,7 @@ extern "C"  void FBShare_PostScore_m2060077696 (Object_t * __this /* static, unu
 		}
 	}
 	{
-		IntPtr_t L_10 = { (void*)FBShare_U3CPostScoreU3Em__D_m1687393738_MethodInfo_var };
+		IntPtr_t L_10 = { (void*)FBShare_U3CPostScoreU3Em__C_m1676077611_MethodInfo_var };
 		FacebookDelegate_1_t2979309097 * L_11 = (FacebookDelegate_1_t2979309097 *)il2cpp_codegen_object_new(FacebookDelegate_1_t2979309097_il2cpp_TypeInfo_var);
 		FacebookDelegate_1__ctor_m3544532929(L_11, NULL, L_10, /*hidden argument*/FacebookDelegate_1__ctor_m3544532929_MethodInfo_var);
 		((FBShare_t3965086851_StaticFields*)FBShare_t3965086851_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache0_0 = L_11;
@@ -11080,7 +11016,7 @@ IL_0051:
 IL_0061:
 	{
 		U3CPostScoreU3Ec__AnonStorey28_t747449093 * L_14 = V_1;
-		IntPtr_t L_15 = { (void*)U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284_MethodInfo_var };
+		IntPtr_t L_15 = { (void*)U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__D_m1975746323_MethodInfo_var };
 		Action_t437523947 * L_16 = (Action_t437523947 *)il2cpp_codegen_object_new(Action_t437523947_il2cpp_TypeInfo_var);
 		Action__ctor_m2957240604(L_16, L_14, L_15, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(FBLogin_t3958836237_il2cpp_TypeInfo_var);
@@ -11360,18 +11296,18 @@ IL_002f:
 		return;
 	}
 }
-// System.Void FBShare::<PostScore>m__D(Facebook.Unity.IGraphResult)
+// System.Void FBShare::<PostScore>m__C(Facebook.Unity.IGraphResult)
 extern TypeInfo* IResult_t1032425381_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* Debug_t1588791936_il2cpp_TypeInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1744899793;
-extern const uint32_t FBShare_U3CPostScoreU3Em__D_m1687393738_MetadataUsageId;
-extern "C"  void FBShare_U3CPostScoreU3Em__D_m1687393738 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
+extern const uint32_t FBShare_U3CPostScoreU3Em__C_m1676077611_MetadataUsageId;
+extern "C"  void FBShare_U3CPostScoreU3Em__C_m1676077611 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (FBShare_U3CPostScoreU3Em__D_m1687393738_MetadataUsageId);
+		il2cpp_codegen_initialize_method (FBShare_U3CPostScoreU3Em__C_m1676077611_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -11394,15 +11330,15 @@ extern "C"  void U3CPostScoreU3Ec__AnonStorey28__ctor_m481442730 (U3CPostScoreU3
 		return;
 	}
 }
-// System.Void FBShare/<PostScore>c__AnonStorey28::<>m__E()
+// System.Void FBShare/<PostScore>c__AnonStorey28::<>m__D()
 extern TypeInfo* FBLogin_t3958836237_il2cpp_TypeInfo_var;
-extern const uint32_t U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284_MetadataUsageId;
-extern "C"  void U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284 (U3CPostScoreU3Ec__AnonStorey28_t747449093 * __this, const MethodInfo* method)
+extern const uint32_t U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__D_m1975746323_MetadataUsageId;
+extern "C"  void U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__D_m1975746323 (U3CPostScoreU3Ec__AnonStorey28_t747449093 * __this, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284_MetadataUsageId);
+		il2cpp_codegen_initialize_method (U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__D_m1975746323_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -13007,7 +12943,7 @@ extern TypeInfo* Dictionary_2_t2474804324_il2cpp_TypeInfo_var;
 extern TypeInfo* String_t_il2cpp_TypeInfo_var;
 extern TypeInfo* GameMenu_t2590240913_il2cpp_TypeInfo_var;
 extern TypeInfo* Action_1_t1918174889_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameMenu_U3COnPlayClickedU3Em__F_m376187047_MethodInfo_var;
+extern const MethodInfo* GameMenu_U3COnPlayClickedU3Em__E_m2414243336_MethodInfo_var;
 extern const MethodInfo* Action_1__ctor_m3349086711_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral1561793236;
 extern Il2CppCodeGenString* _stringLiteral4133981882;
@@ -13102,7 +13038,7 @@ IL_00a3:
 		}
 	}
 	{
-		IntPtr_t L_23 = { (void*)GameMenu_U3COnPlayClickedU3Em__F_m376187047_MethodInfo_var };
+		IntPtr_t L_23 = { (void*)GameMenu_U3COnPlayClickedU3Em__E_m2414243336_MethodInfo_var };
 		Action_1_t1918174889 * L_24 = (Action_1_t1918174889 *)il2cpp_codegen_object_new(Action_1_t1918174889_il2cpp_TypeInfo_var);
 		Action_1__ctor_m3349086711(L_24, NULL, L_23, /*hidden argument*/Action_1__ctor_m3349086711_MethodInfo_var);
 		((GameMenu_t2590240913_StaticFields*)GameMenu_t2590240913_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cacheE_16 = L_24;
@@ -13216,15 +13152,15 @@ extern "C"  void GameMenu_OnStoreClicked_m3296698847 (GameMenu_t2590240913 * __t
 		return;
 	}
 }
-// System.Void GameMenu::<OnPlayClicked>m__F(UnityEngine.Texture)
+// System.Void GameMenu::<OnPlayClicked>m__E(UnityEngine.Texture)
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
-extern const uint32_t GameMenu_U3COnPlayClickedU3Em__F_m376187047_MetadataUsageId;
-extern "C"  void GameMenu_U3COnPlayClickedU3Em__F_m376187047 (Object_t * __this /* static, unused */, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method)
+extern const uint32_t GameMenu_U3COnPlayClickedU3Em__E_m2414243336_MetadataUsageId;
+extern "C"  void GameMenu_U3COnPlayClickedU3Em__E_m2414243336 (Object_t * __this /* static, unused */, Texture_t1769722184 * ___pictureTexture, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (GameMenu_U3COnPlayClickedU3Em__F_m376187047_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GameMenu_U3COnPlayClickedU3Em__E_m2414243336_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -13296,8 +13232,8 @@ extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
 extern TypeInfo* InstanceStep_t3721597217_il2cpp_TypeInfo_var;
 extern TypeInfo* Dictionary_2_t3407420088_il2cpp_TypeInfo_var;
 extern TypeInfo* List_1_t1634065389_il2cpp_TypeInfo_var;
-extern const MethodInfo* GameStateManager_U3CinitU3Em__10_m2564355830_MethodInfo_var;
-extern const MethodInfo* GameStateManager_U3CfinalU3Em__11_m3495785487_MethodInfo_var;
+extern const MethodInfo* GameStateManager_U3CinitU3Em__F_m636930417_MethodInfo_var;
+extern const MethodInfo* GameStateManager_U3CfinalU3Em__10_m3495784526_MethodInfo_var;
 extern const MethodInfo* Dictionary_2__ctor_m3389523296_MethodInfo_var;
 extern const MethodInfo* List_1__ctor_m574172797_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral90025095;
@@ -13319,7 +13255,7 @@ extern "C"  void GameStateManager__cctor_m1098176000 (Object_t * __this /* stati
 		}
 	}
 	{
-		IntPtr_t L_1 = { (void*)GameStateManager_U3CinitU3Em__10_m2564355830_MethodInfo_var };
+		IntPtr_t L_1 = { (void*)GameStateManager_U3CinitU3Em__F_m636930417_MethodInfo_var };
 		InstanceStep_t3721597217 * L_2 = (InstanceStep_t3721597217 *)il2cpp_codegen_object_new(InstanceStep_t3721597217_il2cpp_TypeInfo_var);
 		InstanceStep__ctor_m1886435673(L_2, NULL, L_1, /*hidden argument*/NULL);
 		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache22_36 = L_2;
@@ -13336,7 +13272,7 @@ IL_0018:
 		}
 	}
 	{
-		IntPtr_t L_5 = { (void*)GameStateManager_U3CfinalU3Em__11_m3495785487_MethodInfo_var };
+		IntPtr_t L_5 = { (void*)GameStateManager_U3CfinalU3Em__10_m3495784526_MethodInfo_var };
 		InstanceStep_t3721597217 * L_6 = (InstanceStep_t3721597217 *)il2cpp_codegen_object_new(InstanceStep_t3721597217_il2cpp_TypeInfo_var);
 		InstanceStep__ctor_m1886435673(L_6, NULL, L_5, /*hidden argument*/NULL);
 		((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___U3CU3Ef__amU24cache23_37 = L_6;
@@ -14005,19 +13941,19 @@ IL_0058:
 		return;
 	}
 }
-// GameStateManager GameStateManager::<init>m__10()
+// GameStateManager GameStateManager::<init>m__F()
 extern TypeInfo* GameObject_t4012695102_il2cpp_TypeInfo_var;
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
 extern TypeInfo* Nullable_1_t1438485399_il2cpp_TypeInfo_var;
 extern const MethodInfo* GameObject_AddComponent_TisGameStateManager_t648042254_m2479685540_MethodInfo_var;
 extern Il2CppCodeGenString* _stringLiteral4008830143;
-extern const uint32_t GameStateManager_U3CinitU3Em__10_m2564355830_MetadataUsageId;
-extern "C"  GameStateManager_t648042254 * GameStateManager_U3CinitU3Em__10_m2564355830 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern const uint32_t GameStateManager_U3CinitU3Em__F_m636930417_MetadataUsageId;
+extern "C"  GameStateManager_t648042254 * GameStateManager_U3CinitU3Em__F_m636930417 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (GameStateManager_U3CinitU3Em__10_m2564355830_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GameStateManager_U3CinitU3Em__F_m636930417_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	GameObject_t4012695102 * V_0 = {0};
@@ -14042,15 +13978,15 @@ extern "C"  GameStateManager_t648042254 * GameStateManager_U3CinitU3Em__10_m2564
 		return L_6;
 	}
 }
-// GameStateManager GameStateManager::<final>m__11()
+// GameStateManager GameStateManager::<final>m__10()
 extern TypeInfo* GameStateManager_t648042254_il2cpp_TypeInfo_var;
-extern const uint32_t GameStateManager_U3CfinalU3Em__11_m3495785487_MetadataUsageId;
-extern "C"  GameStateManager_t648042254 * GameStateManager_U3CfinalU3Em__11_m3495785487 (Object_t * __this /* static, unused */, const MethodInfo* method)
+extern const uint32_t GameStateManager_U3CfinalU3Em__10_m3495784526_MetadataUsageId;
+extern "C"  GameStateManager_t648042254 * GameStateManager_U3CfinalU3Em__10_m3495784526 (Object_t * __this /* static, unused */, const MethodInfo* method)
 {
 	static bool s_Il2CppMethodIntialized;
 	if (!s_Il2CppMethodIntialized)
 	{
-		il2cpp_codegen_initialize_method (GameStateManager_U3CfinalU3Em__11_m3495785487_MetadataUsageId);
+		il2cpp_codegen_initialize_method (GameStateManager_U3CfinalU3Em__10_m3495784526_MetadataUsageId);
 		s_Il2CppMethodIntialized = true;
 	}
 	{
@@ -14924,7 +14860,7 @@ extern "C"  void LeaderBoardElement_SetupElement_m2142971366 (LeaderBoardElement
 		bool L_20 = VirtFuncInvoker2< bool, String_t*, Texture_t1769722184 ** >::Invoke(21 /* System.Boolean System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Texture>::TryGetValue(!0,!1&) */, L_17, ((String_t*)CastclassSealed(L_19, String_t_il2cpp_TypeInfo_var)), (&V_2));
 		if (!L_20)
 		{
-			goto IL_00b1;
+			goto IL_00b6;
 		}
 	}
 	{
@@ -14932,9 +14868,19 @@ extern "C"  void LeaderBoardElement_SetupElement_m2142971366 (LeaderBoardElement
 		Texture_t1769722184 * L_22 = V_2;
 		NullCheck(L_21);
 		RawImage_set_texture_m153141914(L_21, L_22, /*hidden argument*/NULL);
+		goto IL_00c6;
 	}
 
-IL_00b1:
+IL_00b6:
+	{
+		RawImage_t3831555132 * L_23 = (__this->___ProfilePicture_3);
+		IL2CPP_RUNTIME_CLASS_INIT(GameStateManager_t648042254_il2cpp_TypeInfo_var);
+		Texture_t1769722184 * L_24 = ((GameStateManager_t648042254_StaticFields*)GameStateManager_t648042254_il2cpp_TypeInfo_var->static_fields)->___UserTexture_16;
+		NullCheck(L_23);
+		RawImage_set_texture_m153141914(L_23, L_24, /*hidden argument*/NULL);
+	}
+
+IL_00c6:
 	{
 		return;
 	}
@@ -15889,7 +15835,6 @@ extern "C"  void ManagerFB_GetReadPermission_m1009225563 (ManagerFB_t1530265865 
 		s_Il2CppMethodIntialized = true;
 	}
 	{
-		FBShare_PostScore1_m1607740059(NULL /*static, unused*/, /*hidden argument*/NULL);
 		IntPtr_t L_0 = { (void*)ManagerFB_OnLoginComplete_m314281027_MethodInfo_var };
 		Action_t437523947 * L_1 = (Action_t437523947 *)il2cpp_codegen_object_new(Action_t437523947_il2cpp_TypeInfo_var);
 		Action__ctor_m2957240604(L_1, __this, L_0, /*hidden argument*/NULL);

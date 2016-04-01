@@ -1825,7 +1825,7 @@
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const int32_t g_FieldOffsetTable[7971] = 
+extern const int32_t g_FieldOffsetTable[7970] = 
 {
 	0,
 	0,
@@ -8938,7 +8938,6 @@ extern const int32_t g_FieldOffsetTable[7971] =
 	offsetof(FBAppEvents_t1786942782_StaticFields, ___EVENT_NAME_GAME_PLAYED_0),
 	offsetof(FBAppEvents_t1786942782_StaticFields, ___EVENT_PARAM_SCORE_1),
 	offsetof(FBGraph_t3954302450_StaticFields, ___U3CU3Ef__amU24cache0_0),
-	offsetof(FBGraph_t3954302450_StaticFields, ___U3CU3Ef__amU24cache1_1),
 	offsetof(U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338, ___userId_0),
 	offsetof(U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940, ___userID_0),
 	offsetof(U3CLoadFriendImgFromIDU3Ec__AnonStorey25_t3816473940, ___callback_1),

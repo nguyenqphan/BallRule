@@ -36,5 +36,5 @@ extern "C"  void FBShare_PostScore1_m1607740059 (Object_t * __this /* static, un
 extern "C"  void FBShare_AuthCallback_m2364714820 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void FBShare::APICallback(Facebook.Unity.IResult)
 extern "C"  void FBShare_APICallback_m3565927648 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void FBShare::<PostScore>m__D(Facebook.Unity.IGraphResult)
-extern "C"  void FBShare_U3CPostScoreU3Em__D_m1687393738 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void FBShare::<PostScore>m__C(Facebook.Unity.IGraphResult)
+extern "C"  void FBShare_U3CPostScoreU3Em__C_m1676077611 (Object_t * __this /* static, unused */, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -41,9 +41,15 @@ public class LeaderBoardElement : MonoBehaviour
         Score.text = "Scored: " + GraphUtil.GetScoreFromEntry(entry).ToString();
 
         Texture picture;
+		ProfilePicture.texture = GameStateManager.UserTexture;
         if (GameStateManager.FriendImages.TryGetValue((string)user["id"], out picture)) 
         {
             ProfilePicture.texture = picture;
         }
+		else{
+			ProfilePicture.texture = GameStateManager.UserTexture;
+		}
+
+//		ProfilePicture.texture = GameStateManager.UserTexture;
     }
 }

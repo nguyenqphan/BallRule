@@ -992,8 +992,6 @@ extern const Il2CppGenericInst GenInst_IResult_t1032425381_0_0_0 = { 1, GenInst_
 static const Il2CppType* GenInst_Object_t_0_0_0_String_t_0_0_0_Types[] = { &Object_t_0_0_0, &String_t_0_0_0 };
 extern const Il2CppGenericInst GenInst_Object_t_0_0_0_String_t_0_0_0 = { 2, GenInst_Object_t_0_0_0_String_t_0_0_0_Types };
 extern const Il2CppType Texture_t1769722184_0_0_0;
-static const Il2CppType* GenInst_Texture_t1769722184_0_0_0_Types[] = { &Texture_t1769722184_0_0_0 };
-extern const Il2CppGenericInst GenInst_Texture_t1769722184_0_0_0 = { 1, GenInst_Texture_t1769722184_0_0_0_Types };
 static const Il2CppType* GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0_Types[] = { &String_t_0_0_0, &Texture_t1769722184_0_0_0 };
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0 = { 2, GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0_Types };
 static const Il2CppType* GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0_DictionaryEntry_t130027246_0_0_0_Types[] = { &String_t_0_0_0, &Texture_t1769722184_0_0_0, &DictionaryEntry_t130027246_0_0_0 };
@@ -1001,6 +999,8 @@ extern const Il2CppGenericInst GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0_
 extern const Il2CppType KeyValuePair_2_t2895951386_0_0_0;
 static const Il2CppType* GenInst_KeyValuePair_2_t2895951386_0_0_0_Types[] = { &KeyValuePair_2_t2895951386_0_0_0 };
 extern const Il2CppGenericInst GenInst_KeyValuePair_2_t2895951386_0_0_0 = { 1, GenInst_KeyValuePair_2_t2895951386_0_0_0_Types };
+static const Il2CppType* GenInst_Texture_t1769722184_0_0_0_Types[] = { &Texture_t1769722184_0_0_0 };
+extern const Il2CppGenericInst GenInst_Texture_t1769722184_0_0_0 = { 1, GenInst_Texture_t1769722184_0_0_0_Types };
 extern const Il2CppType BombPackage_t1732402980_0_0_0;
 static const Il2CppType* GenInst_BombPackage_t1732402980_0_0_0_Int32_t2847414787_0_0_0_Types[] = { &BombPackage_t1732402980_0_0_0, &Int32_t2847414787_0_0_0 };
 extern const Il2CppGenericInst GenInst_BombPackage_t1732402980_0_0_0_Int32_t2847414787_0_0_0 = { 2, GenInst_BombPackage_t1732402980_0_0_0_Int32_t2847414787_0_0_0_Types };
@@ -2298,10 +2298,10 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[684] =
 	&GenInst_UrlSchemes_t3411608351_0_0_0,
 	&GenInst_IResult_t1032425381_0_0_0,
 	&GenInst_Object_t_0_0_0_String_t_0_0_0,
-	&GenInst_Texture_t1769722184_0_0_0,
 	&GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0,
 	&GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0_DictionaryEntry_t130027246_0_0_0,
 	&GenInst_KeyValuePair_2_t2895951386_0_0_0,
+	&GenInst_Texture_t1769722184_0_0_0,
 	&GenInst_BombPackage_t1732402980_0_0_0_Int32_t2847414787_0_0_0,
 	&GenInst_KeyValuePair_2_t1807673407_0_0_0,
 	&GenInst_BombPackage_t1732402980_0_0_0,

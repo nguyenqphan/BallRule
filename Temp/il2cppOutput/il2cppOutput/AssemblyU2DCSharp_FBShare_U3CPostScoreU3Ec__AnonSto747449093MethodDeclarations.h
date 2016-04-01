@@ -19,5 +19,5 @@ struct U3CPostScoreU3Ec__AnonStorey28_t747449093;
 
 // System.Void FBShare/<PostScore>c__AnonStorey28::.ctor()
 extern "C"  void U3CPostScoreU3Ec__AnonStorey28__ctor_m481442730 (U3CPostScoreU3Ec__AnonStorey28_t747449093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-// System.Void FBShare/<PostScore>c__AnonStorey28::<>m__E()
-extern "C"  void U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__E_m1975747284 (U3CPostScoreU3Ec__AnonStorey28_t747449093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void FBShare/<PostScore>c__AnonStorey28::<>m__D()
+extern "C"  void U3CPostScoreU3Ec__AnonStorey28_U3CU3Em__D_m1975746323 (U3CPostScoreU3Ec__AnonStorey28_t747449093 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

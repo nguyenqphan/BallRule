@@ -1,19 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FBScripts/FBAppEvents.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FBScripts/FBGraph.cs">
     <Files>
-      <File FileName="Assets/__Scripts/GameStateManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/__Scripts/SpawnerManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/ManagerFB.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/FBScripts/FBShare.cs" Line="1" Column="1" />
-      <File FileName="Assets/__Scripts/Destroyer.cs" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/GameManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/__Scripts/TestingScripts/GravityTest.cs" Line="1" Column="1" />
-      <File FileName="Assets/FacebookSDK/SDK/Scripts/Utils/FacebookLogger.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GameScripts/GameMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/_Scripts/FBManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/FacebookSDK/Examples/Scripts/SubMenus/MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/FBScripts/FBAppEvents.cs" Line="1" Column="1" />
+      <File FileName="Assets/_Scripts/ManagerFB.cs" Line="68" Column="15" />
+      <File FileName="Assets/Scripts/FBScripts/FBShare.cs" Line="127" Column="2" />
+      <File FileName="Assets/Scripts/FBScripts/FBLogin.cs" Line="49" Column="76" />
+      <File FileName="Assets/Scripts/FBScripts/FBGraph.cs" Line="313" Column="25" />
+      <File FileName="Assets/Scripts/GUIScripts/LeaderBoardElement.cs" Line="44" Column="30" />
+      <File FileName="Assets/__Scripts/GameStateManager.cs" Line="49" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

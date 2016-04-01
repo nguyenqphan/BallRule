@@ -6952,22 +6952,16 @@ Il2CppGenericClass Func_2_t2267165834_GenericClass = { 1049, { &GenInst_Object_t
 extern const Il2CppType Func_2_t2267165834_0_0_0 = { &Func_2_t2267165834_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 extern const Il2CppType Func_2_t2267165834_0_0_17 = { &Func_2_t2267165834_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
-extern const Il2CppGenericInst GenInst_Texture_t1769722184_0_0_0;
-Il2CppGenericClass Action_1_t1918174889_GenericClass = { 883, { &GenInst_Texture_t1769722184_0_0_0, NULL }, NULL };
-extern const Il2CppType Action_1_t1918174889_0_0_0 = { &Action_1_t1918174889_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-extern const Il2CppType Action_1_t1918174889_0_0_17 = { &Action_1_t1918174889_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-extern const Il2CppType Action_1_t1918174889_0_0_3 = { &Action_1_t1918174889_GenericClass, 3, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const Il2CppGenericInst GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0;
+Il2CppGenericClass Dictionary_2_t3407420088_GenericClass = { 158, { &GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0, NULL }, NULL };
+extern const Il2CppType Dictionary_2_t3407420088_0_0_0 = { &Dictionary_2_t3407420088_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const Il2CppType Dictionary_2_t3407420088_0_0_22 = { &Dictionary_2_t3407420088_GenericClass, 22, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const Il2CppType Texture_t1769722184_0_0_0 = { (void*)1243, 0, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType Texture_t1769722184_1_0_0 = { (void*)1243, 0, IL2CPP_TYPE_CLASS, 0, 1, 0 };
 extern const Il2CppType Texture_t1769722184_0_0_1 = { (void*)1243, 1, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType Texture_t1769722184_0_0_6 = { (void*)1243, 6, IL2CPP_TYPE_CLASS, 0, 0, 0 };
 extern const Il2CppType Texture_t1769722184_0_0_22 = { (void*)1243, 22, IL2CPP_TYPE_CLASS, 0, 0, 0 };
-
-extern const Il2CppGenericInst GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0;
-Il2CppGenericClass Dictionary_2_t3407420088_GenericClass = { 158, { &GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0, NULL }, NULL };
-extern const Il2CppType Dictionary_2_t3407420088_0_0_0 = { &Dictionary_2_t3407420088_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
-extern const Il2CppType Dictionary_2_t3407420088_0_0_22 = { &Dictionary_2_t3407420088_GenericClass, 22, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 extern const Il2CppGenericInst GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0_DictionaryEntry_t130027246_0_0_0;
 Il2CppGenericClass Transform_1_t1742911974_GenericClass = { 165, { &GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0_DictionaryEntry_t130027246_0_0_0, NULL }, NULL };
@@ -6988,6 +6982,12 @@ extern const Il2CppType ValueCollection_t1034589886_0_0_0 = { &ValueCollection_t
 
 Il2CppGenericClass Enumerator_t3174448029_GenericClass = { 160, { &GenInst_String_t_0_0_0_Texture_t1769722184_0_0_0, NULL }, NULL };
 extern const Il2CppType Enumerator_t3174448029_0_0_0 = { &Enumerator_t3174448029_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+
+extern const Il2CppGenericInst GenInst_Texture_t1769722184_0_0_0;
+Il2CppGenericClass Action_1_t1918174889_GenericClass = { 883, { &GenInst_Texture_t1769722184_0_0_0, NULL }, NULL };
+extern const Il2CppType Action_1_t1918174889_0_0_0 = { &Action_1_t1918174889_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const Il2CppType Action_1_t1918174889_0_0_3 = { &Action_1_t1918174889_GenericClass, 3, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
+extern const Il2CppType Action_1_t1918174889_0_0_17 = { &Action_1_t1918174889_GenericClass, 17, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
 
 Il2CppGenericClass InternalEnumerator_1_t3920185605_GenericClass = { 41, { &GenInst_GameObject_t4012695102_0_0_0, NULL }, NULL };
 extern const Il2CppType InternalEnumerator_1_t3920185605_0_0_0 = { &InternalEnumerator_1_t3920185605_GenericClass, 0, IL2CPP_TYPE_GENERICINST, 0, 0, 0 };
@@ -18280,15 +18280,15 @@ extern const Il2CppType* const  g_Il2CppTypeTable[8664] =
 	&MethodCall_1_t3070447047_0_0_0,
 	&Nullable_1_t3097043249_0_0_0,
 	&Func_2_t2267165834_0_0_0,
-	&Action_1_t1918174889_0_0_0,
-	&Texture_t1769722184_0_0_0,
 	&Dictionary_2_t3407420088_0_0_0,
+	&Texture_t1769722184_0_0_0,
 	&Transform_1_t1742911974_0_0_0,
 	&KeyValuePair_2_t2895951386_0_0_0,
 	&IEnumerator_1_t84090538_0_0_0,
 	&KeyCollection_t1435728072_0_0_0,
 	&ValueCollection_t1034589886_0_0_0,
 	&Enumerator_t3174448029_0_0_0,
+	&Action_1_t1918174889_0_0_0,
 	&InternalEnumerator_1_t3920185605_0_0_0,
 	&Queue_1_t2676576442_0_0_0,
 	&Enumerator_t4146198161_0_0_0,
@@ -24251,7 +24251,6 @@ extern const Il2CppType* const  g_Il2CppTypeTable[8664] =
 	&FBAppEvents_t1786942782_1_0_0,
 	&FBGraph_t3954302450_0_0_0,
 	&FBGraph_t3954302450_1_0_0,
-	&Action_1_t1918174889_0_0_17,
 	&FacebookDelegate_1_t2979309097_0_0_17,
 	&U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338_0_0_0,
 	&U3CHandleScoresDataU3Ec__AnonStorey24_t3812237338_1_0_0,
@@ -24320,6 +24319,7 @@ extern const Il2CppType* const  g_Il2CppTypeTable[8664] =
 	&Button_t990034267_0_0_6,
 	&ScrollRect_t1048578170_0_0_6,
 	&GameResources_t3628012083_0_0_6,
+	&Action_1_t1918174889_0_0_17,
 	&GameResources_t3628012083_0_0_0,
 	&GameResources_t3628012083_1_0_0,
 	&TextureU5BU5D_t3618347161_0_0_6,
