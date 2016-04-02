@@ -49,6 +49,7 @@
      <Compile Include="Assets\__ImportAssets\Scripts\Editor\AlphaNumericSort.cs" />
      <Compile Include="Assets\__ImportAssets\Scripts\Editor\GUIHierarchy.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\4200Buttons\readme.txt" />
      <None Include="Assets\__Shaders\Gem.shader" />
      <None Include="Assets\__Shaders\Skybox-Procedural.shader" />
  <Reference Include="Assembly-UnityScript">
