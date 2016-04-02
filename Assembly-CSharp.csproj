@@ -104,7 +104,6 @@
      <Compile Include="Assets\__Scripts\_Cube\Flashing.cs" />
      <Compile Include="Assets\__Scripts\_Cube\GetIndexCube.cs" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\4200Buttons\readme.txt" />
      <None Include="Assets\__Shaders\Gem.shader" />
      <None Include="Assets\__Shaders\Skybox-Procedural.shader" />
  <Reference Include="UnityEngine.UI">
