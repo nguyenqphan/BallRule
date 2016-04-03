@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using GooglePlayGames;
 
 
 //F6938FB14437B26D61E4DE240EF670B5C216AAFC
@@ -41,6 +42,9 @@ public class Destroyer : MonoBehaviour {
 					GameStateManager.Instance.Save();
 				}
 
+				Social.ReportScore(GameStateManager.Instance.BestScore, GPSTest.leaderboard_best_of_the_best, (bool success) =>{
+					//Report the best score to Google API
+				});
 
 				updateScore.EndGameScore();
 			}
